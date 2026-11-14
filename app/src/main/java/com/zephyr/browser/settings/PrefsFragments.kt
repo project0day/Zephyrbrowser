@@ -79,8 +79,8 @@ class GeneralPrefsFragment : Fragment() {
 
         // language — applies IMMEDIATELY via per-app locales (no restart)
         col.addView(SettingsUi.clickRow(ctx, R.drawable.ic_translate, getString(R.string.set_language), languageValue()) {
-            val tags = arrayOf("system", "ru", "en", "fr")
-            val names = arrayOf(getString(R.string.lang_system), "Русский", "English", "Français")
+            val tags = arrayOf("system", "en", "fr", "de", "it", "es", "ru")
+            val names = arrayOf(getString(R.string.lang_system), "English", "Français", "Deutsch", "Italiano", "Español", "Русский")
             val checked = tags.indexOf(Prefs.language).let { if (it < 0) 0 else it }
             MaterialAlertDialogBuilder(ctx)
                 .setTitle(R.string.lang_title)
@@ -203,7 +203,9 @@ class GeneralPrefsFragment : Fragment() {
     }
 
     private fun languageValue(): String = when (Prefs.language) {
-        "ru" -> "Русский"; "en" -> "English"; "fr" -> "Français"; else -> getString(R.string.lang_system)
+        "ru" -> "Русский"; "en" -> "English"; "fr" -> "Français";
+        "de" -> "Deutsch"; "it" -> "Italiano"; "es" -> "Español";
+        else -> getString(R.string.lang_system)
     }
 
     private fun customEngineDialog(ctx: android.content.Context) {
