@@ -121,7 +121,7 @@ GPL-3.0 — see [LICENSE](./LICENSE) for details.
 | Version | **1.7.23** (versionCode 37) |
 | SDK | minSdk 24 (Android 7.0) · targetSdk/compileSdk 34 (Android 14) |
 | Stack | Kotlin 1.9.24 · AGP 8.4.2 · Gradle 8.7 (wrapper included) · KSP · Room · DataStore · Material 3 · ViewBinding |
-| UI languages | Russian (default) · English · Français |
+| UI languages | Français · English · Russian |
 | Theme | Material 3 with an Emerald accent, 18 themes + custom accent color, purple incognito gradient |
 
 ## Build
