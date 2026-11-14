@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/v1/chat/completions", "destination": "/api/v1/chat/completions" }
-  ]
-}

@@ -43,3 +43,6 @@ grok_image_*.jpg
 
 # Archives of previous releases
 *.zip
+
+# Internal bridge server (separate Node.js project, not part of Android app)
+bridge/
