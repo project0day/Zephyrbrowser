@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.11: total Files crash-armor + crash-report sharing + fullscreen black status bar -->
+<resources>
+    <string name="files_load_failed">Не удалось загрузить файлы — отчёт об ошибке сохранён</string>
+    <string name="crash_share_report">Поделиться отчётом об ошибке</string>
+    <string name="crash_report_row">Отправить отчёт об ошибке</string>
+    <string name="crash_report_none">Отчётов об ошибках нет</string>
+</resources>

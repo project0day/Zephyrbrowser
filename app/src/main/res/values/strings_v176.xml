@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.6 strings (EN) -->
+<resources>
+    <string name="appearance_global_msg">This is the default — it applies to all sites. Open a site and use “Appearance” there to set it individually.</string>
+
+    <string name="pwd_check_leaks">Check for breaches</string>
+    <string name="pwd_check_leaks_all">Check all passwords for breaches</string>
+    <string name="pwd_checking">Checking…</string>
+    <string name="pwd_leak_safe">Password not found in known breaches ✓</string>
+    <string name="pwd_leak_found">Password found in breaches!</string>
+    <string name="pwd_leak_found_fmt">This password appears %1$s times in known data breaches. We strongly recommend changing it.</string>
+    <string name="pwd_leak_net">Could not reach the breach-check service (HaveIBeenPwned). Check your connection and try again.</string>
+    <string name="pwd_leak_scan_title">Password check</string>
+    <string name="pwd_leak_scan_msg">Checked: %1$d of %2$d</string>
+    <string name="pwd_leak_scan_done_fmt">Done: %1$d safe, %2$d need changing</string>
+    <string name="pwd_leak_change">Change</string>
+    <string name="pwd_leak_privacy_note">k-anonymity protocol: only the first 5 characters of the password hash are sent — the password itself never leaves this device.</string>
+
+    <string name="grp_personal_data">Personal data</string>
+    <string name="set_backup_screen">Backup</string>
+    <string name="set_backup_include">What to include</string>
+    <string name="bk_bookmarks">Bookmarks and folders</string>
+    <string name="bk_quick">Quick tiles</string>
+    <string name="bk_history">History</string>
+    <string name="bk_settings">Settings</string>
+    <string name="bk_vpn">VPN configurations</string>
+    <string name="bk_auto">Weekly auto-backup</string>
+    <string name="bk_auto_sum">A copy is created automatically in Downloads/Zephyr + a notification</string>
+    <string name="bk_last">Last copy: %s</string>
+    <string name="bk_last_never">No backup created yet</string>
+    <string name="bk_now">Create a backup now</string>
+    <string name="bk_now_sum">Creates a .json file — move it to another device</string>
+    <string name="bk_auto_done">Automatic backup created</string>
+    <string name="bk_auto_failed">Auto-backup failed — try manually</string>
+
+    <string name="set_pull_refresh">Pull down to refresh</string>
+    <string name="set_omnibox_swipe">Swipe down on the address bar — refresh</string>
+    <string name="set_double_tap">Double tap — top/bottom of page</string>
+
+    <string name="set_night_schedule">Night mode on schedule</string>
+    <string name="set_night_schedule_sum">Dark app and page theme automatically, at the times you set</string>
+    <string name="set_night_from">Starts</string>
+    <string name="set_night_to">Ends</string>
+
+    <string name="menu_save_offline">Save for offline reading</string>
+    <string name="offline_saved">Page saved for reading without network</string>
+    <string name="offline_failed">Could not save the page</string>
+    <string name="offline_empty">No saved pages. Open a site and choose “Save for offline reading” in the menu</string>
+    <string name="set_offline">Offline pages</string>
+    <string name="offline_open_online">Open online</string>
+
+    <string name="translate_selection">Translate</string>
+    <string name="translating">Translating…</string>
+    <string name="translate_failed">Could not translate. Check your connection</string>
+    <string name="translate_copy">Copy translation</string>
+
+    <string name="tg_add">Add to group</string>
+    <string name="tg_new_group">New group</string>
+    <string name="tg_remove">Remove from group</string>
+    <string name="tg_close_group">Close group</string>
+    <string name="tg_no_group">No group</string>
+    <string name="tg_name_hint">Group name</string>
+    <string name="tg_saved">Tab is in group “%s”</string>
+
+    <string name="dl_system_public">File handed to the system downloader — it will appear in the Downloads folder</string>
+</resources>

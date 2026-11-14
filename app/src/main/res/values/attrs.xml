@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="zToolbar" format="color" />
+    <attr name="zBackground" format="color" />
+    <attr name="zOmniboxFill" format="color" />
+    <attr name="zOmniboxOutline" format="color" />
+    <attr name="zHomeCard" format="color" />
+    <attr name="zSheetSurf" format="color" />
+    <!-- v1.7.22: popup menu background = theme surface lightened ~3.5% — the
+         menu must read against the page/panels it covers (same color today).
+         NO outline stroke by design — only the lighter fill. -->
+    <attr name="zPopupBg" format="color" />
+</resources>

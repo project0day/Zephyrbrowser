@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.91: the tasks widget.
+
+  Four cells wide by two tall — enough for a header and three or four rows at a
+  size that is still readable across a home screen. Reconfigurable, so its
+  colour can be changed without deleting it.
+
+  updatePeriodMillis stays 0: the list is pushed when it changes, by whatever
+  changed it. A polling schedule would wake the process on a timer to redraw
+  something that usually has not moved.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110dp"
+    android:minHeight="60dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="2"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="60dp"
+    android:maxResizeWidth="480dp"
+    android:maxResizeHeight="360dp"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:updatePeriodMillis="0"
+    android:widgetFeatures="reconfigurable"
+    android:configure="com.zephyr.browser.widget.TasksWidgetConfigActivity"
+    android:initialLayout="@layout/widget_tasks"
+    android:previewLayout="@layout/widget_tasks"
+    android:description="@string/tw_widget_desc" />

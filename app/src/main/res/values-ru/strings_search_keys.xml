@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ss_k01">поиск движок стартовая язык</string>
+    <string name="ss_k02">тема цвет тёмная светлая шрифт акцент</string>
+    <string name="ss_k03">главный экран обои лента недавние закладки</string>
+    <string name="ss_k04">меню кнопки порядок плитки</string>
+    <string name="ss_k05">ии помощник модель ключ api нейросеть</string>
+    <string name="ss_k06">инструменты доступ разрешения тумблеры</string>
+    <string name="ss_k07">память факты помнит</string>
+    <string name="ss_k08">голос микрофон распознавание речь диктовка</string>
+    <string name="ss_k09">рабочая папка файлы проекты</string>
+    <string name="ss_k10">скрипты javascript</string>
+    <string name="ss_k11">агент пара подключение мост</string>
+    <string name="ss_k12">рой несколько моделей команда</string>
+    <string name="ss_k13">приватность инкогнито куки javascript</string>
+    <string name="ss_k14">сжечь очистить всё огонь паника</string>
+    <string name="ss_k15">безопасность отпечаток пароль блокировка</string>
+    <string name="ss_k16">реклама блокировка фильтры баннеры</string>
+    <string name="ss_k17">сайты разрешения камера микрофон геолокация</string>
+    <string name="ss_k18">vpn прокси туннель wireguard</string>
+    <string name="ss_k19">днс dns шифрование резолвер</string>
+    <string name="ss_k20">кэш данные сайтов хранилище место</string>
+    <string name="ss_k21">очистить историю куки удалить</string>
+    <string name="ss_k22">резервная копия бэкап экспорт импорт</string>
+    <string name="ss_k23">закладки</string>
+    <string name="ss_k24">история посещения</string>
+    <string name="ss_k25">загрузки скачанные</string>
+    <string name="ss_k26">пароли логины</string>
+    <string name="ss_k27">карты оплата платежи</string>
+    <string name="ss_k28">автозаполнение анкета адрес имя</string>
+    <string name="ss_k29">скрипты userscript</string>
+    <string name="ss_k30">дела напоминания будильник календарь встречи</string>
+    <string name="ss_k31">шаблоны документы счёт смета devis facture реквизиты</string>
+    <string name="ss_k32">проекты файлы помощника код zip</string>
+    <string name="ss_k33">сценарии команды автоматизация</string>
+    <string name="ss_k34">файлы менеджер память</string>
+    <string name="ss_k35">офлайн сохранённые страницы</string>
+    <string name="ss_k36">библиотека статьи чтение</string>
+    <string name="ss_k37">о приложении версия обновление</string>
+</resources>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zephyr</string>
+
+    <!-- navigation & commun -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="close">Fermer</string>
+    <string name="retry">Réessayer</string>
+    <string name="allow">Autoriser</string>
+    <string name="block">Bloquer</string>
+    <string name="always">Toujours</string>
+    <string name="done">Terminé</string>
+    <string name="copied">Copié</string>
+    <string name="saved">Enregistré</string>
+    <string name="deleted">Supprimé</string>
+    <string name="empty_list">Rien pour le moment</string>
+    <string name="menu">Menu</string>
+    <string name="tabs">Onglets</string>
+    <string name="settings">Paramètres</string>
+    <string name="share_via">Partager via</string>
+    <string name="not_now">Plus tard</string>
+    <string name="javascript">JavaScript</string>
+    <string name="continue_anyway">Continuer quand même</string>
+    <string name="back_to_safety">Revenir en sécurité</string>
+    <string name="app_not_found">Application introuvable</string>
+    <string name="external_app">application externe</string>
+    <string name="dont_ask_again">Ne plus demander pour ce site</string>
+
+    <!-- omnibox -->
+    <string name="omnibox_hint">Rechercher ou saisir une URL</string>
+    <string name="omnibox_engine_hint">Rechercher avec %s ou saisir une URL</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_forward">Suivant</string>
+    <string name="nav_reload">Actualiser</string>
+    <string name="nav_search">Rechercher</string>
+    <string name="nav_share">Partager</string>
+    <string name="site_info">Infos du site</string>
+
+    <!-- actions -->
+    <string name="bookmarks">Favoris</string>
+    <string name="history">Historique</string>
+    <string name="downloads">Téléchargements</string>
+    <string name="voice_search">Recherche vocale</string>
+    <string name="voice_unavailable">Recherche vocale indisponible</string>
+    <string name="image_search">Recherche par image</string>
+    <string name="ai_chat">Chat IA</string>
+    <string name="reader_mode">Mode lecture</string>
+    <string name="new_private_tab">Nouvel onglet privé</string>
+    <string name="pc_mode">Mode ordinateur</string>
+    <string name="pc_mode_on">Mode ordinateur activé</string>
+    <string name="pc_mode_off">Mode ordinateur désactivé</string>
+    <string name="find_on_page">Rechercher dans la page</string>
+    <string name="translate">Traduire</string>
+    <string name="add_bookmark">Ajouter aux favoris</string>
+    <string name="page_source">Source de la page</string>
+    <string name="find_hint">Rechercher dans la page…</string>
+    <string name="find_prev">Précédent</string>
+    <string name="find_next">Suivant</string>
+
+    <!-- moteurs -->
+    <string name="search_engine">Moteur de recherche</string>
+    <string name="engine_google">Google</string>
+    <string name="engine_yandex">Yandex</string>
+    <string name="engine_duckduckgo">DuckDuckGo</string>
+    <string name="engine_bing">Bing</string>
+    <string name="engine_brave">Brave</string>
+    <string name="engine_startpage">Startpage</string>
+    <string name="engine_ecosia">Ecosia</string>
+    <string name="engine_custom">Moteur personnalisé</string>
+    <string name="suggestion_search">Rechercher avec %s</string>
+    <string name="suggestion_history">Historique</string>
+    <string name="suggestion_bookmark">Favori</string>
+
+    <!-- erreurs -->
+    <string name="err_cannot_load">Impossible de charger la page</string>
+    <string name="err_http">Erreur HTTP %d</string>
+    <string name="ssl_error_title">Connexion non sécurisée</string>
+    <string name="ssl_error_msg">Le certificat de %s est invalide. Continuer quand même ?</string>
+    <string name="renderer_crashed">Onglet redémarré après un plantage</string>
+
+    <!-- permissions -->
+    <string name="geo_title">Demande de localisation</string>
+    <string name="geo_msg">Le site %s souhaite connaître votre position</string>
+    <string name="perm_title">Autorisation du site</string>
+    <string name="perm_msg">Le site %s demande l\'accès à : %s</string>
+    <string name="perm_camera">caméra</string>
+    <string name="perm_mic">microphone</string>
+    <string name="perm_camera_mic">caméra et microphone</string>
+    <string name="choose_file">Choisir un fichier</string>
+
+    <!-- téléchargements -->
+    <string name="dl_title">Télécharger le fichier</string>
+    <string name="dl_msg">Fichier : %s\nTaille : %s</string>
+    <string name="dl_unknown_size">inconnue</string>
+    <string name="dl_download_btn">Télécharger</string>
+    <string name="dl_complete">Téléchargement terminé</string>
+    <string name="dl_failed">Échec du téléchargement</string>
+    <string name="dl_open">Ouvrir</string>
+    <string name="dl_share">Partager</string>
+    <string name="dl_play">Ouvrir dans le lecteur</string>
+    <string name="dl_delete_confirm">Supprimer ce téléchargement ?</string>
+    <string name="dl_clear_list">Vider la liste</string>
+    <string name="dl_open_failed">Aucune application ne peut ouvrir ce fichier</string>
+
+    <!-- mots de passe -->
+    <string name="save_password_title">Enregistrer le mot de passe ?</string>
+    <string name="save_password_msg">Enregistrer le mot de passe pour %s (identifiant : %s) dans le coffre sécurisé ?</string>
+    <string name="panel_passwords">Mots de passe</string>
+    <string name="pwd_unlock_title">Accès aux mots de passe</string>
+    <string name="pwd_enter_pin">Saisissez votre code PIN</string>
+    <string name="pwd_set_pin">Définir un code PIN</string>
+    <string name="pwd_set_pin_msg">Le PIN protège les mots de passe enregistrés</string>
+    <string name="pwd_wrong_pin">Code PIN incorrect</string>
+    <string name="pwd_generate">Générer un mot de passe</string>
+    <string name="pwd_gen_length">Longueur</string>
+    <string name="pwd_gen_upper">Majuscules</string>
+    <string name="pwd_gen_digits">Chiffres</string>
+    <string name="pwd_gen_special">Caractères spéciaux</string>
+    <string name="pwd_gen_use">Utiliser le mot de passe</string>
+    <string name="pwd_show">Afficher</string>
+    <string name="pwd_hide">Masquer</string>
+    <string name="pwd_copy_login">Copier l\'identifiant</string>
+    <string name="pwd_copy_password">Copier le mot de passe</string>
+    <string name="pwd_delete_confirm">Supprimer ce mot de passe ?</string>
+    <string name="pwd_export_csv">Exporter en CSV</string>
+    <string name="pwd_clipboard_30s">Dans le presse-papiers pendant 30 s</string>
+    <string name="pwd_empty">Aucun mot de passe enregistré</string>
+
+    <!-- favoris -->
+    <string name="panel_bookmarks">Favoris</string>
+    <string name="bm_group_regular">Normaux</string>
+    <string name="bm_group_private">Privés</string>
+    <string name="bm_new_folder">Nouveau dossier</string>
+    <string name="bm_folder_name">Nom du dossier</string>
+    <string name="bm_folder_root">Sans dossier</string>
+    <string name="bm_rename">Renommer</string>
+    <string name="bm_edit">Modifier</string>
+    <string name="bm_title">Titre</string>
+    <string name="bm_url">URL</string>
+    <string name="bm_delete_confirm">Supprimer ce favori ?</string>
+    <string name="bm_folder_delete_confirm">Supprimer le dossier ? Les favoris seront conservés sans dossier.</string>
+    <string name="bm_import_html">Importer HTML</string>
+    <string name="bm_export_html">Exporter HTML</string>
+    <string name="bm_imported">Favoris importés : %d</string>
+    <string name="bm_exported">Exporté : %s</string>
+    <string name="bm_open_new_tab">Ouvrir dans un nouvel onglet</string>
+    <string name="bm_move_to">Déplacer vers un dossier</string>
+    <string name="bm_exists">Déjà dans les favoris</string>
+    <string name="bm_saved">Favori enregistré</string>
+    <string name="bm_sort_alpha">Par titre</string>
+    <string name="bm_sort_date">Par date</string>
+    <string name="bm_private_hint">Les favoris privés sont masqués en mode normal</string>
+
+    <!-- historique -->
+    <string name="panel_history">Historique</string>
+    <string name="hist_search_hint">Rechercher dans l\'historique…</string>
+    <string name="hist_today">Aujourd\'hui</string>
+    <string name="hist_yesterday">Hier</string>
+    <string name="hist_week">7 derniers jours</string>
+    <string name="hist_month">30 derniers jours</string>
+    <string name="hist_older">Plus ancien</string>
+    <string name="hist_delete_period">Supprimer la période</string>
+    <string name="hist_clear_all">Effacer tout l\'historique</string>
+    <string name="hist_clear_confirm">Supprimer l\'historique définitivement ?</string>
+    <string name="hist_delete_site">Supprimer toutes les entrées de %s</string>
+    <string name="hist_delete_entry_confirm">Supprimer cette entrée ?</string>
+
+    <!-- scripts & remplissage -->
+    <string name="panel_scripts">Scripts utilisateur</string>
+    <string name="scr_new">Nouveau script</string>
+    <string name="scr_name">Nom</string>
+    <string name="scr_code">Code (JavaScript)</string>
+    <string name="scr_domains">Domaines (séparés par des virgules, * pour tous)</string>
+    <string name="scr_import">Importer .js</string>
+    <string name="scr_export">Exporter JSON</string>
+    <string name="scr_delete_confirm">Supprimer ce script ?</string>
+    <string name="scr_empty">Aucun script</string>
+    <string name="panel_autofill">Remplissage auto</string>
+    <string name="af_new_profile">Nouveau profil</string>
+    <string name="af_label">Nom du profil</string>
+    <string name="af_fields">Champs (clé=valeur, un par ligne)</string>
+    <string name="af_delete_confirm">Supprimer ce profil ?</string>
+    <string name="af_empty">Aucun profil</string>
+
+    <string name="panel_downloads">Téléchargements</string>
+
+    <!-- menu principal -->
+    <string name="menu_new_tab">Nouvel onglet</string>
+    <string name="menu_new_private">Nouvel onglet privé</string>
+    <string name="menu_bookmarks">Favoris</string>
+    <string name="menu_history">Historique</string>
+    <string name="menu_downloads">Téléchargements</string>
+    <string name="menu_passwords">Mots de passe</string>
+    <string name="menu_scripts">Scripts</string>
+    <string name="menu_autofill">Remplissage auto</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_add_bookmark">Ajouter aux favoris</string>
+    <string name="menu_find">Rechercher dans la page</string>
+    <string name="menu_reader">Mode lecture</string>
+    <string name="menu_translate">Traduire la page</string>
+    <string name="menu_desktop">Site pour ordinateur</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_adblock_shield">Bloqueur de publicités</string>
+    <string name="menu_blocked_today">Bloqué aujourd\'hui</string>
+    <string name="menu_blocked_total">Total, depuis le début</string>
+    <string name="menu_page_appearance">Apparence des pages</string>
+    <string name="menu_more">Plus</string>
+    <string name="menu_private_on">Le mode privé est activé</string>
+    <string name="add_home_need_page">Ouvrez une page avant de l\'ajouter à l\'écran d\'accueil</string>
+    <string name="menu_add_home">Ajouter à l\'écran d\'accueil</string>
+    <string name="menu_copy_link">Copier le lien</string>
+    <string name="menu_open_external">Ouvrir dans un navigateur externe</string>
+    <string name="menu_clear_site">Effacer les données du site</string>
+    <string name="clear_site_confirm">Supprimer cookies, stockage et cache de ce site ?</string>
+    <string name="add_home_not_supported">Impossible d\'ajouter le raccourci</string>
+
+    <!-- apparence des pages -->
+    <string name="appearance_system">Système</string>
+    <string name="appearance_light">Clair</string>
+    <string name="appearance_dark">Sombre</string>
+    <string name="appearance_sepia">Sépia</string>
+    <string name="appearance_gray">Noir et blanc</string>
+    <string name="appearance_contrast">Contraste</string>
+
+    <!-- menu contextuel -->
+    <string name="ctx_open">Ouvrir</string>
+    <string name="ctx_open_new">Ouvrir dans un nouvel onglet</string>
+    <string name="ctx_open_bg">Ouvrir en arrière-plan</string>
+    <string name="ctx_open_private">Ouvrir dans un onglet privé</string>
+    <string name="ctx_download">Télécharger le fichier</string>
+    <string name="ctx_copy">Copier le lien</string>
+    <string name="ctx_copy_text">Copier le texte</string>
+    <string name="ctx_copy_link">Copier l\'adresse cible</string>
+    <string name="ctx_share">Partager le lien</string>
+    <string name="ctx_share_image">Partager l\'image</string>
+    <string name="ctx_search_image">Trouver des images similaires</string>
+    <string name="ctx_open_image">Ouvrir l\'image</string>
+    <string name="ctx_save_image">Enregistrer l\'image</string>
+
+    <!-- infos du site -->
+    <string name="site_settings_title">Paramètres du site</string>
+    <string name="site_js">JavaScript</string>
+    <string name="site_cookies">Cookies</string>
+    <string name="site_images">Images</string>
+    <string name="site_popups">Fenêtres pop-up</string>
+    <string name="site_desktop">Version ordinateur</string>
+    <string name="site_clear_data">Effacer les données du site</string>
+    <string name="site_data_cleared">Données du site effacées</string>
+    <string name="site_copy_url">Copier l\'adresse</string>
+    <string name="site_share">Partager</string>
+    <string name="site_secure">Connexion sécurisée</string>
+    <string name="site_insecure">Connexion non sécurisée</string>
+    <string name="site_not_set">par défaut</string>
+
+    <!-- lecture -->
+    <string name="reader_unavailable">Mode lecture indisponible pour cette page</string>
+    <string name="reader_listen">Écouter</string>
+    <string name="reader_stop">Arrêter</string>
+    <string name="reader_font_up">Plus grand</string>
+    <string name="reader_font_down">Plus petit</string>
+    <string name="reader_tts_fail">Synthèse vocale indisponible</string>
+
+    <!-- sélecteur d\'onglets -->
+    <string name="ts_regular">Normaux</string>
+    <string name="ts_private">Privés</string>
+    <string name="ts_close_all">Tout fermer</string>
+    <string name="ts_close_others">Fermer les autres</string>
+    <string name="ts_empty">Aucun onglet</string>
+    <string name="ts_new_tab">Nouvel onglet</string>
+    <string name="ts_incognito_banner">Vous êtes en mode privé</string>
+
+    <!-- accueil -->
+    <string name="home_search_hint">Rechercher ou saisir une URL</string>
+    <string name="home_pick_engine">Choisir un moteur de recherche</string>
+    <string name="home_quick_access">Accès rapide</string>
+    <string name="home_recents">Récents</string>
+    <string name="home_bookmarks">Favoris</string>
+    <string name="home_add_site">Ajouter un site</string>
+    <string name="home_add_title">Titre</string>
+    <string name="home_add_url">Adresse</string>
+    <string name="home_edit_mode">Mode édition</string>
+    <string name="home_remove_confirm">Retirer le raccourci ?</string>
+    <string name="home_private_title">Mode privé</string>
+    <string name="home_private_subtitle">L\'historique et les favoris ne sont pas enregistrés</string>
+    <string name="home_show_more">Plus</string>
+
+    <string name="welcome_title">Bienvenue dans Zephyr</string>
+    <string name="welcome_msg">Un navigateur léger avec bloqueur de publicités, mode privé, mots de passe et thèmes. Bonne navigation !</string>
+
+    <!-- paramètres : racine -->
+    <string name="set_general">Général</string>
+    <string name="set_appearance">Apparence</string>
+    <string name="set_privacy">Confidentialité</string>
+    <string name="set_security">Sécurité</string>
+    <string name="set_adblock">Blocage des publicités</string>
+    <string name="set_downloads">Téléchargements</string>
+    <string name="set_site">Paramètres des sites</string>
+    <string name="set_advanced">Avancé</string>
+    <string name="set_proxy">Proxy et VPN</string>
+    <string name="set_language">Langue de l\'application</string>
+    <string name="set_about">À propos</string>
+    <string name="set_clear">Effacer les données</string>
+
+    <!-- général -->
+    <string name="set_search_engine">Moteur de recherche</string>
+    <string name="set_custom_engine">Moteur personnalisé</string>
+    <string name="set_custom_engine_name">Nom</string>
+    <string name="set_custom_engine_url">URL avec %s pour la requête</string>
+    <string name="set_restore_tabs">Restaurer les onglets</string>
+    <string name="set_pc_default">Toujours en mode ordinateur</string>
+    <string name="set_open_in_apps">Ouvrir les liens dans les applications</string>
+    <string name="open_in_apps_ask">Demander</string>
+    <string name="open_in_apps_never">Jamais</string>
+    <string name="open_in_apps_always">Toujours</string>
+    <string name="set_suggestions">Suggestions de recherche</string>
+    <string name="open_in_app_title">Ouvrir dans l\'application %s ?</string>
+    <string name="open_in_app_msg">Ce lien peut être ouvert par « %s »</string>
+    <string name="open_in_browser">Ouvrir dans le navigateur</string>
+    <string name="open_once">Une seule fois</string>
+
+    <!-- apparence -->
+    <string name="set_theme">Thème</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_dark">Sombre #212121</string>
+    <string name="theme_amoled">Noir AMOLED</string>
+    <string name="theme_sepia">Sépia</string>
+    <string name="theme_slate">Ardoise</string>
+    <string name="set_toolbar_buttons">Boutons de la barre</string>
+    <string name="toolbar_picker_title">Choisissez jusqu\'à 4 boutons</string>
+    <string name="set_home_bg">Arrière-plan de l\'accueil</string>
+    <string name="bg_pick_color">Couleur</string>
+    <string name="bg_pick_wallpaper">Fond d\'écran</string>
+    <string name="bg_wallpaper_pick">Choisir une photo</string>
+    <string name="bg_wallpaper_clear">Effacer l\'arrière-plan</string>
+    <string name="bg_hex_hint">HEX, ex. 1A73E8</string>
+    <string name="set_home_sections">Sections de l\'accueil</string>
+    <string name="set_page_appearance">Apparence des pages</string>
+
+    <!-- confidentialité -->
+    <string name="set_always_incognito">Toujours en mode privé</string>
+    <string name="set_always_incognito_sum">L\'historique et les données des sites ne sont pas enregistrés</string>
+    <string name="set_block_webrtc">Bloquer WebRTC</string>
+    <string name="set_block_webrtc_sum">Protège contre les fuites d\'IP réelle</string>
+    <string name="set_do_not_track">Envoyer « Do Not Track »</string>
+    <string name="third_party_cookies">Cookies tiers</string>
+
+    <!-- sécurité -->
+    <string name="set_pin">PIN pour les mots de passe</string>
+    <string name="set_biometrics">Déverrouillage par empreinte</string>
+    <string name="set_save_passwords">Enregistrer les mots de passe</string>
+    <string name="set_autofill">Remplissage des identifiants</string>
+    <string name="set_clipboard">Vider le presse-papiers après 30 s</string>
+
+    <!-- bloqueur -->
+    <string name="adblock_mode">Niveau de protection</string>
+    <string name="adblock_off">Désactivé</string>
+    <string name="adblock_basic">Basique</string>
+    <string name="adblock_balanced">Équilibré</string>
+    <string name="adblock_strict">Strict</string>
+    <string name="adblock_whitelist">Liste blanche des sites</string>
+    <string name="adblock_add_whitelist">Ajouter un domaine</string>
+    <string name="adblock_whitelist_hint">ex. exemple.com</string>
+    <string name="adblock_filters">Listes de filtres</string>
+    <string name="adblock_catalog">Catalogue de filtres</string>
+    <string name="adblock_import_file">Importer un fichier de liste</string>
+    <string name="adblock_add_url">Ajouter par URL</string>
+    <string name="adblock_update">Mettre à jour</string>
+    <string name="adblock_updating">Mise à jour…</string>
+    <string name="adblock_updated">Mis à jour : %d règles</string>
+    <string name="adblock_download_failed">Impossible de télécharger la liste</string>
+    <string name="adblock_imported">Importé : %d lignes</string>
+    <string name="adblock_delete_confirm">Supprimer cette liste de filtres ?</string>
+    <string name="adblock_empty">Aucune liste externe</string>
+    <string name="adblock_rules_fmt">%d règles</string>
+    <string name="adblock_never_updated">jamais mis à jour</string>
+
+    <!-- proxy/vpn -->
+    <string name="proxy_mode">Mode proxy</string>
+    <string name="proxy_none">Sans proxy</string>
+    <string name="proxy_http">Proxy HTTP</string>
+    <string name="proxy_orbot">Orbot (TOR)</string>
+    <string name="proxy_i2p">I2P</string>
+    <string name="proxy_host">Hôte</string>
+    <string name="proxy_port">Port</string>
+    <string name="proxy_apply">Appliquer et redémarrer le proxy</string>
+    <string name="proxy_applied">Proxy appliqué</string>
+    <string name="proxy_not_supported">Le proxy n\'est pas pris en charge par cette version de WebView</string>
+    <string name="proxy_orbot_missing">Orbot n\'est pas installé. Ouvrir la page du magasin ?</string>
+    <string name="proxy_orbot_open">Ouvrir Orbot</string>
+    <string name="proxy_orbot_note">Démarrez Orbot et activez le mode VPN — le trafic du navigateur passera par TOR.</string>
+    <string name="vpn_profiles">Profils VPN (.conf)</string>
+    <string name="vpn_import">Importer .conf</string>
+    <string name="vpn_imported">Profil importé : %s</string>
+    <string name="vpn_empty">Aucun profil. Importez un .conf — WireGuard ou Amnezia.</string>
+    <string name="vpn_connect">Connecter</string>
+    <string name="vpn_share">Envoyer le profil</string>
+    <string name="vpn_delete_confirm">Supprimer ce profil ?</string>
+    <string name="vpn_remotes_fmt">Serveurs : %d</string>
+
+    <!-- paramètres des sites -->
+    <string name="site_list_hint">Paramètres pour des sites individuels (domaine)</string>
+    <string name="site_add_domain">Ajouter un domaine</string>
+    <string name="site_domain_hint">ex. exemple.com</string>
+    <string name="site_entry_delete_confirm">Supprimer les paramètres du domaine ?</string>
+    <string name="site_default">Par défaut</string>
+    <string name="site_allow">Autoriser</string>
+    <string name="site_block">Bloquer</string>
+
+    <!-- avancé -->
+    <string name="set_user_agent">User-Agent</string>
+    <string name="set_reset_all">Réinitialiser tous les paramètres</string>
+    <string name="set_reset_confirm">Réinitialiser tous les paramètres du navigateur ?</string>
+
+    <!-- effacer -->
+    <string name="clear_history">Historique</string>
+    <string name="clear_cookies">Cookies et données des sites</string>
+    <string name="clear_cache">Cache</string>
+    <string name="clear_forms">Données de formulaires</string>
+    <string name="clear_pwds">Mots de passe enregistrés</string>
+    <string name="clear_bookmarks">Favoris</string>
+    <string name="clear_btn">Effacer la sélection</string>
+    <string name="clear_confirm">Supprimer définitivement les données sélectionnées ?</string>
+    <string name="clear_done">Données effacées</string>
+
+    <!-- langue -->
+    <string name="lang_title">Langue de l\'interface</string>
+    <string name="lang_system">Système</string>
+    <string name="lang_restart">La modification s\'appliquera après le redémarrage de l\'application</string>
+
+    <!-- à propos -->
+    <string name="about_version">Version</string>
+    <string name="about_engine">Moteur : Android WebView (Chromium)</string>
+    <string name="about_desc">Un navigateur léger : blocage des publicités, mode privé, mots de passe, thèmes, proxy.</string>
+
+    <!-- lecteur -->
+    <string name="pl_title_default">Fichier média</string>
+    <string name="pl_error">Impossible de lire le fichier</string>
+    <string name="pl_play">Lecture</string>
+    <string name="pl_pause">Pause</string>
+    <string name="pl_replay">Rejouer</string>
+    <string name="pl_back">Retour</string>
+
+    <!-- widget -->
+    <string name="wg_config_title">Recherche Zephyr</string>
+    <string name="wg_search_preview">Rechercher</string>
+    <string name="wg_search_hint">Rechercher avec %s</string>
+    <string name="wg_image_search">Recherche par image</string>
+    <string name="wg_voice_search">Recherche vocale</string>
+    <string name="wg_ai_chat">Chat IA</string>
+    <string name="wg_engine_pick">Moteur de recherche du widget</string>
+    <string name="wg_widget_desc">Recherche rapide avec choix du moteur</string>
+    <string name="ua_system">Système (par défaut)</string>
+    <string name="ua_mobile">Mobile</string>
+    <string name="ua_desktop">Ordinateur</string>
+    <string name="ua_custom">Personnalisé</string>
+    <string name="set_do_not_track_sum">Les sites voient le signal Do-Not-Track (navigator.doNotTrack)</string>
+    <string name="set_reset_done">Paramètres réinitialisés. Redémarrez l\'application.</string>
+    <string name="bg_default">Par défaut</string>
+    <string name="bg_photo_set">Photo</string>
+    <string name="bg_photo_applied">Photo de fond appliquée</string>
+    <string name="bg_photo_failed">Échec du chargement de la photo</string>
+    <string name="toolbar_applied">Boutons de la barre mis à jour</string>
+    <string name="bm_save_private">Enregistrer en privé</string>
+    <string name="bm_move_private_out">Déplacer privés vers normaux</string>
+    <string name="bm_move_need_private">Ouvrez d\'abord la section Privés</string>
+    <string name="bm_moved_fmt">Signets déplacés : %d</string>
+    <string name="ts_count_fmt">Onglets : %d</string>
+    <string name="vpn_notif_title">Zephyr VPN</string>
+    <string name="vpn_notif_text">Tunnel intégré actif</string>
+    <string name="vpn_err_tls">Échec de vérification du certificat du serveur</string>
+    <string name="vpn_err_refused">Serveur inaccessible (connexion refusée)</string>
+    <string name="vpn_err_timeout">Délai de connexion dépassé</string>
+    <string name="vpn_err_auth">Échec d\'authentification (identifiant/mot de passe)</string>
+    <string name="vpn_err_tlscrypt">Le profil utilise la compression comp-lzo — non prise en charge par le client intégré. Ouvrez le profil dans un client externe. tls-crypt et UDP fonctionnent désormais !</string>
+    <string name="vpn_err_udp">Aucun serveur accessible dans le profil</string>
+    <string name="vpn_err_noca">Aucun certificat CA dans le profil</string>
+    <string name="vpn_err_handshake">Poignée de main incomplète</string>
+    <string name="vpn_state_connected">Connecté</string>
+    <string name="vpn_state_connecting">Connexion…</string>
+    <string name="vpn_state_failed">Échec</string>
+    <string name="vpn_state_disconnected">Déconnecté</string>
+    <string name="vpn_state_idle">VPN intégré</string>
+    <string name="vpn_disconnect">Déconnecter le VPN</string>
+    <string name="vpn_connect_builtin">Connecter (client intégré)</string>
+    <string name="vpn_open_external">Ouvrir dans un client externe</string>
+    <string name="vpn_browser_only">Trafic du navigateur uniquement</string>
+    <string name="vpn_browser_only_sum">Tunnel Zephyr uniquement, sans toucher aux autres applications</string>
+    <string name="vpn_builtin_sum">Importez un profil .conf (WireGuard/Amnezia) et connectez-vous sans applications tierces</string>
+    <string name="vpn_unparsed">Profil non pris en charge</string>
+    <string name="vpn_unsupported_title">Configuration non prise en charge</string>
+    <string name="vpn_username">Identifiant</string>
+    <string name="vpn_password">Mot de passe</string>
+    <!-- v1.4.1 : personnalisation de l\'accueil -->
+    <string name="set_home_screen">Écran d\'accueil</string>
+    <string name="set_open_panel">Ouvrir le panneau</string>
+    <string name="set_search">Recherche</string>
+    <string name="set_home_search_bar">Barre de recherche sur l\'accueil</string>
+    <string name="set_home_search_bar_sum">Masquez-la pour ne garder que la barre d\'adresse</string>
+    <string name="set_home_grid">Grille et tailles</string>
+    <string name="set_grid_columns">Colonnes de la grille</string>
+    <string name="set_tile_size">Taille des tuiles</string>
+    <string name="set_tile_size_sum">Raccourcis petits, moyens ou grands</string>
+    <string name="size_small">Petites</string>
+    <string name="size_medium">Moyennes</string>
+    <string name="size_large">Grandes</string>
+    <string name="bg_none">Non défini</string>
+    <string name="bg_hex_bad">HEX invalide (6 chiffres, ex. 1A73E8)</string>
+
+    <!-- v1.4.1 : nouveaux thèmes -->
+    <string name="theme_rose">Rose</string>
+    <string name="theme_forest">Forêt</string>
+    <string name="theme_ocean">Océan</string>
+    <string name="theme_plum">Prune</string>
+    <string name="theme_sand">Sable</string>
+    <string name="theme_midnight">Minuit</string>
+    <string name="theme_porcelain">Porcelaine</string>
+
+    <!-- v1.4.1 : paiements -->
+    <string name="panel_payments">Moyens de paiement</string>
+    <string name="menu_payments">Moyens de paiement</string>
+    <string name="pay_add_card">Ajouter une carte</string>
+    <string name="pay_add_paypal">Ajouter PayPal</string>
+    <string name="pay_number">Numéro de carte</string>
+    <string name="pay_holder">Titulaire</string>
+    <string name="pay_expiry">Expiration (MM/AA)</string>
+    <string name="pay_zip">Code postal</string>
+    <string name="pay_bad_number">Vérifiez le numéro de carte</string>
+    <string name="pay_bad_email">Vérifiez l\'e-mail</string>
+    <string name="pay_paypal">PayPal</string>
+    <string name="pay_empty">Aucun moyen de paiement enregistré</string>
+    <string name="pay_security_title">Coffre secret</string>
+    <string name="pay_security_note">Le numéro et le CVV sont chiffrés en AES-256-GCM avec une clé du Android Keystore et ne quittent jamais l\'appareil en clair.</string>
+    <string name="pay_copy_number">Copier le numéro</string>
+    <string name="pay_copy_cvv">Copier le CVV (30 s)</string>
+    <string name="pay_copied_cvv">CVV copié, le presse-papiers sera vidé dans 30 s</string>
+    <string name="pay_quick_fill">Remplir les données de paiement</string>
+    <string name="pay_manage">Gérer</string>
+    <string name="pay_none_saved">Aucune carte enregistrée — ajoutez-en une dans Moyens de paiement</string>
+
+    <!-- v1.4.1 : téléchargements -->
+    <string name="dl_in_progress">Téléchargement…</string>
+
+    <!-- v1.4.2 FIX 7 : remplissage connexion -->
+    <string name="autofill_offer_title">Remplissage automatique</string>
+    <string name="autofill_offer_msg">Remplir l\'identifiant enregistré %1$s pour %2$s ?\nLe mot de passe reste masqué jusqu\'à confirmation par le verrouillage d\'écran.</string>
+    <string name="autofill_fill">Remplir</string>
+    <string name="save_remember_site">Mémoriser mon choix pour ce site</string>
+</resources>

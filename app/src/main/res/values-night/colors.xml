@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="z_background">#212121</color>
+    <color name="z_on_background">#E8EAED</color>
+    <color name="z_surface">#212121</color>
+    <color name="z_on_surface">#E8EAED</color>
+    <color name="z_surface_variant">#35363A</color>
+    <color name="z_on_surface_variant">#9AA0A6</color>
+    <color name="z_outline">#5F6368</color>
+    <color name="z_outline_variant">#3C3F41</color>
+    <color name="z_primary">#8AB4F8</color>
+    <color name="z_on_primary">#202124</color>
+    <color name="z_primary_container">#062E6F</color>
+    <color name="z_on_primary_container">#D3E3FD</color>
+    <color name="z_error">#F28B82</color>
+    <color name="z_on_error">#202124</color>
+    <color name="z_error_container">#442C29</color>
+    <color name="z_on_error_container">#F2D3CF</color>
+    <color name="z_secondary_container">#3C4043</color>
+    <color name="z_on_secondary_container">#E8EAED</color>
+    <color name="z_omnibox_fill">#35363A</color>
+    <color name="z_omnibox_outline">#0035363A</color>
+    <color name="z_toolbar">#212121</color>
+    <!-- v1.7.22: base DayNight theme flips to dark in night mode → its popup
+         background must flip too (surface #212121 +3.5% ≈ #292929) -->
+    <color name="z_popup_base">#292929</color>
+</resources>

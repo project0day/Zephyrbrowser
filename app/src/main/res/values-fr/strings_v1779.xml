@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voice_engine">Reconnaissance vocale</string>
+    <string name="voice_engine_auto_fmt">Automatique — actuellement : %1$s</string>
+    <string name="voice_engine_system">Système (Google)</string>
+    <string name="voice_engine_offline">Sur l\'appareil, sans internet</string>
+    <string name="voice_engine_cloud">Via votre fournisseur d\'IA</string>
+    <string name="voice_engine_absent">non installé</string>
+    <string name="voice_engine_note">La reconnaissance système est utilisée par défaut : elle est déjà sur le téléphone et ne coûte rien. Si vous préférez ne pas envoyer votre voix à Google, choisissez l\'option sur l\'appareil et téléchargez un modèle.</string>
+    <string name="voice_engine_note_nosys">Ce téléphone n\'a pas de reconnaissance système — elle vient de Google, pas d\'Android. Téléchargez un modèle pour reconnaître la parole sur l\'appareil sans internet, ou configurez votre fournisseur d\'IA ci-dessous.</string>
+    <string name="voice_offline_models">Modèles hors ligne</string>
+    <string name="voice_offline_none">Rien de téléchargé</string>
+    <string name="voice_model_installed_fmt">%1$d Mo sur l\'appareil</string>
+    <string name="voice_model_use">Utiliser cette langue</string>
+    <string name="voice_model_delete">Supprimer le modèle</string>
+    <string name="voice_dl_title_fmt">Téléchargement : %1$s</string>
+    <string name="voice_dl_starting">Connexion…</string>
+    <string name="voice_dl_progress_fmt">%1$d%%  —  %2$d sur %3$d Mo</string>
+    <string name="voice_dl_ok_fmt">Le modèle « %1$s » est prêt</string>
+    <string name="voice_dl_fail_fmt">Échec du téléchargement : %1$s</string>
+    <string name="voice_no_model">Téléchargez d\'abord un modèle dans les réglages IA</string>
+    <string name="ai_notify_section">Notifications</string>
+    <string name="ai_notify_on">Me prévenir quand la réponse est prête</string>
+    <string name="ai_notify_on_sub">Une notification lorsque la réponse arrive pendant que l\'application est en arrière-plan</string>
+    <string name="ai_notify_title">L\'assistant a répondu</string>
+    <string name="ai_notify_channel">Réponses de l\'assistant</string>
+    <string name="ai_notify_channel_sub">Arrive quand une réponse est prête et que l\'application est en arrière-plan</string>
+</resources>

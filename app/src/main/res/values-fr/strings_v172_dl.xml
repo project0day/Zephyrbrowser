@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.2 downloads premium redesign (agent 4-a). Français. -->
+<resources>
+    <!-- filter chips -->
+    <string name="dl_filter_all">Tout</string>
+    <string name="dl_filter_images">Photos</string>
+    <string name="dl_filter_video">Vidéos</string>
+    <string name="dl_filter_audio">Audio</string>
+    <string name="dl_filter_files">Fichiers</string>
+
+    <!-- top action bar -->
+    <string name="dl_clear_finished">Effacer les terminés</string>
+    <string name="dl_clear_finished_confirm">Retirer les téléchargements terminés et échoués de la liste ? Les fichiers restent sur l\'appareil.</string>
+    <string name="dl_delete_all">Tout supprimer</string>
+    <string name="dl_delete_all_confirm">Supprimer tous les téléchargements avec les fichiers ?</string>
+    <string name="dl_deleted">Supprimé</string>
+
+    <!-- row states -->
+    <string name="dl_empty">Aucun téléchargement</string>
+    <string name="dl_chip_failed">Échec</string>
+    <!-- reserved: the engine has no paused state yet, the chip lights up when it does -->
+    <string name="dl_chip_paused">En pause</string>
+
+    <!-- live progress: downloaded of total -->
+    <string name="dl_progress_of">%1$s sur %2$s</string>
+</resources>

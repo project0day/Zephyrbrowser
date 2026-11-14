@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.85: names of the assistant's tools, as shown in "What the assistant
+     did". These were Russian string literals in a Kotlin map, so the log read
+     in Russian whatever language the app was set to. -->
+<resources>
+    <string name="act_web_search">Searched the web</string>
+    <string name="act_open_page">Read a page</string>
+    <string name="act_page_text">Read the open page</string>
+    <string name="act_page_extract">Collected data from the page</string>
+    <string name="act_page_click">Tapped on the page</string>
+    <string name="act_page_fill">Filled in a field</string>
+    <string name="act_page_scroll">Scrolled</string>
+    <string name="act_page_forms">Examined a form</string>
+    <string name="act_page_screenshot">Captured the page</string>
+    <string name="act_remember_fact">Remembered a fact</string>
+    <string name="act_list_memory">Looked through its memory</string>
+    <string name="act_forget_fact">Forgot a fact</string>
+    <string name="act_open_tab">Opened a tab</string>
+    <string name="act_browser_search">Searched in the browser</string>
+    <string name="act_list_tabs">Listed the tabs</string>
+    <string name="act_close_tab">Closed a tab</string>
+    <string name="act_search_history">Searched the history</string>
+    <string name="act_search_bookmarks">Searched the bookmarks</string>
+    <string name="act_add_bookmark">Added a bookmark</string>
+    <string name="act_list_downloads">Listed the downloads</string>
+    <string name="act_find_file">Looked for a file</string>
+    <string name="act_read_file">Read a file</string>
+    <string name="act_list_ai_models">Looked at the models</string>
+    <string name="act_add_ai_model">Added a model</string>
+    <string name="act_use_ai_model">Switched model</string>
+    <string name="act_write_file">Wrote a file</string>
+    <string name="act_make_dir">Created a folder</string>
+    <string name="act_list_dir">Looked in a folder</string>
+    <string name="act_delete_path">Deleted a file</string>
+    <string name="act_zip_project">Packed an archive</string>
+    <string name="act_copy_path">Copied</string>
+    <string name="act_move_path">Moved</string>
+    <string name="act_add_reminder">New reminder</string>
+    <string name="act_list_reminders">Looked at the to-do list</string>
+    <string name="act_complete_reminder">Marked a task done</string>
+    <string name="act_delete_reminder">Deleted a task</string>
+    <string name="act_run_js">Ran a script on the page</string>
+    <string name="act_add_userscript">New user script</string>
+    <string name="act_list_userscripts">Listed the scripts</string>
+    <string name="act_toggle_userscript">Switched a script</string>
+    <string name="act_delete_userscript">Deleted a script</string>
+    <string name="act_pdf_read">Read a PDF</string>
+    <string name="act_pdf_fields">PDF form fields</string>
+    <string name="act_pdf_fill">Filled in a PDF</string>
+    <string name="act_pdf_stamp">Signed a PDF</string>
+    <string name="act_save_workflow">New workflow</string>
+    <string name="act_list_workflows">Listed the workflows</string>
+    <string name="act_delete_workflow">Deleted a workflow</string>
+    <string name="act_find_everything">Searched everywhere</string>
+    <string name="act_office_read">Read a document</string>
+    <string name="act_office_fill">Filled in a document</string>
+    <string name="act_office_create">Created a document</string>
+    <string name="act_make_document">CV or document</string>
+    <string name="act_pdf_layout">Page layout</string>
+    <string name="act_pdf_view">Viewed a PDF page</string>
+    <string name="act_pdf_autofill">Filled in a form</string>
+    <string name="act_pdf_form_scan">Looked for form fields</string>
+    <string name="act_cv_template">CV template</string>
+    <string name="act_tailor_cv">Tailored a CV</string>
+    <string name="act_render_html">Laid out a document</string>
+    <string name="act_make_cv">Assembled a CV</string>
+    <string name="act_save_template">New template</string>
+    <string name="act_list_templates">Listed the templates</string>
+    <string name="act_use_template">Document from a template</string>
+    <string name="act_delete_template">Deleted a template</string>
+    <string name="act_business_profile">My business details</string>
+</resources>

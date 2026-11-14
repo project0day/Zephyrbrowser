@@ -1,0 +1,86 @@
+OPEN SOURCE LICENCES
+
+Zephyr Browser is built on open source software. The components below are
+included in the application, with their copyright holders and licences. Full
+licence texts are available at the addresses given.
+
+Several of these licences require that this notice be distributed with the
+application. This screen is that notice.
+
+
+───────────────────────────────────────────────────────────────────────────────
+APACHE LICENSE, VERSION 2.0
+https://www.apache.org/licenses/LICENSE-2.0
+───────────────────────────────────────────────────────────────────────────────
+
+AndroidX libraries (core-ktx, appcompat, recyclerview, fragment, activity,
+webkit, room, datastore, biometric, swiperefreshlayout, camera)
+Copyright (C) The Android Open Source Project
+
+Material Components for Android
+Copyright (C) Google LLC
+
+Kotlin and kotlinx.coroutines
+Copyright (C) JetBrains s.r.o. and Kotlin Programming Language contributors
+
+ZXing — barcode and QR decoding
+Copyright (C) ZXing authors
+
+PdfBox-Android — PDF reading, form filling and text extraction
+Copyright (C) Tom Roush
+A port of Apache PDFBox, Copyright (C) The Apache Software Foundation
+
+Vosk — offline speech recognition
+Copyright (C) Alpha Cephei Inc.
+
+JSR-305 annotations
+Copyright (C) The FindBugs project
+
+
+───────────────────────────────────────────────────────────────────────────────
+APACHE LICENSE 2.0 / LGPL 2.1 (DUAL)
+───────────────────────────────────────────────────────────────────────────────
+
+JNA — Java Native Access
+Copyright (C) Timothy Wall and contributors
+https://github.com/java-native-access/jna
+
+Used under the Apache License, Version 2.0.
+
+
+───────────────────────────────────────────────────────────────────────────────
+MIT LICENSE
+https://opensource.org/licenses/MIT
+───────────────────────────────────────────────────────────────────────────────
+
+WireGuard for Android — tunnel library
+Copyright (C) Jason A. Donenfeld and WireGuard LLC
+https://www.wireguard.com
+
+"WireGuard" is a registered trademark of Jason A. Donenfeld. This application
+is not endorsed by or affiliated with the WireGuard project.
+
+AmneziaWG protocol engine
+Copyright (C) Amnezia VPN contributors
+
+
+───────────────────────────────────────────────────────────────────────────────
+FILTER LISTS
+───────────────────────────────────────────────────────────────────────────────
+
+Ad-blocking filter lists are downloaded from their publishers at your request
+and are not distributed with this application. They remain the property of
+their authors and are used under their own terms, most commonly
+CC BY-SA 3.0 or GPLv3. Sources include EasyList, AdGuard and Peter Lowe's list.
+
+
+───────────────────────────────────────────────────────────────────────────────
+NOT INCLUDED
+───────────────────────────────────────────────────────────────────────────────
+
+This application contains no advertising SDK, no analytics SDK and no crash
+reporting SDK.
+
+The AI assistant connects only to providers you configure yourself, using your
+own credentials. No AI service is bundled with, or operated by, this
+application.

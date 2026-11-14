@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.4: tabs back button, WARP removal cleanup, premium script catalog,
+     data:/blob: downloads, defensive clear-data. -->
+<resources>
+    <!-- Downloads (data:/blob: support) -->
+    <string name="dl_started">Téléchargement démarré…</string>
+
+    <!-- Script catalog (premium v2) -->
+    <string name="us_cat_install">Installer</string>
+    <string name="us_cat_installed">Installé</string>
+    <string name="us_cat_remove">Supprimer</string>
+    <string name="us_cat_search">Rechercher dans le catalogue…</string>
+    <string name="us_cat_count_fmt">%d scripts</string>
+    <string name="us_cat_empty">Aucun résultat</string>
+    <string name="us_cat_updated">Terminé</string>
+    <string name="us_cat_dup">Ce script est déjà installé</string>
+</resources>

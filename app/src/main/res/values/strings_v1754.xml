@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.54: tasks (calendar + reminders) -->
+    <string name="panel_tasks">Tasks</string>
+    <string name="menu_tasks">Tasks &amp; reminders</string>
+    <string name="tk_add">New task</string>
+    <string name="tk_edit">Edit task</string>
+    <string name="tk_title_hint">What needs doing</string>
+    <string name="tk_notes_hint">Details (optional)</string>
+    <string name="tk_when">When</string>
+    <string name="tk_repeat">Repeat</string>
+    <string name="tk_alarm">Loud alarm</string>
+    <string name="tk_alarm_sub">Sound and vibration. Turn off for a quiet notification.</string>
+    <string name="tk_quiet">quiet</string>
+    <string name="tk_need_title">Say what to remind you about</string>
+    <string name="tk_done">Done</string>
+    <string name="tk_snooze">In 10 min</string>
+
+    <string name="tk_rep_once">Once</string>
+    <string name="tk_rep_daily">Every day</string>
+    <string name="tk_rep_weekdays">Weekdays</string>
+    <string name="tk_rep_weekly">Every week</string>
+    <string name="tk_rep_monthly">Every month</string>
+
+    <string name="tk_today">Today</string>
+    <string name="tk_tomorrow">Tomorrow</string>
+    <string name="tk_yesterday">Yesterday</string>
+
+    <string name="tk_upcoming">Upcoming</string>
+    <string name="tk_mode_all">All</string>
+    <string name="tk_mode_day">By day</string>
+    <string name="tk_empty_day">Nothing on this day</string>
+    <string name="tk_empty_all">Nothing coming up</string>
+
+    <string name="tk_channel_alarm">Task reminders</string>
+    <string name="tk_channel_alarm_sub">Loud reminders with sound</string>
+    <string name="tk_channel_quiet">Quiet reminders</string>
+    <string name="tk_channel_quiet_sub">Reminders without sound</string>
+
+    <string name="tk_notif_warn">Notifications for Zephyr are off — reminders will not arrive at all. Tap to enable.</string>
+    <string name="tk_notif_title">Turn on notifications</string>
+    <string name="tk_notif_msg">The task was saved, but notifications for Zephyr are off — the reminder will not appear. Open notification settings?</string>
+    <string name="tk_exact_warn">Exact alarms are blocked by the system — reminders may arrive late. Tap to allow.</string>
+    <string name="tk_exact_title">Allow exact timing</string>
+    <string name="tk_exact_msg">Android does not let an app wake the phone at an exact minute until this is turned on by hand. Right now a reminder can be up to five minutes late. Open the setting?</string>
+
+    <!-- v1.7.54: assistant workspace -->
+    <string name="ai_tools_write">Creating files and code</string>
+    <string name="ai_tools_write_sub">The assistant can write scripts and notes, create folders and pack a project into a zip — inside its own workspace</string>
+    <string name="ai_write_anywhere">Write outside the workspace</string>
+    <string name="ai_write_anywhere_sub">Allow writing files anywhere on the phone. Every such file is confirmed separately.</string>
+    <string name="ai_write_anywhere_warn">The assistant will be able to overwrite any of your files, not just its own. It will always ask first, but a wrong path costs more. Turn this on only if you know why.</string>
+    <string name="ai_tools_tasks">Tasks and reminders</string>
+    <string name="ai_tools_tasks_sub">The assistant can set reminders, list your tasks and close them</string>
+    <string name="ai_workspace">Assistant workspace</string>
+    <string name="ai_workspace_note">Everything the assistant creates lives here. Scripts are saved as text: Android does not run code an app wrote.</string>
+
+    <string name="ai_act_write">The assistant wants to create a file</string>
+    <string name="ai_act_overwrite">The assistant wants to OVERWRITE a file</string>
+    <string name="ai_act_append">The assistant wants to append to a file</string>
+    <string name="ai_act_delete">The assistant wants to delete</string>
+    <string name="ai_act_del_task">The assistant wants to delete a task</string>
+    <string name="tk_span_fmt">%1$d mo</string>
+    <string name="rv_new">new file</string>
+    <string name="rv_overwrite">overwrite</string>
+    <string name="rv_append">append</string>
+    <string name="rv_apply">Apply</string>
+    <string name="rv_reject">Reject</string>
+    <string name="rv_apply_all">Apply all</string>
+    <string name="rv_reject_all">Reject all</string>
+
+    <!-- v1.7.55: burn button configuration -->
+    <string name="burn_go">Burn</string>
+    <string name="burn_confirm_fmt">This will erase: %1$s.\n\nIt cannot be undone.</string>
+    <string name="burn_settings">Configure the burn button</string>
+    <string name="burn_pick_title">What the button erases</string>
+    <string name="burn_pick_hint">Anything ticked is erased at once and for good. Items marked ⚠ remove things you saved yourself.</string>
+    <string name="burn_pick_all">Tick everything</string>
+    <string name="burn_none">nothing selected</string>
+    <string name="burn_everything">absolutely everything</string>
+    <string name="burn_more_fmt">… and %1$d more</string>
+    <string name="burn_ask">Ask before burning</string>
+    <string name="burn_ask_sub">Turn off for an instant panic button — it will act immediately, without asking</string>
+    <string name="burn_t_tabs">Tabs</string>
+    <string name="burn_t_cookies">Cookies</string>
+    <string name="burn_t_storage">Site storage</string>
+    <string name="burn_t_cache">Cache</string>
+    <string name="burn_t_history">History</string>
+    <string name="burn_t_sitedata">Site data</string>
+    <string name="burn_t_formdata">Form data</string>
+    <string name="burn_t_downloads">Download list</string>
+    <string name="burn_t_offline">Offline pages</string>
+    <string name="burn_t_reader">Reader library</string>
+    <string name="burn_t_trash">Trash</string>
+    <string name="burn_t_bookmarks">Bookmarks</string>
+    <string name="burn_t_autofill">Autofill</string>
+    <string name="burn_t_passwords">Passwords</string>
+    <string name="burn_t_payments">Payment cards</string>
+    <string name="burn_t_tasks">Tasks and reminders</string>
+
+    <!-- v1.7.55: voice input without Google -->
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_stop">Done</string>
+    <string name="voice_sending">Transcribing…</string>
+    <string name="voice_rec_fail">Could not start the microphone</string>
+    <string name="voice_too_short">Too short — nothing was recorded</string>
+    <string name="voice_empty">Nothing was recognised</string>
+    <string name="voice_fail_fmt">Transcription failed: %1$s</string>
+    <string name="voice_setup_msg">This phone has no system speech recognition — that comes from the Google app, which is not installed.\n\nZephyr can work without it: it records the audio and sends it to your own AI provider for transcription. For Groq and OpenAI nothing needs setting up — an active profile with a key is enough. For anything else, set the address and model in the AI settings.\n\nOpen settings?</string>
+    <string name="voice_stt">Voice input (speech recognition)</string>
+    <string name="voice_stt_endpoint">Transcription endpoint</string>
+    <string name="voice_stt_model">Transcription model</string>
+    <string name="voice_stt_key">Transcription key</string>
+    <string name="voice_stt_auto">Taken from the active profile</string>
+    <string name="voice_stt_note">When there is no system recogniser, the recording goes here. Leave blank to reuse the active AI profile (works for Groq and OpenAI).</string>
+
+    <!-- v1.7.57: assistant memory -->
+    <string name="mem_title">Assistant memory</string>
+    <string name="mem_on">Remember between chats</string>
+    <string name="mem_on_sub">The assistant keeps durable facts about you and takes them into account every time</string>
+    <string name="mem_view">What is remembered</string>
+    <string name="mem_count_fmt">Facts: %1$d</string>
+    <string name="mem_empty">Nothing remembered yet</string>
+    <string name="mem_edit">Edit fact</string>
+    <string name="mem_add">Add</string>
+    <string name="mem_clear">Clear</string>
+    <string name="mem_hint">For example: I write Kotlin, my phone runs microG</string>
+    <string name="mem_note">These facts are attached to every request, so keep them short. The assistant saves them itself, but you can correct or delete any of them.</string>
+
+    <!-- v1.7.57: remind me about this link later -->
+    <string name="ctx_remind">Remind me later</string>
+    <string name="rl_1h">In an hour</string>
+    <string name="rl_evening">This evening</string>
+    <string name="rl_tomorrow">Tomorrow morning</string>
+    <string name="rl_week">In a week</string>
+    <string name="rl_saved_fmt">Reminder set: %1$s</string>
+    <string name="rl_failed">Could not set the reminder</string>
+    <string name="tk_open_link">Open the page</string>
+    <string name="tk_attach_page">Attach the open page</string>
+    <string name="tk_export_ics">Export to calendar (.ics)</string>
+    <string name="tk_export_done_fmt">Saved: %1$s</string>
+    <string name="tk_export_empty">Nothing to export</string>
+
+    <!-- v1.7.57: assistant workspace -->
+    <string name="panel_workspace">Assistant projects</string>
+    <string name="ws_empty">Nothing here yet. Ask the assistant to create a file or a project.</string>
+    <string name="ws_items_fmt">Items: %1$d</string>
+    <string name="ws_view">Open</string>
+    <string name="ws_zip">Pack into a zip</string>
+    <string name="ws_share">Share</string>
+    <string name="ws_rename">Rename</string>
+    <string name="ws_zipped_fmt">Archive %1$s ready, %2$d files inside</string>
+    <string name="ws_share_dir">A folder can only be sent as an archive — pack it into a zip first</string>
+    <string name="ws_share_fail">Could not share the file</string>
+    <string name="ws_too_big">The file is too large to view</string>
+    <string name="ws_binary">This is not a text file</string>
+    <string name="ws_last_fmt">Last answer: %1$d files</string>
+    <string name="ws_undo">Undo</string>
+    <string name="ws_undo_msg_fmt">Put %1$d files back the way they were before the assistant last answered?</string>
+    <string name="ws_undo_done_fmt">Files restored: %1$d</string>
+
+    <!-- v1.7.57: scheduled agent jobs -->
+    <string name="job_channel">Assistant jobs</string>
+    <string name="job_channel_sub">Answers to jobs run on a schedule</string>
+    <string name="job_chat_fmt">Job: %1$s</string>
+    <string name="job_no_model">No active model — the job did not run</string>
+    <string name="job_timeout">The model did not answer in time</string>
+    <string name="job_empty">The model returned an empty answer</string>
+    <string name="tk_kind">Type</string>
+    <string name="tk_kind_task">Reminder</string>
+    <string name="tk_kind_job">Job for the assistant</string>
+    <string name="tk_prompt">What to ask the assistant</string>
+    <string name="tk_prompt_hint">For example: collect the day\'s headlines and pick the three that matter</string>
+    <string name="tk_job_note">Runs on schedule: the assistant carries out the request itself and sends the answer as a notification. Page tools are unavailable then — the browser may be closed.</string>
+    <string name="tk_job_badge">job</string>
+
+    <!-- v1.7.58: proper autofill fields -->
+    <string name="af_f_name">Full name</string>
+    <string name="af_f_first">First name</string>
+    <string name="af_f_last">Last name</string>
+    <string name="af_f_email">Email</string>
+    <string name="af_f_phone">Phone</string>
+    <string name="af_f_address">Address</string>
+    <string name="af_f_address2">Address line 2</string>
+    <string name="af_f_city">City</string>
+    <string name="af_f_postal">Postal code</string>
+    <string name="af_f_state">State / region</string>
+    <string name="af_f_country">Country</string>
+    <string name="af_f_company">Company</string>
+    <string name="af_f_birthday">Date of birth</string>
+    <string name="af_f_username">Username</string>
+    <string name="af_f_website">Website</string>
+    <string name="af_f_extra">Custom fields</string>
+    <string name="af_extra_hint">One per line, as key=value. For anything not listed above.</string>
+
+    <!-- v1.7.60: assistant-written scripts and undo -->
+    <string name="ai_tools_scripts">Creating scripts</string>
+    <string name="ai_tools_scripts_sub">The assistant can run JavaScript on a page and create permanent userscripts</string>
+    <string name="ai_act_script">The assistant wants to create a permanent script</string>
+    <string name="ai_act_script_del">The assistant wants to delete a script</string>
+    <string name="log_undo">Undo</string>
+    <string name="log_undone">undone</string>
+    <string name="log_clear_confirm">Clear the assistant\'s action log? The ability to undo those actions goes with it.</string>
+
+    <!-- v1.7.61: scripts go through the same review window -->
+    <string name="rv_script_new">new script</string>
+    <string name="rv_script_del">removing a script</string>
+    <string name="rv_script_on">Will run on: %1$s</string>
+
+    <!-- v1.7.61: PDF -->
+    <string name="ai_act_pdf_fill">The assistant wants to fill in a PDF</string>
+    <string name="ai_act_pdf_stamp">The assistant wants to stamp text into a PDF</string>
+
+    <!-- v1.7.61: scenarios -->
+    <string name="panel_workflows">Scenarios</string>
+    <string name="wf_hint">A scenario is a saved command. Tapping one runs it: the assistant receives your instruction and decides for itself which tools to use.</string>
+    <string name="wf_add">New scenario</string>
+    <string name="wf_edit">Edit scenario</string>
+    <string name="wf_empty">No scenarios yet. Create one, or tell the assistant: "create a command that…"</string>
+    <string name="wf_run">Run</string>
+    <string name="wf_schedule">Put on a schedule</string>
+    <string name="wf_name_hint">Short name, e.g. "invoices"</string>
+    <string name="wf_prompt_hint">What should happen when it runs</string>
+    <string name="wf_prompt_note">Write it as an ordinary request to the assistant: what to do, with which files or sites, and how to present the result.</string>
+    <string name="wf_need_both">Both a name and an instruction are needed</string>
+    <string name="wf_no_browser">Open the browser to run a scenario</string>
+    <string name="wf_review_sub">Saved as one of your commands</string>
+    <string name="wf_new">new scenario</string>
+    <string name="wf_replace">replacing a scenario</string>
+
+    <string name="ai_act_office_fill">The assistant wants to fill in a document</string>
+
+    <!-- v1.7.68: CV style picker -->
+    <string name="cv_pick_title">How should the CV look</string>
+    <string name="cv_pick_sub">Pick a layout and a colour — or let the assistant decide.</string>
+    <string name="cv_pick_color">Accent colour</string>
+    <string name="cv_pick_auto">Let it decide</string>
+    <string name="cv_pick_go">Done</string>
+    <string name="cv_review_sub">CV · %1$s template, %2$s</string>
+    <string name="rv_count_fmt">File %1$d in this answer</string>
+
+    <!-- v1.7.68: the assistant keeps working in the background -->
+    <string name="ai_work_channel">Assistant at work</string>
+    <string name="ai_work_channel_sub">Shown while the assistant is handling a request</string>
+    <string name="ai_work_title">The assistant is working</string>
+    <string name="ai_work_text">You can minimise the browser — the answer will arrive</string>
+
+    <string name="cache_top_fmt">Showing the %1$d heaviest sites of %2$d</string>
+
+    <string name="cv_pick_custom">Custom colour</string>
+    <string name="cv_pick_bad_color">Needs a code like #1F4E79</string>
+
+    <!-- v1.7.70: document templates and mini-apps -->
+    <string name="panel_templates">Templates</string>
+    <string name="tpl_hint">A template is a document you send again and again: a quote, an invoice, a contract. The assistant writes it once; after that it fills in from a single sentence.</string>
+    <string name="tpl_empty">No templates yet</string>
+    <string name="tpl_empty_how">Tell the assistant: "make me a quote template, here is what it should contain" — and it will appear here.</string>
+    <string name="tpl_kind_doc">document</string>
+    <string name="tpl_kind_app">mini-app</string>
+    <string name="tpl_use">Fill in</string>
+    <string name="tpl_run_prompt">Fill in the "%1$s" template.</string>
+    <string name="tpl_review_sub">Template · %1$s folder</string>
+    <string name="tpl_doc_sub">Document from the "%1$s" template</string>
+    <string name="tpl_new">new template</string>
+    <string name="tpl_replace">replacing a template</string>
+    <string name="biz_title">My business details</string>
+    <string name="biz_sub">Filled into documents automatically — you will not be asked for them again.</string>
+    <string name="biz_empty">Not filled in — tap to enter them once</string>
+    <string name="biz_next_fmt">Next numbers: quote %1$s, invoice %2$s</string>
+
+    <string name="set_search_hint">What are you looking for? e.g. alarm</string>
+    <string name="set_search_start">Start typing — any setting will be found</string>
+    <string name="set_search_none">Nothing found</string>
+
+    <string name="biz_saved">Details saved</string>
+
+    <!-- v1.7.73: visual templates, groups, signature, import -->
+    <string name="tpl_ask_title">Document from the "%1$s" template</string>
+    <string name="tpl_ask_sub">Write it in your own words, the way the client told you — the assistant will map it onto the fields.</string>
+    <string name="tpl_ask_hint">e.g. client — Example Ltd, replace two doors, 600 euros, two weeks</string>
+    <string name="tpl_ask_sign">Add my signature</string>
+    <string name="tpl_ask_go">Prepare</string>
+    <string name="tpl_rename">Rename</string>
+    <string name="tpl_move">Move to group</string>
+    <string name="tpl_refresh">Refresh thumbnail</string>
+    <string name="tpl_group_new">New group…</string>
+    <string name="tpl_group_hint">Group name</string>
+    <string name="tpl_group_title">Group "%1$s"</string>
+    <string name="tpl_group_emoji">Icon</string>
+    <string name="tpl_group_color">Colour</string>
+    <string name="tpl_import">Import my own template</string>
+    <string name="tpl_import_sub">HTML, Word (.docx) or PDF — your form stays exactly as it is</string>
+    <string name="tpl_import_name">Name for the template</string>
+    <string name="tpl_import_done">Template "%1$s" imported</string>
+    <string name="tpl_import_bad">Unsupported format: needs .html, .docx or .pdf</string>
+    <string name="tpl_import_fail">Could not import the file</string>
+    <string name="tpl_import_hint_docx">In your Word template, put markers like {{client_name}} where the text changes.</string>
+    <string name="sig_title">My signature</string>
+    <string name="sig_hint">Sign with your finger — it will be saved and placed into documents.</string>
+    <string name="sig_present">signature saved</string>
+    <string name="sig_absent">not set</string>
+    <string name="sig_draw">Sign</string>
+    <string name="sig_clear">Delete signature</string>
+
+    <string name="ws_no_app">No app on this phone opens that file</string>
+
+    <string name="pdfv_more">…and %1$d more pages — open the file itself</string>
+    <string name="pdfv_fail">Could not open the PDF</string>
+
+    <!-- v1.7.76: the camera as an input to the assistant -->
+    <string name="cam_title">Photo for the assistant</string>
+    <string name="cam_shoot">Take photo</string>
+    <string name="cam_failed">Could not take the photo</string>
+    <string name="ai_attach_camera">Camera</string>
+    <string name="cam_kept_fmt">Photos: %1$d</string>
+</resources>

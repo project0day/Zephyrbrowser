@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_vpn">VPN et proxy</string>
+    <string name="menu_adblock">Blocage des pubs</string>
+    <string name="menu_privacy">Confidentialité</string>
+    <string name="menu_site_settings">Paramètres du site</string>
+    <string name="menu_screenshot">Capture d\'écran</string>
+    <string name="menu_save_pdf">Enregistrer en PDF</string>
+    <string name="copy">Copier</string>
+    <string name="shot_need_page">Ouvrez d\'abord une page</string>
+    <string name="shot_saved">Capture enregistrée dans la galerie</string>
+    <string name="shot_failed">Échec de la capture</string>
+    <string name="pdf_failed">Échec de la création du PDF</string>
+    <string name="menu_customize_sum_v16">Réorganisez et masquez les boutons — tout est enregistré immédiatement. VPN, bloqueurs, capture, PDF et plus encore.</string>
+    <string name="menu_preview">Aperçu du menu</string>
+    <string name="menu_actions_section">Actions</string>
+    <string name="menu_reset_done">Ordre par défaut restauré</string>
+    <string name="menu_empty_preview">Toutes les lignes masquées</string>
+    <string name="menu_more_items">+ %1$d de plus…</string>
+</resources>

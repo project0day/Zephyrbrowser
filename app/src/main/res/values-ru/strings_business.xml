@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biz_company">Название / имя</string>
+    <string name="biz_person">Контактное лицо</string>
+    <string name="biz_address">Адрес</string>
+    <string name="biz_phone">Телефон</string>
+    <string name="biz_email">Email</string>
+    <string name="biz_siret">SIRET / ИНН</string>
+    <string name="biz_vat">Номер НДС / TVA</string>
+    <string name="biz_vat_rate">Ставка НДС, %</string>
+    <string name="biz_iban">IBAN</string>
+    <string name="biz_bic">BIC</string>
+    <string name="biz_website">Сайт</string>
+    <string name="biz_terms">Условия оплаты</string>
+
+    <string name="cvs_sidebar">Боковая колонка</string>
+    <string name="cvs_sidebar_sub">Цветная панель слева: контакты, навыки, языки</string>
+    <string name="cvs_classic">Классический</string>
+    <string name="cvs_classic_sub">Строго, в одну колонку, с линией под именем</string>
+    <string name="cvs_minimal">Минимализм</string>
+    <string name="cvs_minimal_sub">Много воздуха, крупное имя, один акцент</string>
+</resources>

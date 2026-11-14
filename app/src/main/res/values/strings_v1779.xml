@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voice_engine">Speech recognition</string>
+    <string name="voice_engine_auto_fmt">Automatic — currently: %1$s</string>
+    <string name="voice_engine_system">System (Google)</string>
+    <string name="voice_engine_offline">On device, no internet</string>
+    <string name="voice_engine_cloud">Through your AI provider</string>
+    <string name="voice_engine_absent">not installed</string>
+    <string name="voice_engine_note">The system recogniser is used by default: it is already on the phone and costs nothing. If you would rather not send your voice to Google, pick the on-device option and download a model.</string>
+    <string name="voice_engine_note_nosys">This phone has no system recogniser — that part comes from Google, not from Android. Download a model to recognise speech on the device with no internet, or set up your AI provider below.</string>
+    <string name="voice_offline_models">Offline models</string>
+    <string name="voice_offline_none">Nothing downloaded</string>
+    <string name="voice_model_installed_fmt">%1$d MB on device</string>
+    <string name="voice_model_use">Use this language</string>
+    <string name="voice_model_delete">Delete model</string>
+    <string name="voice_dl_title_fmt">Downloading: %1$s</string>
+    <string name="voice_dl_starting">Connecting…</string>
+    <string name="voice_dl_progress_fmt">%1$d%%  —  %2$d of %3$d MB</string>
+    <string name="voice_dl_ok_fmt">“%1$s” model is ready</string>
+    <string name="voice_dl_fail_fmt">Download failed: %1$s</string>
+    <string name="voice_no_model">Download a language model in AI settings first</string>
+    <string name="ai_notify_section">Notifications</string>
+    <string name="ai_notify_on">Tell me when an answer is ready</string>
+    <string name="ai_notify_on_sub">A notification when the reply arrives while the app is in the background</string>
+    <string name="ai_notify_title">The assistant replied</string>
+    <string name="ai_notify_channel">Assistant replies</string>
+    <string name="ai_notify_channel_sub">Arrives when an answer is ready and the app is in the background</string>
+</resources>

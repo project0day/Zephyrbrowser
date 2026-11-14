@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.1 VPN/DNS fixes: tolerant WireGuard parsing, auth-dialog rework,
+         remote fallback, dead-tunnel watchdog, connection log, DNS provider test -->
+
+    <!-- WireGuard tolerant parser -->
+    <string name="vpn_wg_badline">Ligne %1$d : %2$s</string>
+    <string name="vpn_wg_nokey">PrivateKey manquante dans [Interface]</string>
+    <string name="vpn_wg_nopeer">Aucun [Peer] avec PublicKey dans la configuration</string>
+    <string name="vpn_wg_noendpoint">Pas d\'Endpoint dans [Peer] — adresse du serveur requise</string>
+    <string name="vpn_wg_badiface">Erreur dans [Interface] : %1$s</string>
+    <string name="vpn_wg_badpeer">Erreur dans [Peer] : %1$s</string>
+    <string name="vpn_wg_dns">Impossible de résoudre l\'adresse du serveur (DNS)</string>
+    <string name="vpn_wg_no_handshake">Le serveur WireGuard ne répond pas : pas de handshake depuis 40 s — tunnel fermé, internet restauré</string>
+    <string name="vpn_wg_amnezia_note">AmneziaWG : paramètres d’obfuscation appliqués par le moteur natif</string>
+    <string name="vpn_wg_skipped_fmt">lignes inconnues ignorées : %1$d</string>
+    <string name="vpn_wg_notwg">Le fichier ne ressemble pas à une configuration WireGuard (pas de [Interface]/[Peer])</string>
+
+    <!-- OpenVPN engine errors / watchdogs -->
+    <string name="vpn_err_dead_tunnel">Le tunnel est monté mais aucune donnée ne passe — VPN arrêté, internet restauré</string>
+    <string name="vpn_err_stalled">Le serveur ne répond plus — VPN arrêté, internet restauré</string>
+    <string name="vpn_err_no_answer">Aucun des %1$d serveurs n\'a répondu — vérifiez le réseau ou essayez une autre configuration</string>
+    <string name="vpn_err_perm">Autorisation VPN refusée</string>
+    <string name="vpn_err_start">Impossible de démarrer le service VPN</string>
+
+    <!-- auth dialog rework -->
+    <string name="vpn_auth_optional">Sans mot de passe</string>
+
+    <!-- connection log -->
+    <string name="vpn_log_title">Journal de connexion</string>
+    <string name="vpn_log_empty">Aucune connexion pour le moment</string>
+    <string name="vpn_log_hint">touchez pour le journal</string>
+
+    <!-- DNS provider health check -->
+    <string name="dns_test">Tester la connexion</string>
+    <string name="dns_test_idle">Test du fournisseur</string>
+    <string name="dns_testing">Test en cours…</string>
+    <string name="dns_test_ok_fmt">Fonctionne · %1$d ms</string>
+    <string name="dns_test_fail">Aucune réponse</string>
+    <string name="dns_test_try_plain">Le fournisseur n\'a pas répondu — essayez le type Simple (UDP) ou un autre fournisseur</string>
+    <string name="dns_upstream_dead">Le fournisseur DNS ne répond pas — protection arrêtée, internet restauré</string>
+</resources>

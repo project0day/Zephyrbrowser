@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.15: text-selection actions (translate/search/share/read-aloud), video
+     sniffer iframe players, APK install unknown-sources flow, misc fixes. -->
+<resources>
+    <!-- ==== selection ActionMode actions (long-press text selection menu) ==== -->
+    <string name="sel_translate">Translate</string>
+    <string name="sel_search">Search</string>
+    <string name="sel_share">Share</string>
+    <string name="sel_tts">Read aloud</string>
+    <string name="sel_translate_title">Selection translation</string>
+    <string name="sel_translating">Translating the selection…</string>
+    <string name="sel_translate_failed">Could not translate the selected text</string>
+    <string name="sel_empty">Could not capture the selected text</string>
+    <string name="sel_copy_result">Copy translation</string>
+    <string name="sel_tts_on">Reading the selected text aloud</string>
+    <string name="sel_tts_fail">Text-to-speech is unavailable</string>
+
+    <!-- ==== video sniffer: cross-origin iframe players ==== -->
+    <string name="sniff_embed">Player · %1$s</string>
+    <string name="sniff_open_tab">Open in a new tab</string>
+    <string name="sniff_player_hint">The player is embedded from another origin — open it in a new tab and the sniffer will catch the direct video link</string>
+
+    <!-- ==== APK install (unknown sources flow, Android 8+) ==== -->
+    <string name="install_action">Install app</string>
+    <string name="install_unknown_title">Allow installs from Zephyr</string>
+    <string name="install_unknown_text">Android requires permission to install apps from this source. Tap “Open settings” and enable “Allow from this source”, then come back and tap “Install” again.</string>
+    <string name="install_open_settings">Open settings</string>
+</resources>

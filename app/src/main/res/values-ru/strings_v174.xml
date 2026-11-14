@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.4: tabs back button, WARP removal cleanup, premium script catalog,
+     data:/blob: downloads, defensive clear-data. -->
+<resources>
+    <!-- Downloads (data:/blob: support) -->
+    <string name="dl_started">Загрузка начата…</string>
+
+    <!-- Script catalog (premium v2) -->
+    <string name="us_cat_install">Установить</string>
+    <string name="us_cat_installed">Установлен</string>
+    <string name="us_cat_remove">Удалить</string>
+    <string name="us_cat_search">Поиск по каталогу…</string>
+    <string name="us_cat_count_fmt">%d скриптов</string>
+    <string name="us_cat_empty">Ничего не найдено</string>
+    <string name="us_cat_updated">Готово</string>
+    <string name="us_cat_dup">Этот скрипт уже установлен</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.9: Files rework (open-with, zoom, trash, global search), adblock hero,
+     omnibox edit mode, sniffer muxing, download scheduler, payments gate,
+     home feed mode, site data manager. -->
+<resources>
+    <!-- ================= Files: open with / system sheets ================= -->
+    <string name="files_open_with">Открыть с помощью</string>
+    <string name="files_open_once">Открыть один раз</string>
+    <string name="files_open_always">Выбрать приложение (один раз / всегда)</string>
+    <string name="files_view_in_zephyr">Просмотр в Zephyr</string>
+    <string name="files_no_apps">Нет приложений для этого типа файла</string>
+
+    <!-- ================= Files: zoom / density ================= -->
+    <string name="files_zoom">Масштаб</string>
+    <string name="files_zoom_0">Крупно</string>
+    <string name="files_zoom_1">Средне</string>
+    <string name="files_zoom_2">Компактно</string>
+    <string name="files_zoom_3">Мелко</string>
+
+    <!-- ================= Files: trash (30 days) ================= -->
+    <string name="files_trash">Корзина</string>
+    <string name="files_trash_empty">Корзина пуста</string>
+    <string name="files_trash_kept">Удалённые файлы хранятся 30 дней, затем стираются навсегда</string>
+    <string name="files_restore">Восстановить</string>
+    <string name="files_restore_done">Восстановлено</string>
+    <string name="files_restore_failed">Не удалось восстановить</string>
+    <string name="files_to_trash">Перемещено в корзину</string>
+    <string name="files_trash_clear">Очистить корзину</string>
+    <string name="files_trash_confirm">Удалить навсегда? Это действие нельзя отменить.</string>
+    <string name="files_trash_purged">Корзина очищена</string>
+    <string name="files_trash_days_left">осталось %d дн.</string>
+    <string name="files_trash_restore_where">Файл будет возвращён в исходную папку</string>
+
+    <!-- ================= Files: global search ================= -->
+    <string name="files_search_all">Поиск по всему хранилищу</string>
+    <string name="files_searching">Поиск…</string>
+    <string name="files_found_fmt">Найдено: %d</string>
+
+    <!-- ================= Download scheduler ================= -->
+    <string name="dm_wifi_only">Только по Wi-Fi</string>
+    <string name="dm_wifi_only_sum">Загрузки ждут подключения к Wi-Fi</string>
+    <string name="dm_night_only">Только ночью</string>
+    <string name="dm_night_only_sum">Загрузки идут с 00:00 до 06:00</string>
+    <string name="dm_wait_wifi">Ожидание Wi-Fi…</string>
+    <string name="dm_wait_night">Ожидание ночного окна…</string>
+    <string name="dm_scheduler">Планировщик загрузок</string>
+
+    <!-- ================= AdBlock hero ================= -->
+    <string name="adblock_hero_on">Защита активна</string>
+    <string name="adblock_hero_off">Блокировка выключена</string>
+    <string name="adblock_hero_sub_on">Реклама и трекеры режутся на всех сайтах</string>
+    <string name="adblock_hero_sub_off">Включите, чтобы блокировать рекламу и трекеры</string>
+    <string name="adblock_stats_blocked">Заблокировано рекламы</string>
+    <string name="adblock_stats_trackers">Остановлено трекеров</string>
+    <string name="adblock_hint_title">Как это работает</string>
+    <string name="adblock_hint_body">Запросы к рекламным сетям перехватываются до загрузки — страницы открываются быстрее и без баннеров. Списки фильтров обновляются автоматически, а исключения добавляются в белый список ниже.</string>
+    <string name="adblock_power_on">Включить блокировку</string>
+
+    <!-- ================= URL bar / omnibox ================= -->
+    <string name="url_search_web">Поиск в Google</string>
+    <string name="url_more_actions">Ещё действия</string>
+
+    <!-- ================= Sniffer / muxing ================= -->
+    <string name="sniff_mux_badge">со звуком</string>
+    <string name="sniff_mux_needed">без звука — скачается с аудиодорожкой</string>
+    <string name="sniff_mux_audio_only">только аудио</string>
+    <string name="sniff_mux_progress">Видео + аудио объединяются…</string>
+    <string name="sniff_mux_failed">Не удалось объединить дорожки</string>
+
+    <!-- ================= Payments gate ================= -->
+    <string name="pay_gate_title">Защита платежных данных</string>
+    <string name="pay_gate_sum">Запрашивать PIN или биометрию при открытии панели</string>
+    <string name="pay_gate_locked">Платежные данные защищены</string>
+
+    <!-- ================= Home feed ================= -->
+    <string name="home_feed_mode">Лента «Недавние» и «Закладки»</string>
+    <string name="home_feed_horiz">Горизонтальная прокрутка</string>
+    <string name="home_feed_vert">Вертикальная сетка</string>
+    <string name="home_recent_more">Все недавние</string>
+
+    <!-- ================= Site data manager ================= -->
+    <string name="cache_title">Данные сайтов</string>
+    <string name="cache_sub">Сколько занимает каждый сайт — и выборочная очистка</string>
+    <string name="cache_cookies_fmt">%d cookie</string>
+    <string name="cache_requests_fmt">%,d запросов</string>
+    <string name="cache_clear_site">Очистить данные сайта</string>
+    <string name="cache_clear_confirm">Удалить хранилище, cookie и кэш сайта %s?</string>
+    <string name="cache_cleared">Данные сайта удалены</string>
+    <string name="cache_empty">Сохранённых данных сайтов нет</string>
+    <string name="cache_global">Общий кэш браузера</string>
+    <string name="cache_global_sub">HTTP-кэш и временные файлы всех сайтов</string>
+    <string name="cache_global_clear">Очистить весь кэш</string>
+    <string name="cache_global_cleared">Кэш очищен</string>
+    <string name="cache_storage">Хранилище</string>
+</resources>

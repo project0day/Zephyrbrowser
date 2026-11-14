@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.93: the mirror of ic_chevron_right. A separate drawable rather than
+     autoMirrored on the existing one, because that flips with the reading
+     direction and these two arrows mean "previous" and "next" in a fixed
+     order, not "back" and "forward". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FF000000" android:pathData="M14,6L15.41,7.41 10.83,12l4.58,4.59L14,18l-6,-6z"/>
+</vector>

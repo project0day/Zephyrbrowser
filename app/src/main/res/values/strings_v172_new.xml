@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sb_section">SponsorBlock — skip in-video segments</string>
+    <string name="sb_sponsor">Skip sponsored segments</string>
+    <string name="sb_sponsor_sum">‘This video is sponsored by…’ — auto-jump</string>
+    <string name="sb_selfpromo">Skip self-promotion</string>
+    <string name="sb_selfpromo_sum">Channel’s own merch / paid items</string>
+    <string name="sb_interaction">Skip interactions</string>
+    <string name="sb_interaction_sum">‘Subscribe, like, join…’ reminders</string>
+    <string name="sb_intro">Skip intros</string>
+    <string name="sb_intro_sum">Intro animations at the video start</string>
+
+    <string name="vpn_kill_switch">Kill-switch · auto-reconnect</string>
+    <string name="vpn_kill_switch_sum">If the VPN drops, it reconnects itself (up to 5 tries)</string>
+    <string name="vpn_split_apps">Apps outside the VPN</string>
+    <string name="vpn_split_apps_sum">Selected apps bypass the tunnel</string>
+    <string name="vpn_split_title">Apps outside the VPN</string>
+    <string name="vpn_split_empty">No installed apps</string>
+    <string name="vpn_split_hint">Check the apps whose traffic should bypass the VPN (full tunnel mode)</string>
+
+    <string name="us_catalog">Script catalog</string>
+    <string name="us_catalog_hint">Ready-made scripts — one-tap install</string>
+    <string name="us_catalog_installed">Script "%s" installed</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tw_widget_label">Zephyr : tâches</string>
+    <string name="tw_widget_desc">Les tâches à venir, sur l\'écran d\'accueil. Touchez pour ouvrir la liste, ou le plus pour en ajouter une.</string>
+    <string name="tw_title">Tâches</string>
+    <string name="tw_add">Ajouter une tâche</string>
+    <string name="tw_empty">Rien de prévu — touchez +</string>
+    <string name="tw_more_fmt">et %1$d de plus</string>
+    <string name="tw_sample1">09:30 · Appeler le client</string>
+    <string name="tw_sample2">Demain · Envoyer le devis</string>
+
+    <string name="wg_theme_ocean">Océan</string>
+    <string name="wg_theme_teal">Turquoise</string>
+    <string name="wg_theme_green">Vert</string>
+    <string name="wg_theme_plum">Prune</string>
+    <string name="wg_theme_rose">Rose</string>
+    <string name="wg_theme_amber">Ambre</string>
+    <string name="wg_theme_graphite">Graphite</string>
+    <string name="wg_theme_sand">Sable</string>
+</resources>

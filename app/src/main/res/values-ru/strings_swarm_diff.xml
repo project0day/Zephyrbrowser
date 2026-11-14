@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="swarm_err_empty">В рое нет доступных участников.</string>
+    <string name="swarm_err_none">Никто из роя не ответил.</string>
+    <string name="swarm_st_next">Не вышло — пробую %1$s…</string>
+    <string name="swarm_st_asking">Спрашиваю %1$s (%2$d/%3$d)…</string>
+    <string name="swarm_no_answer">не ответил</string>
+    <string name="swarm_council_via">Совет роя</string>
+
+    <string name="diff_more_lines">ещё %1$d строк</string>
+    <string name="diff_lines_above">… %1$d строк выше</string>
+    <string name="diff_lines_below">… %1$d строк ниже</string>
+    <string name="diff_more_removed">ещё %1$d удалённых строк</string>
+    <string name="diff_more_added">ещё %1$d добавленных строк</string>
+</resources>

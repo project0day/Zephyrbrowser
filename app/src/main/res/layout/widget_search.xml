@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wgRoot"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/widget_pill"
+    android:paddingStart="10dp"
+    android:paddingEnd="4dp">
+
+    <ImageView
+        android:id="@+id/wgSearchIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_widget_search"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/wgSearchText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:text="@string/wg_search_preview" />
+
+    <ImageView
+        android:id="@+id/wgCameraIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_widget_camera"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/wg_image_search" />
+
+    <ImageView
+        android:id="@+id/wgMicIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_widget_mic"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/wg_voice_search" />
+
+    <ImageView
+        android:id="@+id/wgAiIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_widget_ai"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/wg_ai_chat" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.0 card save offer (agent 2-a). -->
+<resources>
+    <!-- card save offer (CARD_SAVE watcher → offerSaveCard dialog) -->
+    <string name="card_save_title">Save card?</string>
+    <string name="card_save_msg">Card •••• %s can be saved encrypted</string>
+    <string name="card_saved">Card saved</string>
+    <string name="card_exists">This card is already saved</string>
+</resources>

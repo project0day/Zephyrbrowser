@@ -1,0 +1,115 @@
+PRIVACY POLICY — ZEPHYR BROWSER
+
+Last updated: 20 September 2026
+
+THE SHORT VERSION
+
+Zephyr Browser has no accounts, no analytics, no advertising and no telemetry.
+Nothing you do in this app is reported to its developer. Your browsing history,
+bookmarks, passwords, downloads, notes, documents and assistant conversations
+are stored on your device and nowhere else.
+
+There is no server belonging to this app. There is nothing for us to collect,
+because nothing reaches us.
+
+
+1. WHAT THE APP STORES ON YOUR DEVICE
+
+Browsing history, bookmarks, open tabs, saved passwords and payment details,
+downloads, site permissions, offline pages, user scripts, assistant chats,
+generated documents, templates, reminders and settings.
+
+All of it is written to the app's own storage on your phone. It is removed when
+you delete it in the app, when you use "Clear data" or the burn button, or when
+you uninstall the app.
+
+Saved passwords and payment details can be protected by your device's screen
+lock or fingerprint. They are not uploaded anywhere.
+
+
+2. WHAT LEAVES YOUR DEVICE, AND WHEN
+
+The app itself does not transmit anything about you. Some features, by their
+nature, contact other parties. Each one is listed here.
+
+2.1 Websites you open
+Normal browsing. The site you open receives whatever any browser sends it.
+
+2.2 Your search engine
+When you search, the query goes to the engine you selected. If search
+suggestions are enabled, what you type in the address bar is sent to that
+engine as you type. You choose the engine, including private options.
+
+2.3 Site icons
+To show a site's icon, the app may request it from a third-party icon service,
+which tells that service the domain name. This never happens in private tabs,
+and it can be switched off entirely in Settings → Privacy.
+
+2.4 The AI assistant
+This is the important one.
+
+The assistant does not use any service belonging to this app's developer. It
+connects to whichever AI provider YOU configure, using an API key that YOU
+obtain and enter. When you send a message, the text you wrote — and any page
+content, file, photograph or document you attach — is sent to that provider.
+
+That provider's own privacy policy and terms apply to what you send it. We are
+not a party to it and cannot see any of it. Choose a provider you trust, and
+read their policy.
+
+The assistant is optional. Without a key it does nothing, and every individual
+ability it has (reading pages, running scripts, creating files, using the
+camera, using the microphone) has its own switch in Settings.
+
+2.5 Speech recognition
+If your phone has a system speech recogniser, the app uses it, and your voice
+is handled by whoever provides it — on most phones, Google. You can instead
+download an offline language model, after which speech is recognised entirely
+on your device and no audio leaves it. As a third option you may send audio to
+your own AI provider for transcription. Settings → AI assistant.
+
+2.6 Translation
+If you translate a page, its text is sent to the translation service.
+
+2.7 Ad-blocking filter lists
+The app downloads public filter lists from their publishers. It sends no
+information about you — only a request for the list.
+
+2.8 Crash reports
+There is no automatic crash reporting. If a crash occurs the details are saved
+to a file on your device. You may choose to send that file yourself, through an
+app of your choosing. Nothing is sent unless you do this deliberately.
+
+2.9 VPN, proxy and DNS
+If you configure these, traffic goes to the servers you entered. The app
+provides no servers of its own and operates none.
+
+
+3. PERMISSIONS
+
+The app asks for permissions only for features you use.
+
+Camera — scanning QR codes, and photographing documents for the assistant.
+Microphone — voice input.
+Storage and media — saving downloads, opening files you select.
+Notifications — download progress, reminders, and assistant replies.
+Exact alarms — reminders that must fire at a specific time.
+Location — only if a website asks and you allow it.
+
+Denying any of these disables that feature and nothing else.
+
+
+4. CHILDREN
+
+This app is not directed at children.
+
+
+5. CHANGES
+
+If this policy changes, the updated text ships with the app version it applies
+to, and the date above changes.
+
+
+6. CONTACT
+
+Questions about this policy: [CONTACT EMAIL — see FINDINGS.md F-007]

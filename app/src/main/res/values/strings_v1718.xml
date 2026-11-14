@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.18 (en): floating player rework, player menu/info, drag-close target. -->
+<resources>
+    <string name="pl_menu">More</string>
+    <string name="pl_duration">Duration: %1$s</string>
+    <string name="pl_audio_track">Audio track</string>
+    <string name="fl_close_hint">Drag here to close</string>
+</resources>

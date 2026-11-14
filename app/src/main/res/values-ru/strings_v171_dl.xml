@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.1 downloads fixes (agent 2-a). ru = default. -->
+<resources>
+    <!-- completion notification channel + in-app fallback toast (notification title reuses dl_complete) -->
+    <string name="dl_done_channel">Завершённые загрузки</string>
+    <string name="dl_done_toast">Файл загружен: %1$s</string>
+</resources>

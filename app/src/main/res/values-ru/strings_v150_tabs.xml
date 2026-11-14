@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.5.0 (agent 1-a): tab switcher / incognito UI strings. Keep keys in sync with values-en/ and values-fr/. -->
+<resources>
+    <!-- Accessibility labels for the regular/private section switch in the tab switcher header. -->
+    <string name="ts_section_regular">Обычные вкладки</string>
+    <string name="ts_section_private">Приватные вкладки</string>
+</resources>

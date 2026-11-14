@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wg_theme_indigo">Indigo</string>
+    <string name="wg_theme_steel">Acier</string>
+    <string name="wg_theme_slate">Ardoise</string>
+    <string name="wg_theme_forest">Sapin</string>
+    <string name="wg_theme_moss">Mousse</string>
+    <string name="wg_theme_crimson">Cramoisi</string>
+    <string name="wg_theme_wine">Bordeaux</string>
+    <string name="wg_theme_copper">Cuivre</string>
+    <string name="wg_theme_mint">Menthe</string>
+    <string name="wg_theme_blush">Poudré</string>
+</resources>

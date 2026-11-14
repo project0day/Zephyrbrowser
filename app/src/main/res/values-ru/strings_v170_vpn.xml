@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.0: VPN screen redesign + WireGuard (v1.7.3: VPN Gate removed with OpenVPN) -->
+    <string name="vpn_hero_hint">Нажмите кнопку, чтобы подключить VPN</string>
+    <string name="vpn_hero_connecting">Устанавливаем защищённый туннель…</string>
+    <string name="vpn_cancelled">Подключение отменено</string>
+    <string name="vpn_pick_profile">Какой профиль подключить?</string>
+    <string name="vpn_profiles_all">Профили VPN</string>
+    <string name="vpn_row_sub">%1$s · %2$s · %3$s</string>
+    <string name="vpn_import_wg">WireGuard .conf</string>
+    <string name="vpn_wg_invalid">Некорректный конфиг WireGuard: %s</string>
+    <string name="vpn_selected_fmt">Выбрано: %d</string>
+    <string name="vpn_select_all">Выбрать все</string>
+    <string name="vpn_delete_selected">Удалить выбранные</string>
+    <string name="vpn_delete_selected_msg">Удалить выбранные профили (%d)?</string>
+    <string name="vpn_deleted">Профили удалены</string>
+    <string name="set_dns">Встроенный DNS</string>
+    <string name="proxy_browser_section">Прокси браузера</string>
+</resources>

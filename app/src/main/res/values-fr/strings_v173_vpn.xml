@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.3 : OpenVPN supprimé — écran WireGuard + Amnezia + Cloudflare WARP -->
+    <string name="warp_title">Cloudflare WARP</string>
+    <string name="warp_sub_off">VPN rapide et sécurisé de Cloudflare</string>
+    <string name="warp_sub_ready">Prêt à se connecter</string>
+    <string name="warp_sub_on">Connecté</string>
+    <string name="warp_sub_connecting">Connexion…</string>
+    <string name="warp_activate">Activer WARP</string>
+    <string name="warp_activating">Activation…</string>
+    <string name="warp_connect">Se connecter</string>
+    <string name="warp_disconnect">Se déconnecter</string>
+    <string name="warp_reactivate">Réactiver</string>
+    <string name="warp_delete">Supprimer WARP</string>
+    <string name="warp_delete_confirm">Supprimer le profil WARP ? Vous pourrez le réactiver à tout moment.</string>
+    <string name="warp_reactivate_confirm">S\'inscrire à nouveau auprès de Cloudflare ? Le profil WARP actuel sera remplacé.</string>
+    <string name="warp_err_net">Cloudflare est injoignable — vérifiez votre connexion Internet</string>
+    <string name="warp_err_http">Erreur d\'activation (HTTP %d)</string>
+    <string name="warp_err_parse">Réponse inattendue de Cloudflare</string>
+    <string name="warp_ready_toast">WARP activé</string>
+    <string name="vpn_import_conf">Importer .conf</string>
+    <string name="warp_connected_name">Cloudflare WARP</string>
+</resources>

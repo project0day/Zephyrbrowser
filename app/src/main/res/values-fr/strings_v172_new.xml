@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sb_section">SponsorBlock — passer les segments intégrés</string>
+    <string name="sb_sponsor">Passer les segments sponsorisés</string>
+    <string name="sb_sponsor_sum">« Cette vidéo est sponsorisée par… » — saut auto</string>
+    <string name="sb_selfpromo">Passer l’autopromotion</string>
+    <string name="sb_selfpromo_sum">Marchandise / produits payants de la chaîne</string>
+    <string name="sb_interaction">Passer les sollicitations</string>
+    <string name="sb_interaction_sum">« Abonne-toi, aime, rejoins… »</string>
+    <string name="sb_intro">Passer les intros</string>
+    <string name="sb_intro_sum">Animations d’intro au début des vidéos</string>
+
+    <string name="vpn_kill_switch">Kill-switch · reconnexion auto</string>
+    <string name="vpn_kill_switch_sum">Si le VPN tombe, il se reconnecte seul (jusqu’à 5 essais)</string>
+    <string name="vpn_split_apps">Apps hors VPN</string>
+    <string name="vpn_split_apps_sum">Le trafic des apps choisies contourne le tunnel</string>
+    <string name="vpn_split_title">Apps hors VPN</string>
+    <string name="vpn_split_empty">Aucune app installée</string>
+    <string name="vpn_split_hint">Cochez les apps dont le trafic doit contourner le VPN (tunnel complet)</string>
+
+    <string name="us_catalog">Catalogue de scripts</string>
+    <string name="us_catalog_hint">Scripts prêts à l’emploi — installation en un geste</string>
+    <string name="us_catalog_installed">Script « %s » installé</string>
+</resources>

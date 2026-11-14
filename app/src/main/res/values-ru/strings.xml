@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zephyr</string>
+
+    <!-- ==================== navigation & common ==================== -->
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="close">Закрыть</string>
+    <string name="retry">Повторить</string>
+    <string name="allow">Разрешить</string>
+    <string name="block">Блокировать</string>
+    <string name="always">Всегда</string>
+    <string name="done">Готово</string>
+    <string name="copied">Скопировано</string>
+    <string name="saved">Сохранено</string>
+    <string name="deleted">Удалено</string>
+    <string name="empty_list">Пусто</string>
+    <string name="menu">Меню</string>
+    <string name="tabs">Вкладки</string>
+    <string name="settings">Настройки</string>
+    <string name="share_via">Поделиться через</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="javascript">JavaScript</string>
+    <string name="continue_anyway">Всё равно продолжить</string>
+    <string name="back_to_safety">Вернуться к безопасности</string>
+    <string name="app_not_found">Приложение не найдено</string>
+    <string name="external_app">внешнее приложение</string>
+    <string name="dont_ask_again">Больше не спрашивать для этого сайта</string>
+
+    <!-- ==================== omnibox ==================== -->
+    <string name="omnibox_hint">Поиск или URL</string>
+    <string name="omnibox_engine_hint">Поиск в %s или ввод URL</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_forward">Вперёд</string>
+    <string name="nav_reload">Обновить</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_share">Поделиться</string>
+    <string name="site_info">О сайте</string>
+
+    <!-- ==================== toolbar actions ==================== -->
+    <string name="bookmarks">Закладки</string>
+    <string name="history">История</string>
+    <string name="downloads">Загрузки</string>
+    <string name="voice_search">Голосовой поиск</string>
+    <string name="voice_unavailable">Голосовой поиск недоступен</string>
+    <string name="image_search">Поиск по картинке</string>
+    <string name="ai_chat">ИИ-чат</string>
+    <string name="reader_mode">Режим чтения</string>
+    <string name="new_private_tab">Новая приватная вкладка</string>
+    <string name="pc_mode">Режим для ПК</string>
+    <string name="pc_mode_on">Режим для ПК включён</string>
+    <string name="pc_mode_off">Режим для ПК выключен</string>
+    <string name="find_on_page">Найти на странице</string>
+    <string name="translate">Перевести</string>
+    <string name="add_bookmark">Добавить закладку</string>
+    <string name="page_source">Исходный код страницы</string>
+    <string name="find_hint">Поиск на странице…</string>
+    <string name="find_prev">Назад</string>
+    <string name="find_next">Далее</string>
+
+    <!-- ==================== search engines ==================== -->
+    <string name="search_engine">Поисковая система</string>
+    <string name="engine_google">Google</string>
+    <string name="engine_yandex">Яндекс</string>
+    <string name="engine_duckduckgo">DuckDuckGo</string>
+    <string name="engine_bing">Bing</string>
+    <string name="engine_brave">Brave</string>
+    <string name="engine_startpage">Startpage</string>
+    <string name="engine_ecosia">Ecosia</string>
+    <string name="engine_custom">Своя система</string>
+    <string name="suggestion_search">Поиск в %s</string>
+    <string name="suggestion_history">История</string>
+    <string name="suggestion_bookmark">Закладка</string>
+
+    <!-- ==================== errors ==================== -->
+    <string name="err_cannot_load">Не удалось загрузить страницу</string>
+    <string name="err_http">Ошибка HTTP %d</string>
+    <string name="ssl_error_title">Небезопасное соединение</string>
+    <string name="ssl_error_msg">Сертификат сайта %s недействителен. Продолжить небезопасно?</string>
+    <string name="renderer_crashed">Вкладка перезапущена после сбоя</string>
+
+    <!-- ==================== permissions ==================== -->
+    <string name="geo_title">Запрос геолокации</string>
+    <string name="geo_msg">Сайт %s хочет узнать ваше местоположение</string>
+    <string name="perm_title">Разрешение сайта</string>
+    <string name="perm_msg">Сайт %s запрашивает доступ: %s</string>
+    <string name="perm_camera">камера</string>
+    <string name="perm_mic">микрофон</string>
+    <string name="perm_camera_mic">камера и микрофон</string>
+    <string name="choose_file">Выберите файл</string>
+
+    <!-- ==================== downloads ==================== -->
+    <string name="dl_title">Загрузить файл</string>
+    <string name="dl_msg">Файл: %s\nРазмер: %s</string>
+    <string name="dl_unknown_size">неизвестно</string>
+    <string name="dl_download_btn">Загрузить</string>
+    <string name="dl_complete">Загрузка завершена</string>
+    <string name="dl_failed">Загрузка не удалась</string>
+    <string name="dl_open">Открыть</string>
+    <string name="dl_share">Поделиться</string>
+    <string name="dl_play">Открыть в плеере</string>
+    <string name="dl_delete_confirm">Удалить загрузку?</string>
+    <string name="dl_clear_list">Очистить список</string>
+    <string name="dl_open_failed">Не найдено приложение для открытия файла</string>
+
+    <!-- ==================== passwords ==================== -->
+    <string name="save_password_title">Сохранить пароль?</string>
+    <string name="save_password_msg">Сохранить пароль для %s (логин: %s) в защищённое хранилище?</string>
+    <string name="panel_passwords">Пароли</string>
+    <string name="pwd_unlock_title">Доступ к паролям</string>
+    <string name="pwd_enter_pin">Введите PIN-код</string>
+    <string name="pwd_set_pin">Установите PIN-код</string>
+    <string name="pwd_set_pin_msg">PIN защищает доступ к сохранённым паролям</string>
+    <string name="pwd_wrong_pin">Неверный PIN-код</string>
+    <string name="pwd_generate">Сгенерировать пароль</string>
+    <string name="pwd_gen_length">Длина</string>
+    <string name="pwd_gen_upper">Заглавные буквы</string>
+    <string name="pwd_gen_digits">Цифры</string>
+    <string name="pwd_gen_special">Спецсимволы</string>
+    <string name="pwd_gen_use">Использовать пароль</string>
+    <string name="pwd_show">Показать</string>
+    <string name="pwd_hide">Скрыть</string>
+    <string name="pwd_copy_login">Скопировать логин</string>
+    <string name="pwd_copy_password">Скопировать пароль</string>
+    <string name="pwd_delete_confirm">Удалить сохранённый пароль?</string>
+    <string name="pwd_export_csv">Экспорт CSV</string>
+    <string name="pwd_clipboard_30s">В буфере на 30 секунд</string>
+    <string name="pwd_empty">Нет сохранённых паролей</string>
+
+    <!-- ==================== bookmarks panel ==================== -->
+    <string name="panel_bookmarks">Закладки</string>
+    <string name="bm_group_regular">Обычные</string>
+    <string name="bm_group_private">Приватные</string>
+    <string name="bm_new_folder">Новая папка</string>
+    <string name="bm_folder_name">Название папки</string>
+    <string name="bm_folder_root">Без папки</string>
+    <string name="bm_rename">Переименовать</string>
+    <string name="bm_edit">Изменить</string>
+    <string name="bm_title">Название</string>
+    <string name="bm_url">URL</string>
+    <string name="bm_delete_confirm">Удалить закладку?</string>
+    <string name="bm_folder_delete_confirm">Удалить папку? Закладки останутся без папки.</string>
+    <string name="bm_import_html">Импорт HTML</string>
+    <string name="bm_export_html">Экспорт HTML</string>
+    <string name="bm_imported">Импортировано закладок: %d</string>
+    <string name="bm_exported">Экспортировано: %s</string>
+    <string name="bm_open_new_tab">Открыть в новой вкладке</string>
+    <string name="bm_move_to">Переместить в папку</string>
+    <string name="bm_exists">Уже в закладках</string>
+    <string name="bm_saved">Закладка сохранена</string>
+    <string name="bm_sort_alpha">По алфавиту</string>
+    <string name="bm_sort_date">По дате</string>
+    <string name="bm_private_hint">Приватные закладки скрыты в обычном режиме</string>
+
+    <!-- ==================== history panel ==================== -->
+    <string name="panel_history">История</string>
+    <string name="hist_search_hint">Поиск в истории…</string>
+    <string name="hist_today">Сегодня</string>
+    <string name="hist_yesterday">Вчера</string>
+    <string name="hist_week">За 7 дней</string>
+    <string name="hist_month">За 30 дней</string>
+    <string name="hist_older">Ранее</string>
+    <string name="hist_delete_period">Удалить период</string>
+    <string name="hist_clear_all">Очистить всю историю</string>
+    <string name="hist_clear_confirm">Удалить историю безвозвратно?</string>
+    <string name="hist_delete_site">Удалить все записи %s</string>
+    <string name="hist_delete_entry_confirm">Удалить запись?</string>
+
+    <!-- ==================== scripts & autofill panels ==================== -->
+    <string name="panel_scripts">Пользовательские скрипты</string>
+    <string name="scr_new">Новый скрипт</string>
+    <string name="scr_name">Название</string>
+    <string name="scr_code">Код (JavaScript)</string>
+    <string name="scr_domains">Домены (через запятую, * — все)</string>
+    <string name="scr_import">Импорт .js</string>
+    <string name="scr_export">Экспорт JSON</string>
+    <string name="scr_delete_confirm">Удалить скрипт?</string>
+    <string name="scr_empty">Нет скриптов</string>
+    <string name="panel_autofill">Автозаполнение</string>
+    <string name="af_new_profile">Новый профиль</string>
+    <string name="af_label">Название профиля</string>
+    <string name="af_fields">Поля (ключ=значение, по одному в строке)</string>
+    <string name="af_delete_confirm">Удалить профиль?</string>
+    <string name="af_empty">Нет профилей</string>
+
+    <!-- ==================== downloads panel ==================== -->
+    <string name="panel_downloads">Загрузки</string>
+
+    <!-- ==================== main menu sheet ==================== -->
+    <string name="menu_new_tab">Новая вкладка</string>
+    <string name="menu_new_private">Новая приватная вкладка</string>
+    <string name="menu_bookmarks">Закладки</string>
+    <string name="menu_history">История</string>
+    <string name="menu_downloads">Загрузки</string>
+    <string name="menu_passwords">Пароли</string>
+    <string name="menu_scripts">Скрипты</string>
+    <string name="menu_autofill">Автозаполнение</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_add_bookmark">Добавить в закладки</string>
+    <string name="menu_find">Найти на странице</string>
+    <string name="menu_reader">Режим чтения</string>
+    <string name="menu_translate">Перевести страницу</string>
+    <string name="menu_desktop">Сайт для ПК</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_adblock_shield">Блокировщик рекламы</string>
+    <string name="menu_blocked_today">Заблокировано сегодня</string>
+    <string name="menu_blocked_total">Всего за всё время</string>
+    <string name="menu_page_appearance">Внешний вид страницы</string>
+    <string name="menu_more">Ещё</string>
+    <string name="menu_private_on">Приватный режим активен</string>
+    <string name="add_home_need_page">Откройте страницу, чтобы добавить её на главный экран</string>
+    <string name="menu_add_home">На главный экран</string>
+    <string name="menu_copy_link">Копировать ссылку</string>
+    <string name="menu_open_external">Открыть во внешнем браузере</string>
+    <string name="menu_clear_site">Очистить данные сайта</string>
+    <string name="clear_site_confirm">Удалить cookie, хранилища и кэш этого сайта?</string>
+    <string name="add_home_not_supported">Не удалось добавить ярлык</string>
+
+    <!-- ==================== page appearance ==================== -->
+    <string name="appearance_system">Как в системе</string>
+    <string name="appearance_light">Светлая</string>
+    <string name="appearance_dark">Тёмная</string>
+    <string name="appearance_sepia">Сепия</string>
+    <string name="appearance_gray">Чёрно-белая</string>
+    <string name="appearance_contrast">Контраст</string>
+
+    <!-- ==================== context menu ==================== -->
+    <string name="ctx_open">Открыть</string>
+    <string name="ctx_open_new">Открыть в новой вкладке</string>
+    <string name="ctx_open_bg">Открыть в фоновой вкладке</string>
+    <string name="ctx_open_private">Открыть в приватной вкладке</string>
+    <string name="ctx_download">Скачать файл</string>
+    <string name="ctx_copy">Копировать ссылку</string>
+    <string name="ctx_copy_text">Копировать текст</string>
+    <string name="ctx_copy_link">Копировать адрес ссылки</string>
+    <string name="ctx_share">Поделиться ссылкой</string>
+    <string name="ctx_share_image">Поделиться картинкой</string>
+    <string name="ctx_search_image">Найти похожее изображение</string>
+    <string name="ctx_open_image">Открыть изображение</string>
+    <string name="ctx_save_image">Сохранить изображение</string>
+
+    <!-- ==================== site info sheet ==================== -->
+    <string name="site_settings_title">Настройки сайта</string>
+    <string name="site_js">JavaScript</string>
+    <string name="site_cookies">Cookies</string>
+    <string name="site_images">Изображения</string>
+    <string name="site_popups">Всплывающие окна</string>
+    <string name="site_desktop">Версия для ПК</string>
+    <string name="site_clear_data">Удалить данные сайта</string>
+    <string name="site_data_cleared">Данные сайта удалены</string>
+    <string name="site_copy_url">Копировать адрес</string>
+    <string name="site_share">Поделиться</string>
+    <string name="site_secure">Соединение защищено</string>
+    <string name="site_insecure">Соединение не защищено</string>
+    <string name="site_not_set">по умолчанию</string>
+
+    <!-- ==================== reader ==================== -->
+    <string name="reader_unavailable">Режим чтения недоступен для этой страницы</string>
+    <string name="reader_listen">Слушать</string>
+    <string name="reader_stop">Стоп</string>
+    <string name="reader_font_up">Крупнее</string>
+    <string name="reader_font_down">Мельче</string>
+    <string name="reader_tts_fail">Синтез речи недоступен</string>
+
+    <!-- ==================== tab switcher ==================== -->
+    <string name="ts_regular">Обычные</string>
+    <string name="ts_private">Приватные</string>
+    <string name="ts_close_all">Закрыть все</string>
+    <string name="ts_close_others">Закрыть остальные</string>
+    <string name="ts_empty">Нет вкладок</string>
+    <string name="ts_new_tab">Новая вкладка</string>
+    <string name="ts_incognito_banner">Вы в приватном режиме</string>
+
+    <!-- ==================== home ==================== -->
+    <string name="home_search_hint">Поиск или URL</string>
+    <string name="home_pick_engine">Выбрать поисковую систему</string>
+    <string name="home_quick_access">Быстрый доступ</string>
+    <string name="home_recents">Недавние</string>
+    <string name="home_bookmarks">Закладки</string>
+    <string name="home_add_site">Добавить сайт</string>
+    <string name="home_add_title">Название</string>
+    <string name="home_add_url">Адрес</string>
+    <string name="home_edit_mode">Режим редактирования</string>
+    <string name="home_remove_confirm">Убрать ярлык?</string>
+    <string name="home_private_title">Приватный режим</string>
+    <string name="home_private_subtitle">История и закладки не сохраняются</string>
+    <string name="home_show_more">Ещё</string>
+
+    <!-- ==================== first run ==================== -->
+    <string name="welcome_title">Добро пожаловать в Zephyr</string>
+    <string name="welcome_msg">Лёгкий браузер с блокировкой рекламы, приватным режимом, паролями и темами. Приятного просмотра!</string>
+
+    <!-- ==================== settings: root ==================== -->
+    <string name="set_general">Основные</string>
+    <string name="set_appearance">Внешний вид</string>
+    <string name="set_privacy">Приватность</string>
+    <string name="set_security">Безопасность</string>
+    <string name="set_adblock">Блокировка рекламы</string>
+    <string name="set_downloads">Загрузки</string>
+    <string name="set_site">Настройки сайтов</string>
+    <string name="set_advanced">Дополнительно</string>
+    <string name="set_proxy">Прокси и VPN</string>
+    <string name="set_language">Язык приложения</string>
+    <string name="set_about">О приложении</string>
+    <string name="set_clear">Очистить данные</string>
+
+    <!-- general -->
+    <string name="set_search_engine">Поисковая система</string>
+    <string name="set_custom_engine">Своя поисковая система</string>
+    <string name="set_custom_engine_name">Название</string>
+    <string name="set_custom_engine_url">URL с %s вместо запроса</string>
+    <string name="set_restore_tabs">Восстанавливать вкладки</string>
+    <string name="set_pc_default">Всегда режим для ПК</string>
+    <string name="set_open_in_apps">Открывать ссылки в приложениях</string>
+    <string name="open_in_apps_ask">Спрашивать</string>
+    <string name="open_in_apps_never">Никогда</string>
+    <string name="open_in_apps_always">Всегда</string>
+    <string name="set_suggestions">Подсказки в поиске</string>
+    <string name="open_in_app_title">Открыть в приложении %s?</string>
+    <string name="open_in_app_msg">Эта ссылка может быть открыта приложением «%s»</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="open_once">Один раз</string>
+
+    <!-- appearance -->
+    <string name="set_theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_dark">Тёмная #212121</string>
+    <string name="theme_amoled">AMOLED-чёрная</string>
+    <string name="theme_sepia">Сепия</string>
+    <string name="theme_slate">Сланцевая</string>
+    <string name="set_toolbar_buttons">Кнопки на панели</string>
+    <string name="toolbar_picker_title">Выберите до 4 кнопок</string>
+    <string name="set_home_bg">Фон главной</string>
+    <string name="bg_pick_color">Цвет</string>
+    <string name="bg_pick_wallpaper">Обои</string>
+    <string name="bg_wallpaper_pick">Выбрать фото</string>
+    <string name="bg_wallpaper_clear">Убрать фон</string>
+    <string name="bg_hex_hint">HEX, например 1A73E8</string>
+    <string name="set_home_sections">Разделы главной</string>
+    <string name="set_page_appearance">Внешний вид страниц</string>
+
+    <!-- privacy -->
+    <string name="set_always_incognito">Всегда приватный режим</string>
+    <string name="set_always_incognito_sum">Не сохранять историю и данные сайтов</string>
+    <string name="set_block_webrtc">Блокировать WebRTC</string>
+    <string name="set_block_webrtc_sum">Защита от утечки реального IP</string>
+    <string name="set_do_not_track">Запрос «Do Not Track»</string>
+    <string name="third_party_cookies">Сторонние cookies</string>
+
+    <!-- security -->
+    <string name="set_pin">PIN-код на пароли</string>
+    <string name="set_biometrics">Вход по отпечатку</string>
+    <string name="set_save_passwords">Сохранять пароли</string>
+    <string name="set_autofill">Автозаполнение логинов</string>
+    <string name="set_clipboard">Очищать буфер через 30 сек</string>
+
+    <!-- adblock -->
+    <string name="adblock_mode">Уровень защиты</string>
+    <string name="adblock_off">Выключен</string>
+    <string name="adblock_basic">Базовый</string>
+    <string name="adblock_balanced">Оптимальный</string>
+    <string name="adblock_strict">Строгий</string>
+    <string name="adblock_whitelist">Белый список сайтов</string>
+    <string name="adblock_add_whitelist">Добавить домен</string>
+    <string name="adblock_whitelist_hint">например, example.com</string>
+    <string name="adblock_filters">Списки фильтров</string>
+    <string name="adblock_catalog">Каталог фильтров</string>
+    <string name="adblock_import_file">Импорт файл списка</string>
+    <string name="adblock_add_url">Добавить по ссылке</string>
+    <string name="adblock_update">Обновить</string>
+    <string name="adblock_updating">Обновление…</string>
+    <string name="adblock_updated">Обновлено: %d правил</string>
+    <string name="adblock_download_failed">Не удалось скачать список</string>
+    <string name="adblock_imported">Импортировано: %d строк</string>
+    <string name="adblock_delete_confirm">Удалить список фильтров?</string>
+    <string name="adblock_empty">Нет внешних списков</string>
+    <string name="adblock_rules_fmt">%d правил</string>
+    <string name="adblock_never_updated">ещё не обновлялся</string>
+
+    <!-- proxy/vpn -->
+    <string name="proxy_mode">Режим прокси</string>
+    <string name="proxy_none">Без прокси</string>
+    <string name="proxy_http">HTTP-прокси</string>
+    <string name="proxy_orbot">Orbot (TOR)</string>
+    <string name="proxy_i2p">I2P</string>
+    <string name="proxy_host">Хост</string>
+    <string name="proxy_port">Порт</string>
+    <string name="proxy_apply">Применить и перезапустить прокси</string>
+    <string name="proxy_applied">Прокси применён</string>
+    <string name="proxy_not_supported">Прокси не поддерживается этой версией WebView</string>
+    <string name="proxy_orbot_missing">Orbot не установлен. Открыть страницу в маркете?</string>
+    <string name="proxy_orbot_open">Открыть Orbot</string>
+    <string name="proxy_orbot_note">Запустите Orbot и включите режим VPN — трафик браузера пойдёт через TOR.</string>
+    <string name="vpn_profiles">VPN-профили (.conf)</string>
+    <string name="vpn_import">Импортировать .conf</string>
+    <string name="vpn_imported">Профиль импортирован: %s</string>
+    <string name="vpn_empty">Нет профилей. Импортируйте .conf — WireGuard или Amnezia.</string>
+    <string name="vpn_connect">Подключить</string>
+    <string name="vpn_share">Отправить профиль</string>
+    <string name="vpn_delete_confirm">Удалить профиль?</string>
+    <string name="vpn_remotes_fmt">Серверов: %d</string>
+
+    <!-- site settings -->
+    <string name="site_list_hint">Настройки для отдельных сайтов (домен)</string>
+    <string name="site_add_domain">Добавить домен</string>
+    <string name="site_domain_hint">например, example.com</string>
+    <string name="site_entry_delete_confirm">Удалить настройки домена?</string>
+    <string name="site_default">По умолчанию</string>
+    <string name="site_allow">Разрешить</string>
+    <string name="site_block">Запретить</string>
+
+    <!-- advanced -->
+    <string name="set_user_agent">User-Agent</string>
+    <string name="set_reset_all">Сбросить все настройки</string>
+    <string name="set_reset_confirm">Сбросить все настройки браузера?</string>
+
+    <!-- clear data -->
+    <string name="clear_history">История</string>
+    <string name="clear_cookies">Cookies и данные сайтов</string>
+    <string name="clear_cache">Кэш</string>
+    <string name="clear_forms">Данные форм</string>
+    <string name="clear_pwds">Сохранённые пароли</string>
+    <string name="clear_bookmarks">Закладки</string>
+    <string name="clear_btn">Очистить выбранное</string>
+    <string name="clear_confirm">Удалить выбранные данные безвозвратно?</string>
+    <string name="clear_done">Данные удалены</string>
+
+    <!-- language -->
+    <string name="lang_title">Язык интерфейса</string>
+    <string name="lang_system">Как в системе</string>
+    <string name="lang_restart">Изменение применится после перезапуска приложения</string>
+
+    <!-- about -->
+    <string name="about_version">Версия</string>
+    <string name="about_engine">Движок: Android WebView (Chromium)</string>
+    <string name="about_desc">Лёгкий браузер: блокировка рекламы, приватный режим, пароли, темы, прокси.</string>
+
+    <!-- ==================== player ==================== -->
+    <string name="pl_title_default">Медиафайл</string>
+    <string name="pl_error">Не удалось воспроизвести файл</string>
+    <string name="pl_play">Воспроизвести</string>
+    <string name="pl_pause">Пауза</string>
+    <string name="pl_replay">Повторить</string>
+    <string name="pl_back">Назад</string>
+
+    <!-- ==================== widget ==================== -->
+    <string name="wg_config_title">Поиск Zephyr</string>
+    <string name="wg_search_preview">Поиск</string>
+    <string name="wg_search_hint">Поиск в %s</string>
+    <string name="wg_image_search">Поиск по картинке</string>
+    <string name="wg_voice_search">Голосовой поиск</string>
+    <string name="wg_ai_chat">ИИ-чат</string>
+    <string name="wg_engine_pick">Поисковая система для виджета</string>
+    <string name="wg_widget_desc">Быстрый поиск с выбором поисковой системы</string>
+    <string name="ua_system">Системный (по умолчанию)</string>
+    <string name="ua_mobile">Мобильный</string>
+    <string name="ua_desktop">Десктопный</string>
+    <string name="ua_custom">Свой</string>
+    <string name="set_do_not_track_sum">Сайты увидят сигнал Do-Not-Track (navigator.doNotTrack)</string>
+    <string name="set_reset_done">Настройки сброшены. Перезапустите приложение.</string>
+    <string name="bg_default">По умолчанию</string>
+    <string name="bg_photo_set">Фото</string>
+    <string name="bg_photo_applied">Фото фона применено</string>
+    <string name="bg_photo_failed">Не удалось загрузить фото</string>
+    <string name="toolbar_applied">Кнопки панели обновлены</string>
+    <string name="bm_save_private">Сохранить в приватные</string>
+    <string name="bm_move_private_out">Перенести приватные в обычные</string>
+    <string name="bm_move_need_private">Откройте раздел «Приватные»</string>
+    <string name="bm_moved_fmt">Перенесено закладок: %d</string>
+    <string name="ts_count_fmt">Вкладок: %d</string>
+    <string name="vpn_notif_title">Zephyr VPN</string>
+    <string name="vpn_notif_text">Встроенный туннель активен</string>
+    <string name="vpn_err_tls">Не удалось проверить сертификат сервера</string>
+    <string name="vpn_err_refused">Сервер недоступен (отказ в соединении)</string>
+    <string name="vpn_err_timeout">Превышено время ожидания соединения</string>
+    <string name="vpn_err_auth">Ошибка аутентификации (логин/пароль)</string>
+    <string name="vpn_err_tlscrypt">Профиль использует сжатие comp-lzo — встроенный клиент его не поддерживает. Можно открыть профиль во внешнем клиенте. tls-crypt и UDP теперь работают!</string>
+    <string name="vpn_err_udp">В профиле нет доступных серверов</string>
+    <string name="vpn_err_noca">В профиле нет CA-сертификата</string>
+    <string name="vpn_err_handshake">Рукопожатие не завершено</string>
+    <string name="vpn_state_connected">Подключено</string>
+    <string name="vpn_state_connecting">Подключение…</string>
+    <string name="vpn_state_failed">Ошибка</string>
+    <string name="vpn_state_disconnected">Отключено</string>
+    <string name="vpn_state_idle">Встроенный VPN</string>
+    <string name="vpn_disconnect">Отключить VPN</string>
+    <string name="vpn_connect_builtin">Подключить (встроенный клиент)</string>
+    <string name="vpn_open_external">Открыть во внешнем клиенте</string>
+    <string name="vpn_browser_only">Только трафик браузера</string>
+    <string name="vpn_browser_only_sum">Туннелировать только Zephyr, не затрагивая другие приложения</string>
+    <string name="vpn_builtin_sum">Импортируйте .conf (WireGuard/Amnezia) и подключайтесь без сторонних приложений</string>
+    <string name="vpn_unparsed">Неподдерживаемый профиль</string>
+    <string name="vpn_unsupported_title">Неподдерживаемая конфигурация</string>
+    <string name="vpn_username">Логин</string>
+    <string name="vpn_password">Пароль</string>
+    <!-- v1.4.1: home screen customization -->
+    <string name="set_home_screen">Главный экран</string>
+    <string name="set_open_panel">Открыть панель</string>
+    <string name="set_search">Поиск</string>
+    <string name="set_home_search_bar">Поисковая панель на главном</string>
+    <string name="set_home_search_bar_sum">Скрыть, чтобы остался только верхний адресный бар</string>
+    <string name="set_home_grid">Сетка и размеры</string>
+    <string name="set_grid_columns">Столбцов в сетке</string>
+    <string name="set_tile_size">Размер плиток</string>
+    <string name="set_tile_size_sum">Маленькие, средние или крупные ярлыки</string>
+    <string name="size_small">Маленькие</string>
+    <string name="size_medium">Средние</string>
+    <string name="size_large">Крупные</string>
+    <string name="bg_none">Не установлено</string>
+    <string name="bg_hex_bad">Неверный HEX (нужно 6 знаков, например 1A73E8)</string>
+
+    <!-- v1.4.1: new themes -->
+    <string name="theme_rose">Роза</string>
+    <string name="theme_forest">Лес</string>
+    <string name="theme_ocean">Океан</string>
+    <string name="theme_plum">Слива</string>
+    <string name="theme_sand">Песок</string>
+    <string name="theme_midnight">Полночь</string>
+    <string name="theme_porcelain">Фарфор</string>
+
+    <!-- v1.4.1: payments -->
+    <string name="panel_payments">Платёжные данные</string>
+    <string name="menu_payments">Платёжные данные</string>
+    <string name="pay_add_card">Добавить карту</string>
+    <string name="pay_add_paypal">Добавить PayPal</string>
+    <string name="pay_number">Номер карты</string>
+    <string name="pay_holder">Владелец карты</string>
+    <string name="pay_expiry">Срок действия (MM/YY)</string>
+    <string name="pay_zip">Индекс / ZIP</string>
+    <string name="pay_bad_number">Проверьте номер карты</string>
+    <string name="pay_bad_email">Проверьте e-mail</string>
+    <string name="pay_paypal">PayPal</string>
+    <string name="pay_empty">Нет сохранённых способов оплаты</string>
+    <string name="pay_security_title">Секретное хранилище</string>
+    <string name="pay_security_note">Номер карты и CVV зашифрованы AES-256-GCM ключом из Android Keystore и никогда не покидают устройство в открытом виде.</string>
+    <string name="pay_copy_number">Скопировать номер</string>
+    <string name="pay_copy_cvv">Скопировать CVV (30 сек)</string>
+    <string name="pay_copied_cvv">CVV скопирован, буфер очистится через 30 с</string>
+    <string name="pay_quick_fill">Заполнить платёжные данные</string>
+    <string name="pay_manage">Управлять</string>
+    <string name="pay_none_saved">Нет сохранённых карт — добавьте в Платёжных данных</string>
+
+    <!-- v1.4.1: downloads -->
+    <string name="dl_in_progress">Загружается…</string>
+
+    <!-- v1.4.2 FIX 7: login autofill + save modes -->
+    <string name="autofill_offer_title">Автозаполнение логина</string>
+    <string name="autofill_offer_msg">Подставить сохранённый логин %1$s для %2$s?\nПароль будет скрыт до подтверждения экраном блокировки.</string>
+    <string name="autofill_fill">Заполнить</string>
+    <string name="save_remember_site">Запомнить выбор для этого сайта</string>
+
+    <!-- v1.7.24: Bottom search bar & AI Assistant & New Themes -->
+    <string name="set_bottom_search_bar">Панель поиска снизу</string>
+    <string name="set_bottom_search_bar_sum">Перенести адресную строку и кнопки управления в нижнюю часть экрана</string>
+    <string name="set_ai_assistant">ИИ Помощник</string>
+    <string name="set_ai_provider">ИИ Провайдер</string>
+    <string name="set_ai_api_key">API Ключ</string>
+    <string name="set_ai_endpoint">Endpoint (URL API)</string>
+    <string name="set_ai_model">Модель (gpt-4o-mini / deepseek-chat)</string>
+    <string name="set_ai_prompt">Системный промпт</string>
+    <string name="ai_summarize">Выжимка страницы</string>
+    <string name="ai_translate">Перевести страницу</string>
+    <string name="ai_explain">Объяснить выделенное</string>
+    <string name="ai_ask_hint">Задайте вопрос ИИ ассистенту…</string>
+    <string name="ai_no_key_title">Настройте ИИ Помощник</string>
+    <string name="ai_no_key_msg">Укажите API Key и Endpoint в Настройки → ИИ Помощник для подключения своего ИИ провайдера (OpenAI, DeepSeek, Groq, OpenRouter, Ollama).</string>
+    <string name="ai_thinking">ИИ думает…</string>
+    <string name="ai_configure">Настроить API</string>
+    <string name="theme_cyberpunk">Cyberpunk Neon</string>
+    <string name="theme_sakura">Sakura Blossom</string>
+    <string name="theme_espresso">Espresso Mocha</string>
+    <string name="theme_nord">Nord Frost</string>
+    <string name="theme_emerald">Emerald Forest</string>
+    <string name="theme_amber">Amber Gold</string>
+    <!-- v1.7.25: AI Assistant rework (multi-model, attachments, new chat UI) -->
+    <string name="ai_choose_model">Выбор модели</string>
+    <string name="ai_add_model">Добавить модель</string>
+    <string name="ai_edit_model">Изменить модель</string>
+    <string name="ai_manage_models">Управление моделями</string>
+    <string name="ai_models">Мои модели ИИ</string>
+    <string name="ai_field_name">Название</string>
+    <string name="ai_field_endpoint">Endpoint (URL API)</string>
+    <string name="ai_field_model">Идентификатор модели</string>
+    <string name="ai_field_key">API ключ</string>
+    <string name="ai_pick_provider">⚡ Выбрать готового провайдера</string>
+    <string name="ai_endpoint_hint">Можно указать базовый адрес (например https://integrate.api.nvidia.com/v1) — путь /chat/completions Zephyr добавит сам.</string>
+    <string name="ai_new_chat">Новый диалог</string>
+    <string name="ai_attach_photo">Изображение</string>
+    <string name="ai_attach_doc">Документ</string>
+    <string name="ai_attach">Прикрепить</string>
+    <string name="ai_copy">Копировать</string>
+    <string name="ai_share">Поделиться</string>
+    <string name="ai_retry">Повторить</string>
+    <string name="ai_greeting_title">Чем помочь?</string>
+    <string name="ai_greeting_sub">Спросите что угодно, прикрепите фото или документ — или начните с подсказки ниже.</string>
+    <string name="ai_sug_summary">Выжимка страницы</string>
+    <string name="ai_sug_translate">Перевести страницу</string>
+    <string name="ai_sug_explain">Объяснить простыми словами</string>
+    <string name="ai_sug_key">Главные тезисы</string>
+    <string name="ai_reading_file">Читаю вложения…</string>
+    <string name="ai_attachment_failed">Не удалось прочитать файл</string>
+    <string name="ai_stop">Остановить</string>
+    <!-- v1.7.25b: persistent chats, floating bubble, new model sheet -->
+    <string name="ai_chats">История диалогов</string>
+    <string name="ai_no_chats">Пока нет сохранённых диалогов</string>
+    <string name="ai_untitled_chat">Без названия</string>
+    <string name="ai_rename_chat">Переименовать</string>
+    <string name="ai_delete_chat">Удалить диалог</string>
+    <string name="ai_clear_all_chats">Удалить все диалоги</string>
+    <string name="ai_clear_all_chats_msg">Все сохранённые диалоги с ИИ будут удалены безвозвратно.</string>
+    <string name="ai_minimize">Свернуть в кнопку</string>
+    <string name="ai_bubble_open">Открыть диалог</string>
+    <string name="ai_bubble_hide">Убрать кнопку</string>
+    <string name="ai_choose_model_sub">Нажмите на модель, чтобы переключиться. Карандаш — изменить параметры.</string>
+    <!-- v1.7.25b: video sniffer — thumbnails, resolutions, embed resolver -->
+    <string name="sniff_find_video">Найти видео</string>
+    <string name="sniff_resolving">Ищу прямые ссылки в плеере…</string>
+    <string name="sniff_resolve_empty">Прямых ссылок не нашлось — откройте плеер в новой вкладке</string>
+    <string name="sniff_resolve_hint">Нажмите «Найти видео», чтобы достать ссылки из плеера</string>
+    <string name="ai_select_text">Выделить текст</string>
+    <!-- v1.7.26: streaming status, voice input, background replies -->
+    <string name="ai_connecting">Подключаюсь…</string>
+    <string name="ai_seconds">с</string>
+    <string name="ai_thinking_block">Размышления модели</string>
+    <string name="ai_reply_ready">ИИ ответил — откройте плавающую кнопку</string>
+    <string name="ai_voice">Голосовой ввод</string>
+    <!-- v1.7.27: generation tuning, usage readout -->
+    <string name="ai_generation">Параметры генерации</string>
+    <string name="ai_behaviour">Поведение</string>
+    <string name="ai_temperature">Температура</string>
+    <string name="ai_temperature_hint">Ниже — строже и предсказуемее, выше — свободнее и креативнее. 0.70 — сбалансированное значение.</string>
+    <string name="ai_max_tokens">Лимит ответа (токены)</string>
+    <string name="ai_max_tokens_hint">Максимальная длина одного ответа. Больше токенов — длиннее ответ и выше расход.</string>
+    <string name="ai_history_depth">Глубина истории</string>
+    <string name="ai_history_depth_hint">Сколько прошлых сообщений отправлять модели. Меньше — дешевле и быстрее, больше — лучше помнит контекст.</string>
+    <string name="ai_history_depth_fmt">%1$d сообщений</string>
+    <string name="ai_streaming">Потоковый вывод</string>
+    <string name="ai_streaming_sub">Ответ печатается по мере генерации, видны стадии и размышления модели</string>
+    <string name="ai_show_usage">Показывать расход токенов</string>
+    <string name="ai_show_usage_sub">Под каждым ответом — сколько токенов и секунд он стоил</string>
+    <string name="ai_send_page">Передавать текст страницы</string>
+    <string name="ai_send_page_sub">ИИ видит содержимое открытой вкладки. Выключите, если не хотите отправлять её провайдеру</string>
+    <string name="ai_tokens_fmt">%1$d ток.</string>
+    <!-- v1.7.28: drag-to-dismiss target -->
+    <string name="drag_close_hint">Перетащите сюда, чтобы убрать</string>
+    <string name="drag_close_release">Отпустите, чтобы убрать</string>
+    <!-- v1.7.28: AI setup export / import -->
+    <string name="ai_bk_section">Данные и перенос</string>
+    <string name="ai_bk_export">Экспорт помощников</string>
+    <string name="ai_bk_export_sub">Сохранить модели, ключи и настройки в файл</string>
+    <string name="ai_bk_import">Импорт помощников</string>
+    <string name="ai_bk_import_sub">Загрузить набор моделей из файла</string>
+    <string name="ai_bk_include_keys">Включить API-ключи</string>
+    <string name="ai_bk_include_chats">Включить историю диалогов</string>
+    <string name="ai_bk_password">Пароль файла</string>
+    <string name="ai_bk_password_hint">Пароль (оставьте пустым — без шифрования)</string>
+    <string name="ai_bk_key_warning">API-ключи — это доступ к вашему оплаченному аккаунту. Если файл уходит другому человеку, обязательно задайте пароль, а передавайте его отдельно от файла.</string>
+    <string name="ai_bk_exported">Файл сохранён</string>
+    <string name="ai_bk_imported">Импорт завершён</string>
+    <string name="ai_bk_not_ours">Это не файл ИИ-помощника Zephyr</string>
+    <string name="ai_bk_import_mode">Добавить модели к уже имеющимся или заменить весь список?</string>
+    <string name="ai_bk_merge">Добавить</string>
+    <string name="ai_bk_replace">Заменить</string>
+    <string name="ai_bk_done_models">Моделей: %1$d</string>
+    <string name="ai_bk_done_chats">Диалогов: %1$d</string>
+    <string name="ai_bk_no_keys">Файл был без API-ключей — впишите их в каждой модели вручную.</string>
+    <string name="ai_jump_bottom">Вниз, к последнему сообщению</string>
+    <!-- v1.7.29: popup-menu groups -->
+    <string name="menu_grp_page">Страница</string>
+    <string name="menu_grp_save">Сохранить</string>
+    <string name="menu_grp_share">Поделиться</string>
+    <string name="menu_grp_tools">Инструменты</string>
+    <string name="menu_grp_privacy">Приватность и защита</string>
+    <string name="menu_grp_library">Библиотека</string>
+    <string name="menu_grp_app">Приложение</string>
+    <!-- v1.7.30: web access for the assistant -->
+    <string name="ai_web_access">Доступ в интернет</string>
+    <string name="ai_web_access_sub">ИИ сам ищет в DuckDuckGo и читает страницы, когда нужны свежие данные. Запросы уходят в поиск.</string>
+    <!-- v1.7.33: remote agent pairing -->
+    <string name="agent_title">Подключить ИИ-агента</string>
+    <string name="agent_sub">Агент отвечает вместо API-ключа. Код и скрипт отдайте агенту — он подключится сам.</string>
+    <string name="agent_no_code">Код ещё не создан</string>
+    <string name="agent_new_code">Создать новый код</string>
+    <string name="agent_code_ready">Код готов — передайте его агенту</string>
+    <string name="agent_state_online">Агент на связи: %1$s</string>
+    <string name="agent_state_waiting">Жду подключения агента…</string>
+    <string name="agent_state_off">Не подключено</string>
+    <string name="agent_copy_code">Скопировать код</string>
+    <string name="agent_copy_code_sub">Только код пейринга</string>
+    <string name="agent_copy_prompt">Скопировать инструкцию для агента</string>
+    <string name="agent_copy_prompt_sub">Готовый текст: что агенту сделать, с кодом внутри</string>
+    <string name="agent_copy_script">Скопировать скрипт-коннектор</string>
+    <string name="agent_copy_script_sub">zephyr_link.py — только стандартная библиотека Python</string>
+    <string name="agent_share_all">Отправить агенту всё сразу</string>
+    <string name="agent_share_all_sub">Инструкция и скрипт одним сообщением</string>
+    <string name="agent_check">Проверить связь</string>
+    <string name="agent_check_sent">Запрос отправлен — статус обновится сам</string>
+    <string name="agent_unpair">Отключить агента</string>
+    <string name="agent_unpair_sub">Код перестанет действовать</string>
+    <string name="agent_unpair_confirm">Код будет удалён, связь разорвана. Помощник вернётся на обычную модель.</string>
+    <string name="agent_note">Связь идёт через публичный ретранслятор, но содержимое шифруется ключом из вашего кода — посредник видит только шифртекст. Агент должен оставаться запущенным: закрыл песочницу — связь пропала.</string>
+    <string name="agent_prompt_template">Подключись к моему браузеру Zephyr как ИИ-помощник.\n\n1. Сохрани приложённый скрипт как zephyr_link.py\n2. Выполни:\n   export ZEPHYR_CODE=%1$s\n   export ZEPHYR_SERVER=%2$s\n   export ZEPHYR_AGENT=\"твоё имя\"\n   python3 zephyr_link.py hello\n3. Дальше в цикле:\n   python3 zephyr_link.py listen        # ждёт вопрос, печатает JSON, выходит\n   (думаешь своей головой)\n   python3 zephyr_link.py reply --id ID \"твой ответ\"\n\nОтвечай в Markdown. Никаких API-ключей не нужно — отвечаешь ты сам.</string>
+    <string name="agent_menu">Подключить агента</string>
+    <string name="agent_timeout">Ждать ответа агента</string>
+    <string name="agent_timeout_hint">Сколько секунд ждать, прежде чем считать агента офлайн.</string>
+    <string name="agent_timeout_fmt">%1$d с</string>
+    <string name="agent_fallback">Откат на обычную модель</string>
+    <string name="agent_fallback_sub">Если агент молчит — ответит первая настроенная модель из списка</string>
+    <string name="agent_relay">Ретранслятор</string>
+    <!-- v1.7.36: agent screen + swarm -->
+    <string name="agent_status_section">Состояние связи</string>
+    <string name="agent_code_section">Код подключения</string>
+    <string name="agent_handoff_section">Передать агенту</string>
+    <string name="agent_link_section">Связь</string>
+    <string name="agent_new_code_sub">Прежний код перестанет действовать</string>
+    <string name="agent_regenerate_confirm">Старый код перестанет работать — агенту придётся подключиться заново с новым.</string>
+    <string name="agent_check_sub">Отправить пинг и обновить состояние</string>
+    <string name="agent_relay_hint">Через этот адрес идёт обмен. По умолчанию публичный ntfy.sh; можно указать свой.</string>
+    <string name="swarm_title">Рой ИИ-агентов</string>
+    <string name="swarm_sub">Несколько моделей отвечают как одна команда</string>
+    <string name="swarm_intro">Помощник перестаёт зависеть от одной модели. Отметьте, кто участвует — если первый недоступен, подхватит следующий, и вы этого даже не заметите.</string>
+    <string name="swarm_mode_section">Режим работы</string>
+    <string name="swarm_enable">Включить рой</string>
+    <string name="swarm_enable_sub">Отвечает команда, а не выбранная модель</string>
+    <string name="swarm_mode">Как отвечают</string>
+    <string name="swarm_mode_chain">Цепочка</string>
+    <string name="swarm_mode_chain_sub">По очереди — отвечает первый, кто смог</string>
+    <string name="swarm_mode_council">Совет</string>
+    <string name="swarm_mode_council_sub">Отвечают все, каждый ответ подписан именем</string>
+    <string name="swarm_members_section">Участники</string>
+    <string name="swarm_member_agent_online">Подключённый агент · на связи</string>
+    <string name="swarm_member_agent_offline">Подключённый агент · офлайн</string>
+    <string name="swarm_member_nokey">Нет ключа — участвовать не сможет</string>
+    <string name="swarm_no_models">Пока нет ни одной модели</string>
+    <string name="swarm_off_note">Рой выключен — отвечает выбранная модель.</string>
+    <string name="swarm_empty_note">Ни один участник не отмечен — отметьте хотя бы одного.</string>
+    <string name="swarm_order_note">Порядок опроса: %1$s</string>
+    <string name="swarm_free_section">Бесплатные ключи</string>
+    <string name="swarm_free_body">Эти тарифы бесплатны и работают всегда:\n\n• Google Gemini — 1500 запросов в сутки, ключ на aistudio.google.com\n• Groq — очень быстрая Llama 3.3 70B, console.groq.com\n• OpenRouter — модели с суффиксом :free\n\nЗаведите два-три таких ключа в рой — и помощник будет доступен даже когда агент спит.</string>
+    <string name="swarm_add_sub">Пресеты Gemini и Groq уже в списке провайдеров</string>
+    <string name="swarm_pick_members">Нажмите, чтобы выбрать участников</string>
+    <string name="swarm_or_single">…или одна конкретная модель</string>
+    <string name="swarm_count">участников: %1$d</string>
+    <!-- v1.7.38 -->
+    <string name="net_offline">Нет подключения к интернету</string>
+    <string name="burn_title">Сжечь данные</string>
+    <string name="burn_menu">🔥 Сжечь всё</string>
+    <string name="burn_confirm">Закрыть все вкладки и стереть историю, куки, кэш и данные сайтов. Закладки и пароли останутся.</string>
+    <string name="burn_done">Сожжено — чисто</string>
+    <string name="ai_today">Сегодня</string>
+    <string name="ai_yesterday">Вчера</string>
+    <string name="net_offline_hint">Проверьте Wi-Fi или мобильный интернет и попробуйте снова.</string>
+    <string name="net_still_offline">Интернета по-прежнему нет</string>
+    <!-- v1.7.41: what the assistant is allowed to do -->
+    <string name="ai_abilities">Что может помощник</string>
+    <string name="ai_tools_page">Работа со страницей</string>
+    <string name="ai_tools_page_sub">Читать открытую страницу, собирать с неё данные, прокручивать, нажимать и заполнять поля</string>
+    <string name="ai_tools_browser">Управление браузером</string>
+    <string name="ai_tools_browser_sub">Открывать вкладки, запускать поиск, показывать и закрывать вкладки</string>
+    <string name="ai_tools_data">Доступ к моим данным</string>
+    <string name="ai_tools_data_sub">Искать по истории, закладкам, загрузкам и файлам на телефоне</string>
+    <string name="ai_trust_actions">Не спрашивать подтверждение</string>
+    <string name="ai_trust_actions_sub">Выполнять действия сразу, без вопроса каждый раз</string>
+    <string name="ai_trust_actions_warn">Помощник сможет нажимать кнопки, заполнять формы, добавлять закладки и закрывать вкладки без вашего разрешения. Включайте, только если доверяете модели, которая отвечает. Выключить можно в любой момент.</string>
+    <string name="ai_abilities_note">Выключите любой пункт — и соответствующие инструменты просто не будут предложены модели. Пароли и платёжные данные помощнику недоступны ни при каких настройках.</string>
+    <string name="ai_act_click">Помощник хочет нажать на странице</string>
+    <string name="ai_act_fill">Помощник хочет заполнить поле</string>
+    <string name="ai_act_bookmark">Помощник хочет добавить закладку</string>
+    <string name="ai_act_close_tab">Помощник хочет закрыть вкладку</string>
+    <!-- v1.7.42: model setup by the assistant + audio answers -->
+    <string name="ai_tools_models">Настройка моделей</string>
+    <string name="ai_tools_models_sub">Помощник может добавить новый профиль модели с ключом и переключить активную</string>
+    <string name="ai_act_add_model">Помощник хочет добавить модель</string>
+    <string name="ai_audio_play">Прослушать озвучку</string>
+    <string name="ai_audio_pause">Пауза</string>
+    <string name="ai_audio_loading">Загружаю…</string>
+    <string name="ai_audio_failed">Не удалось воспроизвести</string>
+    <string name="ai_requests_fmt">%1$d запр.</string>
+    <string name="ai_media_working">Генерирую…</string>
+    <string name="ai_media_timeout">Файл так и не появился — откройте ссылку вручную</string>
+    <!-- v1.7.48 -->
+    <string name="ai_continue">Продолжить</string>
+    <string name="ai_edit_msg">Изменить</string>
+    <string name="ai_image_saved">Сохранено в Pictures/Zephyr</string>
+    <string name="ai_field_prompt">Промпт этой модели</string>
+    <string name="ai_field_prompt_hint">Необязательно — если пусто, берётся общий</string>
+    <string name="ai_search_chats">Поиск по диалогам</string>
+    <string name="sel_ask_ai">Спросить ИИ</string>
+    <string name="sel_explain_ai">Объяснить</string>
+    <string name="files_jump_missing">Файл не найден: %1$s</string>
+    <string name="ai_open_in_files">Показать в Файлах</string>
+    <!-- v1.7.50: certificate warning -->
+    <string name="ssl_reason_expired">Срок действия сертификата истёк.</string>
+    <string name="ssl_reason_mismatch">Сертификат выдан для другого адреса.</string>
+    <string name="ssl_reason_untrusted">Сертификат выдан неизвестным центром.</string>
+    <string name="ssl_reason_notyet">Сертификат ещё не вступил в силу.</string>
+    <string name="ssl_reason_other">Соединение не удалось проверить.</string>
+    <string name="ssl_blocked">Переход на %1$s отменён — соединение небезопасно.</string>
+    <!-- v1.7.50: convenience batch -->
+    <string name="ai_path_open">Открыть файл</string>
+    <string name="ai_path_copy">Скопировать путь</string>
+    <string name="ai_path_folder">Папка</string>
+    <string name="ai_actions">Что сделал помощник</string>
+    <string name="ai_actions_empty">В этой сессии помощник ничего не делал</string>
+    <string name="preset_title">Режим ответов</string>
+    <string name="preset_default">Обычный</string>
+    <string name="preset_short">Коротко и по делу</string>
+    <string name="preset_translate">Переводчик</string>
+    <string name="preset_code">Разбор кода</string>
+    <string name="preset_facts">Только проверенное</string>
+    <!-- v1.7.51: reasoning effort -->
+    <string name="think_title">Глубина размышлений</string>
+    <string name="think_hint">Модели с рассуждениями думают перед ответом. На простых вопросах это лишние секунды. Если модель не понимает эту настройку, Zephyr молча отправит запрос без неё.</string>
+    <string name="think_auto">Авто — как решит модель</string>
+    <string name="think_off">Выключить — отвечать сразу</string>
+    <string name="think_low">Низкая</string>
+    <string name="think_medium">Средняя</string>
+    <string name="think_high">Высокая</string>
+    <string name="think_known">Модель «%1$s» почти наверняка поддерживает эту настройку.</string>
+    <string name="think_unknown">Про «%1$s» заранее неизвестно. Если провайдер откажет, Zephyr один раз повторит запрос без этой настройки и больше не будет её отправлять этой модели.</string>
+</resources>

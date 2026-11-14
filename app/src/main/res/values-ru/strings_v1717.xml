@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.17: photo viewer, video player upgrades, floating player, home variant toast.
+     NOTE: never use a double hyphen inside XML comments (AAPT/SAX hard error). -->
+<resources>
+    <!-- home variant apply confirmation (the ghost openScreen jump is gone) -->
+    <string name="home_variant_applied">Главная страница применена</string>
+
+    <!-- built-in photo viewer -->
+    <string name="pv_photo">Фото</string>
+    <string name="pv_info">Сведения</string>
+    <string name="pv_dimens">Разрешение: %1$d × %2$d</string>
+    <string name="pv_filesize">Размер: %1$s</string>
+    <string name="pv_path">Путь: %1$s</string>
+    <string name="pv_date">Изменён: %1$s</string>
+    <string name="pv_delete_q">Удалить это фото?</string>
+    <string name="pv_deleted">Удалено</string>
+    <string name="pv_load_error">Не удалось открыть фото</string>
+
+    <!-- built-in video player upgrades -->
+    <string name="pl_speed">Скорость</string>
+    <string name="pl_aspect">Формат кадра</string>
+    <string name="pl_aspect_fit">Вписать в экран</string>
+    <string name="pl_aspect_fill">Обрезать по экрану</string>
+    <string name="pl_aspect_stretch">Растянуть</string>
+    <string name="pl_rotate">Повернуть экран</string>
+    <string name="pl_rew_10">-10 сек</string>
+    <string name="pl_fwd_10">+10 сек</string>
+    <string name="pl_brightness">Яркость</string>
+    <string name="pl_volume">Громкость</string>
+    <string name="pl_watch_in_zephyr">Смотреть в Zephyr</string>
+    <string name="pl_listen_in_zephyr">Слушать в Zephyr</string>
+
+    <!-- floating player (mini window over the browser) -->
+    <string name="fl_menu">Плавающий плеер</string>
+    <string name="fl_float_hint">В плавающее окно</string>
+    <string name="fl_expand">Развернуть</string>
+    <string name="fl_close">Закрыть</string>
+    <string name="fl_no_media">На этой вкладке нет видео или звука</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.93: one task at a time, in the same pill shape as the search widget.
+
+  For a home screen that has no room for a list. The arrows step through what is
+  due instead of scrolling, which RemoteViews cannot do without a service — and
+  stepping is what people actually do with three or four items anyway.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tpRoot"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/widget_pill_dark"
+    android:paddingStart="12dp"
+    android:paddingEnd="4dp">
+
+    <ImageView
+        android:id="@+id/tpIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_list"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tpText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="4dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/tpPrev"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_chevron_left"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/tp_prev" />
+
+    <ImageView
+        android:id="@+id/tpNext"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_chevron_right"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/tp_next" />
+</LinearLayout>

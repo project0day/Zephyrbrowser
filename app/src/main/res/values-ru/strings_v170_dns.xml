@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.0: built-in DNS + leak protection -->
+    <string name="dns_status">Состояние</string>
+    <string name="dns_provider">DNS-сервер</string>
+    <string name="dns_protocol">Протокол</string>
+    <string name="dns_proto_plain">Обычный (UDP 53)</string>
+    <string name="dns_proto_dot">DNS-over-TLS (853)</string>
+    <string name="dns_proto_doh">DNS-over-HTTPS (443)</string>
+    <string name="dns_custom">Свой сервер…</string>
+    <string name="dns_custom_ip">IP-адрес DNS</string>
+    <string name="dns_leak">Защита от утечек DNS</string>
+    <string name="dns_leak_sum">Перехватывать запросы к известным публичным DNS (8.8.8.8 и др.) и проводить их через выбранный сервер</string>
+    <string name="dns_state_active">Частный DNS активен</string>
+    <string name="dns_state_inactive">Частный DNS выключен</string>
+    <string name="dns_turn_on">Включить</string>
+    <string name="dns_turn_off">Выключить</string>
+    <string name="dns_pick_provider_first">Сначала выберите DNS-сервер</string>
+    <string name="dns_queries_fmt">Запросов: %1$d · ошибок: %2$d</string>
+    <string name="dns_provider_line">Выбрано: %s</string>
+    <string name="dns_bad_ip">Некорректный IP-адрес</string>
+    <string name="dns_apply_note">Как это работает</string>
+    <string name="dns_apply_note_sum">Частный режим поднимает локальный туннель только для DNS: весь остальной трафик идёт напрямую, без потери скорости. Запросы шифруются (DoT/DoH) и уходят на выбранный сервер. С включённым OpenVPN/WireGuard выбранный DNS принудительно маршрутизируется через туннель.</string>
+    <string name="dns_notif_title">Zephyr DNS</string>
+    <string name="dns_notif_text">Частный DNS активен — утечки исключены</string>
+    <string name="dns_desc_system_title">Системный</string>
+    <string name="dns_desc_system">DNS вашей текущей сети (по умолчанию)</string>
+    <string name="dns_desc_cloudflare">Быстрый; логи IP хранятся 25 часов</string>
+    <string name="dns_desc_cf_family">Блокирует вредоносные и взрослые сайты</string>
+    <string name="dns_desc_google">Быстрый; ведёт статистику запросов</string>
+    <string name="dns_desc_quad9">Блокирует вредоносные домены, без логов IP</string>
+    <string name="dns_desc_adguard">Блокирует рекламу и трекеры на уровне DNS</string>
+    <string name="dns_desc_adguard_family">Реклама + вредоносные + взрослые сайты</string>
+    <string name="dns_desc_opendns">Настраиваемая фильтрация Cisco</string>
+    <string name="dns_desc_comodo">Блокирует вредоносные домены</string>
+    <string name="dns_desc_yandex">Быстрый в СНГ; фильтрация мошеннических сайтов</string>
+    <string name="dns_desc_mullvad">Без логов вообще; блокирует рекламу</string>
+    <string name="dns_desc_custom">Ваш собственный резолвер</string>
+</resources>

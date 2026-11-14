@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_favicon_net">Load site icons</string>
+    <string name="set_favicon_net_sum">Proper icons on tabs and bookmarks. A third-party icon service learns the domain name in the process. Never used in private tabs.</string>
+
+    <string name="about_legal">Documents</string>
+    <string name="about_privacy">Privacy policy</string>
+    <string name="about_privacy_sum">What stays on the device, and what leaves it</string>
+    <string name="about_terms">Terms of use</string>
+    <string name="about_terms_sum">What you are buying, and what you are responsible for</string>
+    <string name="about_licenses">Open source licences</string>
+    <string name="about_licenses_sum">The libraries this application is built on</string>
+    <string name="about_support">Support</string>
+    <string name="about_engine_unknown">could not be determined</string>
+    <string name="about_doc_missing">Document not found</string>
+    <string name="crash_report_sum">Send the details of the last crash — by hand, through an app of your choosing</string>
+</resources>

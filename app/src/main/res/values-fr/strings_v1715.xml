@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.15 : actions de sélection de texte, lecteurs iframe du renifleur
+     vidéo, flux d\'installation APK (sources inconnues), correctifs divers. -->
+<resources>
+    <!-- ==== actions du menu de sélection de texte (appui long) ==== -->
+    <string name="sel_translate">Traduire</string>
+    <string name="sel_search">Rechercher</string>
+    <string name="sel_share">Partager</string>
+    <string name="sel_tts">À voix haute</string>
+    <string name="sel_translate_title">Traduction de la sélection</string>
+    <string name="sel_translating">Traduction de la sélection…</string>
+    <string name="sel_translate_failed">Impossible de traduire le texte sélectionné</string>
+    <string name="sel_empty">Impossible de récupérer le texte sélectionné</string>
+    <string name="sel_copy_result">Copier la traduction</string>
+    <string name="sel_tts_on">Lecture du texte sélectionné</string>
+    <string name="sel_tts_fail">La synthèse vocale est indisponible</string>
+
+    <!-- ==== renifleur vidéo : lecteurs iframe cross-origin ==== -->
+    <string name="sniff_embed">Lecteur · %1$s</string>
+    <string name="sniff_open_tab">Ouvrir dans un nouvel onglet</string>
+    <string name="sniff_player_hint">Le lecteur est intégré depuis une autre origine — ouvrez-le dans un nouvel onglet et le renifleur capturera le lien direct de la vidéo</string>
+
+    <!-- ==== installation APK (sources inconnues) ==== -->
+    <string name="install_action">Installer l\'application</string>
+    <string name="install_unknown_title">Autoriser l\'installation depuis Zephyr</string>
+    <string name="install_unknown_text">Android exige l\'autorisation d\'installer des applications depuis cette source. Appuyez sur « Ouvrir les paramètres », activez « Autoriser depuis cette source », puis revenez et appuyez à nouveau sur « Installer ».</string>
+    <string name="install_open_settings">Ouvrir les paramètres</string>
+</resources>

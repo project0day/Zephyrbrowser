@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.82: widget colour themes -->
+    <string name="wg_theme_pick">Цвет виджета</string>
+    <string name="wg_theme_dark">Тёмный</string>
+    <string name="wg_theme_light">Светлый</string>
+    <string name="wg_theme_black">Чёрный</string>
+    <string name="wg_theme_blue">Синий</string>
+    <string name="wg_theme_violet">Фиолетовый</string>
+    <string name="wg_theme_glass">Прозрачный</string>
+    <string name="wg_done">Готово</string>
+</resources>

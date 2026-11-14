@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.6 strings (FR) -->
+<resources>
+    <string name="appearance_global_msg">C’est le réglage par défaut — il s’applique à tous les sites. Ouvrez un site et utilisez « Apparence » pour le configurer individuellement.</string>
+
+    <string name="pwd_check_leaks">Vérifier les fuites</string>
+    <string name="pwd_check_leaks_all">Vérifier tous les mots de passe</string>
+    <string name="pwd_checking">Vérification…</string>
+    <string name="pwd_leak_safe">Mot de passe introuvable dans les fuites connues ✓</string>
+    <string name="pwd_leak_found">Mot de passe trouvé dans des fuites !</string>
+    <string name="pwd_leak_found_fmt">Ce mot de passe apparaît %1$s fois dans des fuites de données connues. Nous recommandons vivement de le changer.</string>
+    <string name="pwd_leak_net">Impossible de contacter le service de vérification (HaveIBeenPwned). Vérifiez votre connexion et réessayez.</string>
+    <string name="pwd_leak_scan_title">Vérification des mots de passe</string>
+    <string name="pwd_leak_scan_msg">Vérifiés : %1$d sur %2$d</string>
+    <string name="pwd_leak_scan_done_fmt">Terminé : %1$d sûrs, %2$d à changer</string>
+    <string name="pwd_leak_change">Changer</string>
+    <string name="pwd_leak_privacy_note">Protocole k-anonymat : seuls les 5 premiers caractères du hash sont envoyés — le mot de passe ne quitte jamais l’appareil.</string>
+
+    <string name="grp_personal_data">Données personnelles</string>
+    <string name="set_backup_screen">Sauvegarde</string>
+    <string name="set_backup_include">Contenu de la sauvegarde</string>
+    <string name="bk_bookmarks">Favoris et dossiers</string>
+    <string name="bk_quick">Tuiles rapides</string>
+    <string name="bk_history">Historique</string>
+    <string name="bk_settings">Paramètres</string>
+    <string name="bk_vpn">Configurations VPN</string>
+    <string name="bk_auto">Sauvegarde auto hebdomadaire</string>
+    <string name="bk_auto_sum">Une copie est créée automatiquement dans Downloads/Zephyr + une notification</string>
+    <string name="bk_last">Dernière copie : %s</string>
+    <string name="bk_last_never">Aucune sauvegarde pour le moment</string>
+    <string name="bk_now">Créer une sauvegarde maintenant</string>
+    <string name="bk_now_sum">Crée un fichier .json — transférez-le vers un autre appareil</string>
+    <string name="bk_auto_done">Sauvegarde automatique créée</string>
+    <string name="bk_auto_failed">Échec de la sauvegarde auto — essayez manuellement</string>
+
+    <string name="set_pull_refresh">Tirer vers le bas pour actualiser</string>
+    <string name="set_omnibox_swipe">Balayage vers le bas sur la barre d’adresse — actualiser</string>
+    <string name="set_double_tap">Double appui — haut/bas de page</string>
+
+    <string name="set_night_schedule">Mode nuit programmé</string>
+    <string name="set_night_schedule_sum">Thème sombre de l’app et des pages automatiquement, aux heures choisies</string>
+    <string name="set_night_from">Début</string>
+    <string name="set_night_to">Fin</string>
+
+    <string name="menu_save_offline">Enregistrer pour lecture hors ligne</string>
+    <string name="offline_saved">Page enregistrée pour lecture sans réseau</string>
+    <string name="offline_failed">Impossible d’enregistrer la page</string>
+    <string name="offline_empty">Aucune page enregistrée. Ouvrez un site et choisissez « Enregistrer pour lecture hors ligne » dans le menu</string>
+    <string name="set_offline">Pages hors ligne</string>
+    <string name="offline_open_online">Ouvrir en ligne</string>
+
+    <string name="translate_selection">Traduire</string>
+    <string name="translating">Traduction…</string>
+    <string name="translate_failed">Impossible de traduire. Vérifiez votre connexion</string>
+    <string name="translate_copy">Copier la traduction</string>
+
+    <string name="tg_add">Ajouter au groupe</string>
+    <string name="tg_new_group">Nouveau groupe</string>
+    <string name="tg_remove">Retirer du groupe</string>
+    <string name="tg_close_group">Fermer le groupe</string>
+    <string name="tg_no_group">Sans groupe</string>
+    <string name="tg_name_hint">Nom du groupe</string>
+    <string name="tg_saved">Onglet dans le groupe « %s »</string>
+
+    <string name="dl_system_public">Fichier transmis au téléchargeur système — il apparaîtra dans le dossier Downloads</string>
+</resources>

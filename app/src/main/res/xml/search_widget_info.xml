@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.92 FIX (user: «появились только дела с выбором цветов»).
+
+  The colour picker never ran for THIS widget, and the reason was one missing
+  attribute: an APPWIDGET_CONFIGURE intent-filter on the activity is not enough,
+  the provider has to name it with android:configure. Without that the system
+  has nothing to launch, so placement went straight to the default and the
+  engine picker had in fact never appeared either.
+
+  v1.7.90 (user: «виджеты не пошли, только мой старый показывается»).
+
+  A widget's configuration screen runs when it is PLACED and never again, so a
+  widget already on the home screen kept the look it was added with and the new
+  colour choice was unreachable without deleting and re-adding it.
+
+  "reconfigurable" adds a settings entry to the widget's own long-press menu.
+  Deliberately NOT "configuration_optional": placement should still open the
+  picker, which is how anyone discovers the setting exists at all. Android 12+
+  honours this and older versions ignore it, which is the behaviour they had
+  already — there, the only way to change a placed widget is to re-add it.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:maxResizeWidth="480dp"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:updatePeriodMillis="0"
+    android:widgetFeatures="reconfigurable"
+    android:configure="com.zephyr.browser.widget.WidgetConfigActivity"
+    android:initialLayout="@layout/widget_search"
+    android:previewLayout="@layout/widget_search"
+    android:description="@string/wg_widget_desc" />

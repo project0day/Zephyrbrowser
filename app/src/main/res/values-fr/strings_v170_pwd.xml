@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.0 card save offer (agent 2-a). -->
+<resources>
+    <!-- card save offer (CARD_SAVE watcher → offerSaveCard dialog) -->
+    <string name="card_save_title">Enregistrer la carte ?</string>
+    <string name="card_save_msg">La carte •••• %s peut être enregistrée chiffrée</string>
+    <string name="card_saved">Carte enregistrée</string>
+    <string name="card_exists">Cette carte est déjà enregistrée</string>
+</resources>

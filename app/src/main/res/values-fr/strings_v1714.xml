@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.14: reorderable Files tabs, home page variants + custom page,
+     on-demand video sniffer probe, translate confirm button. -->
+<resources>
+    <!-- Files: tab order -->
+    <string name="files_tab_order">Ordre des onglets</string>
+    <string name="files_tab_order_hint">Maintenez un onglet pour changer l\'ordre</string>
+    <string name="files_tab_order_reset">Par défaut</string>
+    <string name="files_tab_move_up">Monter</string>
+    <string name="files_tab_move_down">Descendre</string>
+
+    <!-- Home: page variants -->
+    <string name="home_page_variant">Page d\'accueil</string>
+    <string name="home_variant_standard">Standard</string>
+    <string name="home_variant_minimal">Minimaliste</string>
+    <string name="home_variant_clock">Horloge</string>
+    <string name="home_variant_sites">Grille de sites</string>
+    <string name="home_variant_custom">Page perso</string>
+    <string name="home_variant_standard_desc">Recherche, liens rapides, récents et favoris</string>
+    <string name="home_variant_minimal_desc">Recherche seule — rien de plus</string>
+    <string name="home_variant_clock_desc">Grande horloge, date et recherche</string>
+    <string name="home_variant_sites_desc">Grande grille de sites favoris</string>
+    <string name="home_variant_custom_desc">Votre fichier HTML ou URL comme page d\'accueil</string>
+    <string name="home_custom_url_hint">Chemin ou URL, ex. /storage/emulated/0/index.html</string>
+    <string name="home_custom_empty">Indiquez un chemin HTML ou une URL</string>
+    <string name="home_custom_missing">Fichier introuvable — vérifiez le chemin</string>
+    <string name="home_custom_open_settings">Autoriser l\'accès aux fichiers</string>
+
+    <!-- Sniffer: on-demand probe -->
+    <string name="sniff_refresh">Analyser la page</string>
+    <string name="sniff_scanning">Analyse de la page…</string>
+    <string name="sniff_found_n">Vidéos trouvées : %1$d</string>
+
+    <!-- Translate: confirm button -->
+    <string name="translate_do">Traduire</string>
+</resources>

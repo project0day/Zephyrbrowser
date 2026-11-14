@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_no_key_banner">L\'assistant a besoin de votre propre clé d\'API. Il se connecte au fournisseur d\'IA que vous choisissez — ce n\'est pas un service de cette application, et sans clé il ne peut pas répondre. Google Gemini, Groq et OpenRouter proposent des formules gratuites : ajoutez un modèle ci-dessous et collez-y la clé.</string>
+
+    <string name="empty_bookmarks_title">Aucun favori</string>
+    <string name="empty_bookmarks_hint">Ouvrez une page et touchez l\'étoile dans le menu. Les favoris se rangent dans des dossiers.</string>
+    <string name="empty_downloads_title">Aucun téléchargement</string>
+    <string name="empty_downloads_hint">Les fichiers enregistrés depuis une page apparaissent ici, avec leur progression et leur emplacement.</string>
+    <string name="empty_passwords_title">Aucun mot de passe enregistré</string>
+    <string name="empty_passwords_hint">Connectez-vous à un site et le navigateur proposera de s\'en souvenir. Ce qui est enregistré peut être protégé par votre empreinte.</string>
+    <string name="empty_payments_title">Aucune carte enregistrée</string>
+    <string name="empty_payments_hint">Ajoutez une carte pour ne plus saisir le numéro à chaque paiement. Les cartes sont chiffrées sur cet appareil.</string>
+    <string name="empty_scripts_title">Aucun script utilisateur</string>
+    <string name="empty_scripts_hint">Les scripts modifient le comportement d\'un site. Ajoutez le vôtre, ou demandez à l\'assistant de l\'écrire.</string>
+    <string name="empty_tasks_title">Rien de prévu</string>
+    <string name="empty_tasks_hint">Ajoutez une tâche ou un rendez-vous : le rappel arrivera à l\'heure dite. L\'assistant peut aussi les créer pour vous.</string>
+    <string name="empty_templates_title">Aucun modèle</string>
+    <string name="empty_templates_hint">Un modèle est un document que vous refaites souvent : devis, facture, lettre. Importez le vôtre, ou demandez à l\'assistant de le construire.</string>
+    <string name="empty_workspace_title">Aucun projet</string>
+    <string name="empty_workspace_hint">Les fichiers créés par l\'assistant arrivent ici — code, documents, archives.</string>
+    <string name="empty_workflows_title">Aucun scénario</string>
+    <string name="empty_workflows_hint">Un scénario est une suite d\'actions répétée, enregistrée sous un nom, pour la lancer en quelques mots.</string>
+    <string name="empty_offline_title">Aucune page enregistrée</string>
+    <string name="empty_offline_hint">Enregistrez une page pour la lire plus tard sans connexion.</string>
+    <string name="empty_autofill_title">Rien à remplir pour l\'instant</string>
+    <string name="empty_autofill_hint">Enregistrez une fois votre nom, votre adresse et vos autres informations : les formulaires se rempliront ensuite tout seuls.</string>
+</resources>

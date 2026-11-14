@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ts_private_badge">Onglet privé</string>
+    <string name="ts_close_all_confirm">Fermer tous les onglets de cette section (%d) ?</string>
+    <string name="adblock_youtube">Blocage des pubs YouTube</string>
+    <string name="adblock_youtube_sum">Les pubs vidéo YouTube arrivent des mêmes serveurs que la vidéo elle-même, d\'où un mécanisme dédié : skip, avance rapide et masquage des bannières</string>
+    <string name="autofill_profile_title">Remplir le formulaire ?</string>
+    <string name="autofill_profile_msg">Un formulaire avec des données personnelles (nom, e-mail, téléphone…) a été détecté. Choisissez un profil à remplir automatiquement.</string>
+    <string name="autofill_filled">Formulaire rempli</string>
+    <string name="autofill_fill_failed">Impossible de remplir le formulaire</string>
+    <string name="af_how_it_works">Les profils sont proposés automatiquement dès qu\'un formulaire avec des champs personnels (nom, e-mail, téléphone, adresse) est détecté. Appuyez sur « + » pour créer un profil.</string>
+    <string name="bm_search_hint">Rechercher dans les favoris…</string>
+    <string name="bm_search_empty">Aucun résultat</string>
+    <string name="bm_empty_hint">Aucun favori pour le moment — ajoutez-en depuis le menu du navigateur</string>
+    <string name="bm_view_mode">Liste / grille</string>
+    <string name="bm_view_list">Vue : liste</string>
+    <string name="bm_view_grid">Vue : grille</string>
+    <string name="bm_tools">Outils</string>
+    <string name="bm_open_current">Ouvrir dans l\'onglet actuel</string>
+    <string name="set_menu">Menu du navigateur</string>
+    <string name="menu_customize_title">Personnalisation du menu</string>
+    <string name="menu_customize_sum">Votre propre ordre des boutons horizontaux et des lignes verticales du menu principal</string>
+    <string name="menu_tiles_section">Boutons horizontaux</string>
+    <string name="menu_tiles_order">Ordre des boutons du haut</string>
+    <string name="menu_rows_section">Lignes verticales</string>
+    <string name="menu_rows_order">Ordre des lignes du menu</string>
+    <string name="menu_move_up">Monter</string>
+    <string name="menu_move_down">Descendre</string>
+    <string name="menu_reset">Réinitialiser</string>
+    <string name="menu_need_one">Au moins un élément est requis</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wg_theme_pick">Couleur du widget</string>
+    <string name="wg_theme_dark">Sombre</string>
+    <string name="wg_theme_light">Clair</string>
+    <string name="wg_theme_black">Noir</string>
+    <string name="wg_theme_blue">Bleu</string>
+    <string name="wg_theme_violet">Violet</string>
+    <string name="wg_theme_glass">Transparent</string>
+    <string name="wg_done">Terminé</string>
+</resources>

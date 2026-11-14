@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tw_widget_label">Zephyr: дела</string>
+    <string name="tw_widget_desc">Ближайшие дела прямо на экране. Нажмите, чтобы открыть список, или плюс — чтобы добавить.</string>
+    <string name="tw_title">Дела</string>
+    <string name="tw_add">Добавить дело</string>
+    <string name="tw_empty">Ничего не запланировано — нажмите +</string>
+    <string name="tw_more_fmt">и ещё %1$d</string>
+    <string name="tw_sample1">09:30 · Позвонить клиенту</string>
+    <string name="tw_sample2">Завтра · Отправить смету</string>
+
+    <string name="wg_theme_ocean">Океан</string>
+    <string name="wg_theme_teal">Бирюзовый</string>
+    <string name="wg_theme_green">Зелёный</string>
+    <string name="wg_theme_plum">Сливовый</string>
+    <string name="wg_theme_rose">Розовый</string>
+    <string name="wg_theme_amber">Янтарный</string>
+    <string name="wg_theme_graphite">Графит</string>
+    <string name="wg_theme_sand">Песочный</string>
+</resources>

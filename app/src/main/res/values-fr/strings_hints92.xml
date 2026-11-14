@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h_pull_refresh">Tirez la page vers le bas depuis le haut pour la recharger.</string>
+    <string name="h_omnibox_swipe">Balayez latéralement la barre d\'adresse pour passer d\'un onglet à l\'autre.</string>
+    <string name="h_double_tap">Touchez deux fois une page pour zoomer à cet endroit.</string>
+    <string name="h_clipboard">Si vous copiez un lien ailleurs, le navigateur propose de l\'ouvrir ici.</string>
+    <string name="h_restore_tabs">Rouvrir au démarrage les onglets de la dernière fois.</string>
+    <string name="h_suggestions">Afficher des suggestions pendant la frappe. Ce que vous tapez part vers votre moteur de recherche au fil de la saisie.</string>
+    <string name="h_pc_default">Demander à tous les sites la version ordinateur plutôt que la version mobile.</string>
+
+    <string name="h_home_quick_access">Une rangée des sites que vous ouvrez le plus, sur l\'écran d\'accueil.</string>
+    <string name="h_home_bookmarks">Afficher vos favoris sur l\'écran d\'accueil.</string>
+    <string name="h_home_recents">Afficher les pages visitées récemment sur l\'écran d\'accueil.</string>
+
+    <string name="h_site_js">La plupart des sites ont besoin de JavaScript pour fonctionner. Le désactiver en casse beaucoup — et supprime une bonne part du pistage.</string>
+    <string name="h_site_cookies">Les cookies permettent à un site de se souvenir de vous d\'une visite à l\'autre — y compris de vous garder connecté.</string>
+    <string name="h_third_party_cookies">Cookies déposés par d\'autres sociétés présentes dans la page. C\'est ainsi que l\'on vous suit de site en site ; les bloquer ne casse presque jamais rien.</string>
+    <string name="h_site_images">Sans les images, les pages se chargent plus vite et consomment beaucoup moins de données.</string>
+    <string name="h_site_popups">Autoriser un site à ouvrir lui-même une nouvelle fenêtre. Le plus souvent de la publicité.</string>
+
+    <string name="h_pick_wallpaper">Choisissez une image pour l\'écran d\'accueil.</string>
+    <string name="h_wallpaper_clear">Revenir au fond uni.</string>
+    <string name="h_menu_reset">Remettre les boutons du menu dans leur ordre d\'origine.</string>
+    <string name="h_reset_all">Ramener tous les réglages à leur état du premier lancement. Vos favoris, mots de passe et fichiers ne sont pas touchés.</string>
+
+    <string name="h_panel_passwords">Les identifiants enregistrés, et une vérification de ceux exposés dans des fuites connues.</string>
+    <string name="h_panel_payments">Des cartes pour remplir les formulaires de paiement, chiffrées sur cet appareil.</string>
+    <string name="h_panel_autofill">Vos nom, adresse et autres informations, pour remplir un formulaire d\'un seul geste.</string>
+    <string name="h_panel_scripts">De petits bouts de code qui modifient le comportement d\'un site.</string>
+    <string name="h_panel_tasks">Rappels et rendez-vous, avec réveil et calendrier.</string>
+    <string name="h_panel_templates">Les documents que vous refaites souvent — devis, factures, lettres — que l\'assistant remplit pour vous.</string>
+    <string name="h_panel_workspace">Les fichiers créés par l\'assistant : code, documents, archives.</string>
+    <string name="h_panel_workflows">Des suites d\'actions répétées, enregistrées sous un nom, pour les lancer en quelques mots.</string>
+    <string name="h_files_title">Parcourir les fichiers de ce téléphone.</string>
+    <string name="h_reader_lib">Les articles enregistrés pour être lus sans la page autour.</string>
+    <string name="h_set_offline">Des pages entières enregistrées pour être lues sans connexion.</string>
+    <string name="h_set_downloads">Où vont les fichiers téléchargés, et ce qui a déjà été téléchargé.</string>
+
+    <string name="h_ai_add_model">Ajoutez un fournisseur et sa clé d\'API. Sans clé à vous, l\'assistant ne peut pas répondre.</string>
+</resources>

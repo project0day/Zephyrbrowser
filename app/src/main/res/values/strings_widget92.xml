@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wg_theme_clear25">Clear 25%</string>
+    <string name="wg_theme_clear50">Clear 50%</string>
+    <string name="wg_theme_clear75">Clear 75%</string>
+    <string name="wg_theme_frost">Frost</string>
+</resources>

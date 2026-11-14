@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.79: voice engine choice + offline (Vosk) models -->
+    <string name="voice_engine">Распознавание речи</string>
+    <string name="voice_engine_auto_fmt">Автоматически — сейчас: %1$s</string>
+    <string name="voice_engine_system">Системное (Google)</string>
+    <string name="voice_engine_offline">На устройстве, без интернета</string>
+    <string name="voice_engine_cloud">Через ваш ИИ-провайдер</string>
+    <string name="voice_engine_absent">не установлено</string>
+    <string name="voice_engine_note">Системное распознавание используется по умолчанию: оно уже есть на телефоне и ничего не стоит. Если не хотите отправлять голос Google — выберите вариант на устройстве и скачайте модель.</string>
+    <string name="voice_engine_note_nosys">На этом телефоне нет системного распознавания (его даёт Google, а не Android). Скачайте модель для работы на устройстве без интернета — или настройте распознавание через вашего ИИ-провайдера ниже.</string>
+    <string name="voice_offline_models">Модели для работы без интернета</string>
+    <string name="voice_offline_none">Ничего не скачано</string>
+    <string name="voice_model_installed_fmt">%1$d МБ на устройстве</string>
+    <string name="voice_model_use">Использовать этот язык</string>
+    <string name="voice_model_delete">Удалить модель</string>
+    <string name="voice_dl_title_fmt">Загрузка: %1$s</string>
+    <string name="voice_dl_starting">Подключение…</string>
+    <string name="voice_dl_progress_fmt">%1$d%%  —  %2$d из %3$d МБ</string>
+    <string name="voice_dl_ok_fmt">Модель «%1$s» готова</string>
+    <string name="voice_dl_fail_fmt">Не удалось загрузить: %1$s</string>
+    <string name="voice_no_model">Сначала скачайте языковую модель в настройках ИИ</string>
+    <!-- v1.7.80: answer-ready notification -->
+    <string name="ai_notify_section">Уведомления</string>
+    <string name="ai_notify_on">Сообщать о готовом ответе</string>
+    <string name="ai_notify_on_sub">Уведомление в шторке, если ответ пришёл, пока приложение свёрнуто</string>
+    <string name="ai_notify_title">Помощник ответил</string>
+    <string name="ai_notify_channel">Ответы помощника</string>
+    <string name="ai_notify_channel_sub">Приходит, когда ответ готов, а приложение свёрнуто</string>
+</resources>

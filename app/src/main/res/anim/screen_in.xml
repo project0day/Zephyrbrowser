@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8 rework (user: «анимации не красивые и топорные — при нажатии идёт как
+     вспышка и открывается страница; сделай красиво спокойно шустро, как в хроме —
+     жму справа, экран полностью тянется, иду назад — вправо полностью окном
+     улетает»). The OLD 30%-slide + full fade made the incoming screen FLASH out of
+     a blank backdrop. The new forward transition is a FULL 100% slide from the
+     right with NO alpha — nothing ever fades over an empty window background. -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="100%"
+    android:toXDelta="0"
+    android:duration="280"
+    android:interpolator="@android:interpolator/fast_out_slow_in" />

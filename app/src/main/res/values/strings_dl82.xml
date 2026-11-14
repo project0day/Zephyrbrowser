@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.8.2: real numbers on a download, not just a moving bar -->
+    <string name="dl_progress_fmt">%1$s / %2$s · %3$d%%</string>
+    <string name="dl_progress_unknown_fmt">%1$s downloaded</string>
+    <string name="dl_cancel">Cancel download</string>
+    <string name="dl_cancelled">Download cancelled</string>
+    <string name="ai_act_run_js">Run a script on the page</string>
+    <string name="bk_password_required">Passwords and cards are only included when you set a file password — the copy is then encrypted with AES-256. Leave it empty and everything else is still exported.</string>
+</resources>

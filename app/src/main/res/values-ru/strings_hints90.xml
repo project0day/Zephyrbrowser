@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_no_key_banner">Помощнику нужен ваш собственный ключ API. Он подключается к тому ИИ-провайдеру, которого выбираете вы, — это не сервис приложения, и без ключа он отвечать не сможет. У Google Gemini, Groq и OpenRouter есть бесплатные тарифы: добавьте модель ниже и вставьте ключ.</string>
+
+    <string name="empty_bookmarks_title">Закладок пока нет</string>
+    <string name="empty_bookmarks_hint">Откройте страницу и нажмите звёздочку в меню. Закладки можно раскладывать по папкам.</string>
+    <string name="empty_downloads_title">Ничего не загружено</string>
+    <string name="empty_downloads_hint">Файлы, сохранённые со страниц, появятся здесь — вместе с ходом загрузки и путём к ним.</string>
+    <string name="empty_passwords_title">Сохранённых паролей нет</string>
+    <string name="empty_passwords_hint">Войдите на сайт, и браузер предложит запомнить вход. Сохранённое можно закрыть отпечатком пальца.</string>
+    <string name="empty_payments_title">Карты не добавлены</string>
+    <string name="empty_payments_hint">Добавьте карту, чтобы не вводить номер при каждой оплате. Карты хранятся зашифрованными на этом устройстве.</string>
+    <string name="empty_scripts_title">Пользовательских скриптов нет</string>
+    <string name="empty_scripts_hint">Скрипты меняют поведение сайта. Добавьте свой или попросите помощника его написать.</string>
+    <string name="empty_tasks_title">Дел не запланировано</string>
+    <string name="empty_tasks_hint">Добавьте дело или встречу — напоминание придёт в назначенное время. Помощник тоже умеет их создавать.</string>
+    <string name="empty_templates_title">Шаблонов пока нет</string>
+    <string name="empty_templates_hint">Шаблон — это документ, который вы делаете не раз: смета, счёт, письмо. Загрузите свой или попросите помощника собрать его.</string>
+    <string name="empty_workspace_title">Проектов пока нет</string>
+    <string name="empty_workspace_hint">Здесь появляются файлы, которые создаёт помощник, — код, документы, архивы.</string>
+    <string name="empty_workflows_title">Сценариев пока нет</string>
+    <string name="empty_workflows_hint">Сценарий — это повторяющаяся последовательность, сохранённая под одним именем, чтобы вызывать её парой слов.</string>
+    <string name="empty_offline_title">Сохранённых страниц нет</string>
+    <string name="empty_offline_hint">Сохраните страницу, чтобы прочитать её потом без интернета.</string>
+    <string name="empty_autofill_title">Заполнять пока нечем</string>
+    <string name="empty_autofill_hint">Сохраните имя, адрес и другие данные один раз — и формы будут заполняться сами.</string>
+</resources>

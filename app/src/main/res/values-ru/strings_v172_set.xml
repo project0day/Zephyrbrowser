@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.2 (settings-agent): «Дополнительно» merged INTO «Основное» — section
+         label inside the General screen (the standalone Advanced screen is gone). -->
+    <string name="set_advanced_section">Дополнительно</string>
+</resources>

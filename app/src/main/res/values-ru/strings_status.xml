@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.9.1: the assistant status line. These are read by the USER, not
+     by the model, so they are resources — see the note in AiTools.run. -->
+<resources>
+    <string name="st_page_read">Читаю страницу…</string>
+    <string name="st_page_extract">Собираю данные со страницы…</string>
+    <string name="st_page_click">Нажимаю на странице…</string>
+    <string name="st_page_fill">Заполняю поле…</string>
+    <string name="st_page_scroll">Прокручиваю…</string>
+    <string name="st_page_forms">Разбираю форму…</string>
+    <string name="st_page_shot">Делаю снимок страницы…</string>
+    <string name="st_run_js">Выполняю скрипт на странице…</string>
+    <string name="st_script_new">Создаю скрипт…</string>
+    <string name="st_find_all">Ищу везде…</string>
+    <string name="st_find_file">Ищу файл…</string>
+    <string name="st_read_file">Читаю файл…</string>
+    <string name="st_see_history">Смотрю историю…</string>
+    <string name="st_see_bookmarks">Смотрю закладки…</string>
+    <string name="st_see_downloads">Смотрю загрузки…</string>
+    <string name="st_see_dir">Смотрю папку…</string>
+    <string name="st_write_file">Пишу файл…</string>
+    <string name="st_mkdir">Создаю папку…</string>
+    <string name="st_delete">Удаляю…</string>
+    <string name="st_copy">Копирую…</string>
+    <string name="st_move">Перемещаю…</string>
+    <string name="st_zip">Упаковываю в архив…</string>
+    <string name="st_tpl_save">Сохраняю шаблон…</string>
+    <string name="st_tpl_fill">Заполняю шаблон…</string>
+    <string name="st_cv_build">Собираю резюме…</string>
+    <string name="st_cv_data">Готовлю данные для резюме…</string>
+    <string name="st_render">Верстаю документ…</string>
+    <string name="st_doc_build">Собираю документ…</string>
+    <string name="st_doc_read">Читаю документ…</string>
+    <string name="st_doc_fill">Заполняю документ…</string>
+    <string name="st_doc_new">Создаю документ…</string>
+    <string name="st_pdf_read">Читаю PDF…</string>
+    <string name="st_pdf_fields">Смотрю поля PDF…</string>
+    <string name="st_pdf_fill">Заполняю PDF…</string>
+    <string name="st_pdf_stamp">Впечатываю в PDF…</string>
+    <string name="st_pdf_layout">Смотрю разметку страницы…</string>
+    <string name="st_pdf_render">Отрисовываю страницу…</string>
+    <string name="st_form_scan">Ищу поля бланка…</string>
+    <string name="st_form_fill">Заполняю бланк…</string>
+    <string name="st_task_new">Ставлю напоминание…</string>
+    <string name="st_task_list">Смотрю дела…</string>
+    <string name="st_task_done">Отмечаю выполненным…</string>
+    <string name="st_task_del">Удаляю дело…</string>
+    <string name="st_open_fmt">Открываю %1$s…</string>
+    <string name="st_search_fmt">Ищу в браузере: %1$s…</string>
+</resources>

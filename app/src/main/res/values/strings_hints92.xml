@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.92: an explanation for every setting that had none.
+
+  Sixteen switches and seventeen rows were a bare label. A label tells you what
+  a thing is called, not what happens when you touch it — and someone opening
+  the browser for the first time in a language they did not choose has only
+  these lines to go on.
+
+  Each says what the setting DOES, and where it is not obvious, what it costs.
+-->
+<resources>
+    <!-- general -->
+    <string name="h_pull_refresh">Pull a page down from the top to reload it.</string>
+    <string name="h_omnibox_swipe">Swipe sideways on the address bar to move between open tabs.</string>
+    <string name="h_double_tap">Tap twice on a page to zoom in on that spot.</string>
+    <string name="h_clipboard">When you copy a link elsewhere, offer to open it here.</string>
+    <string name="h_restore_tabs">Reopen the tabs you had when the browser starts.</string>
+    <string name="h_suggestions">Show suggestions while you type. Sends what you type to your search engine as you type it.</string>
+    <string name="h_pc_default">Request the desktop version of every site, not the mobile one.</string>
+
+    <!-- home screen -->
+    <string name="h_home_quick_access">A row of the sites you open most, on the home screen.</string>
+    <string name="h_home_bookmarks">Show your bookmarks on the home screen.</string>
+    <string name="h_home_recents">Show the pages you visited recently on the home screen.</string>
+
+    <!-- sites -->
+    <string name="h_site_js">Most sites need JavaScript to work. Turning it off breaks many of them, and stops a lot of tracking.</string>
+    <string name="h_site_cookies">Cookies let a site remember you between visits — that includes staying signed in.</string>
+    <string name="h_third_party_cookies">Cookies set by other companies embedded in a page. This is how you are followed from site to site; blocking them rarely breaks anything.</string>
+    <string name="h_site_images">Turning images off makes pages load faster and use far less data.</string>
+    <string name="h_site_popups">Let a site open a new window by itself. Usually advertising.</string>
+
+    <!-- appearance -->
+    <string name="h_pick_wallpaper">Choose a picture for the home screen.</string>
+    <string name="h_wallpaper_clear">Go back to the plain background.</string>
+    <string name="h_menu_reset">Put the menu buttons back in their original order.</string>
+    <string name="h_reset_all">Return every setting to how it was on the first run. Your bookmarks, passwords and files are not touched.</string>
+
+    <!-- library and data -->
+    <string name="h_panel_passwords">Logins saved for sites, and a check for ones exposed in known leaks.</string>
+    <string name="h_panel_payments">Cards for filling in checkout forms, stored encrypted on this device.</string>
+    <string name="h_panel_autofill">Your name, address and other details, for filling in forms in one tap.</string>
+    <string name="h_panel_scripts">Small pieces of code that change how a site behaves.</string>
+    <string name="h_panel_tasks">Reminders and meetings, with alarms and a calendar.</string>
+    <string name="h_panel_templates">Documents you reuse — quotes, invoices, letters — that the assistant fills in for you.</string>
+    <string name="h_panel_workspace">Files the assistant has created: code, documents, archives.</string>
+    <string name="h_panel_workflows">Sequences you repeat, saved under a name so you can ask for them in a few words.</string>
+    <string name="h_files_title">Browse the files on this phone.</string>
+    <string name="h_reader_lib">Articles saved for reading without the page around them.</string>
+    <string name="h_set_offline">Whole pages saved to read without a connection.</string>
+    <string name="h_set_downloads">Where downloaded files go, and what has been downloaded.</string>
+
+    <!-- assistant -->
+    <string name="h_ai_add_model">Add a provider and its API key. The assistant needs one of your own to answer.</string>
+</resources>

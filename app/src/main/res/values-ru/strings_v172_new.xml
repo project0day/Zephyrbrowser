@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.2: SponsorBlock categories (Settings → AdBlock) -->
+    <string name="sb_section">SponsorBlock — пропуск вставок в видео</string>
+    <string name="sb_sponsor">Пропускать спонсорские вставки</string>
+    <string name="sb_sponsor_sum">‘Это видео спонсировано…’ — авто-перескок</string>
+    <string name="sb_selfpromo">Пропускать саморекламу</string>
+    <string name="sb_selfpromo_sum">Платные товары/мерч самого канала</string>
+    <string name="sb_interaction">Пропускать обращения</string>
+    <string name="sb_interaction_sum">«Подпишись, лайкни, вступай…»</string>
+    <string name="sb_intro">Пропускать заставки</string>
+    <string name="sb_intro_sum">Интро-анимации в начале видео</string>
+
+    <!-- v1.7.2: VPN kill-switch (auto-reconnect) + split tunneling -->
+    <string name="vpn_kill_switch">Kill-switch · авто-переподключение</string>
+    <string name="vpn_kill_switch_sum">Если VPN упадёт — включится снова сам (до 5 попыток)</string>
+    <string name="vpn_split_apps">Приложения вне VPN</string>
+    <string name="vpn_split_apps_sum">Трафик выбранных приложений идёт в обход туннеля</string>
+    <string name="vpn_split_title">Приложения вне VPN</string>
+    <string name="vpn_split_empty">Нет установленных приложений</string>
+    <string name="vpn_split_hint">Отметьте приложения, чей трафик должен идти МИМО VPN (полное туннелирование)</string>
+
+    <!-- v1.7.2: built-in userscript catalog -->
+    <string name="us_catalog">Каталог скриптов</string>
+    <string name="us_catalog_hint">Готовые скрипты — установка одним касанием</string>
+    <string name="us_catalog_installed">Скрипт «%s» установлен</string>
+</resources>

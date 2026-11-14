@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp_widget_label">Zephyr task pill</string>
+    <string name="tp_widget_desc">One task at a time in a single row, with arrows to step through what is due.</string>
+    <string name="tp_prev">Previous task</string>
+    <string name="tp_next">Next task</string>
+</resources>

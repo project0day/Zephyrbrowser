@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.5 strings -->
+<resources>
+    <string name="translate_home_blocked">The home page cannot be translated</string>
+
+    <!-- v1.7.5: per-site page appearance -->
+    <string name="appearance_follow_settings">As in Settings</string>
+    <string name="appearance_per_site_msg">Applies only to %s</string>
+
+    <!-- v1.7.5: Clear Data time ranges -->
+    <string name="clear_time_title">Time range</string>
+    <string name="clear_range_all">All time</string>
+    <string name="clear_range_1h">Last hour</string>
+    <string name="clear_range_6h">Last 6 hours</string>
+    <string name="clear_range_12h">Last 12 hours</string>
+    <string name="clear_range_24h">Last 24 hours</string>
+    <string name="clear_time_note">The range applies to history and the download journal. Everything else is cleared in full.</string>
+    <string name="clear_pick_hint">What to clear</string>
+    <string name="clear_range_label_fmt">Period: %s</string>
+    <string name="dl_system_queued">Handed to the system downloader</string>
+
+    <!-- v1.7.5: gestures + backup -->
+    <string name="set_gestures">Gestures</string>
+    <string name="set_edge_gestures">Edge gestures</string>
+    <string name="set_edge_gestures_sum">Swipe from the left edge to go back, from the right to go forward</string>
+    <string name="set_backup">Backup</string>
+    <string name="set_backup_export">Export data</string>
+    <string name="set_backup_export_sum">Bookmarks, quick access, history and settings — into one file</string>
+    <string name="set_backup_import">Import data</string>
+    <string name="set_backup_import_sum">Restore from a backup file (no duplicates)</string>
+    <string name="backup_exported">Backup saved</string>
+    <string name="backup_imported_fmt">Bookmarks imported: %d</string>
+    <string name="backup_failed">Operation failed</string>
+
+    <!-- v1.7.5: scripts — add by URL (catalog removed) -->
+    <string name="scr_add_new">New script</string>
+    <string name="scr_add_file">From file (.user.js)</string>
+    <string name="scr_add_url">By link</string>
+    <string name="scr_add_url_hint">https://example.com/script.user.js</string>
+    <string name="scr_add_url_load">Load</string>
+    <string name="scr_add_url_bad">Enter a link (http/https)</string>
+    <string name="scr_add_url_loading">Loading script…</string>
+    <string name="scr_add_url_failed">Could not download the script</string>
+</resources>

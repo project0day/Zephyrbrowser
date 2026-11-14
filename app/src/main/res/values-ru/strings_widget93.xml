@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp_widget_label">Zephyr: дело в строке</string>
+    <string name="tp_widget_desc">Одно дело в одну строку, со стрелками для перехода по ближайшим.</string>
+    <string name="tp_prev">Предыдущее дело</string>
+    <string name="tp_next">Следующее дело</string>
+</resources>

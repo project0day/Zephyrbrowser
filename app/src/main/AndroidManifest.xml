@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- v1.7.6: weekly auto-backup chain survives reboots -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--
+      v1.7.55 FIX (user, Android 16: «попадаю на страницу выдачи тумблера, но
+      тумблер недоступен»).
+
+      This carried android:maxSdkVersion="32", left over from when the only
+      exact alarm was the weekly auto-backup, which is happy to run an hour
+      late. The cap means the permission is not requested AT ALL on Android 13+,
+      so the system has nothing to grant and shows the "Alarms & reminders"
+      toggle greyed out. Reminders need the minute, so the cap is gone.
+
+      Deliberately NOT android.permission.USE_EXACT_ALARM, which is granted at
+      install with no toggle: Play restricts it to apps whose core purpose is an
+      alarm clock or calendar, and a browser with a reminders screen is not
+      that. SCHEDULE_EXACT_ALARM asks the user instead, and a refusal still
+      leaves reminders working through the inexact window in Reminders.schedule.
+    -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <!-- v1.7.15: APK install (unknown-sources flow) -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- v1.7.1: granular media read (13+) + legacy storage read (≤12) for downloads;
+         requested politely ONCE at runtime from MainActivity.maybeAskStartupPermissions().
+         Declaring READ_MEDIA_* is harmless below API 33 — the platform ignores
+         unknown permissions. -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- v1.7.7: Files app — full tree browsing in the «Память» tab; requested via
+         the All-Files-Access settings card, NOT at install (Play policy safe) -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+    <!-- v1.5.0 FIX 2 (bug: "VPN при вводе имени и пароля выбивает приложение"): on
+         Android 14 a normal app is NOT system-exempted, so startForeground(...,
+         FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED) throws SecurityException /
+         InvalidForegroundServiceTypeException → an exception inside onStartCommand
+         kills the whole process. specialUse + subtype "vpn" is the sanctioned FGS
+         type for VPN tunnels; runtime keeps a layered fallback chain as well. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- v1.7.68: the AI keep-alive service. dataSync is the sanctioned type for
+         "finishing a network operation the user started". -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" tools:ignore="ProtectedPermissions" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zephyr.Splash"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="33">
+
+        <!-- per-app language storage for AppCompatDelegate.setApplicationLocales -->
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+
+        <!--
+          v1.8.0: makes Zephyr a candidate for "open inside this app".
+          Apps use Custom Tabs for that, and Android only offers browsers that
+          declare this service — the default-browser setting is not consulted.
+          Exported because the point is for other apps to bind to it.
+        -->
+        <service
+            android:name=".ZephyrCustomTabsService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.support.customtabs.action.CustomTabsService" />
+            </intent-filter>
+        </service>
+
+        <!-- v1.8.2: the Cancel button on a download notification -->
+        <receiver
+            android:name=".DownloadActionReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.zephyr.browser.DL_CANCEL" />
+            </intent-filter>
+        </receiver>
+
+        <!-- v1.7.6: weekly auto-backup (self-perpetuating alarm → Downloads/Zephyr + notification) -->
+        <receiver
+            android:name=".settings.BackupReceiver"
+            android:exported="false" />
+        <!-- v1.7.68: keeps an AI request alive while the browser is in the
+             background; started only for the length of the request. -->
+        <service
+            android:name=".ai.AiKeepAliveService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+        <!-- v1.7.54: task reminders (Дела) -->
+        <receiver
+            android:name=".tasks.ReminderReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.zephyr.browser.REMINDER_FIRE" />
+                <action android:name="com.zephyr.browser.REMINDER_DONE" />
+                <action android:name="com.zephyr.browser.REMINDER_SNOOZE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".settings.BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- v1.7.3: foreground HOLD service for the WireGuard/AmneziaWG/WARP
+             tunnels (the GoBackends run the tunnel library's own VpnService in
+             this process; TunnelHoldService just keeps the process alive with
+             the VPN notification — no tunnel engine of its own).
+             v1.5.0 FIX 2: foregroundServiceType is specialUse
+             (with PROPERTY_SPECIAL_USE_FGS_SUBTYPE="vpn"); systemExempted is only
+             legal for exempted apps on Android 14+ and threw on every connect.
+             The <property> element needs xmlns:android (declared on the
+             <manifest> root) and compiles with compileSdk 34; older platforms ignore
+             the unknown element, and the specialUse code path only runs on API 34+. -->
+        <service
+            android:name=".proxy.TunnelHoldService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
+            <!-- no intent-filter: started explicitly, not bound by third parties -->
+        </service>
+        <!-- v1.7.0: DNS-only VPN (built-in encrypted resolver + leak protection).
+             Same specialUse FGS declaration as the tunnel hold service. -->
+        <service
+            android:name=".proxy.DnsVpnService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="dns" />
+        </service>
+
+        <!-- v1.7.2: AmneziaWG tunnel service (vendored org.amnezia.awg engine;
+             registered exactly like the upstream tunnel library declares it). -->
+        <service
+            android:name="org.amnezia.awg.backend.GoBackend$VpnService"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|smallestScreenSize|uiMode"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Zephyr.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:autoVerify="false">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <!-- v1.7.7: site-style sharing — zephyr-style://import?d=domain&c=base64css -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="zephyr-style" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Zephyr"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".panels.PanelsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Zephyr"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".player.PlayerActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|smallestScreenSize"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:supportsPictureInPicture="true"
+            android:theme="@style/Theme.Zephyr.Player" />
+
+        <!-- v1.7.17: built-in full photo viewer (zoom, swipe, info, delete) -->
+        <activity
+            android:name=".viewer.PhotoViewerActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|smallestScreenSize|uiMode"
+            android:exported="false"
+            android:theme="@style/Theme.Zephyr.Player" />
+
+        <!-- v1.7.7: built-in Files app -->
+        <activity
+            android:name=".files.FilesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Zephyr"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- v1.7.7: QR scanner -->
+        <!-- v1.7.76: camera → action for the assistant -->
+        <activity
+            android:name=".ui.CameraAiActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Zephyr" />
+        <activity
+            android:name=".ui.QrScanActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Zephyr" />
+
+        <activity
+            android:name=".widget.WidgetConfigActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Zephyr">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <!-- v1.7.91: colour picker for the tasks widget -->
+        <activity
+            android:name=".widget.TasksWidgetConfigActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Zephyr">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".widget.SearchWidgetProvider"
+            android:exported="false"
+            android:label="@string/wg_config_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/search_widget_info" />
+        </receiver>
+
+        <!-- v1.7.93: one task at a time, in a pill -->
+        <receiver
+            android:name=".widget.TaskPillWidgetProvider"
+            android:exported="false"
+            android:label="@string/tp_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/task_pill_widget_info" />
+        </receiver>
+
+        <!-- v1.7.91 (user: «у меня только один виджет») -->
+        <receiver
+            android:name=".widget.TasksWidgetProvider"
+            android:exported="false"
+            android:label="@string/tw_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tasks_widget_info" />
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dns_status">État</string>
+    <string name="dns_provider">Serveur DNS</string>
+    <string name="dns_protocol">Protocole</string>
+    <string name="dns_proto_plain">Ordinaire (UDP 53)</string>
+    <string name="dns_proto_dot">DNS-over-TLS (853)</string>
+    <string name="dns_proto_doh">DNS-over-HTTPS (443)</string>
+    <string name="dns_custom">Serveur personnalisé…</string>
+    <string name="dns_custom_ip">Adresse IP DNS</string>
+    <string name="dns_leak">Protection contre les fuites DNS</string>
+    <string name="dns_leak_sum">Intercepte les requêtes vers les résolveurs publics connus (8.8.8.8 etc.) et les achemine via le serveur sélectionné</string>
+    <string name="dns_state_active">DNS privé actif</string>
+    <string name="dns_state_inactive">DNS privé désactivé</string>
+    <string name="dns_turn_on">Activer</string>
+    <string name="dns_turn_off">Désactiver</string>
+    <string name="dns_pick_provider_first">Choisissez d\'abord un serveur DNS</string>
+    <string name="dns_queries_fmt">Requêtes : %1$d · échecs : %2$d</string>
+    <string name="dns_provider_line">Sélection : %s</string>
+    <string name="dns_bad_ip">Adresse IP invalide</string>
+    <string name="dns_apply_note">Comment ça marche</string>
+    <string name="dns_apply_note_sum">Le mode privé crée un tunnel local réservé au DNS : tout le reste du trafic passe en direct, sans perte de vitesse. Les requêtes sont chiffrées (DoT/DoH) et envoyées au serveur choisi. Avec OpenVPN/WireGuard actif, le DNS sélectionné est forcé à travers le tunnel.</string>
+    <string name="dns_notif_title">Zephyr DNS</string>
+    <string name="dns_notif_text">DNS privé actif — aucune fuite</string>
+    <string name="dns_desc_system_title">Système</string>
+    <string name="dns_desc_system">DNS de votre réseau actuel (par défaut)</string>
+    <string name="dns_desc_cloudflare">Rapide ; journaux IP conservés 25 heures</string>
+    <string name="dns_desc_cf_family">Bloque malware et sites pour adultes</string>
+    <string name="dns_desc_google">Rapide ; conserve des statistiques</string>
+    <string name="dns_desc_quad9">Bloque les domaines malveillants, sans journaux IP</string>
+    <string name="dns_desc_adguard">Bloque pubs et traceurs au niveau DNS</string>
+    <string name="dns_desc_adguard_family">Pubs + malware + sites pour adultes</string>
+    <string name="dns_desc_opendns">Filtrage Cisco personnalisable</string>
+    <string name="dns_desc_comodo">Bloque les domaines malveillants</string>
+    <string name="dns_desc_yandex">Rapide en CEI ; filtre les fraudes</string>
+    <string name="dns_desc_mullvad">Aucun journal ; bloque la publicité</string>
+    <string name="dns_desc_custom">Votre propre résolveur</string>
+</resources>

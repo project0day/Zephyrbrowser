@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.1 VPN/DNS fixes: tolerant WireGuard parsing, auth-dialog rework,
+         remote fallback, dead-tunnel watchdog, connection log, DNS provider test -->
+
+    <!-- WireGuard tolerant parser -->
+    <string name="vpn_wg_badline">Строка %1$d: %2$s</string>
+    <string name="vpn_wg_nokey">В [Interface] отсутствует PrivateKey</string>
+    <string name="vpn_wg_nopeer">В конфиге нет [Peer] с PublicKey</string>
+    <string name="vpn_wg_noendpoint">В [Peer] нет Endpoint — укажите адрес сервера</string>
+    <string name="vpn_wg_badiface">Ошибка в секции [Interface]: %1$s</string>
+    <string name="vpn_wg_badpeer">Ошибка в секции [Peer]: %1$s</string>
+    <string name="vpn_wg_dns">Не удалось разрешить адрес сервера (DNS)</string>
+    <string name="vpn_wg_no_handshake">Сервер WireGuard не отвечает: рукопожатия нет 40 с — туннель закрыт, интернет восстановлен</string>
+    <string name="vpn_wg_amnezia_note">AmneziaWG: параметры обфускации применяются собственным движком</string>
+    <string name="vpn_wg_skipped_fmt">пропущено неизвестных строк: %1$d</string>
+    <string name="vpn_wg_notwg">Файл не похож на конфиг WireGuard (нет [Interface]/[Peer])</string>
+
+    <!-- OpenVPN engine errors / watchdogs -->
+    <string name="vpn_err_dead_tunnel">Туннель поднялся, но данные не идут — VPN остановлен, интернет восстановлен</string>
+    <string name="vpn_err_stalled">Сервер перестал отвечать — VPN остановлен, интернет восстановлен</string>
+    <string name="vpn_err_no_answer">Ни один из %1$d серверов не ответил — проверьте сеть или попробуйте другой конфиг</string>
+    <string name="vpn_err_perm">Нет разрешения VPN</string>
+    <string name="vpn_err_start">Не удалось запустить VPN-сервис</string>
+
+    <!-- auth dialog rework -->
+    <string name="vpn_auth_optional">Без пароля</string>
+
+    <!-- connection log -->
+    <string name="vpn_log_title">Журнал подключения</string>
+    <string name="vpn_log_empty">Подключений ещё не было</string>
+    <string name="vpn_log_hint">нажмите для журнала</string>
+
+    <!-- DNS provider health check -->
+    <string name="dns_test">Проверить соединение</string>
+    <string name="dns_test_idle">Тест провайдера</string>
+    <string name="dns_testing">Проверяем…</string>
+    <string name="dns_test_ok_fmt">Работает · %1$d мс</string>
+    <string name="dns_test_fail">Не отвечает</string>
+    <string name="dns_test_try_plain">Провайдер не ответил — попробуйте тип «Обычный (UDP)» или другого провайдера</string>
+    <string name="dns_upstream_dead">Провайдер DNS не отвечает — защита остановлена, интернет восстановлен</string>
+</resources>

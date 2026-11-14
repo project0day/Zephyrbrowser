@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dl_progress_fmt">%1$s sur %2$s · %3$d%%</string>
+    <string name="dl_progress_unknown_fmt">%1$s téléchargés</string>
+    <string name="dl_cancel">Annuler le téléchargement</string>
+    <string name="dl_cancelled">Téléchargement annulé</string>
+    <string name="ai_act_run_js">Exécuter un script sur la page</string>
+    <string name="bk_password_required">Les mots de passe et les cartes ne sont inclus que si vous définissez un mot de passe de fichier — la copie est alors chiffrée en AES-256. Laissez-le vide et tout le reste est exporté quand même.</string>
+</resources>

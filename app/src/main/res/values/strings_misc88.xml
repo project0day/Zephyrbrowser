@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.88: default names, template folders and size units that had been
+     Russian literals in Kotlin. -->
+<resources>
+    <string name="tpl_cat_commerce">Commerce</string>
+    <string name="tpl_cat_documents">Documents</string>
+    <string name="tpl_cat_letters">Letters</string>
+    <string name="tpl_cat_apps">Apps</string>
+
+    <string name="ai_default_model_name">Model</string>
+    <string name="ai_agent_profile_name">My AI agent</string>
+
+    <string name="unit_b">B</string>
+    <string name="unit_kb">KB</string>
+    <string name="unit_mb">MB</string>
+    <string name="unit_gb">GB</string>
+</resources>

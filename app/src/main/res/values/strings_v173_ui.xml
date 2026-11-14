@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.3 (task 1-d): Clear-data premium redesign + history premium v2 +
+         "add to quick access" site action. -->
+
+    <!-- Clear data (premium) -->
+    <string name="clear_select_all">Select all</string>
+    <string name="clear_select_none">Deselect all</string>
+    <string name="clear_entries_fmt">%d entries</string>
+    <string name="clear_cache_mb">%s of cache</string>
+    <string name="clear_cookies_sub">Logins and site data</string>
+    <string name="clear_forms_sub">Form autofill</string>
+    <string name="clear_pwds_fmt">%d saved</string>
+    <string name="clear_quick_sites">Quick access</string>
+    <string name="clear_quick_fmt">%d tiles</string>
+    <string name="clear_scripts">User scripts</string>
+    <string name="clear_scripts_fmt">%d active</string>
+    <string name="clear_dl_records">Download records</string>
+    <string name="clear_dl_sub">Log only — files are kept</string>
+
+    <!-- History (premium v2) -->
+    <string name="hist_empty_title">History is empty</string>
+    <string name="hist_empty_sub">Sites you visit will appear here</string>
+    <string name="hist_copy_link">Copy link</string>
+    <string name="hist_copied">Link copied</string>
+    <string name="hist_add_bookmark">Add to bookmarks</string>
+    <string name="hist_bookmarked">Added to bookmarks</string>
+    <string name="hist_visits_fmt">%d</string>
+
+    <!-- Add to quick access -->
+    <string name="menu_add_quick">Add to quick access</string>
+    <string name="quick_added">Added to quick access</string>
+    <string name="quick_exists">This site is already in quick access</string>
+    <string name="quick_need_site">Open a site first to add it</string>
+    <string name="quick_dialog_title">Quick access tile</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8 EN -->
+<resources>
+    <string name="adblock_master">Ad blocking</string>
+    <string name="adblock_master_sum">On — off. EasyList and AdGuard filters, custom lists and a site whitelist</string>
+    <string name="adblock_how_title">How it works</string>
+    <string name="adblock_how_body">The blocker intercepts page network requests and hides ad elements using EasyList / AdGuard filters — like lightweight browsers do. Userscripts (Tampermonkey-style) run IN PARALLEL and independently: the blocker cuts ads at the network level, scripts add their own features on top. They never conflict. If a site breaks, whitelist it or switch blocking off.</string>
+    <string name="adblock_whitelist_empty">Whitelisted sites open without blocking</string>
+    <string name="adblock_disabled">off</string>
+    <string name="adblock_catalog_hint">Several lists can be enabled — rules auto-refresh every 3 days</string>
+
+    <string name="files_view_toggle">Grid / list</string>
+    <string name="files_sort">Sort by</string>
+    <string name="files_sort_name">Name</string>
+    <string name="files_sort_new">Newest first</string>
+    <string name="files_sort_old">Oldest first</string>
+    <string name="files_sort_size">Size</string>
+    <string name="files_sort_type">Type</string>
+    <string name="files_folder_missing">Folder not found</string>
+    <string name="files_pictures">Pictures</string>
+    <string name="files_movies">Movies</string>
+    <string name="files_music">Music</string>
+    <string name="files_image">Photo</string>
+    <string name="files_video">Video</string>
+
+    <string name="files_dm_hint_title">Download manager</string>
+    <string name="files_dm_hint_body">Every browser download shows up here: pause and resume, cancel, retry after errors and queue priority. Tap a finished download to open the file.</string>
+    <string name="files_dm_folder">Download folder</string>
+    <string name="files_dm_change">Change</string>
+    <string name="files_dm_default_folder">Default — Gallery/Zephyr and Downloads</string>
+    <string name="files_dm_custom_folder">Selected: %s</string>
+    <string name="files_dm_empty">No downloads yet</string>
+    <string name="dm_download">Download</string>
+    <string name="dm_progress">%s of %s</string>
+    <string name="dm_running">Downloading…</string>
+    <string name="dm_queued">Queued</string>
+    <string name="dm_paused">Paused · %d%%</string>
+    <string name="dm_done">%s · %s</string>
+    <string name="dm_failed">Failed — tap ⟳ to retry</string>
+    <string name="dm_cancelled">Cancelled</string>
+    <string name="dm_pause">Pause</string>
+    <string name="dm_cancel">Cancel</string>
+    <string name="dm_resume">Resume</string>
+    <string name="dm_retry">Retry</string>
+    <string name="dm_bump">Higher priority</string>
+    <string name="dm_bumped">Moved up in the queue</string>
+
+    <string name="sniff_menu">Video on page</string>
+    <string name="sniff_sheet_sub">Videos and streams found on the page</string>
+    <string name="sniff_sheet_sub_site">Video found on %s</string>
+    <string name="sniff_disabled_note">The video sniffer is off — enable the toggle below to detect videos and HLS streams on pages</string>
+    <string name="sniff_none_hint">Nothing found yet. Open a page with a video and wait a couple of seconds — direct links and streams appear here</string>
+    <string name="sniff_size">Size ≈ %s</string>
+    <string name="sniff_open_player">Open in external player</string>
+    <string name="sniff_toggle">Video sniffer</string>
+
+    <string name="tg_icon">Group icon</string>
+    <string name="tg_color">Group color</string>
+
+    <string name="scr_hint_title">What are scripts</string>
+    <string name="scr_hint_body">Userscripts are tiny Tampermonkey-style extensions: they restyle sites, add buttons, clean up interfaces. They run in parallel with the ad blocker and never conflict with it. Add your own .user.js via file or link.</string>
+    <string name="reader_hint_title">What is the article library</string>
+    <string name="reader_hint_body">Articles saved from reader mode live here. Open an article → Menu → “Reader mode” → “Save” — it appears here in clean typography, available offline.</string>
+    <string name="reader_empty_title">The library is empty</string>
+    <string name="reader_empty_body">Open any article, enable reader mode (Menu → “Reader mode”) and tap “Save” — the article stays here even offline.</string>
+    <string name="offline_hint_title">What are offline pages</string>
+    <string name="offline_hint_body">Full page snapshots for reading without internet. On any page: Menu → “Save offline”.</string>
+    <string name="downloads_hint_title">Browser downloads</string>
+    <string name="downloads_hint_body">All downloaded files and the link journal. The full manager with pause, resume and priorities — Files → Downloads.</string>
+</resources>

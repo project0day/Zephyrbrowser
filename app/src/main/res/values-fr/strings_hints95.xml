@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tpl_hint_title">Ce qu\'est un modèle</string>
+    <string name="tpl_hint_body">Un document que vous refaites sans cesse — un devis, une facture, une lettre. Enregistrez-le une fois avec des blancs à la place des informations, et l\'assistant les remplit à partir de ce que vous lui dites, avec vos mots. Vos propres fichiers .docx, .pdf ou .html peuvent aussi être importés comme modèles.</string>
+
+    <string name="ws_hint_title">Les fichiers créés par l\'assistant</string>
+    <string name="ws_hint_body">Tout ce que l\'assistant crée pour vous arrive ici : code, documents, archives. Vous pouvez l\'ouvrir, le partager, ou demander des modifications — il reprendra le même fichier. Rien n\'est envoyé nulle part : c\'est un dossier sur votre téléphone.</string>
+
+    <string name="wf_hint_title">Ce qu\'est un scénario</string>
+    <string name="wf_hint_body">Une suite d\'actions que vous répétez, enregistrée sous un seul nom. Plutôt que d\'expliquer les mêmes cinq étapes chaque lundi, vous les enregistrez une fois sous « rapport hebdomadaire » et vous les demandez par ce nom. Un scénario peut aussi être programmé et s\'exécuter tout seul.</string>
+
+    <string name="tk_hint_title">Tâches et rendez-vous</string>
+    <string name="tk_hint_body">Ces rappels appartiennent au navigateur, pas à l\'horloge du téléphone — ils suivent donc votre sauvegarde. Chacun peut sonner comme un réveil ou arriver discrètement, se répéter, et ouvrir la page qui le concerne. L\'assistant peut les créer pour vous : dites-lui quand, il s\'en charge.</string>
+</resources>

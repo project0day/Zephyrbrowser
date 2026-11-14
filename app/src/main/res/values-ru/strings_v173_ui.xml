@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.3 (task 1-d): Clear-data premium redesign + history premium v2 +
+         "add to quick access" site action. -->
+
+    <!-- Clear data (premium) -->
+    <string name="clear_select_all">Выбрать всё</string>
+    <string name="clear_select_none">Снять всё</string>
+    <string name="clear_entries_fmt">%d записей</string>
+    <string name="clear_cache_mb">%s кэша</string>
+    <string name="clear_cookies_sub">Входы и данные сайтов</string>
+    <string name="clear_forms_sub">Автозаполнение форм</string>
+    <string name="clear_pwds_fmt">%d сохранённых</string>
+    <string name="clear_quick_sites">Быстрый доступ</string>
+    <string name="clear_quick_fmt">%d плиток</string>
+    <string name="clear_scripts">Пользовательские скрипты</string>
+    <string name="clear_scripts_fmt">%d активных</string>
+    <string name="clear_dl_records">Записи загрузок</string>
+    <string name="clear_dl_sub">Только журнал, файлы останутся</string>
+
+    <!-- History (premium v2) -->
+    <string name="hist_empty_title">История пуста</string>
+    <string name="hist_empty_sub">Здесь появятся посещённые сайты</string>
+    <string name="hist_copy_link">Копировать ссылку</string>
+    <string name="hist_copied">Ссылка скопирована</string>
+    <string name="hist_add_bookmark">Добавить в закладки</string>
+    <string name="hist_bookmarked">Добавлено в закладки</string>
+    <string name="hist_visits_fmt">%d</string>
+
+    <!-- Add to quick access -->
+    <string name="menu_add_quick">В быстрый доступ</string>
+    <string name="quick_added">Добавлено в быстрый доступ</string>
+    <string name="quick_exists">Этот сайт уже в быстром доступе</string>
+    <string name="quick_need_site">Откройте сайт, чтобы добавить его</string>
+    <string name="quick_dialog_title">Плитка быстрого доступа</string>
+</resources>

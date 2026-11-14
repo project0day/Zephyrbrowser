@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ts_private_badge">Private tab</string>
+    <string name="ts_close_all_confirm">Close all tabs in this section (%d)?</string>
+    <string name="adblock_youtube">YouTube ad blocking</string>
+    <string name="adblock_youtube_sum">Video ads on YouTube come from the same servers as the video itself, so they need their own mechanism: skip, fast-forward and banner hiding</string>
+    <string name="autofill_profile_title">Fill the form?</string>
+    <string name="autofill_profile_msg">A form with personal fields (name, e-mail, phone…) was found on this page. Pick a profile to autofill.</string>
+    <string name="autofill_filled">Form filled</string>
+    <string name="autofill_fill_failed">Could not fill the form</string>
+    <string name="af_how_it_works">Autofill profiles are offered automatically when a form with personal fields (name, e-mail, phone, address) is detected. Tap “+” to create a profile.</string>
+    <string name="bm_search_hint">Search bookmarks…</string>
+    <string name="bm_search_empty">Nothing found</string>
+    <string name="bm_empty_hint">No bookmarks yet — add them from the browser menu</string>
+    <string name="bm_view_mode">List / grid</string>
+    <string name="bm_view_list">View: list</string>
+    <string name="bm_view_grid">View: grid</string>
+    <string name="bm_tools">Tools</string>
+    <string name="bm_open_current">Open in current tab</string>
+    <string name="set_menu">Browser menu</string>
+    <string name="menu_customize_title">Menu customization</string>
+    <string name="menu_customize_sum">Your own order of the horizontal buttons and vertical rows in the main menu</string>
+    <string name="menu_tiles_section">Horizontal buttons</string>
+    <string name="menu_tiles_order">Top buttons order</string>
+    <string name="menu_rows_section">Vertical rows</string>
+    <string name="menu_rows_order">Menu rows order</string>
+    <string name="menu_move_up">Move up</string>
+    <string name="menu_move_down">Move down</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_need_one">At least one item is required</string>
+</resources>

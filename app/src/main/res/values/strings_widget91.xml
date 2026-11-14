@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.91: second widget (tasks) and the wider colour set. -->
+<resources>
+    <string name="tw_widget_label">Zephyr tasks</string>
+    <string name="tw_widget_desc">What is due, on the home screen. Tap to open the list, or the plus to add one.</string>
+    <string name="tw_title">Tasks</string>
+    <string name="tw_add">Add a task</string>
+    <string name="tw_empty">Nothing planned — tap + to add one</string>
+    <string name="tw_more_fmt">and %1$d more</string>
+    <string name="tw_sample1">09:30 · Call the client</string>
+    <string name="tw_sample2">Tomorrow · Send the quote</string>
+
+    <string name="wg_theme_ocean">Ocean</string>
+    <string name="wg_theme_teal">Teal</string>
+    <string name="wg_theme_green">Green</string>
+    <string name="wg_theme_plum">Plum</string>
+    <string name="wg_theme_rose">Rose</string>
+    <string name="wg_theme_amber">Amber</string>
+    <string name="wg_theme_graphite">Graphite</string>
+    <string name="wg_theme_sand">Sand</string>
+</resources>

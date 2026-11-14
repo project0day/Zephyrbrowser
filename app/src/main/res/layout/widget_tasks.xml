@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.91: today's tasks on the home screen.
+
+  Deliberately a fixed set of rows rather than a scrolling collection. A
+  RemoteViewsService list would scroll, but it costs a service, an adapter and a
+  process that has to stay answerable — for a widget whose whole point is to be
+  read at a glance without being touched. Four rows is what fits before the text
+  gets too small to read anyway; the count line carries the rest.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/twRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_pill_dark"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:id="@+id/twIcon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_list"
+            android:scaleType="fitCenter"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/twTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:text="@string/tw_title" />
+
+        <ImageView
+            android:id="@+id/twAdd"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_add"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/tw_add" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/twRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/twRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/twRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/twRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/twMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#FFFFFF"
+        android:alpha="0.7"
+        android:textSize="11sp"
+        android:paddingTop="4dp" />
+</LinearLayout>

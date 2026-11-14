@@ -1,0 +1,70 @@
+TERMS OF USE — ZEPHYR BROWSER
+
+Last updated: 20 September 2026
+
+1. WHAT YOU ARE BUYING
+
+A licence to use Zephyr Browser on the devices tied to your Google account, for
+personal use. You are buying the application itself — a program that runs on
+your phone. You are not buying a subscription, and there is no service behind
+it that could be switched off.
+
+2. THE AI ASSISTANT REQUIRES YOUR OWN API KEY
+
+Read this before purchasing.
+
+The built-in AI assistant does not come with AI access. It is a client: it
+connects to an AI provider that you choose and pay for separately, using an API
+key you obtain from that provider and enter in the settings.
+
+Without such a key, the assistant will not answer. This is deliberate — it is
+what allows the assistant to work with any provider, and what keeps your
+conversations out of anyone else's hands. It is not a defect, and it is not
+grounds for the application being "broken".
+
+Any cost charged by that provider for your usage is between you and them.
+
+3. YOUR RESPONSIBILITY
+
+You are responsible for what you browse, what you send to an AI provider, what
+documents you produce with this app and what use you make of them, and for
+complying with the law where you are.
+
+The assistant can act on your behalf — create and delete files, run scripts on
+pages, fill in forms. Every such ability can be switched off, and the ones that
+change something ask before acting unless you have told them not to. Review
+what it does before relying on it. Documents it produces — invoices, quotes,
+CVs, filled-in forms — are drafts until you have checked them.
+
+4. NO WARRANTY
+
+The application is provided as is. It is a web browser and an assistant, not a
+professional adviser. Nothing it produces is legal, financial, medical or tax
+advice.
+
+To the fullest extent permitted by law, the developer is not liable for loss of
+data, loss of profit, or any indirect or consequential damage arising from use
+of the application. Nothing in these terms limits liability that cannot be
+limited by law, and nothing here affects the statutory rights of a consumer in
+the European Union.
+
+5. REFUNDS
+
+Purchases are made through Google Play and Google Play's refund policy applies.
+If the application does not work for you, contact us before leaving a review —
+most problems are settings, and most are fixable.
+
+6. UPDATES
+
+Updates are delivered through Google Play. There is no obligation to provide
+updates indefinitely, and no feature is guaranteed to remain unchanged.
+
+7. GOVERNING LAW
+
+These terms are governed by French law. If you are a consumer, this does not
+deprive you of the protection of the mandatory rules of the country in which
+you live.
+
+8. CONTACT
+
+[CONTACT EMAIL — see FINDINGS.md F-007]

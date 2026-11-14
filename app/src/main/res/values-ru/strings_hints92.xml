@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h_pull_refresh">Потяните страницу сверху вниз, чтобы обновить её.</string>
+    <string name="h_omnibox_swipe">Смахивайте по адресной строке вбок, чтобы переключать открытые вкладки.</string>
+    <string name="h_double_tap">Двойное касание по странице приближает то место, куда вы нажали.</string>
+    <string name="h_clipboard">Если вы скопировали ссылку в другом приложении, браузер предложит её открыть.</string>
+    <string name="h_restore_tabs">При запуске открывать вкладки, которые были в прошлый раз.</string>
+    <string name="h_suggestions">Показывать подсказки при наборе. То, что вы набираете, уходит в вашу поисковую систему по мере ввода.</string>
+    <string name="h_pc_default">Запрашивать у всех сайтов версию для компьютера вместо мобильной.</string>
+
+    <string name="h_home_quick_access">Ряд из сайтов, которые вы открываете чаще всего, на главном экране.</string>
+    <string name="h_home_bookmarks">Показывать закладки на главном экране.</string>
+    <string name="h_home_recents">Показывать недавно посещённые страницы на главном экране.</string>
+
+    <string name="h_site_js">Большинству сайтов JavaScript нужен для работы. Без него многие ломаются — но и слежки становится заметно меньше.</string>
+    <string name="h_site_cookies">Куки позволяют сайту помнить вас между визитами — в том числе не разлогинивать.</string>
+    <string name="h_third_party_cookies">Куки, которые ставят сторонние компании внутри страницы. Именно так вас ведут с сайта на сайт; их блокировка почти никогда ничего не ломает.</string>
+    <string name="h_site_images">Без картинок страницы грузятся быстрее и тратят заметно меньше трафика.</string>
+    <string name="h_site_popups">Разрешать сайту самому открывать новое окно. Обычно это реклама.</string>
+
+    <string name="h_pick_wallpaper">Выберите картинку для главного экрана.</string>
+    <string name="h_wallpaper_clear">Вернуть обычный фон.</string>
+    <string name="h_menu_reset">Вернуть кнопки меню в исходный порядок.</string>
+    <string name="h_reset_all">Вернуть все настройки к тому, как было при первом запуске. Закладки, пароли и файлы не трогаются.</string>
+
+    <string name="h_panel_passwords">Сохранённые входы на сайты и проверка тех, что попали в известные утечки.</string>
+    <string name="h_panel_payments">Карты для заполнения форм оплаты, хранятся зашифрованными на этом устройстве.</string>
+    <string name="h_panel_autofill">Имя, адрес и другие данные — чтобы заполнять формы одним касанием.</string>
+    <string name="h_panel_scripts">Небольшие куски кода, меняющие поведение сайта.</string>
+    <string name="h_panel_tasks">Напоминания и встречи, с будильником и календарём.</string>
+    <string name="h_panel_templates">Документы, которые вы делаете не раз, — сметы, счета, письма, — которые помощник заполняет за вас.</string>
+    <string name="h_panel_workspace">Файлы, созданные помощником: код, документы, архивы.</string>
+    <string name="h_panel_workflows">Повторяющиеся последовательности, сохранённые под именем, чтобы вызывать их парой слов.</string>
+    <string name="h_files_title">Просмотр файлов на этом телефоне.</string>
+    <string name="h_reader_lib">Статьи, сохранённые для чтения без окружения страницы.</string>
+    <string name="h_set_offline">Целые страницы, сохранённые для чтения без интернета.</string>
+    <string name="h_set_downloads">Куда попадают скачанные файлы и что уже скачано.</string>
+
+    <string name="h_ai_add_model">Добавьте провайдера и его ключ API. Без собственного ключа помощник отвечать не сможет.</string>
+</resources>

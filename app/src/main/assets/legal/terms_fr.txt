@@ -1,0 +1,76 @@
+CONDITIONS D'UTILISATION — ZEPHYR BROWSER
+
+Dernière mise à jour : 20 septembre 2026
+
+1. CE QUE VOUS ACHETEZ
+
+Une licence d'utilisation de Zephyr Browser sur les appareils liés à votre
+compte Google, pour un usage personnel. Vous achetez l'application elle-même —
+un programme qui s'exécute sur votre téléphone. Ce n'est pas un abonnement, et
+aucun service susceptible d'être interrompu ne se trouve derrière.
+
+2. L'ASSISTANT IA NÉCESSITE VOTRE PROPRE CLÉ D'API
+
+À lire avant l'achat.
+
+L'assistant IA intégré n'est pas fourni avec un accès à l'IA. C'est un client :
+il se connecte à un fournisseur que vous choisissez et payez séparément, au
+moyen d'une clé d'API que vous obtenez auprès de ce fournisseur et saisissez
+dans les réglages.
+
+Sans une telle clé, l'assistant ne répondra pas. C'est délibéré : c'est ce qui
+lui permet de fonctionner avec n'importe quel fournisseur, et ce qui maintient
+vos conversations hors de portée de tiers. Ce n'est pas un défaut, et cela ne
+rend pas l'application « défectueuse ».
+
+Les frais facturés par ce fournisseur pour votre usage relèvent de votre
+relation avec lui.
+
+3. VOTRE RESPONSABILITÉ
+
+Vous êtes responsable de ce que vous consultez, de ce que vous envoyez à un
+fournisseur d'IA, des documents que vous produisez avec cette application et de
+l'usage que vous en faites, ainsi que du respect de la loi applicable.
+
+L'assistant peut agir en votre nom : créer et supprimer des fichiers, exécuter
+des scripts sur des pages, remplir des formulaires. Chacune de ces capacités
+peut être désactivée, et celles qui modifient quelque chose demandent
+confirmation avant d'agir, sauf indication contraire de votre part. Vérifiez ce
+qu'il fait avant de vous y fier. Les documents qu'il produit — factures, devis,
+CV, formulaires remplis — restent des brouillons tant que vous ne les avez pas
+contrôlés.
+
+4. ABSENCE DE GARANTIE
+
+L'application est fournie en l'état. C'est un navigateur et un assistant, non
+un conseiller professionnel. Rien de ce qu'elle produit ne constitue un conseil
+juridique, financier, médical ou fiscal.
+
+Dans toute la mesure permise par la loi, le développeur n'est pas responsable
+des pertes de données, des pertes de bénéfices, ni de tout dommage indirect ou
+consécutif résultant de l'utilisation de l'application. Rien dans les présentes
+conditions ne limite une responsabilité qui ne peut l'être légalement, et rien
+n'affecte les droits légaux du consommateur dans l'Union européenne.
+
+5. REMBOURSEMENTS
+
+L'achat s'effectue via Google Play et la politique de remboursement de Google
+Play s'applique. Si l'application ne fonctionne pas chez vous, contactez-nous
+avant de laisser un avis : la plupart des problèmes tiennent aux réglages, et
+la plupart se résolvent.
+
+6. MISES À JOUR
+
+Les mises à jour sont distribuées via Google Play. Il n'existe aucune
+obligation d'en fournir indéfiniment, et aucune fonctionnalité n'est garantie
+comme demeurant inchangée.
+
+7. DROIT APPLICABLE
+
+Les présentes conditions sont régies par le droit français. Si vous êtes
+consommateur, cela ne vous prive pas de la protection des dispositions
+impératives du pays où vous résidez.
+
+8. CONTACT
+
+[CONTACT EMAIL — see FINDINGS.md F-007]

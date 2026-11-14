@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wg_theme_clear25">Transparent 25%</string>
+    <string name="wg_theme_clear50">Transparent 50%</string>
+    <string name="wg_theme_clear75">Transparent 75%</string>
+    <string name="wg_theme_frost">Givré</string>
+</resources>

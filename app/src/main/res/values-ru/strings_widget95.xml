@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wg_theme_indigo">Индиго</string>
+    <string name="wg_theme_steel">Сталь</string>
+    <string name="wg_theme_slate">Сланец</string>
+    <string name="wg_theme_forest">Хвойный</string>
+    <string name="wg_theme_moss">Мох</string>
+    <string name="wg_theme_crimson">Багровый</string>
+    <string name="wg_theme_wine">Винный</string>
+    <string name="wg_theme_copper">Медь</string>
+    <string name="wg_theme_mint">Мятный</string>
+    <string name="wg_theme_blush">Пудровый</string>
+</resources>

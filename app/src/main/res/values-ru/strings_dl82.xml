@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dl_progress_fmt">%1$s из %2$s · %3$d%%</string>
+    <string name="dl_progress_unknown_fmt">Скачано %1$s</string>
+    <string name="dl_cancel">Отменить загрузку</string>
+    <string name="dl_cancelled">Загрузка отменена</string>
+    <string name="ai_act_run_js">Выполнить скрипт на странице</string>
+    <string name="bk_password_required">Пароли и карты попадут в копию, только если задать пароль файла — тогда она шифруется AES-256. Оставите пустым — всё остальное всё равно сохранится.</string>
+</resources>

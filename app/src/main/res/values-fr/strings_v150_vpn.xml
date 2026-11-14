@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.0 : consentement VPN + consolidation du service au premier plan
+         (correctif : plantage de l\'application lors d\'une connexion avec identifiants) -->
+    <string name="vpn_need_consent">Autorisation VPN Android requise</string>
+    <string name="vpn_no_vpn_support">Aucune prise en charge VPN trouvée sur cet appareil</string>
+    <string name="vpn_consent_hint">Lors de la première connexion, le système demandera l\'autorisation de configurer le VPN — c\'est une boîte de dialogue Android standard</string>
+    <string name="vpn_consent_denied">Autorisation VPN non accordée</string>
+</resources>

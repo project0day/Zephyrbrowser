@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.18: floating player rework, player menu/info, drag-close target.
+     NOTE: never use a double hyphen inside XML comments (AAPT/SAX hard error). -->
+<resources>
+    <!-- video player: overflow menu + info dialog -->
+    <string name="pl_menu">Ещё</string>
+    <string name="pl_duration">Длительность: %1$s</string>
+    <string name="pl_audio_track">Аудиозапись</string>
+
+    <!-- floating player: drag-down-to-close target -->
+    <string name="fl_close_hint">Перетащите сюда, чтобы закрыть</string>
+</resources>

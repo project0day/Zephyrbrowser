@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="swarm_err_empty">Aucun participant de l\'essaim n\'est disponible.</string>
+    <string name="swarm_err_none">Personne dans l\'essaim n\'a répondu.</string>
+    <string name="swarm_st_next">Cela n\'a pas marché — j\'essaie %1$s…</string>
+    <string name="swarm_st_asking">Je demande à %1$s (%2$d/%3$d)…</string>
+    <string name="swarm_no_answer">n\'a pas répondu</string>
+    <string name="swarm_council_via">Conseil de l\'essaim</string>
+
+    <string name="diff_more_lines">%1$d lignes de plus</string>
+    <string name="diff_lines_above">… %1$d lignes au-dessus</string>
+    <string name="diff_lines_below">… %1$d lignes en dessous</string>
+    <string name="diff_more_removed">%1$d lignes supprimées de plus</string>
+    <string name="diff_more_added">%1$d lignes ajoutées de plus</string>
+</resources>

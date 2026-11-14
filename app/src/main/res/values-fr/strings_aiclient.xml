@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_st_summing">Beaucoup d\'étapes — je conclus…</string>
+    <string name="ai_st_searching">Recherche sur Internet : %1$s…</string>
+    <string name="ai_st_reading">Lecture de la page…</string>
+    <string name="ai_st_connecting">Connexion à %1$s…</string>
+    <string name="ai_st_waiting">En attente du serveur…</string>
+    <string name="ai_st_retry">Limite du fournisseur — nouvelle tentative dans %1$d s…</string>
+    <string name="ai_st_thinking">Le modèle réfléchit…</string>
+    <string name="ai_st_reasoning">Raisonnement…</string>
+    <string name="ai_st_typing">Rédaction…</string>
+    <string name="ai_st_agent_silent">L\'agent ne répond pas — %1$s prend le relais…</string>
+
+    <string name="ai_err_rounds_done">La tâche a demandé plus d\'étapes qu\'une seule réponse ne le permet (%1$d). Ce qu\'il a pu faire : %2$s. Demandez-lui de reprendre là.</string>
+    <string name="ai_err_rounds">La tâche a demandé plus d\'étapes qu\'une seule réponse ne le permet (%1$d). Une partie du travail a peut-être abouti — vérifiez, puis demandez-lui de reprendre là où il s\'est arrêté.</string>
+    <string name="ai_err_no_text">Le modèle n\'a renvoyé aucun texte. Essayez un autre modèle ou renvoyez la demande.</string>
+    <string name="ai_err_timeout">⏱ Le modèle « %1$s » n\'a pas répondu à temps.\nLes modèles lourds peuvent réfléchir plusieurs minutes — réessayez ou choisissez un modèle plus léger.</string>
+    <string name="ai_err_offline">⚠️ Aucune connexion au service d\'IA.\n%1$s</string>
+    <string name="ai_err_empty">Le modèle a renvoyé une réponse vide.</string>
+    <string name="ai_err_key">🔑 Clé refusée (%1$d).\nVérifiez la clé d\'API du profil « %2$s ».\n\n%3$s</string>
+    <string name="ai_err_endpoint">🚫 Endpoint introuvable (404).\nLa requête est partie vers :\n%1$s\n\nVérifiez que le modèle « %2$s » existe chez ce fournisseur et que l\'adresse est correcte (pour NVIDIA : https://integrate.api.nvidia.com/v1).\n\n%3$s</string>
+    <string name="ai_err_rejected">⚠️ Requête refusée (%1$d).\n\n%2$s\n\nModèle : « %3$s »</string>
+    <string name="ai_err_rate">⏳ Limite de requêtes atteinte (429). Réessayez plus tard ou changez de modèle.\n\n%1$s</string>
+    <string name="ai_err_provider">💥 Erreur du côté du fournisseur (%1$d).\n\n%2$s</string>
+    <string name="ai_err_http">Erreur %1$d.\n\n%2$s</string>
+    <string name="ai_err_no_backup">Aucun modèle de secours — ajoutez un modèle ordinaire dans Réglages → Assistant IA et il prendra le relais pendant que l\'agent est hors ligne.</string>
+    <string name="ai_st_followup">Je prends en compte votre ajout…</string>
+</resources>

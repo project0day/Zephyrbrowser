@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.5.0: incognito TOP BAR background — vertical purple gradient so the toolbar
+     reads as the top of the bg_incognito_root gradient (status bar tint #2E1E4F
+     matches the start color, navigation bar #1F1740 sits near the dark end). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:angle="270" android:startColor="#2E1E4F" android:endColor="#241A3D" android:type="linear" />
+</shape>

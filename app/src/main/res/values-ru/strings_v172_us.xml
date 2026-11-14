@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.2: userscript engine (agent 4-c) — Scripts panel rewrite strings. -->
+<resources>
+    <string name="scr_add">Добавить скрипт</string>
+    <string name="scr_import_us">Импорт .user.js</string>
+    <string name="scr_more">Ещё</string>
+    <string name="scr_import_failed">Не удалось прочитать файл</string>
+    <string name="scr_example_btn">Вставить пример</string>
+    <string name="scr_runat_start">старт</string>
+    <string name="scr_runat_end">конец</string>
+    <string name="scr_runat_idle">по готовности</string>
+    <string name="scr_hint">Скрипты в формате Tampermonkey (.user.js) запускаются на подходящих страницах автоматически. Правила задаются в заголовке: @match — где запускать, @exclude — где не запускать, @run-at — когда (document-start, document-end, document-idle).</string>
+</resources>

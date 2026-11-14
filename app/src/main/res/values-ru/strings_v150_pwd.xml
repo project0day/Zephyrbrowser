@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.5.0 password vault + security (agent 1-c). ru = default. -->
+<resources>
+    <!-- sections -->
+    <string name="vault_section">Хранилище паролей</string>
+    <string name="vault_section_other">Прочее</string>
+
+    <!-- gate: biometric -->
+    <string name="vault_biometric_title">Доступ к хранилищу</string>
+    <string name="vault_biometric_subtitle">Подтвердите личность, чтобы открыть пароли</string>
+
+    <!-- gate: PIN -->
+    <string name="vault_gate_title">Хранилище заблокировано</string>
+    <string name="vault_gate_message">Введите PIN-код хранилища</string>
+    <string name="vault_locked_hint">Введите PIN-код или подтвердите личность, чтобы открыть сохранённые пароли</string>
+    <string name="vault_unlock">Разблокировать</string>
+    <string name="vault_pin_label">PIN-код</string>
+    <string name="vault_wrong_pin">Неверный PIN-код</string>
+    <string name="vault_locked_out">Слишком много попыток. Закройте и снова откройте хранилище.</string>
+
+    <!-- first-run offer -->
+    <string name="vault_offer_title">Установить PIN для хранилища?</string>
+    <string name="vault_offer_message">PIN или биометрия защищают сохранённые пароли от посторонних. Это можно изменить в настройках безопасности.</string>
+    <string name="vault_offer_set">Установить</string>
+    <string name="vault_offer_skip">Пропустить</string>
+
+    <!-- PIN setup / change -->
+    <string name="vault_setup_title">Новый PIN-код</string>
+    <string name="vault_setup_message">Введите от 4 до 8 цифр</string>
+    <string name="vault_confirm_title">Повторите PIN-код</string>
+    <string name="vault_pin_too_short">PIN должен содержать от 4 до 8 цифр</string>
+    <string name="vault_pin_mismatch">PIN-коды не совпадают, попробуйте ещё раз</string>
+    <string name="vault_pin_set_done">PIN-код установлен</string>
+    <string name="vault_pin_removed">PIN-код удалён</string>
+    <string name="vault_pin_changed">PIN-код изменён</string>
+    <string name="vault_change_pin">Сменить PIN</string>
+
+    <!-- biometrics settings -->
+    <string name="vault_biometrics">Биометрия</string>
+    <string name="vault_sum_pin">PIN-код защищает доступ к хранилищу паролей</string>
+    <string name="vault_sum_biometrics">Отпечаток пальца или лицо вместо PIN-кода</string>
+    <string name="vault_biometrics_unavailable">Биометрия недоступна на этом устройстве</string>
+    <string name="vault_need_pin_first">Сначала установите PIN-код хранилища</string>
+
+    <!-- autolock -->
+    <string name="vault_autolock">Автоблокировка</string>
+    <string name="vault_autolock_immediately">Сразу при выходе</string>
+    <string name="vault_autolock_30s">Через 30 секунд</string>
+    <string name="vault_autolock_1m">Через 1 минуту</string>
+    <string name="vault_autolock_5m">Через 5 минут</string>
+
+    <!-- saving / autofill / entry -->
+    <string name="vault_sum_save">Предлагать сохранение паролей при входе на сайтах</string>
+    <string name="vault_sum_autofill">Подставлять сохранённые логины в формы входа</string>
+    <string name="vault_open">Открыть хранилище</string>
+
+    <!-- panel -->
+    <string name="vault_search_hint">Поиск по паролям</string>
+    <string name="vault_add_title">Добавить пароль</string>
+    <string name="vault_edit_title">Изменить пароль</string>
+    <string name="vault_add_first">Добавить пароль</string>
+    <string name="vault_empty_hint">Хранилище пусто. Добавьте пароль вручную или сохраняйте логины при входе на сайтах — они появятся здесь.</string>
+    <string name="vault_field_site">Сайт</string>
+    <string name="vault_field_login">Логин</string>
+    <string name="vault_field_password">Пароль</string>
+    <string name="vault_generate_short">Сгенерировать</string>
+    <string name="vault_need_site_login">Заполните сайт, логин и пароль</string>
+    <string name="vault_saved">Пароль сохранён</string>
+    <string name="vault_deleted">Пароль удалён</string>
+    <string name="vault_open_site">Открыть сайт</string>
+    <string name="vault_encrypt_error">Не удалось зашифровать пароль</string>
+    <string name="vault_export_error">Не удалось экспортировать CSV</string>
+</resources>

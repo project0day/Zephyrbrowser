@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.54 : tâches (calendrier + rappels) -->
+    <string name="panel_tasks">Tâches</string>
+    <string name="menu_tasks">Tâches et rappels</string>
+    <string name="tk_add">Nouvelle tâche</string>
+    <string name="tk_edit">Modifier la tâche</string>
+    <string name="tk_title_hint">Ce qu\'il faut faire</string>
+    <string name="tk_notes_hint">Détails (facultatif)</string>
+    <string name="tk_when">Quand</string>
+    <string name="tk_repeat">Répétition</string>
+    <string name="tk_alarm">Alarme sonore</string>
+    <string name="tk_alarm_sub">Son et vibration. Désactivez pour une notification discrète.</string>
+    <string name="tk_quiet">discret</string>
+    <string name="tk_need_title">Indiquez le rappel</string>
+    <string name="tk_done">Fait</string>
+    <string name="tk_snooze">Dans 10 min</string>
+
+    <string name="tk_rep_once">Une fois</string>
+    <string name="tk_rep_daily">Chaque jour</string>
+    <string name="tk_rep_weekdays">En semaine</string>
+    <string name="tk_rep_weekly">Chaque semaine</string>
+    <string name="tk_rep_monthly">Chaque mois</string>
+
+    <string name="tk_today">Aujourd\'hui</string>
+    <string name="tk_tomorrow">Demain</string>
+    <string name="tk_yesterday">Hier</string>
+
+    <string name="tk_upcoming">À venir</string>
+    <string name="tk_mode_all">Tout</string>
+    <string name="tk_mode_day">Par jour</string>
+    <string name="tk_empty_day">Rien ce jour-là</string>
+    <string name="tk_empty_all">Rien à venir</string>
+
+    <string name="tk_channel_alarm">Rappels de tâches</string>
+    <string name="tk_channel_alarm_sub">Rappels sonores</string>
+    <string name="tk_channel_quiet">Rappels discrets</string>
+    <string name="tk_channel_quiet_sub">Rappels sans son</string>
+
+    <string name="tk_notif_warn">Les notifications de Zephyr sont désactivées — les rappels n\'arriveront pas du tout. Appuyez pour activer.</string>
+    <string name="tk_notif_title">Activer les notifications</string>
+    <string name="tk_notif_msg">La tâche est enregistrée, mais les notifications de Zephyr sont désactivées — le rappel n\'apparaîtra pas. Ouvrir les réglages ?</string>
+    <string name="tk_exact_warn">Les alarmes exactes sont bloquées par le système — les rappels peuvent arriver en retard. Appuyez pour autoriser.</string>
+    <string name="tk_exact_title">Autoriser l\'heure exacte</string>
+    <string name="tk_exact_msg">Android n\'autorise pas une application à réveiller le téléphone à la minute près tant que ce n\'est pas activé manuellement. Actuellement un rappel peut avoir jusqu\'à cinq minutes de retard. Ouvrir le réglage ?</string>
+
+    <!-- v1.7.54 : espace de travail de l\'assistant -->
+    <string name="ai_tools_write">Création de fichiers et de code</string>
+    <string name="ai_tools_write_sub">L\'assistant peut écrire des scripts et des notes, créer des dossiers et empaqueter un projet en zip — dans son propre dossier de travail</string>
+    <string name="ai_write_anywhere">Écrire hors du dossier de travail</string>
+    <string name="ai_write_anywhere_sub">Autoriser l\'écriture de fichiers partout sur le téléphone. Chaque fichier est confirmé séparément.</string>
+    <string name="ai_write_anywhere_warn">L\'assistant pourra écraser n\'importe lequel de vos fichiers, pas seulement les siens. Il demandera toujours, mais un mauvais chemin coûte plus cher. À activer seulement en connaissance de cause.</string>
+    <string name="ai_tools_tasks">Tâches et rappels</string>
+    <string name="ai_tools_tasks_sub">L\'assistant peut créer des rappels, lister vos tâches et les clôturer</string>
+    <string name="ai_workspace">Dossier de travail de l\'assistant</string>
+    <string name="ai_workspace_note">Tout ce que l\'assistant crée se trouve ici. Les scripts sont enregistrés comme du texte : Android n\'exécute pas le code écrit par une application.</string>
+
+    <string name="ai_act_write">L\'assistant veut créer un fichier</string>
+    <string name="ai_act_overwrite">L\'assistant veut ÉCRASER un fichier</string>
+    <string name="ai_act_append">L\'assistant veut compléter un fichier</string>
+    <string name="ai_act_delete">L\'assistant veut supprimer</string>
+    <string name="ai_act_del_task">L\'assistant veut supprimer une tâche</string>
+    <string name="tk_span_fmt">%1$d mois</string>
+    <string name="rv_new">nouveau fichier</string>
+    <string name="rv_overwrite">écrasement</string>
+    <string name="rv_append">ajout</string>
+    <string name="rv_apply">Appliquer</string>
+    <string name="rv_reject">Refuser</string>
+    <string name="rv_apply_all">Tout appliquer</string>
+    <string name="rv_reject_all">Tout refuser</string>
+
+    <!-- v1.7.55 : configuration du bouton « brûler » -->
+    <string name="burn_go">Brûler</string>
+    <string name="burn_confirm_fmt">Seront effacés : %1$s.\n\nC\'est irréversible.</string>
+    <string name="burn_settings">Configurer le bouton « Brûler »</string>
+    <string name="burn_pick_title">Ce que le bouton efface</string>
+    <string name="burn_pick_hint">Tout ce qui est coché est effacé immédiatement et définitivement. Les entrées marquées ⚠ suppriment ce que vous avez enregistré vous-même.</string>
+    <string name="burn_pick_all">Tout cocher</string>
+    <string name="burn_none">rien de sélectionné</string>
+    <string name="burn_everything">absolument tout</string>
+    <string name="burn_more_fmt">… et %1$d de plus</string>
+    <string name="burn_ask">Demander avant de brûler</string>
+    <string name="burn_ask_sub">Désactivez pour un bouton d\'urgence instantané — il agira aussitôt, sans question</string>
+    <string name="burn_t_tabs">Onglets</string>
+    <string name="burn_t_cookies">Cookies</string>
+    <string name="burn_t_storage">Stockage des sites</string>
+    <string name="burn_t_cache">Cache</string>
+    <string name="burn_t_history">Historique</string>
+    <string name="burn_t_sitedata">Données des sites</string>
+    <string name="burn_t_formdata">Données de formulaires</string>
+    <string name="burn_t_downloads">Liste des téléchargements</string>
+    <string name="burn_t_offline">Pages hors ligne</string>
+    <string name="burn_t_reader">Bibliothèque de lecture</string>
+    <string name="burn_t_trash">Corbeille</string>
+    <string name="burn_t_bookmarks">Favoris</string>
+    <string name="burn_t_autofill">Saisie automatique</string>
+    <string name="burn_t_passwords">Mots de passe</string>
+    <string name="burn_t_payments">Cartes de paiement</string>
+    <string name="burn_t_tasks">Tâches et rappels</string>
+
+    <!-- v1.7.55 : saisie vocale sans Google -->
+    <string name="voice_listening">J\'écoute…</string>
+    <string name="voice_stop">Terminé</string>
+    <string name="voice_sending">Transcription…</string>
+    <string name="voice_rec_fail">Impossible d\'activer le microphone</string>
+    <string name="voice_too_short">Trop court — rien n\'a été enregistré</string>
+    <string name="voice_empty">Rien n\'a été reconnu</string>
+    <string name="voice_fail_fmt">Échec de la transcription : %1$s</string>
+    <string name="voice_setup_msg">Ce téléphone n\'a pas de reconnaissance vocale système — elle vient de l\'application Google, qui n\'est pas installée.\n\nZephyr peut s\'en passer : il enregistre le son et l\'envoie à votre propre fournisseur d\'IA pour transcription. Pour Groq et OpenAI, rien à configurer — un profil actif avec une clé suffit. Pour les autres, indiquez l\'adresse et le modèle dans les réglages IA.\n\nOuvrir les réglages ?</string>
+    <string name="voice_stt">Saisie vocale (reconnaissance)</string>
+    <string name="voice_stt_endpoint">Adresse de transcription</string>
+    <string name="voice_stt_model">Modèle de transcription</string>
+    <string name="voice_stt_key">Clé de transcription</string>
+    <string name="voice_stt_auto">Reprise du profil actif</string>
+    <string name="voice_stt_note">S\'il n\'y a pas de reconnaissance système, l\'enregistrement part ici. Laissez vide pour réutiliser le profil IA actif (fonctionne pour Groq et OpenAI).</string>
+
+    <!-- v1.7.57 : mémoire de l\'assistant -->
+    <string name="mem_title">Mémoire de l\'assistant</string>
+    <string name="mem_on">Se souvenir entre les discussions</string>
+    <string name="mem_on_sub">L\'assistant retient des faits durables vous concernant et en tient compte à chaque fois</string>
+    <string name="mem_view">Ce qui est mémorisé</string>
+    <string name="mem_count_fmt">Faits : %1$d</string>
+    <string name="mem_empty">Rien de mémorisé pour l\'instant</string>
+    <string name="mem_edit">Modifier le fait</string>
+    <string name="mem_add">Ajouter</string>
+    <string name="mem_clear">Effacer</string>
+    <string name="mem_hint">Par exemple : j\'écris en Kotlin, mon téléphone tourne sous microG</string>
+    <string name="mem_note">Ces faits sont joints à chaque requête : gardez-les courts. L\'assistant les enregistre lui-même, mais vous pouvez en corriger ou en supprimer.</string>
+
+    <!-- v1.7.57 : me rappeler ce lien plus tard -->
+    <string name="ctx_remind">Me le rappeler</string>
+    <string name="rl_1h">Dans une heure</string>
+    <string name="rl_evening">Ce soir</string>
+    <string name="rl_tomorrow">Demain matin</string>
+    <string name="rl_week">Dans une semaine</string>
+    <string name="rl_saved_fmt">Rappel prévu : %1$s</string>
+    <string name="rl_failed">Impossible de créer le rappel</string>
+    <string name="tk_open_link">Ouvrir la page</string>
+    <string name="tk_attach_page">Joindre la page ouverte</string>
+    <string name="tk_export_ics">Exporter vers le calendrier (.ics)</string>
+    <string name="tk_export_done_fmt">Enregistré : %1$s</string>
+    <string name="tk_export_empty">Rien à exporter</string>
+
+    <!-- v1.7.57 : dossier de travail de l\'assistant -->
+    <string name="panel_workspace">Projets de l\'assistant</string>
+    <string name="ws_empty">Rien ici pour l\'instant. Demandez à l\'assistant de créer un fichier ou un projet.</string>
+    <string name="ws_items_fmt">Éléments : %1$d</string>
+    <string name="ws_view">Ouvrir</string>
+    <string name="ws_zip">Empaqueter en zip</string>
+    <string name="ws_share">Partager</string>
+    <string name="ws_rename">Renommer</string>
+    <string name="ws_zipped_fmt">Archive %1$s prête, %2$d fichiers à l\'intérieur</string>
+    <string name="ws_share_dir">Un dossier ne peut être envoyé qu\'en archive — empaquetez-le d\'abord</string>
+    <string name="ws_share_fail">Impossible de partager le fichier</string>
+    <string name="ws_too_big">Fichier trop volumineux pour l\'affichage</string>
+    <string name="ws_binary">Ce n\'est pas un fichier texte</string>
+    <string name="ws_last_fmt">Dernière réponse : %1$d fichiers</string>
+    <string name="ws_undo">Annuler</string>
+    <string name="ws_undo_msg_fmt">Remettre %1$d fichiers dans l\'état où ils étaient avant la dernière réponse ?</string>
+    <string name="ws_undo_done_fmt">Fichiers restaurés : %1$d</string>
+
+    <!-- v1.7.57 : tâches planifiées de l\'assistant -->
+    <string name="job_channel">Tâches de l\'assistant</string>
+    <string name="job_channel_sub">Réponses aux tâches exécutées selon le calendrier</string>
+    <string name="job_chat_fmt">Tâche : %1$s</string>
+    <string name="job_no_model">Aucun modèle actif — la tâche n\'a pas été exécutée</string>
+    <string name="job_timeout">Le modèle n\'a pas répondu à temps</string>
+    <string name="job_empty">Le modèle a renvoyé une réponse vide</string>
+    <string name="tk_kind">Type</string>
+    <string name="tk_kind_task">Rappel</string>
+    <string name="tk_kind_job">Tâche pour l\'assistant</string>
+    <string name="tk_prompt">Que demander à l\'assistant</string>
+    <string name="tk_prompt_hint">Par exemple : rassemble les titres du jour et retiens les trois plus importants</string>
+    <string name="tk_job_note">S\'exécute selon le calendrier : l\'assistant traite la demande lui-même et envoie la réponse en notification. Les outils de page sont alors indisponibles — le navigateur peut être fermé.</string>
+    <string name="tk_job_badge">tâche</string>
+
+    <!-- v1.7.58 : vrais champs de saisie automatique -->
+    <string name="af_f_name">Nom complet</string>
+    <string name="af_f_first">Prénom</string>
+    <string name="af_f_last">Nom</string>
+    <string name="af_f_email">E-mail</string>
+    <string name="af_f_phone">Téléphone</string>
+    <string name="af_f_address">Adresse</string>
+    <string name="af_f_address2">Adresse, ligne 2</string>
+    <string name="af_f_city">Ville</string>
+    <string name="af_f_postal">Code postal</string>
+    <string name="af_f_state">Région / état</string>
+    <string name="af_f_country">Pays</string>
+    <string name="af_f_company">Société</string>
+    <string name="af_f_birthday">Date de naissance</string>
+    <string name="af_f_username">Nom d\'utilisateur</string>
+    <string name="af_f_website">Site web</string>
+    <string name="af_f_extra">Champs personnalisés</string>
+    <string name="af_extra_hint">Un par ligne, sous la forme clé=valeur. Pour tout ce qui n\'est pas listé ci-dessus.</string>
+
+    <!-- v1.7.60 : scripts écrits par l\'assistant et annulation -->
+    <string name="ai_tools_scripts">Création de scripts</string>
+    <string name="ai_tools_scripts_sub">L\'assistant peut exécuter du JavaScript sur une page et créer des scripts utilisateur permanents</string>
+    <string name="ai_act_script">L\'assistant veut créer un script permanent</string>
+    <string name="ai_act_script_del">L\'assistant veut supprimer un script</string>
+    <string name="log_undo">Annuler</string>
+    <string name="log_undone">annulé</string>
+    <string name="log_clear_confirm">Effacer le journal des actions de l\'assistant ? La possibilité d\'annuler ces actions disparaît avec lui.</string>
+
+    <!-- v1.7.61 : les scripts passent par la même fenêtre de revue -->
+    <string name="rv_script_new">nouveau script</string>
+    <string name="rv_script_del">suppression d\'un script</string>
+    <string name="rv_script_on">S\'exécutera sur : %1$s</string>
+
+    <!-- v1.7.61 : PDF -->
+    <string name="ai_act_pdf_fill">L\'assistant veut remplir un PDF</string>
+    <string name="ai_act_pdf_stamp">L\'assistant veut apposer du texte dans un PDF</string>
+
+    <!-- v1.7.61 : scénarios -->
+    <string name="panel_workflows">Scénarios</string>
+    <string name="wf_hint">Un scénario est une commande enregistrée. Un appui la lance : l\'assistant reçoit votre instruction et choisit lui-même ses outils.</string>
+    <string name="wf_add">Nouveau scénario</string>
+    <string name="wf_edit">Modifier le scénario</string>
+    <string name="wf_empty">Aucun scénario. Créez-en un, ou dites à l\'assistant : « crée une commande qui… »</string>
+    <string name="wf_run">Lancer</string>
+    <string name="wf_schedule">Planifier</string>
+    <string name="wf_name_hint">Nom court, par exemple « factures »</string>
+    <string name="wf_prompt_hint">Ce qui doit se passer au lancement</string>
+    <string name="wf_prompt_note">Écrivez-le comme une demande ordinaire : quoi faire, avec quels fichiers ou sites, et sous quelle forme présenter le résultat.</string>
+    <string name="wf_need_both">Il faut un nom et une instruction</string>
+    <string name="wf_no_browser">Ouvrez le navigateur pour lancer un scénario</string>
+    <string name="wf_review_sub">Enregistré comme l\'une de vos commandes</string>
+    <string name="wf_new">nouveau scénario</string>
+    <string name="wf_replace">remplacement d\'un scénario</string>
+
+    <string name="ai_act_office_fill">L\'assistant veut remplir un document</string>
+
+    <!-- v1.7.68 : choix du style de CV -->
+    <string name="cv_pick_title">À quoi doit ressembler le CV</string>
+    <string name="cv_pick_sub">Choisissez une mise en page et une couleur — ou laissez faire l\'assistant.</string>
+    <string name="cv_pick_color">Couleur d\'accent</string>
+    <string name="cv_pick_auto">Qu\'il décide</string>
+    <string name="cv_pick_go">Terminé</string>
+    <string name="cv_review_sub">CV · modèle %1$s, %2$s</string>
+    <string name="rv_count_fmt">Fichier %1$d de cette réponse</string>
+
+    <!-- v1.7.68 : l\'assistant continue en arrière-plan -->
+    <string name="ai_work_channel">Assistant au travail</string>
+    <string name="ai_work_channel_sub">Affiché pendant que l\'assistant traite une demande</string>
+    <string name="ai_work_title">L\'assistant travaille</string>
+    <string name="ai_work_text">Vous pouvez réduire le navigateur — la réponse arrivera</string>
+
+    <string name="cache_top_fmt">Affichage des %1$d sites les plus lourds sur %2$d</string>
+
+    <string name="cv_pick_custom">Couleur personnalisée</string>
+    <string name="cv_pick_bad_color">Il faut un code du type #1F4E79</string>
+
+    <!-- v1.7.70 : modèles de documents et mini-applications -->
+    <string name="panel_templates">Modèles</string>
+    <string name="tpl_hint">Un modèle est un document que vous envoyez encore et encore : devis, facture, contrat. L\'assistant l\'écrit une fois ; ensuite il se remplit d\'une seule phrase.</string>
+    <string name="tpl_empty">Aucun modèle pour l\'instant</string>
+    <string name="tpl_empty_how">Dites à l\'assistant : « fais-moi un modèle de devis, voilà ce qu\'il doit contenir » — il apparaîtra ici.</string>
+    <string name="tpl_kind_doc">document</string>
+    <string name="tpl_kind_app">mini-application</string>
+    <string name="tpl_use">Remplir</string>
+    <string name="tpl_run_prompt">Remplis le modèle « %1$s ».</string>
+    <string name="tpl_review_sub">Modèle · dossier %1$s</string>
+    <string name="tpl_doc_sub">Document d\'après le modèle « %1$s »</string>
+    <string name="tpl_new">nouveau modèle</string>
+    <string name="tpl_replace">remplacement d\'un modèle</string>
+    <string name="biz_title">Mes coordonnées</string>
+    <string name="biz_sub">Insérées automatiquement dans les documents — on ne vous les redemandera plus.</string>
+    <string name="biz_empty">Non renseignées — appuyez pour les saisir une fois</string>
+    <string name="biz_next_fmt">Prochains numéros : devis %1$s, facture %2$s</string>
+
+    <string name="set_search_hint">Que cherchez-vous ? par ex. réveil</string>
+    <string name="set_search_start">Commencez à taper — tout réglage sera trouvé</string>
+    <string name="set_search_none">Aucun résultat</string>
+
+    <string name="biz_saved">Coordonnées enregistrées</string>
+
+    <!-- v1.7.73 : modèles visuels, groupes, signature, import -->
+    <string name="tpl_ask_title">Document d\'après le modèle « %1$s »</string>
+    <string name="tpl_ask_sub">Écrivez avec vos mots, comme le client vous l\'a dit — l\'assistant répartira cela dans les champs.</string>
+    <string name="tpl_ask_hint">ex. : client — société « Exemple », remplacer deux portes, 600 euros, deux semaines</string>
+    <string name="tpl_ask_sign">Apposer ma signature</string>
+    <string name="tpl_ask_go">Préparer</string>
+    <string name="tpl_rename">Renommer</string>
+    <string name="tpl_move">Déplacer vers un groupe</string>
+    <string name="tpl_refresh">Actualiser la vignette</string>
+    <string name="tpl_group_new">Nouveau groupe…</string>
+    <string name="tpl_group_hint">Nom du groupe</string>
+    <string name="tpl_group_title">Groupe « %1$s »</string>
+    <string name="tpl_group_emoji">Icône</string>
+    <string name="tpl_group_color">Couleur</string>
+    <string name="tpl_import">Importer mon modèle</string>
+    <string name="tpl_import_sub">HTML, Word (.docx) ou PDF — votre formulaire reste tel quel</string>
+    <string name="tpl_import_name">Nom du modèle</string>
+    <string name="tpl_import_done">Modèle « %1$s » importé</string>
+    <string name="tpl_import_bad">Format non pris en charge : .html, .docx ou .pdf</string>
+    <string name="tpl_import_fail">Impossible d\'importer le fichier</string>
+    <string name="tpl_import_hint_docx">Dans votre modèle Word, placez des repères comme {{client_name}} là où le texte change.</string>
+    <string name="sig_title">Ma signature</string>
+    <string name="sig_hint">Signez avec le doigt — elle sera enregistrée et apposée sur les documents.</string>
+    <string name="sig_present">signature enregistrée</string>
+    <string name="sig_absent">non définie</string>
+    <string name="sig_draw">Signer</string>
+    <string name="sig_clear">Supprimer la signature</string>
+
+    <string name="ws_no_app">Aucune application ne peut ouvrir ce fichier</string>
+
+    <string name="pdfv_more">…et %1$d pages de plus — ouvrez le fichier</string>
+    <string name="pdfv_fail">Impossible d\'ouvrir le PDF</string>
+
+    <!-- v1.7.76 : la caméra comme entrée pour l\'assistant -->
+    <string name="cam_title">Photo pour l\'assistant</string>
+    <string name="cam_shoot">Photographier</string>
+    <string name="cam_failed">Impossible de prendre la photo</string>
+    <string name="ai_attach_camera">Caméra</string>
+    <string name="cam_kept_fmt">Photos : %1$d</string>
+</resources>

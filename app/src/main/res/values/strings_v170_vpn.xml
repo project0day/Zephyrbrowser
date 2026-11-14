@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vpn_hero_hint">Tap the button to connect the VPN</string>
+    <string name="vpn_hero_connecting">Establishing a secure tunnel…</string>
+    <string name="vpn_cancelled">Connection cancelled</string>
+    <string name="vpn_pick_profile">Which profile should connect?</string>
+    <string name="vpn_profiles_all">VPN profiles</string>
+    <string name="vpn_row_sub">%1$s · %2$s · %3$s</string>
+    <string name="vpn_import_wg">WireGuard .conf</string>
+    <string name="vpn_wg_invalid">Invalid WireGuard config: %s</string>
+    <string name="vpn_selected_fmt">Selected: %d</string>
+    <string name="vpn_select_all">Select all</string>
+    <string name="vpn_delete_selected">Delete selected</string>
+    <string name="vpn_delete_selected_msg">Delete the selected profiles (%d)?</string>
+    <string name="vpn_deleted">Profiles deleted</string>
+    <string name="set_dns">Built-in DNS</string>
+    <string name="proxy_browser_section">Browser proxy</string>
+</resources>

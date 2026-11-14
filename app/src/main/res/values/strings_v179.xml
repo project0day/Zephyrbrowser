@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.9: Files rework, adblock hero, omnibox edit mode, sniffer muxing,
+     download scheduler, payments gate, home feed mode, site data manager. -->
+<resources>
+    <string name="files_open_with">Open with</string>
+    <string name="files_open_once">Open once</string>
+    <string name="files_open_always">Choose app (just once / always)</string>
+    <string name="files_view_in_zephyr">View in Zephyr</string>
+    <string name="files_no_apps">No apps can open this file type</string>
+
+    <string name="files_zoom">Zoom</string>
+    <string name="files_zoom_0">Large</string>
+    <string name="files_zoom_1">Medium</string>
+    <string name="files_zoom_2">Compact</string>
+    <string name="files_zoom_3">Small</string>
+
+    <string name="files_trash">Trash</string>
+    <string name="files_trash_empty">Trash is empty</string>
+    <string name="files_trash_kept">Deleted files are kept for 30 days, then erased forever</string>
+    <string name="files_restore">Restore</string>
+    <string name="files_restore_done">Restored</string>
+    <string name="files_restore_failed">Could not restore</string>
+    <string name="files_to_trash">Moved to trash</string>
+    <string name="files_trash_clear">Empty trash</string>
+    <string name="files_trash_confirm">Delete permanently? This cannot be undone.</string>
+    <string name="files_trash_purged">Trash emptied</string>
+    <string name="files_trash_days_left">%d days left</string>
+    <string name="files_trash_restore_where">The file will return to its original folder</string>
+
+    <string name="files_search_all">Search all storage</string>
+    <string name="files_searching">Searching…</string>
+    <string name="files_found_fmt">Found: %d</string>
+
+    <string name="dm_wifi_only">Wi-Fi only</string>
+    <string name="dm_wifi_only_sum">Downloads wait for a Wi-Fi connection</string>
+    <string name="dm_night_only">Night only</string>
+    <string name="dm_night_only_sum">Downloads run between 00:00 and 06:00</string>
+    <string name="dm_wait_wifi">Waiting for Wi-Fi…</string>
+    <string name="dm_wait_night">Waiting for the night window…</string>
+    <string name="dm_scheduler">Download scheduler</string>
+
+    <string name="adblock_hero_on">Protection active</string>
+    <string name="adblock_hero_off">Blocking is off</string>
+    <string name="adblock_hero_sub_on">Ads and trackers are cut on every site</string>
+    <string name="adblock_hero_sub_off">Turn on to block ads and trackers</string>
+    <string name="adblock_stats_blocked">Ads blocked</string>
+    <string name="adblock_stats_trackers">Trackers stopped</string>
+    <string name="adblock_hint_title">How it works</string>
+    <string name="adblock_hint_body">Requests to ad networks are intercepted before loading — pages open faster and without banners. Filter lists refresh automatically; exceptions go to the whitelist below.</string>
+    <string name="adblock_power_on">Enable blocking</string>
+
+    <string name="url_search_web">Search on Google</string>
+    <string name="url_more_actions">More actions</string>
+
+    <string name="sniff_mux_badge">with audio</string>
+    <string name="sniff_mux_needed">no audio — will download with the audio track</string>
+    <string name="sniff_mux_audio_only">audio only</string>
+    <string name="sniff_mux_progress">Merging video + audio…</string>
+    <string name="sniff_mux_failed">Could not merge tracks</string>
+
+    <string name="pay_gate_title">Protect payment data</string>
+    <string name="pay_gate_sum">Ask for PIN or biometrics when opening the panel</string>
+    <string name="pay_gate_locked">Payment data is protected</string>
+
+    <string name="home_feed_mode">Recent &amp; Bookmarks feed</string>
+    <string name="home_feed_horiz">Horizontal scrolling</string>
+    <string name="home_feed_vert">Vertical grid</string>
+    <string name="home_recent_more">All recent</string>
+
+    <string name="cache_title">Site data</string>
+    <string name="cache_sub">How much each site takes — with selective cleanup</string>
+    <string name="cache_cookies_fmt">%d cookies</string>
+    <string name="cache_requests_fmt">%,d requests</string>
+    <string name="cache_clear_site">Clear site data</string>
+    <string name="cache_clear_confirm">Delete storage, cookies and cache for %s?</string>
+    <string name="cache_cleared">Site data deleted</string>
+    <string name="cache_empty">No stored site data</string>
+    <string name="cache_global">Shared browser cache</string>
+    <string name="cache_global_sub">HTTP cache and temp files of all sites</string>
+    <string name="cache_global_clear">Clear all cache</string>
+    <string name="cache_global_cleared">Cache cleared</string>
+    <string name="cache_storage">Storage</string>
+</resources>

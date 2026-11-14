@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/zBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- ===== pinned top bar ===== -->
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="54dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="?attr/zToolbar"
+            android:elevation="4dp">
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_nav_button"
+                android:src="@drawable/ic_home"
+                android:scaleType="centerInside"
+                android:padding="9dp"
+                android:contentDescription="@string/nav_home" />
+
+            <LinearLayout
+                android:id="@+id/omniboxPill"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/bg_omnibox"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp">
+
+                <ImageButton
+                    android:id="@+id/btnSiteSecurity"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_lock"
+                    android:scaleType="centerInside"
+                    android:contentDescription="@string/site_info" />
+
+                <ImageView
+                    android:id="@+id/imgFavicon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="4dp"
+                    android:scaleType="fitCenter"
+                    android:importantForAccessibility="no"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/omniboxInput"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="6dp"
+                    android:background="@null"
+                    android:hint="@string/omnibox_hint"
+                    android:imeOptions="actionGo|flagNoExtractUi"
+                    android:inputType="textUri|textNoSuggestions"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textColorHint="?attr/colorOnSurfaceVariant"
+                    android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:selectAllOnFocus="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/toolbarSlots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/tabCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:minWidth="26dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tab_counter"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contentDescription="@string/tabs"
+                tools:text="3" />
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/bg_nav_button"
+                android:src="@drawable/ic_menu"
+                android:scaleType="centerInside"
+                android:padding="9dp"
+                android:contentDescription="@string/menu" />
+        </LinearLayout>
+
+        <!-- v1.7.38: Chrome-style hairline page-load progress, directly under
+             the omnibox (user: «можно добавить очень тонкую линию процесса
+             загрузки как у Chrome, у нас просто нету этого») -->
+        <ProgressBar
+            android:id="@+id/pageProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="gone"
+            android:indeterminate="false" />
+
+        <!-- ===== content stage ===== -->
+        <FrameLayout
+            android:id="@+id/contentStage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/webContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.zephyr.browser.ui.HomePageView
+                android:id="@+id/homeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- error overlay -->
+            <LinearLayout
+                android:id="@+id/errorOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/zBackground"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="32dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/errorIcon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_globe"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:id="@+id/errorTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/errorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btnErrorRetry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/retry" />
+            </LinearLayout>
+
+            <!-- find-in-page bar -->
+            <LinearLayout
+                android:id="@+id/findBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?attr/zToolbar"
+                android:elevation="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="6dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/findInput"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_rounded_field"
+                    android:hint="@string/find_hint"
+                    android:imeOptions="actionSearch|flagNoExtractUi"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textColorHint="?attr/colorOnSurfaceVariant"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/findCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:minWidth="48dp"
+                    android:gravity="center"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:textSize="12sp"
+                    tools:text="0/0" />
+
+                <ImageButton
+                    android:id="@+id/btnFindPrev"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/find_prev"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_arrow_up" />
+
+                <ImageButton
+                    android:id="@+id/btnFindNext"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/find_next"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_arrow_down" />
+
+                <ImageButton
+                    android:id="@+id/btnFindClose"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/close"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_close" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- v1.4.2 FIX 4: FULL-SCREEN tab-switcher overlay - sits above the whole app
+         chrome (top bar included), below only fullscreen video/reader -->
+    <com.zephyr.browser.ui.TabSwitcherView
+        android:id="@+id/tabSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- fullscreen video / reader -->
+    <FrameLayout
+        android:id="@+id/fullscreenContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.2 (settings-agent): Advanced merged INTO General — section label
+         inside the General screen (the standalone Advanced screen is gone). -->
+    <string name="set_advanced_section">Advanced</string>
+</resources>

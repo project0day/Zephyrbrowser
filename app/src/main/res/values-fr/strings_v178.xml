@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8 FR -->
+<resources>
+    <string name="adblock_master">Blocage des publicités</string>
+    <string name="adblock_master_sum">Activé — désactivé. Filtres EasyList et AdGuard, listes perso et liste blanche</string>
+    <string name="adblock_how_title">Comment ça marche</string>
+    <string name="adblock_how_body">Le bloqueur intercepte les requêtes réseau et masque les éléments publicitaires via les filtres EasyList / AdGuard — comme les navigateurs légers. Les userscripts (style Tampermonkey) tournent EN PARALLÈLE et indépendamment : le bloqueur coupe la pub au niveau réseau, les scripts ajoutent leurs fonctions. Ils ne se gênent pas. Si un site casse, mettez-le en liste blanche ou coupez le blocage.</string>
+    <string name="adblock_whitelist_empty">Les sites de la liste blanche s\'ouvrent sans blocage</string>
+    <string name="adblock_disabled">désactivé</string>
+    <string name="adblock_catalog_hint">Plusieurs listes possibles — règles mises à jour tous les 3 jours</string>
+
+    <string name="files_view_toggle">Grille / liste</string>
+    <string name="files_sort">Trier par</string>
+    <string name="files_sort_name">Nom</string>
+    <string name="files_sort_new">Plus récents</string>
+    <string name="files_sort_old">Plus anciens</string>
+    <string name="files_sort_size">Taille</string>
+    <string name="files_sort_type">Type</string>
+    <string name="files_folder_missing">Dossier introuvable</string>
+    <string name="files_pictures">Photos</string>
+    <string name="files_movies">Films</string>
+    <string name="files_music">Musique</string>
+    <string name="files_image">Photo</string>
+    <string name="files_video">Vidéo</string>
+
+    <string name="files_dm_hint_title">Gestionnaire de téléchargements</string>
+    <string name="files_dm_hint_body">Tous les téléchargements du navigateur : pause et reprise, annulation, réessai après erreur et priorité de file. Touchez un téléchargement fini pour ouvrir le fichier.</string>
+    <string name="files_dm_folder">Dossier de téléchargement</string>
+    <string name="files_dm_change">Changer</string>
+    <string name="files_dm_default_folder">Par défaut — Galerie/Zephyr et Téléchargements</string>
+    <string name="files_dm_custom_folder">Choisi : %s</string>
+    <string name="files_dm_empty">Aucun téléchargement</string>
+    <string name="dm_download">Télécharger</string>
+    <string name="dm_progress">%s sur %s</string>
+    <string name="dm_running">Téléchargement…</string>
+    <string name="dm_queued">En file</string>
+    <string name="dm_paused">En pause · %d%%</string>
+    <string name="dm_done">%s · %s</string>
+    <string name="dm_failed">Échec — touchez ⟳ pour réessayer</string>
+    <string name="dm_cancelled">Annulé</string>
+    <string name="dm_pause">Pause</string>
+    <string name="dm_cancel">Annuler</string>
+    <string name="dm_resume">Reprendre</string>
+    <string name="dm_retry">Réessayer</string>
+    <string name="dm_bump">Priorité plus haute</string>
+    <string name="dm_bumped">Remonté dans la file</string>
+
+    <string name="sniff_menu">Vidéo sur la page</string>
+    <string name="sniff_sheet_sub">Vidéos et flux trouvés sur la page</string>
+    <string name="sniff_sheet_sub_site">Vidéo trouvée sur %s</string>
+    <string name="sniff_disabled_note">Le renifleur vidéo est désactivé — activez l\'interrupteur ci-dessous pour détecter vidéos et flux HLS</string>
+    <string name="sniff_none_hint">Rien pour l\'instant. Ouvrez une page avec une vidéo et patientez quelques secondes — les liens directs apparaîtront ici</string>
+    <string name="sniff_size">Taille ≈ %s</string>
+    <string name="sniff_open_player">Ouvrir dans un lecteur externe</string>
+    <string name="sniff_toggle">Renifleur vidéo</string>
+
+    <string name="tg_icon">Icône du groupe</string>
+    <string name="tg_color">Couleur du groupe</string>
+
+    <string name="scr_hint_title">Que sont les scripts</string>
+    <string name="scr_hint_body">Les userscripts sont de mini-extensions style Tampermonkey : ils relookent les sites, ajoutent des boutons, nettoient l\'interface. Ils tournent en parallèle du bloqueur de pub sans jamais le gêner. Ajoutez vos .user.js par fichier ou par lien.</string>
+    <string name="reader_hint_title">C\'est quoi la bibliothèque d\'articles</string>
+    <string name="reader_hint_body">Les articles enregistrés depuis le mode lecture. Ouvrez un article → Menu → « Mode lecture » → « Enregistrer » — il arrive ici avec une belle typo, disponible hors ligne.</string>
+    <string name="reader_empty_title">La bibliothèque est vide</string>
+    <string name="reader_empty_body">Ouvrez n\'importe quel article, activez le mode lecture (Menu → « Mode lecture ») et touchez « Enregistrer » — l\'article restera ici même hors ligne.</string>
+    <string name="offline_hint_title">Que sont les pages hors ligne</string>
+    <string name="offline_hint_body">Des instantanés complets de pages à lire sans internet. Sur n\'importe quelle page : Menu → « Enregistrer hors ligne ».</string>
+    <string name="downloads_hint_title">Téléchargements du navigateur</string>
+    <string name="downloads_hint_body">Tous les fichiers téléchargés et le journal des liens. Le gestionnaire complet avec pause, reprise et priorités — Fichiers → Téléchargements.</string>
+</resources>

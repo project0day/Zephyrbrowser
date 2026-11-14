@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.90: banners and empty-state text for the unified hint style. -->
+<resources>
+    <string name="ai_no_key_banner">The assistant needs an API key of your own. It connects to the AI provider you choose — it is not a service of this app, so without a key it cannot answer. Google Gemini, Groq and OpenRouter all have free tiers: add a model below and paste the key in.</string>
+
+    <!-- empty states: the title says what is missing, the hint says what to do -->
+    <string name="empty_bookmarks_title">No bookmarks yet</string>
+    <string name="empty_bookmarks_hint">Open a page and tap the star in the menu. Bookmarks can be sorted into folders.</string>
+    <string name="empty_downloads_title">Nothing downloaded</string>
+    <string name="empty_downloads_hint">Files you save from a page appear here, with their progress and where they went.</string>
+    <string name="empty_passwords_title">No saved passwords</string>
+    <string name="empty_passwords_hint">Sign in to a site and the browser offers to remember it. Saved entries can be locked behind your fingerprint.</string>
+    <string name="empty_payments_title">No cards saved</string>
+    <string name="empty_payments_hint">Add a card to fill in checkout forms without typing the number each time. Cards are stored encrypted on this device.</string>
+    <string name="empty_scripts_title">No user scripts</string>
+    <string name="empty_scripts_hint">Scripts change how a site behaves. Add one by hand, or ask the assistant to write it for you.</string>
+    <string name="empty_tasks_title">Nothing planned</string>
+    <string name="empty_tasks_hint">Add a task or a meeting, and it will remind you at the time you set. The assistant can add them for you too.</string>
+    <string name="empty_templates_title">No templates yet</string>
+    <string name="empty_templates_hint">A template is a document you reuse — a quote, an invoice, a letter. Upload your own, or ask the assistant to build one.</string>
+    <string name="empty_workspace_title">No projects yet</string>
+    <string name="empty_workspace_hint">Files the assistant creates for you land here — code, documents, archives.</string>
+    <string name="empty_workflows_title">No workflows yet</string>
+    <string name="empty_workflows_hint">A workflow is a sequence you repeat, saved under one name so you can ask for it in a few words.</string>
+    <string name="empty_offline_title">No saved pages</string>
+    <string name="empty_offline_hint">Save a page to read it later without a connection.</string>
+    <string name="empty_autofill_title">Nothing to fill in with</string>
+    <string name="empty_autofill_hint">Save your name, address and other details once, and forms fill themselves in afterwards.</string>
+</resources>

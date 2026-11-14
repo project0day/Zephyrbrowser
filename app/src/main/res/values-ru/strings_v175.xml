@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.5 strings -->
+<resources>
+    <!-- translate: home page is not translatable -->
+    <string name="translate_home_blocked">Главная страница не переводится</string>
+
+    <!-- v1.7.5: per-site page appearance -->
+    <string name="appearance_follow_settings">Как в настройках</string>
+    <string name="appearance_per_site_msg">Выбор действует только для сайта %s</string>
+
+    <!-- v1.7.5: Clear Data time ranges -->
+    <string name="clear_time_title">Время очистки</string>
+    <string name="clear_range_all">Всё время</string>
+    <string name="clear_range_1h">Последний час</string>
+    <string name="clear_range_6h">Последние 6 часов</string>
+    <string name="clear_range_12h">Последние 12 часов</string>
+    <string name="clear_range_24h">Последние 24 часа</string>
+    <string name="clear_time_note">Диапазон применяется к истории и журналу загрузок. Остальные данные очищаются полностью.</string>
+    <string name="clear_pick_hint">Что очистить</string>
+    <string name="clear_range_label_fmt">Период: %s</string>
+    <string name="dl_system_queued">Передано системному загрузчику</string>
+
+    <!-- v1.7.5: gestures + backup -->
+    <string name="set_gestures">Жесты</string>
+    <string name="set_edge_gestures">Жесты по краям</string>
+    <string name="set_edge_gestures_sum">Свайп от левого края — назад, от правого — вперёд</string>
+    <string name="set_backup">Резервная копия</string>
+    <string name="set_backup_export">Экспорт данных</string>
+    <string name="set_backup_export_sum">Закладки, быстрый доступ, история и настройки — в один файл</string>
+    <string name="set_backup_import">Импорт данных</string>
+    <string name="set_backup_import_sum">Восстановление из файла резервной копии (без дублей)</string>
+    <string name="backup_exported">Резервная копия сохранена</string>
+    <string name="backup_imported_fmt">Импортировано закладок: %d</string>
+    <string name="backup_failed">Не удалось выполнить операцию</string>
+
+    <!-- v1.7.5: scripts — add by URL (catalog removed) -->
+    <string name="scr_add_new">Новый скрипт</string>
+    <string name="scr_add_file">Из файла (.user.js)</string>
+    <string name="scr_add_url">По ссылке</string>
+    <string name="scr_add_url_hint">https://example.com/script.user.js</string>
+    <string name="scr_add_url_load">Загрузить</string>
+    <string name="scr_add_url_bad">Введите ссылку (http/https)</string>
+    <string name="scr_add_url_loading">Загружаю скрипт…</string>
+    <string name="scr_add_url_failed">Не удалось скачать скрипт</string>
+</resources>

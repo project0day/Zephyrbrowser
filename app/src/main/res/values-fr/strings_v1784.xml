@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_favicon_net">Charger les icônes des sites</string>
+    <string name="set_favicon_net_sum">De vraies icônes sur les onglets et les favoris. Un service tiers apprend au passage le nom de domaine. Jamais utilisé dans les onglets privés.</string>
+
+    <string name="about_legal">Documents</string>
+    <string name="about_privacy">Politique de confidentialité</string>
+    <string name="about_privacy_sum">Ce qui reste sur l\'appareil, et ce qui en sort</string>
+    <string name="about_terms">Conditions d\'utilisation</string>
+    <string name="about_terms_sum">Ce que vous achetez, et ce dont vous êtes responsable</string>
+    <string name="about_licenses">Licences open source</string>
+    <string name="about_licenses_sum">Les bibliothèques sur lesquelles repose l\'application</string>
+    <string name="about_support">Assistance</string>
+    <string name="about_engine_unknown">indéterminée</string>
+    <string name="about_doc_missing">Document introuvable</string>
+    <string name="crash_report_sum">Envoyer les détails du dernier plantage — manuellement, via l\'application de votre choix</string>
+</resources>

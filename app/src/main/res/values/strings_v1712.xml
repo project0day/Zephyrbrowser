@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.12: Files launch-probe dialog (MainActivity shows it when the
+     Files screen died before its own code could run) -->
+<resources>
+    <string name="files_probe_title">Files failed to open</string>
+    <string name="files_probe_body">The Files screen crashed on launch. An error report has been saved — send it so the exact cause can be pinpointed.</string>
+</resources>

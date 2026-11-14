@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tp_widget_label">Zephyr : tâche en ligne</string>
+    <string name="tp_widget_desc">Une tâche à la fois sur une seule ligne, avec des flèches pour parcourir les suivantes.</string>
+    <string name="tp_prev">Tâche précédente</string>
+    <string name="tp_next">Tâche suivante</string>
+</resources>

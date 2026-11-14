@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.1: private tab previews (blur + badge) -->
+    <string name="ts_private_badge">Приватная вкладка</string>
+
+    <!-- v1.5.1: close-all confirmation -->
+    <string name="ts_close_all_confirm">Закрыть все вкладки этого раздела (%d)?</string>
+
+    <!-- v1.5.1: YouTube ad-block -->
+    <string name="adblock_youtube">Блокировка рекламы на YouTube</string>
+    <string name="adblock_youtube_sum">Видео-реклама на YouTube идёт с тех же серверов, что и само видео, поэтому отключается отдельным механизмом: пропуск, перемотка и скрытие баннеров</string>
+
+    <!-- v1.5.1: identity (profile) autofill -->
+    <string name="autofill_profile_title">Заполнить форму?</string>
+    <string name="autofill_profile_msg">На странице найдена форма с личными данными (имя, e-mail, телефон…). Выберите профиль для автозаполнения.</string>
+    <string name="autofill_filled">Форма заполнена</string>
+    <string name="autofill_fill_failed">Не удалось заполнить форму</string>
+    <string name="af_how_it_works">Профили автозаполнения предлагаются автоматически при обнаружении формы с личными данными (имя, e-mail, телефон, адрес). Нажмите «+», чтобы создать профиль.</string>
+
+    <!-- v1.5.1: bookmarks panel rework -->
+    <string name="bm_search_hint">Поиск в закладках…</string>
+    <string name="bm_search_empty">Ничего не найдено</string>
+    <string name="bm_empty_hint">Пока нет закладок — добавьте их через меню браузера</string>
+    <string name="bm_view_mode">Список / сетка</string>
+    <string name="bm_view_list">Вид: список</string>
+    <string name="bm_view_grid">Вид: сетка</string>
+    <string name="bm_tools">Инструменты</string>
+    <string name="bm_open_current">Открыть в текущей вкладке</string>
+
+    <!-- v1.5.1: menu customization settings -->
+    <string name="set_menu">Меню браузера</string>
+    <string name="menu_customize_title">Кастомизация меню</string>
+    <string name="menu_customize_sum">Свой порядок горизонтальных кнопок и вертикальных пунктов в главном меню</string>
+    <string name="menu_tiles_section">Горизонтальные кнопки</string>
+    <string name="menu_tiles_order">Порядок кнопок сверху</string>
+    <string name="menu_rows_section">Вертикальные пункты</string>
+    <string name="menu_rows_order">Порядок пунктов меню</string>
+    <string name="menu_move_up">Выше</string>
+    <string name="menu_move_down">Ниже</string>
+    <string name="menu_reset">Сбросить</string>
+    <string name="menu_need_one">Нужен хотя бы один пункт</string>
+</resources>

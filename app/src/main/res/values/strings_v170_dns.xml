@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dns_status">Status</string>
+    <string name="dns_provider">DNS server</string>
+    <string name="dns_protocol">Protocol</string>
+    <string name="dns_proto_plain">Plain (UDP 53)</string>
+    <string name="dns_proto_dot">DNS-over-TLS (853)</string>
+    <string name="dns_proto_doh">DNS-over-HTTPS (443)</string>
+    <string name="dns_custom">Custom server…</string>
+    <string name="dns_custom_ip">DNS IP address</string>
+    <string name="dns_leak">DNS leak protection</string>
+    <string name="dns_leak_sum">Intercept queries to well-known public resolvers (8.8.8.8 etc.) and route them through the selected server</string>
+    <string name="dns_state_active">Private DNS active</string>
+    <string name="dns_state_inactive">Private DNS off</string>
+    <string name="dns_turn_on">Enable</string>
+    <string name="dns_turn_off">Disable</string>
+    <string name="dns_pick_provider_first">Pick a DNS server first</string>
+    <string name="dns_queries_fmt">Queries: %1$d · failed: %2$d</string>
+    <string name="dns_provider_line">Selected: %s</string>
+    <string name="dns_bad_ip">Invalid IP address</string>
+    <string name="dns_apply_note">How it works</string>
+    <string name="dns_apply_note_sum">Private mode raises a DNS-only local tunnel: all other traffic flows directly, with no speed penalty. Queries are encrypted (DoT/DoH) and sent to the selected server. With OpenVPN/WireGuard active, the selected DNS is forced through the tunnel.</string>
+    <string name="dns_notif_title">Zephyr DNS</string>
+    <string name="dns_notif_text">Private DNS active — no leaks</string>
+    <string name="dns_desc_system_title">System</string>
+    <string name="dns_desc_system">Your current network DNS (default)</string>
+    <string name="dns_desc_cloudflare">Fast; IP logs kept for 25 hours</string>
+    <string name="dns_desc_cf_family">Blocks malware and adult sites</string>
+    <string name="dns_desc_google">Fast; keeps query statistics</string>
+    <string name="dns_desc_quad9">Blocks malicious domains, no IP logs</string>
+    <string name="dns_desc_adguard">Blocks ads and trackers at DNS level</string>
+    <string name="dns_desc_adguard_family">Ads + malware + adult sites</string>
+    <string name="dns_desc_opendns">Cisco configurable filtering</string>
+    <string name="dns_desc_comodo">Blocks malicious domains</string>
+    <string name="dns_desc_yandex">Fast in CIS; fraud filtering</string>
+    <string name="dns_desc_mullvad">No logs at all; blocks ads</string>
+    <string name="dns_desc_custom">Your own resolver</string>
+</resources>

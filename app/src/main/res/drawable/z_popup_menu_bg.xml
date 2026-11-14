@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.22: popup menu background. Solid color = ?attr/zPopupBg — the theme's
+  surface lightened ~3.5% (user: «цвет тот же, но буквально на 3% светлее,
+  без контура»). No stroke by design. The shape also provides the popup
+  window outline, so the drop shadow follows the rounded rect.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="?attr/zPopupBg" />
+    <corners android:radius="12dp" />
+</shape>

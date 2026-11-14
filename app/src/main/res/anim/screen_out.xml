@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8: forward exit — a calm 18% parallax slide LEFT (the incoming screen
+     covers the rest). NO alpha: fading the exiting window reveals the launch
+     backdrop behind it — that was the "flash". -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="0"
+    android:toXDelta="-18%"
+    android:duration="280"
+    android:interpolator="@android:interpolator/fast_out_slow_in" />

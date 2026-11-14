@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biz_company">Société / nom</string>
+    <string name="biz_person">Personne à contacter</string>
+    <string name="biz_address">Adresse</string>
+    <string name="biz_phone">Téléphone</string>
+    <string name="biz_email">E-mail</string>
+    <string name="biz_siret">SIRET</string>
+    <string name="biz_vat">Numéro de TVA</string>
+    <string name="biz_vat_rate">Taux de TVA, %</string>
+    <string name="biz_iban">IBAN</string>
+    <string name="biz_bic">BIC</string>
+    <string name="biz_website">Site web</string>
+    <string name="biz_terms">Conditions de paiement</string>
+
+    <string name="cvs_sidebar">Colonne latérale</string>
+    <string name="cvs_sidebar_sub">Bandeau coloré à gauche : contact, compétences, langues</string>
+    <string name="cvs_classic">Classique</string>
+    <string name="cvs_classic_sub">Sobre, une seule colonne, un filet sous le nom</string>
+    <string name="cvs_minimal">Minimal</string>
+    <string name="cvs_minimal_sub">Beaucoup d\'air, un grand nom, un seul accent</string>
+</resources>

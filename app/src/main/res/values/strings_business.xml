@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.88: the "My business details" form and the CV style picker. These are
+     interface, unlike the headings that go inside a produced document — those
+     follow the document's own language, see DocLang. -->
+<resources>
+    <string name="biz_company">Company / name</string>
+    <string name="biz_person">Contact person</string>
+    <string name="biz_address">Address</string>
+    <string name="biz_phone">Phone</string>
+    <string name="biz_email">Email</string>
+    <string name="biz_siret">SIRET / company number</string>
+    <string name="biz_vat">VAT number</string>
+    <string name="biz_vat_rate">VAT rate, %</string>
+    <string name="biz_iban">IBAN</string>
+    <string name="biz_bic">BIC</string>
+    <string name="biz_website">Website</string>
+    <string name="biz_terms">Payment terms</string>
+
+    <string name="cvs_sidebar">Side column</string>
+    <string name="cvs_sidebar_sub">Coloured panel on the left: contact, skills, languages</string>
+    <string name="cvs_classic">Classic</string>
+    <string name="cvs_classic_sub">Plain, single column, a rule under the name</string>
+    <string name="cvs_minimal">Minimal</string>
+    <string name="cvs_minimal_sub">Plenty of space, a large name, one accent</string>
+</resources>

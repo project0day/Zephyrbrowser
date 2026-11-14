@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.0 (agent 1-d): new gallery themes, ids 12-17 -->
+    <string name="theme_aurora">Aurore</string>
+    <string name="theme_crimson">Cramoisie</string>
+    <string name="theme_mono">Mono</string>
+    <string name="theme_mint">Menthe</string>
+    <string name="theme_sunset">Crépuscule</string>
+    <string name="theme_violet_night">Lilas nocturne</string>
+
+    <!-- v1.5.0 (agent 1-d): custom accent («Свой стиль») -->
+    <string name="accent_section">Style personnalisé</string>
+    <string name="accent_color">Couleur d\'accent</string>
+    <string name="accent_default">Par défaut</string>
+    <string name="accent_hex_hint">Format : #RRGGBB ou #AARRGGBB</string>
+    <string name="accent_hex_bad">Code couleur invalide</string>
+</resources>

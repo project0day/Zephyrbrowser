@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.0 card save offer (agent 2-a). ru = default. -->
+<resources>
+    <!-- card save offer (CARD_SAVE watcher → offerSaveCard dialog) -->
+    <string name="card_save_title">Сохранить карту?</string>
+    <string name="card_save_msg">Карта •••• %s может быть сохранена в зашифрованном виде</string>
+    <string name="card_saved">Карта сохранена</string>
+    <string name="card_exists">Эта карта уже сохранена</string>
+</resources>

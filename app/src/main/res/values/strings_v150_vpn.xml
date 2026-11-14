@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.0 VPN consent flow + foreground-service hardening
+         (fix: app crash when connecting with username/password) -->
+    <string name="vpn_need_consent">Android VPN permission required</string>
+    <string name="vpn_no_vpn_support">No VPN support found on this device</string>
+    <string name="vpn_consent_hint">On first connection the system will ask for permission to set up a VPN — this is a standard Android dialog</string>
+    <string name="vpn_consent_denied">VPN permission not granted</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ss_k01">recherche moteur démarrage langue accueil</string>
+    <string name="ss_k02">thème couleur sombre clair police accent</string>
+    <string name="ss_k03">écran accueil fond flux récents favoris</string>
+    <string name="ss_k04">menu boutons ordre tuiles</string>
+    <string name="ss_k05">ia assistant modèle clé api réseau</string>
+    <string name="ss_k06">outils accès autorisations interrupteurs</string>
+    <string name="ss_k07">mémoire faits retient</string>
+    <string name="ss_k08">voix micro reconnaissance parole dictée</string>
+    <string name="ss_k09">dossier travail fichiers projets</string>
+    <string name="ss_k10">scripts javascript</string>
+    <string name="ss_k11">agent appairage connexion pont</string>
+    <string name="ss_k12">essaim plusieurs modèles équipe</string>
+    <string name="ss_k13">confidentialité navigation privée cookies javascript</string>
+    <string name="ss_k14">purger effacer tout feu panique</string>
+    <string name="ss_k15">sécurité empreinte mot de passe verrouillage</string>
+    <string name="ss_k16">publicité blocage filtres bannières</string>
+    <string name="ss_k17">sites autorisations caméra micro localisation</string>
+    <string name="ss_k18">vpn proxy tunnel wireguard</string>
+    <string name="ss_k19">dns chiffrement résolveur</string>
+    <string name="ss_k20">cache données sites stockage espace</string>
+    <string name="ss_k21">effacer historique cookies supprimer</string>
+    <string name="ss_k22">sauvegarde copie export import</string>
+    <string name="ss_k23">favoris marque-pages</string>
+    <string name="ss_k24">historique visites</string>
+    <string name="ss_k25">téléchargements téléchargés</string>
+    <string name="ss_k26">mots de passe identifiants</string>
+    <string name="ss_k27">cartes paiement paiements</string>
+    <string name="ss_k28">saisie automatique formulaire adresse nom</string>
+    <string name="ss_k29">scripts userscript</string>
+    <string name="ss_k30">tâches rappels réveil calendrier rendez-vous</string>
+    <string name="ss_k31">modèles documents facture devis coordonnées</string>
+    <string name="ss_k32">projets fichiers assistant code zip</string>
+    <string name="ss_k33">scénarios commandes automatisation</string>
+    <string name="ss_k34">fichiers gestionnaire stockage</string>
+    <string name="ss_k35">hors ligne pages enregistrées</string>
+    <string name="ss_k36">bibliothèque articles lecture</string>
+    <string name="ss_k37">à propos version mise à jour</string>
+</resources>

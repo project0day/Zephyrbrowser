@@ -1,0 +1,127 @@
+POLITIQUE DE CONFIDENTIALITÉ — ZEPHYR BROWSER
+
+Dernière mise à jour : 20 septembre 2026
+
+EN BREF
+
+Zephyr Browser n'a ni comptes, ni analytique, ni publicité, ni télémétrie. Rien
+de ce que vous faites dans cette application n'est communiqué à son
+développeur. Votre historique, vos favoris, vos mots de passe, vos
+téléchargements, vos notes, vos documents et vos conversations avec l'assistant
+sont conservés sur votre appareil et nulle part ailleurs.
+
+Cette application n'a aucun serveur. Nous n'avons rien à collecter, car rien ne
+nous parvient.
+
+
+1. CE QUE L'APPLICATION CONSERVE SUR VOTRE APPAREIL
+
+Historique de navigation, favoris, onglets ouverts, mots de passe et moyens de
+paiement enregistrés, téléchargements, autorisations des sites, pages hors
+ligne, scripts utilisateur, conversations avec l'assistant, documents générés,
+modèles, rappels et réglages.
+
+Tout cela est écrit dans l'espace de stockage propre à l'application, sur votre
+téléphone. Ces données disparaissent lorsque vous les supprimez dans
+l'application, lorsque vous utilisez « Effacer les données » ou le bouton de
+purge, ou lorsque vous désinstallez l'application.
+
+Les mots de passe et moyens de paiement enregistrés peuvent être protégés par
+le verrouillage de l'écran ou votre empreinte. Ils ne sont envoyés nulle part.
+
+
+2. CE QUI QUITTE VOTRE APPAREIL, ET QUAND
+
+L'application elle-même ne transmet rien vous concernant. Certaines
+fonctionnalités, par nature, s'adressent à des tiers. Chacune est listée ici.
+
+2.1 Les sites que vous ouvrez
+Navigation normale. Le site reçoit ce que tout navigateur lui envoie.
+
+2.2 Votre moteur de recherche
+Lors d'une recherche, la requête part vers le moteur que vous avez choisi. Si
+les suggestions sont activées, ce que vous tapez dans la barre d'adresse lui
+est envoyé au fil de la frappe. Le moteur est votre choix, y compris des
+options respectueuses de la vie privée.
+
+2.3 Icônes des sites
+Pour afficher l'icône d'un site, l'application peut la demander à un service
+tiers, qui apprend alors le nom de domaine. Cela n'arrive jamais dans un onglet
+privé, et peut être désactivé entièrement : Réglages → Confidentialité.
+
+2.4 L'assistant IA
+C'est le point important.
+
+L'assistant n'utilise aucun service appartenant au développeur de cette
+application. Il se connecte au fournisseur d'IA que VOUS configurez, avec une
+clé d'API que VOUS obtenez et saisissez. Lorsque vous envoyez un message, le
+texte que vous avez écrit — ainsi que tout contenu de page, fichier,
+photographie ou document que vous joignez — est transmis à ce fournisseur.
+
+La politique de confidentialité et les conditions de ce fournisseur
+s'appliquent à ce que vous lui envoyez. Nous n'y sommes pas partie et n'y avons
+aucun accès. Choisissez un fournisseur en qui vous avez confiance, et lisez sa
+politique.
+
+L'assistant est facultatif. Sans clé, il ne fait rien, et chacune de ses
+capacités (lire des pages, exécuter des scripts, créer des fichiers, utiliser
+l'appareil photo, utiliser le micro) dispose de son propre interrupteur dans
+les réglages.
+
+2.5 Reconnaissance vocale
+Si votre téléphone dispose d'une reconnaissance vocale système, l'application
+l'utilise, et votre voix est traitée par celui qui la fournit — sur la plupart
+des téléphones, Google. Vous pouvez à la place télécharger un modèle hors
+ligne : la parole est alors reconnue entièrement sur votre appareil et aucun
+son n'en sort. Troisième possibilité : envoyer l'audio à votre propre
+fournisseur d'IA pour transcription. Réglages → Assistant IA.
+
+2.6 Traduction
+Si vous traduisez une page, son texte est envoyé au service de traduction.
+
+2.7 Listes de filtres anti-publicité
+L'application télécharge des listes publiques auprès de leurs éditeurs. Aucune
+information vous concernant n'est transmise — seulement une demande de liste.
+
+2.8 Rapports d'incident
+Il n'y a aucun envoi automatique. En cas de plantage, les détails sont
+enregistrés dans un fichier sur votre appareil. Vous pouvez choisir de
+l'envoyer vous-même, via l'application de votre choix. Rien ne part sans une
+action délibérée de votre part.
+
+2.9 VPN, proxy et DNS
+Si vous les configurez, le trafic va vers les serveurs que vous avez indiqués.
+L'application ne fournit ni n'exploite aucun serveur.
+
+
+3. AUTORISATIONS
+
+Les autorisations ne sont demandées que pour les fonctions que vous utilisez.
+
+Appareil photo — lecture de QR codes, photographie de documents pour
+l'assistant.
+Micro — saisie vocale.
+Stockage et médias — enregistrement des téléchargements, ouverture des fichiers
+que vous sélectionnez.
+Notifications — progression des téléchargements, rappels, réponses de
+l'assistant.
+Alarmes exactes — rappels devant se déclencher à l'heure dite.
+Localisation — uniquement si un site la demande et que vous l'autorisez.
+
+Refuser l'une d'elles désactive la fonction correspondante, et rien d'autre.
+
+
+4. ENFANTS
+
+Cette application ne s'adresse pas aux enfants.
+
+
+5. MODIFICATIONS
+
+Si cette politique change, le texte mis à jour est livré avec la version de
+l'application à laquelle il s'applique, et la date ci-dessus change.
+
+
+6. CONTACT
+
+Questions sur cette politique : [CONTACT EMAIL — see FINDINGS.md F-007]

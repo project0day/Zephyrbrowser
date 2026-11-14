@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.54: Дела (календарь + напоминания) -->
+    <string name="panel_tasks">Дела</string>
+    <string name="menu_tasks">Дела и напоминания</string>
+    <string name="tk_add">Новое дело</string>
+    <string name="tk_edit">Изменить дело</string>
+    <string name="tk_title_hint">Что нужно сделать</string>
+    <string name="tk_notes_hint">Подробности (необязательно)</string>
+    <string name="tk_when">Когда</string>
+    <string name="tk_repeat">Повтор</string>
+    <string name="tk_alarm">Громкий будильник</string>
+    <string name="tk_alarm_sub">Со звуком и вибрацией. Выключи — придёт тихое уведомление.</string>
+    <string name="tk_quiet">тихо</string>
+    <string name="tk_need_title">Напиши, о чём напомнить</string>
+    <string name="tk_done">Сделано</string>
+    <string name="tk_snooze">Через 10 мин</string>
+
+    <string name="tk_rep_once">Один раз</string>
+    <string name="tk_rep_daily">Каждый день</string>
+    <string name="tk_rep_weekdays">По будням</string>
+    <string name="tk_rep_weekly">Каждую неделю</string>
+    <string name="tk_rep_monthly">Каждый месяц</string>
+
+    <string name="tk_today">Сегодня</string>
+    <string name="tk_tomorrow">Завтра</string>
+    <string name="tk_yesterday">Вчера</string>
+
+    <string name="tk_upcoming">Предстоящие дела</string>
+    <string name="tk_mode_all">Все</string>
+    <string name="tk_mode_day">По дням</string>
+    <string name="tk_empty_day">На этот день дел нет</string>
+    <string name="tk_empty_all">Предстоящих дел нет</string>
+
+    <string name="tk_channel_alarm">Напоминания о делах</string>
+    <string name="tk_channel_alarm_sub">Громкие напоминания со звуком</string>
+    <string name="tk_channel_quiet">Тихие напоминания</string>
+    <string name="tk_channel_quiet_sub">Напоминания без звука</string>
+
+    <string name="tk_notif_warn">Уведомления для Zephyr выключены — напоминания не придут вообще. Нажми, чтобы включить.</string>
+    <string name="tk_notif_title">Включить уведомления</string>
+    <string name="tk_notif_msg">Дело сохранено, но уведомления для Zephyr отключены — напоминание не появится. Открыть настройки уведомлений?</string>
+    <string name="tk_exact_warn">Точные будильники запрещены системой — напоминания могут опаздывать. Нажми, чтобы разрешить.</string>
+    <string name="tk_exact_title">Разрешить точное время</string>
+    <string name="tk_exact_msg">Android не разрешает приложению будить телефон ровно в заданную минуту, пока это не включено вручную. Сейчас напоминание сработает с задержкой до пяти минут. Открыть настройку?</string>
+
+    <!-- v1.7.54: рабочая папка помощника -->
+    <string name="ai_tools_write">Создание файлов и кода</string>
+    <string name="ai_tools_write_sub">Помощник может писать скрипты и заметки, создавать папки и собирать проект в zip — внутри своей рабочей папки</string>
+    <string name="ai_write_anywhere">Запись вне рабочей папки</string>
+    <string name="ai_write_anywhere_sub">Разрешить записывать файлы в любое место на телефоне. Каждый такой файл подтверждается отдельно.</string>
+    <string name="ai_write_anywhere_warn">Помощник сможет перезаписать любой ваш файл, а не только свои. Подтверждение будет спрашиваться всегда, но ошибка в пути станет дороже. Включать только если понимаете зачем.</string>
+    <string name="ai_tools_tasks">Дела и напоминания</string>
+    <string name="ai_tools_tasks_sub">Помощник может ставить напоминания, показывать список дел и закрывать их</string>
+    <string name="ai_workspace">Рабочая папка помощника</string>
+    <string name="ai_workspace_note">Всё, что создаёт помощник, лежит здесь. Скрипты сохраняются как текст: Android не запускает код, записанный приложением.</string>
+
+    <string name="ai_act_write">Помощник хочет создать файл</string>
+    <string name="ai_act_overwrite">Помощник хочет ПЕРЕЗАПИСАТЬ файл</string>
+    <string name="ai_act_append">Помощник хочет дописать в файл</string>
+    <string name="ai_act_delete">Помощник хочет удалить</string>
+    <string name="ai_act_del_task">Помощник хочет удалить дело</string>
+    <string name="tk_span_fmt">%1$d мес</string>
+    <string name="rv_new">новый файл</string>
+    <string name="rv_overwrite">перезапись</string>
+    <string name="rv_append">дописывание</string>
+    <string name="rv_apply">Применить</string>
+    <string name="rv_reject">Отклонить</string>
+    <string name="rv_apply_all">Применить всё</string>
+    <string name="rv_reject_all">Отклонить всё</string>
+
+    <!-- v1.7.55: настройка кнопки «сжечь» -->
+    <string name="burn_go">Сжечь</string>
+    <string name="burn_confirm_fmt">Будет стёрто: %1$s.\n\nОтменить это нельзя.</string>
+    <string name="burn_settings">Настроить кнопку «Сжечь»</string>
+    <string name="burn_pick_title">Что стирать при нажатии</string>
+    <string name="burn_pick_hint">Отмеченное стирается сразу и безвозвратно. Пункты со знаком ⚠ удаляют то, что вы сохранили сами.</string>
+    <string name="burn_pick_all">Отметить всё</string>
+    <string name="burn_none">ничего не выбрано</string>
+    <string name="burn_everything">всё без исключения</string>
+    <string name="burn_more_fmt">… и ещё %1$d</string>
+    <string name="burn_ask">Спрашивать перед сжиганием</string>
+    <string name="burn_ask_sub">Выключите, если кнопка нужна как мгновенная — тогда она сработает сразу, без вопроса</string>
+    <string name="burn_t_tabs">Вкладки</string>
+    <string name="burn_t_cookies">Куки</string>
+    <string name="burn_t_storage">Хранилище сайтов</string>
+    <string name="burn_t_cache">Кэш</string>
+    <string name="burn_t_history">История</string>
+    <string name="burn_t_sitedata">Данные сайтов</string>
+    <string name="burn_t_formdata">Данные форм</string>
+    <string name="burn_t_downloads">Список загрузок</string>
+    <string name="burn_t_offline">Офлайн-страницы</string>
+    <string name="burn_t_reader">Библиотека чтения</string>
+    <string name="burn_t_trash">Корзина</string>
+    <string name="burn_t_bookmarks">Закладки</string>
+    <string name="burn_t_autofill">Автозаполнение</string>
+    <string name="burn_t_passwords">Пароли</string>
+    <string name="burn_t_payments">Карты оплаты</string>
+    <string name="burn_t_tasks">Дела и напоминания</string>
+
+    <!-- v1.7.55: голосовой ввод без Google -->
+    <string name="voice_listening">Слушаю…</string>
+    <string name="voice_stop">Готово</string>
+    <string name="voice_sending">Распознаю…</string>
+    <string name="voice_rec_fail">Не удалось включить микрофон</string>
+    <string name="voice_too_short">Слишком коротко — ничего не записалось</string>
+    <string name="voice_empty">Ничего не распознано</string>
+    <string name="voice_fail_fmt">Распознавание не удалось: %1$s</string>
+    <string name="voice_setup_msg">На этом телефоне нет системного распознавания речи — его даёт приложение Google, которого у вас не стоит.\n\nZephyr умеет обойтись без него: он запишет звук и отправит на распознавание вашему же провайдеру ИИ. Для Groq и OpenAI ничего настраивать не нужно — достаточно активного профиля с ключом. Для остальных укажите адрес и модель в настройках ИИ.\n\nОткрыть настройки?</string>
+    <string name="voice_stt">Голосовой ввод (распознавание речи)</string>
+    <string name="voice_stt_endpoint">Адрес распознавания</string>
+    <string name="voice_stt_model">Модель распознавания</string>
+    <string name="voice_stt_key">Ключ для распознавания</string>
+    <string name="voice_stt_auto">Берётся из активного профиля</string>
+    <string name="voice_stt_note">Если системного распознавания нет, запись уходит сюда. Пустые поля — берётся из активного профиля ИИ (работает для Groq и OpenAI).</string>
+
+    <!-- v1.7.57: память помощника -->
+    <string name="mem_title">Память помощника</string>
+    <string name="mem_on">Помнить между чатами</string>
+    <string name="mem_on_sub">Помощник запоминает постоянные факты о вас и учитывает их в каждом разговоре</string>
+    <string name="mem_view">Что запомнено</string>
+    <string name="mem_count_fmt">Фактов: %1$d</string>
+    <string name="mem_empty">Пока ничего не запомнено</string>
+    <string name="mem_edit">Изменить факт</string>
+    <string name="mem_add">Добавить</string>
+    <string name="mem_clear">Очистить</string>
+    <string name="mem_hint">Например: пишу на Kotlin, телефон на microG</string>
+    <string name="mem_note">Эти факты добавляются к каждому запросу, поэтому держите их короткими. Помощник сохраняет их сам, но вы можете исправить или удалить любой.</string>
+
+    <!-- v1.7.57: напомнить о ссылке позже -->
+    <string name="ctx_remind">Напомнить позже</string>
+    <string name="rl_1h">Через час</string>
+    <string name="rl_evening">Сегодня вечером</string>
+    <string name="rl_tomorrow">Завтра утром</string>
+    <string name="rl_week">Через неделю</string>
+    <string name="rl_saved_fmt">Напомню: %1$s</string>
+    <string name="rl_failed">Не удалось поставить напоминание</string>
+    <string name="tk_open_link">Открыть страницу</string>
+    <string name="tk_attach_page">Прикрепить открытую страницу</string>
+    <string name="tk_export_ics">Экспорт в календарь (.ics)</string>
+    <string name="tk_export_done_fmt">Сохранено: %1$s</string>
+    <string name="tk_export_empty">Нечего экспортировать</string>
+
+    <!-- v1.7.57: рабочая папка помощника -->
+    <string name="panel_workspace">Проекты помощника</string>
+    <string name="ws_empty">Здесь пока пусто. Попроси помощника создать файл или проект.</string>
+    <string name="ws_items_fmt">Объектов: %1$d</string>
+    <string name="ws_view">Открыть</string>
+    <string name="ws_zip">Упаковать в zip</string>
+    <string name="ws_share">Поделиться</string>
+    <string name="ws_rename">Переименовать</string>
+    <string name="ws_zipped_fmt">Архив %1$s готов, файлов внутри: %2$d</string>
+    <string name="ws_share_dir">Папку можно отправить только архивом — сначала упакуй в zip</string>
+    <string name="ws_share_fail">Не удалось поделиться файлом</string>
+    <string name="ws_too_big">Файл слишком большой для просмотра</string>
+    <string name="ws_binary">Это не текстовый файл</string>
+    <string name="ws_last_fmt">Последний ответ: файлов %1$d</string>
+    <string name="ws_undo">Откатить</string>
+    <string name="ws_undo_msg_fmt">Вернуть %1$d файлов в то состояние, в котором они были до последнего ответа помощника?</string>
+    <string name="ws_undo_done_fmt">Возвращено файлов: %1$d</string>
+
+    <!-- v1.7.57: задания агента по расписанию -->
+    <string name="job_channel">Задания помощника</string>
+    <string name="job_channel_sub">Ответы на задания, выполненные по расписанию</string>
+    <string name="job_chat_fmt">Задание: %1$s</string>
+    <string name="job_no_model">Нет активной модели — задание не выполнено</string>
+    <string name="job_timeout">Модель не ответила вовремя</string>
+    <string name="job_empty">Модель вернула пустой ответ</string>
+    <string name="tk_kind">Тип</string>
+    <string name="tk_kind_task">Напоминание</string>
+    <string name="tk_kind_job">Задание помощнику</string>
+    <string name="tk_prompt">Что спросить у помощника</string>
+    <string name="tk_prompt_hint">Например: собери главные новости за сутки и выдели три важные</string>
+    <string name="tk_job_note">Сработает по расписанию: помощник выполнит запрос сам и пришлёт ответ уведомлением. Инструменты страницы при этом недоступны — браузер может быть закрыт.</string>
+    <string name="tk_job_badge">задание</string>
+
+    <!-- v1.7.58: обычные поля в автозаполнении -->
+    <string name="af_f_name">Имя и фамилия</string>
+    <string name="af_f_first">Имя</string>
+    <string name="af_f_last">Фамилия</string>
+    <string name="af_f_email">Email</string>
+    <string name="af_f_phone">Телефон</string>
+    <string name="af_f_address">Адрес</string>
+    <string name="af_f_address2">Адрес, строка 2</string>
+    <string name="af_f_city">Город</string>
+    <string name="af_f_postal">Почтовый индекс</string>
+    <string name="af_f_state">Область / штат</string>
+    <string name="af_f_country">Страна</string>
+    <string name="af_f_company">Компания</string>
+    <string name="af_f_birthday">Дата рождения</string>
+    <string name="af_f_username">Имя пользователя</string>
+    <string name="af_f_website">Сайт</string>
+    <string name="af_f_extra">Свои поля</string>
+    <string name="af_extra_hint">По одному в строке, в виде ключ=значение. Для всего, чего нет выше.</string>
+
+    <!-- v1.7.60: скрипты от помощника и отмена действий -->
+    <string name="ai_tools_scripts">Создание скриптов</string>
+    <string name="ai_tools_scripts_sub">Помощник может выполнять JavaScript на странице и создавать постоянные пользовательские скрипты</string>
+    <string name="ai_act_script">Помощник хочет создать постоянный скрипт</string>
+    <string name="ai_act_script_del">Помощник хочет удалить скрипт</string>
+    <string name="log_undo">Вернуть</string>
+    <string name="log_undone">отменено</string>
+    <string name="log_clear_confirm">Очистить журнал действий помощника? Вместе с ним пропадут и возможности вернуть выполненные действия.</string>
+
+    <!-- v1.7.61: скрипты проходят через то же окно ревью -->
+    <string name="rv_script_new">новый скрипт</string>
+    <string name="rv_script_del">удаление скрипта</string>
+    <string name="rv_script_on">Будет работать на: %1$s</string>
+
+    <!-- v1.7.61: PDF -->
+    <string name="ai_act_pdf_fill">Помощник хочет заполнить PDF</string>
+    <string name="ai_act_pdf_stamp">Помощник хочет впечатать текст в PDF</string>
+
+    <!-- v1.7.61: сценарии -->
+    <string name="panel_workflows">Сценарии</string>
+    <string name="wf_hint">Сценарий — это сохранённая команда. Тап запускает её: помощник получает вашу инструкцию и сам решает, какими инструментами её выполнить.</string>
+    <string name="wf_add">Новый сценарий</string>
+    <string name="wf_edit">Изменить сценарий</string>
+    <string name="wf_empty">Сценариев пока нет. Создайте свой или скажите помощнику: «создай команду, которая…»</string>
+    <string name="wf_run">Запустить</string>
+    <string name="wf_schedule">Поставить на расписание</string>
+    <string name="wf_name_hint">Короткое имя, например «счета»</string>
+    <string name="wf_prompt_hint">Что нужно сделать при запуске</string>
+    <string name="wf_prompt_note">Пишите как обычную просьбу помощнику: что сделать, с какими файлами или сайтами, в каком виде показать результат.</string>
+    <string name="wf_need_both">Нужны и имя, и инструкция</string>
+    <string name="wf_no_browser">Откройте браузер, чтобы запустить сценарий</string>
+    <string name="wf_review_sub">Сохраняется как команда пользователя</string>
+    <string name="wf_new">новый сценарий</string>
+    <string name="wf_replace">замена сценария</string>
+
+    <string name="ai_act_office_fill">Помощник хочет заполнить документ</string>
+
+    <!-- v1.7.68: выбор шаблона резюме -->
+    <string name="cv_pick_title">Как оформить резюме</string>
+    <string name="cv_pick_sub">Выберите вид и цвет — или доверьтесь помощнику.</string>
+    <string name="cv_pick_color">Цвет акцента</string>
+    <string name="cv_pick_auto">Пусть решит сам</string>
+    <string name="cv_pick_go">Готово</string>
+    <string name="cv_review_sub">Резюме · шаблон %1$s, цвет %2$s</string>
+    <string name="rv_count_fmt">Файл %1$d в этом ответе</string>
+
+    <!-- v1.7.68: помощник продолжает работу в фоне -->
+    <string name="ai_work_channel">Работа помощника</string>
+    <string name="ai_work_channel_sub">Показывается, пока помощник выполняет запрос</string>
+    <string name="ai_work_title">Помощник работает</string>
+    <string name="ai_work_text">Можно свернуть браузер — ответ придёт</string>
+
+    <string name="cache_top_fmt">Показаны %1$d самых тяжёлых сайтов из %2$d</string>
+
+    <string name="cv_pick_custom">Свой цвет</string>
+    <string name="cv_pick_bad_color">Нужен код вида #1F4E79</string>
+
+    <!-- v1.7.70: шаблоны документов и мини-приложения -->
+    <string name="panel_templates">Шаблоны</string>
+    <string name="tpl_hint">Шаблон — документ, который вы отправляете снова и снова: смета, счёт, договор. Помощник создаёт его один раз, дальше он заполняется одной фразой.</string>
+    <string name="tpl_empty">Шаблонов пока нет</string>
+    <string name="tpl_empty_how">Скажите помощнику: «сделай шаблон сметы, вот что в ней должно быть» — и он появится здесь.</string>
+    <string name="tpl_kind_doc">документ</string>
+    <string name="tpl_kind_app">мини-приложение</string>
+    <string name="tpl_use">Заполнить</string>
+    <string name="tpl_run_prompt">Заполни шаблон «%1$s».</string>
+    <string name="tpl_review_sub">Шаблон · папка %1$s</string>
+    <string name="tpl_doc_sub">Документ по шаблону «%1$s»</string>
+    <string name="tpl_new">новый шаблон</string>
+    <string name="tpl_replace">замена шаблона</string>
+    <string name="biz_title">Мои реквизиты</string>
+    <string name="biz_sub">Подставляются в документы сами — спрашивать их больше не будут.</string>
+    <string name="biz_empty">Не заполнены — нажмите, чтобы внести один раз</string>
+    <string name="biz_next_fmt">Следующие номера: смета %1$s, счёт %2$s</string>
+
+    <string name="set_search_hint">Что ищете? Например: будильник</string>
+    <string name="set_search_start">Начните вводить — найдётся любой пункт</string>
+    <string name="set_search_none">Ничего не нашлось</string>
+
+    <string name="biz_saved">Реквизиты сохранены</string>
+
+    <!-- v1.7.73: визуальные шаблоны, группы, подпись, импорт -->
+    <string name="tpl_ask_title">Документ по шаблону «%1$s»</string>
+    <string name="tpl_ask_sub">Напишите своими словами, как вам сказал клиент — помощник сам разложит это по полям.</string>
+    <string name="tpl_ask_hint">Например: клиент — компания «Пример», заменить две двери, 600 евро, срок — две недели</string>
+    <string name="tpl_ask_sign">Поставить мою подпись</string>
+    <string name="tpl_ask_go">Подготовить</string>
+    <string name="tpl_rename">Переименовать</string>
+    <string name="tpl_move">Перенести в группу</string>
+    <string name="tpl_refresh">Обновить миниатюру</string>
+    <string name="tpl_group_new">Новая группа…</string>
+    <string name="tpl_group_hint">Название группы</string>
+    <string name="tpl_group_title">Группа «%1$s»</string>
+    <string name="tpl_group_emoji">Значок</string>
+    <string name="tpl_group_color">Цвет</string>
+    <string name="tpl_import">Загрузить свой шаблон</string>
+    <string name="tpl_import_sub">HTML, Word (.docx) или PDF — ваш бланк останется как есть</string>
+    <string name="tpl_import_name">Как назвать шаблон</string>
+    <string name="tpl_import_done">Шаблон «%1$s» загружен</string>
+    <string name="tpl_import_bad">Такой формат не подходит: нужен .html, .docx или .pdf</string>
+    <string name="tpl_import_fail">Не удалось загрузить файл</string>
+    <string name="tpl_import_hint_docx">В своём Word-шаблоне поставьте метки вида {{client_name}} там, где меняется текст.</string>
+    <string name="sig_title">Моя подпись</string>
+    <string name="sig_hint">Распишитесь пальцем — подпись сохранится и будет ставиться в документы.</string>
+    <string name="sig_present">подпись есть</string>
+    <string name="sig_absent">не задана</string>
+    <string name="sig_draw">Расписаться</string>
+    <string name="sig_clear">Удалить подпись</string>
+
+    <string name="ws_no_app">Нет приложения, которое откроет этот файл</string>
+
+    <string name="pdfv_more">…и ещё %1$d страниц — откройте файл целиком</string>
+    <string name="pdfv_fail">Не удалось открыть PDF</string>
+
+    <!-- v1.7.76: камера как вход для помощника -->
+    <string name="cam_title">Снимок для помощника</string>
+    <string name="cam_shoot">Снять</string>
+    <string name="cam_failed">Не удалось сделать снимок</string>
+    <string name="ai_attach_camera">Камера</string>
+    <string name="cam_kept_fmt">Снимков: %1$d</string>
+</resources>

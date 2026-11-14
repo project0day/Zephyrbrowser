@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.0 (agent 1-b): menu popup + payments dialogs.
+         Technical placeholders — mostly locale-independent; keys are IDENTICAL in
+         values/, values-en/ and values-fr/. -->
+    <string name="pay_ph_mmyy">MM/AA</string>
+    <string name="pay_ph_number">1234 5678 9012 3456</string>
+    <string name="pay_ph_cvv">CVV/CVC</string>
+    <string name="pay_ph_cvv_digits">123</string>
+    <string name="pay_field_email">Adresse e-mail</string>
+    <string name="pay_ph_email">nom@exemple.com</string>
+</resources>

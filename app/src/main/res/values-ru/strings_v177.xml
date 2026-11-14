@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open">Открыть</string>
+    <string name="share">Поделиться</string>
+
+    <!-- QR scanner -->
+    <string name="qr_title">Сканировать QR-код</string>
+    <string name="qr_hint">Наведите камеру на QR-код — ссылка, Wi-Fi или текст</string>
+    <string name="qr_torch">Фонарик</string>
+    <string name="qr_no_camera">Камера недоступна</string>
+    <string name="qr_result">Результат сканирования</string>
+    <string name="qr_wifi_net">Wi-Fi сеть из QR-кода:</string>
+    <string name="qr_wifi_ssid">Сеть</string>
+    <string name="qr_wifi_pass">Пароль</string>
+    <string name="qr_scan_again">Сканировать ещё</string>
+    <string name="qr_open_settings">Открыть настройки Wi-Fi</string>
+
+    <!-- Files app -->
+    <string name="files_title">Файлы</string>
+    <string name="files_tab_downloads">Загрузки</string>
+    <string name="files_tab_media">Медиа</string>
+    <string name="files_tab_storage">Память</string>
+    <string name="files_search_hint">Поиск файла…</string>
+    <string name="files_gate_title">Доступ ко всем файлам</string>
+    <string name="files_gate_text">Чтобы серфить по всем папкам телефона, созданным файлам и папкам, выдайте Zephyr доступ ко всем файлам в системных настройках (это безопасно — браузер не отправляет файлы никуда).</string>
+    <string name="files_grant">Предоставить доступ</string>
+    <string name="files_perm_title">Нужен доступ к медиа</string>
+    <string name="files_perm_text">Разрешите доступ к фото и видео, чтобы видеть файлы в этой вкладке.</string>
+    <string name="files_empty">Здесь пока пусто</string>
+    <string name="files_folder">Папка</string>
+    <string name="files_root">Память устройства</string>
+    <string name="files_edit">Редактировать</string>
+    <string name="files_rename">Переименовать</string>
+    <string name="files_show_in_folder">Показать в папке</string>
+    <string name="files_delete_confirm">Удалить этот файл? Действие необратимо.</string>
+    <string name="files_delete_failed">Не удалось удалить</string>
+    <string name="files_create">Создать</string>
+    <string name="files_new_note">Новая заметка (txt)</string>
+    <string name="files_new_folder">Новая папка</string>
+    <string name="files_new_file">Новый файл</string>
+    <string name="files_create_failed">Не удалось создать</string>
+    <string name="files_editor">Редактор</string>
+    <string name="files_save_failed">Не удалось сохранить</string>
+    <string name="files_no_app">Нет приложения для открытия этого файла</string>
+
+    <!-- URL bottom bar -->
+    <string name="url_bar_title">ТЕКУЩАЯ ССЫЛКА</string>
+    <string name="url_edit">Редактировать адрес</string>
+
+    <!-- site styles -->
+    <string name="menu_styles">Стили сайта</string>
+    <string name="styles_title">CSS для %s</string>
+    <string name="styles_hint">Свой CSS применяется ко всем страницам этого сайта. Пример: body { font-size: 17px !important; }</string>
+    <string name="styles_share">Поделиться</string>
+    <string name="save_apply">Сохранить и применить</string>
+    <string name="styles_need_site">Откройте сайт, чтобы задать его стиль</string>
+
+    <!-- appearance picker (premium) -->
+    <string name="appearance_scope_site">Только %s</string>
+    <string name="appearance_scope_all">Все сайты</string>
+    <string name="appearance_reset_site">Сбросить — как в настройках</string>
+
+    <!-- video sniffer -->
+    <string name="sniff_video">Скачать видео</string>
+    <string name="sniff_video_hls">Скачать видео (HLS)</string>
+    <string name="sniff_none">На этой странице видео не найдено</string>
+    <string name="sniff_title">Найденные видео</string>
+    <string name="dl_hls_progress">Сегментов: %1$d/%2$d</string>
+
+    <!-- inline translation -->
+    <string name="translated_done">Страница переведена</string>
+
+    <!-- reader library -->
+    <string name="reader_lib_title">Библиотека статей</string>
+    <string name="reader_save_lib">Сохранить в библиотеку</string>
+    <string name="reader_lib_saved">Статья в библиотеке</string>
+    <string name="reader_lib_updated">Статья обновлена в библиотеке</string>
+    <string name="reader_lib_fail">Не удалось сохранить статью</string>
+    <string name="reader_minutes">мин</string>
+    <string name="reader_open_online">Открыть в сети</string>
+
+    <!-- tab switcher: search + pinned + groups -->
+    <string name="ts_search_tabs">Поиск по вкладкам</string>
+    <string name="ts_search_hint">Название или адрес…</string>
+    <string name="ts_pinned">Закреплённые</string>
+    <string name="ts_all_tabs">Вкладки</string>
+    <string name="ts_pin">Закрепить вкладку</string>
+    <string name="ts_unpin">Открепить вкладку</string>
+    <string name="tg_create">Создать группу</string>
+    <string name="tg_exists">Такая группа уже есть</string>
+    <string name="tg_rename">Переименовать группу</string>
+    <string name="tg_empty_group">Освободить группу</string>
+    <string name="tg_close_confirm">Закрыть все %d вкладок группы?</string>
+    <string name="tg_menu">Меню группы</string>
+    <string name="tg_add_to">ДОБАВИТЬ В ГРУППУ</string>
+    <string name="tg_close_tab">Закрыть вкладку</string>
+    <string name="ts_close_ungrouped">Обычные вкладки (%d)</string>
+    <string name="ts_close_group_fmt">Группа «%s» (%d)</string>
+    <string name="ts_close_pinned">Закреплённые вкладки (%d)</string>
+    <string name="ts_closed_n">Закрыто вкладок: %d</string>
+
+    <!-- backup: passwords + file encryption -->
+    <string name="bk_passwords">Пароли, карты и автозаполнение</string>
+    <string name="bk_file_password">Пароль файла</string>
+    <string name="bk_file_password_hint">Пароль (можно пропустить)</string>
+    <string name="bk_password_included">В копии есть пароли — задайте пароль файла, чтобы зашифровать её (AES-256).</string>
+    <string name="bk_wrong_password">Неверный пароль файла</string>
+
+    <!-- translate language arrays -->
+    <string-array name="translate_langs">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Polski</item>
+        <item>Українська</item>
+        <item>Türkçe</item>
+        <item>العربية</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="translate_lang_codes">
+        <item>ru</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>it</item>
+        <item>pl</item>
+        <item>uk</item>
+        <item>tr</item>
+        <item>ar</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+</resources>

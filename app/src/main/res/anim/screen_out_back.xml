@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8: back exit — the whole screen glides FULLY to the right (Chrome's
+     back gesture feel), no fade. -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="0"
+    android:toXDelta="100%"
+    android:duration="260"
+    android:interpolator="@android:interpolator/fast_out_slow_in" />

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.5.0 password vault + security (agent 1-c). fr. -->
+<resources>
+    <!-- sections -->
+    <string name="vault_section">Coffre à mots de passe</string>
+    <string name="vault_section_other">Divers</string>
+
+    <!-- gate: biometric -->
+    <string name="vault_biometric_title">Accès au coffre</string>
+    <string name="vault_biometric_subtitle">Confirmez votre identité pour ouvrir vos mots de passe</string>
+
+    <!-- gate: PIN -->
+    <string name="vault_gate_title">Coffre verrouillé</string>
+    <string name="vault_gate_message">Saisissez le PIN du coffre</string>
+    <string name="vault_locked_hint">Saisissez votre PIN ou confirmez votre identité pour ouvrir les mots de passe enregistrés</string>
+    <string name="vault_unlock">Déverrouiller</string>
+    <string name="vault_pin_label">Code PIN</string>
+    <string name="vault_wrong_pin">PIN incorrect</string>
+    <string name="vault_locked_out">Trop de tentatives. Fermez puis rouvrez le coffre.</string>
+
+    <!-- first-run offer -->
+    <string name="vault_offer_title">Définir un PIN pour le coffre ?</string>
+    <string name="vault_offer_message">Un PIN ou la biométrie protège vos mots de passe. Vous pouvez changer cela à tout moment dans les paramètres de sécurité.</string>
+    <string name="vault_offer_set">Définir</string>
+    <string name="vault_offer_skip">Ignorer</string>
+
+    <!-- PIN setup / change -->
+    <string name="vault_setup_title">Nouveau PIN</string>
+    <string name="vault_setup_message">Saisissez 4 à 8 chiffres</string>
+    <string name="vault_confirm_title">Confirmez le PIN</string>
+    <string name="vault_pin_too_short">Le PIN doit contenir 4 à 8 chiffres</string>
+    <string name="vault_pin_mismatch">Les PIN ne correspondent pas, réessayez</string>
+    <string name="vault_pin_set_done">PIN défini</string>
+    <string name="vault_pin_removed">PIN supprimé</string>
+    <string name="vault_pin_changed">PIN modifié</string>
+    <string name="vault_change_pin">Changer le PIN</string>
+
+    <!-- biometrics settings -->
+    <string name="vault_biometrics">Biométrie</string>
+    <string name="vault_sum_pin">Un code PIN protège l\'accès au coffre à mots de passe</string>
+    <string name="vault_sum_biometrics">Empreinte ou visage à la place du PIN</string>
+    <string name="vault_biometrics_unavailable">Biométrie indisponible sur cet appareil</string>
+    <string name="vault_need_pin_first">Définissez d\'abord un PIN du coffre</string>
+
+    <!-- autolock -->
+    <string name="vault_autolock">Verrouillage automatique</string>
+    <string name="vault_autolock_immediately">Immédiatement en quittant</string>
+    <string name="vault_autolock_30s">Après 30 secondes</string>
+    <string name="vault_autolock_1m">Après 1 minute</string>
+    <string name="vault_autolock_5m">Après 5 minutes</string>
+
+    <!-- saving / autofill / entry -->
+    <string name="vault_sum_save">Proposer d\'enregistrer les mots de passe sur les formulaires</string>
+    <string name="vault_sum_autofill">Remplir les identifiants enregistrés dans les formulaires</string>
+    <string name="vault_open">Ouvrir le coffre</string>
+
+    <!-- panel -->
+    <string name="vault_search_hint">Rechercher un mot de passe</string>
+    <string name="vault_add_title">Ajouter un mot de passe</string>
+    <string name="vault_edit_title">Modifier le mot de passe</string>
+    <string name="vault_add_first">Ajouter un mot de passe</string>
+    <string name="vault_empty_hint">Le coffre est vide. Ajoutez un mot de passe manuellement ou enregistrez vos identifiants depuis les formulaires — ils apparaîtront ici.</string>
+    <string name="vault_field_site">Site</string>
+    <string name="vault_field_login">Identifiant</string>
+    <string name="vault_field_password">Mot de passe</string>
+    <string name="vault_generate_short">Générer</string>
+    <string name="vault_need_site_login">Renseignez le site, l\'identifiant et le mot de passe</string>
+    <string name="vault_saved">Mot de passe enregistré</string>
+    <string name="vault_deleted">Mot de passe supprimé</string>
+    <string name="vault_open_site">Ouvrir le site</string>
+    <string name="vault_encrypt_error">Impossible de chiffrer le mot de passe</string>
+    <string name="vault_export_error">Impossible d\'exporter le CSV</string>
+</resources>

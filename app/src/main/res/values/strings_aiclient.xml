@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.86: the assistant's status line and its error messages. These were
+     Russian literals inside AiClient, so they ignored the app language. -->
+<resources>
+    <string name="ai_st_summing">Many steps — wrapping up…</string>
+    <string name="ai_st_searching">Searching the web: %1$s…</string>
+    <string name="ai_st_reading">Reading the page…</string>
+    <string name="ai_st_connecting">Connecting to %1$s…</string>
+    <string name="ai_st_waiting">Waiting for the server…</string>
+    <string name="ai_st_retry">Provider limit — retrying in %1$d s…</string>
+    <string name="ai_st_thinking">The model is thinking…</string>
+    <string name="ai_st_reasoning">Reasoning…</string>
+    <string name="ai_st_typing">Typing…</string>
+    <string name="ai_st_agent_silent">The agent is silent — %1$s is answering…</string>
+
+    <string name="ai_err_rounds_done">The task needed more steps than one answer allows (%1$d). What it managed to do: %2$s. Ask it to carry on from there.</string>
+    <string name="ai_err_rounds">The task needed more steps than one answer allows (%1$d). Some of the work may have been done — check, and ask it to carry on from there.</string>
+    <string name="ai_err_no_text">The model returned no text. Try another model, or send the request again.</string>
+    <string name="ai_err_timeout">⏱ The model "%1$s" did not answer in time.\nHeavy models can think for several minutes — try again, or pick a lighter one.</string>
+    <string name="ai_err_offline">⚠️ No connection to the AI service.\n%1$s</string>
+    <string name="ai_err_empty">The model returned an empty reply.</string>
+    <string name="ai_err_key">🔑 Key refused (%1$d).\nCheck the API key of the profile "%2$s".\n\n%3$s</string>
+    <string name="ai_err_endpoint">🚫 Endpoint not found (404).\nThe request went to:\n%1$s\n\nCheck that the model "%2$s" exists at this provider and that the address is right (for NVIDIA: https://integrate.api.nvidia.com/v1).\n\n%3$s</string>
+    <string name="ai_err_rejected">⚠️ Request rejected (%1$d).\n\n%2$s\n\nModel: "%3$s"</string>
+    <string name="ai_err_rate">⏳ Request limit reached (429). Try later, or switch model.\n\n%1$s</string>
+    <string name="ai_err_provider">💥 Error on the provider\'s side (%1$d).\n\n%2$s</string>
+    <string name="ai_err_http">Error %1$d.\n\n%2$s</string>
+    <string name="ai_err_no_backup">There is no fallback model — add an ordinary model in Settings → AI assistant and it will step in while the agent is offline.</string>
+    <string name="ai_st_followup">Picking up what you added…</string>
+</resources>

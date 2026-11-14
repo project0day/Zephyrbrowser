@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_st_summing">Шагов много — подвожу итог…</string>
+    <string name="ai_st_searching">Ищу в интернете: %1$s…</string>
+    <string name="ai_st_reading">Читаю страницу…</string>
+    <string name="ai_st_connecting">Подключаюсь к %1$s…</string>
+    <string name="ai_st_waiting">Жду ответа сервера…</string>
+    <string name="ai_st_retry">Лимит провайдера — повтор через %1$d с…</string>
+    <string name="ai_st_thinking">Модель думает…</string>
+    <string name="ai_st_reasoning">Рассуждает…</string>
+    <string name="ai_st_typing">Печатает…</string>
+    <string name="ai_st_agent_silent">Агент молчит — отвечает %1$s…</string>
+
+    <string name="ai_err_rounds_done">Задача потребовала больше шагов, чем разрешено за один ответ (%1$d). Что успел сделать: %2$s. Попросите продолжить с этого места.</string>
+    <string name="ai_err_rounds">Задача потребовала больше шагов, чем разрешено за один ответ (%1$d). Часть работы могла выполниться — проверьте и попросите продолжить с того места.</string>
+    <string name="ai_err_no_text">Модель не вернула текст. Попробуйте другую модель или повторите запрос.</string>
+    <string name="ai_err_timeout">⏱ Модель «%1$s» не ответила вовремя.\nТяжёлые модели думают до нескольких минут — попробуйте ещё раз или выберите модель полегче.</string>
+    <string name="ai_err_offline">⚠️ Нет связи с ИИ-сервисом.\n%1$s</string>
+    <string name="ai_err_empty">Пустой ответ от модели.</string>
+    <string name="ai_err_key">🔑 Ключ не принят (%1$d).\nПроверьте API-ключ профиля «%2$s».\n\n%3$s</string>
+    <string name="ai_err_endpoint">🚫 Эндпоинт не найден (404).\nЗапрос уходил на:\n%1$s\n\nПроверьте, что модель «%2$s» существует у этого провайдера и что адрес указан верно (для NVIDIA: https://integrate.api.nvidia.com/v1).\n\n%3$s</string>
+    <string name="ai_err_rejected">⚠️ Запрос отклонён (%1$d).\n\n%2$s\n\nМодель: «%3$s»</string>
+    <string name="ai_err_rate">⏳ Лимит запросов исчерпан (429). Попробуйте позже или смените модель.\n\n%1$s</string>
+    <string name="ai_err_provider">💥 Ошибка на стороне провайдера (%1$d).\n\n%2$s</string>
+    <string name="ai_err_http">Ошибка %1$d.\n\n%2$s</string>
+    <string name="ai_err_no_backup">Запасной модели нет — добавьте обычную модель в Настройки → ИИ-помощник, и она подхватит, пока агент офлайн.</string>
+    <string name="ai_st_followup">Подхватываю дополнение…</string>
+</resources>

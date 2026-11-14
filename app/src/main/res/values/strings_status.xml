@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.9.1: the assistant status line. These are read by the USER, not
+     by the model, so they are resources — see the note in AiTools.run. -->
+<resources>
+    <string name="st_page_read">Reading the page…</string>
+    <string name="st_page_extract">Collecting data from the page…</string>
+    <string name="st_page_click">Tapping on the page…</string>
+    <string name="st_page_fill">Filling in the field…</string>
+    <string name="st_page_scroll">Scrolling…</string>
+    <string name="st_page_forms">Examining the form…</string>
+    <string name="st_page_shot">Capturing the page…</string>
+    <string name="st_run_js">Running the script on the page…</string>
+    <string name="st_script_new">Creating the script…</string>
+    <string name="st_find_all">Searching everywhere…</string>
+    <string name="st_find_file">Looking for the file…</string>
+    <string name="st_read_file">Reading the file…</string>
+    <string name="st_see_history">Checking the history…</string>
+    <string name="st_see_bookmarks">Checking the bookmarks…</string>
+    <string name="st_see_downloads">Checking the downloads…</string>
+    <string name="st_see_dir">Looking in the folder…</string>
+    <string name="st_write_file">Writing the file…</string>
+    <string name="st_mkdir">Creating the folder…</string>
+    <string name="st_delete">Deleting…</string>
+    <string name="st_copy">Copying…</string>
+    <string name="st_move">Moving…</string>
+    <string name="st_zip">Packing the archive…</string>
+    <string name="st_tpl_save">Saving the template…</string>
+    <string name="st_tpl_fill">Filling in the template…</string>
+    <string name="st_cv_build">Assembling the CV…</string>
+    <string name="st_cv_data">Preparing the CV data…</string>
+    <string name="st_render">Laying out the document…</string>
+    <string name="st_doc_build">Assembling the document…</string>
+    <string name="st_doc_read">Reading the document…</string>
+    <string name="st_doc_fill">Filling in the document…</string>
+    <string name="st_doc_new">Creating the document…</string>
+    <string name="st_pdf_read">Reading the PDF…</string>
+    <string name="st_pdf_fields">Checking the PDF fields…</string>
+    <string name="st_pdf_fill">Filling in the PDF…</string>
+    <string name="st_pdf_stamp">Stamping into the PDF…</string>
+    <string name="st_pdf_layout">Checking the page layout…</string>
+    <string name="st_pdf_render">Rendering the page…</string>
+    <string name="st_form_scan">Looking for the form blanks…</string>
+    <string name="st_form_fill">Filling in the form…</string>
+    <string name="st_task_new">Setting the reminder…</string>
+    <string name="st_task_list">Checking the tasks…</string>
+    <string name="st_task_done">Marking it done…</string>
+    <string name="st_task_del">Deleting the task…</string>
+    <string name="st_open_fmt">Opening %1$s…</string>
+    <string name="st_search_fmt">Searching the browser: %1$s…</string>
+</resources>

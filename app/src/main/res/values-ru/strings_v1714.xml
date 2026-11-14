@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.14: reorderable Files tabs, home page variants + custom page,
+     on-demand video sniffer probe, translate confirm button. -->
+<resources>
+    <!-- Files: tab order -->
+    <string name="files_tab_order">Порядок вкладок</string>
+    <string name="files_tab_order_hint">Зажмите вкладку, чтобы изменить порядок</string>
+    <string name="files_tab_order_reset">По умолчанию</string>
+    <string name="files_tab_move_up">Выше</string>
+    <string name="files_tab_move_down">Ниже</string>
+
+    <!-- Home: page variants -->
+    <string name="home_page_variant">Главная страница</string>
+    <string name="home_variant_standard">Стандартная</string>
+    <string name="home_variant_minimal">Минималистичная</string>
+    <string name="home_variant_clock">Часы</string>
+    <string name="home_variant_sites">Сетка сайтов</string>
+    <string name="home_variant_custom">Своя страница</string>
+    <string name="home_variant_standard_desc">Поиск, быстрые ссылки, недавние и закладки</string>
+    <string name="home_variant_minimal_desc">Только поиск — ничего лишнего</string>
+    <string name="home_variant_clock_desc">Большие часы, дата и поиск</string>
+    <string name="home_variant_sites_desc">Крупная сетка избранных сайтов</string>
+    <string name="home_variant_custom_desc">Ваш HTML-файл или ссылка как главный экран</string>
+    <string name="home_custom_url_hint">Путь или ссылка, напр. /storage/emulated/0/index.html</string>
+    <string name="home_custom_empty">Укажите путь к HTML-файлу или ссылку</string>
+    <string name="home_custom_missing">Файл не найден — проверьте путь</string>
+    <string name="home_custom_open_settings">Разрешить доступ к файлам</string>
+
+    <!-- Sniffer: on-demand probe -->
+    <string name="sniff_refresh">Найти видео на странице</string>
+    <string name="sniff_scanning">Сканирую страницу…</string>
+    <string name="sniff_found_n">Найдено видео: %1$d</string>
+
+    <!-- Translate: confirm button -->
+    <string name="translate_do">Перевести</string>
+</resources>

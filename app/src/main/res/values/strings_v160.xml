@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_vpn">VPN &amp; proxy</string>
+    <string name="menu_adblock">Ad blocking</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_site_settings">Site settings</string>
+    <string name="menu_screenshot">Page screenshot</string>
+    <string name="menu_save_pdf">Save as PDF</string>
+    <string name="copy">Copy</string>
+    <string name="shot_need_page">Open a page first</string>
+    <string name="shot_saved">Screenshot saved to gallery</string>
+    <string name="shot_failed">Failed to take screenshot</string>
+    <string name="pdf_failed">Failed to create PDF</string>
+    <string name="menu_customize_sum_v16">Reorder and toggle buttons — everything saves instantly. VPN, blockers, screenshot, PDF and more are available.</string>
+    <string name="menu_preview">Menu preview</string>
+    <string name="menu_actions_section">Actions</string>
+    <string name="menu_reset_done">Default order restored</string>
+    <string name="menu_empty_preview">All rows hidden</string>
+    <string name="menu_more_items">+ %1$d more…</string>
+</resources>

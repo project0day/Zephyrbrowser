@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Chrome palette -->
+    <color name="z_primary">#1A73E8</color>
+    <color name="z_on_primary">#FFFFFF</color>
+    <color name="z_primary_container">#D3E3FD</color>
+    <color name="z_on_primary_container">#041E49</color>
+    <color name="z_background">#FFFFFF</color>
+    <color name="z_on_background">#202124</color>
+    <color name="z_surface">#FFFFFF</color>
+    <color name="z_on_surface">#202124</color>
+    <color name="z_surface_variant">#F1F3F4</color>
+    <color name="z_on_surface_variant">#5F6368</color>
+    <color name="z_outline">#DADCE0</color>
+    <color name="z_outline_variant">#E8EAED</color>
+    <color name="z_error">#D93025</color>
+    <color name="z_on_error">#FFFFFF</color>
+    <color name="z_error_container">#FCE8E6</color>
+    <color name="z_on_error_container">#3C4043</color>
+    <color name="z_secondary_container">#E8EAED</color>
+    <color name="z_on_secondary_container">#202124</color>
+
+    <color name="z_omnibox_fill">#F1F3F4</color>
+    <color name="z_omnibox_outline">#00FFFFFF</color>
+    <color name="z_toolbar">#FFFFFF</color>
+
+    <!-- Incognito (TOR-like purple) -->
+    <color name="z_incognito_top">#2E1E4F</color>
+    <color name="z_incognito_bottom">#151023</color>
+    <color name="z_incognito_surface">#241A3D</color>
+    <color name="z_incognito_on_surface">#EDE7FB</color>
+    <color name="z_incognito_on_variant">#B7A7DA</color>
+    <color name="z_incognito_omnibox">#3B2B5E</color>
+    <color name="z_incognito_outline">#6E5A96</color>
+
+    <!-- Forced dark theme -->
+    <color name="z_dark_background">#212121</color>
+    <color name="z_dark_surface">#212121</color>
+    <color name="z_dark_surface_variant">#35363A</color>
+    <color name="z_dark_on_surface">#E8EAED</color>
+    <color name="z_dark_on_variant">#9AA0A6</color>
+    <color name="z_dark_outline">#5F6368</color>
+    <color name="z_dark_primary">#8AB4F8</color>
+    <color name="z_dark_on_primary">#202124</color>
+    <color name="z_dark_primary_container">#062E6F</color>
+    <color name="z_dark_on_primary_container">#D3E3FD</color>
+    <color name="z_dark_omnibox_fill">#35363A</color>
+    <color name="z_dark_secondary_container">#3C4043</color>
+    <color name="z_dark_on_secondary_container">#E8EAED</color>
+    <color name="z_dark_error">#F28B82</color>
+
+    <!-- AMOLED -->
+    <color name="z_amoled_background">#000000</color>
+    <color name="z_amoled_surface">#000000</color>
+    <color name="z_amoled_surface_variant">#121212</color>
+    <color name="z_amoled_omnibox_fill">#121212</color>
+    <color name="z_amoled_outline">#2E2E2E</color>
+
+    <!-- Sepia (v1.7.1: deeper, browner aged-photo — clearly distinct from Sand) -->
+    <color name="z_sepia_background">#F1E4D0</color>
+    <color name="z_sepia_surface">#E8D8BC</color>
+    <color name="z_sepia_surface_variant">#DFCDAE</color>
+    <color name="z_sepia_on_surface">#452E1E</color>
+    <color name="z_sepia_on_variant">#6B4E36</color>
+    <color name="z_sepia_outline">#CBB794</color>
+    <color name="z_sepia_primary">#7A4A2E</color>
+    <color name="z_sepia_on_primary">#FFF6EC</color>
+    <color name="z_sepia_omnibox_fill">#DFCDAE</color>
+
+    <!-- Slate -->
+    <color name="z_slate_background">#1C1F22</color>
+    <color name="z_slate_surface">#22262A</color>
+    <color name="z_slate_surface_variant">#2E3338</color>
+    <color name="z_slate_on_surface">#E2E5E9</color>
+    <color name="z_slate_on_variant">#9BA2AB</color>
+    <color name="z_slate_outline">#454C54</color>
+    <color name="z_slate_primary">#7CC4B8</color>
+    <color name="z_slate_on_primary">#12211E</color>
+    <color name="z_slate_omnibox_fill">#2E3338</color>
+
+    <!-- Rose (light) -->
+    <color name="z_rose_background">#FDF5F6</color>
+    <color name="z_rose_surface">#FFFFFF</color>
+    <color name="z_rose_surface_variant">#F6E4E8</color>
+    <color name="z_rose_on_surface">#42303A</color>
+    <color name="z_rose_on_variant">#86626F</color>
+    <color name="z_rose_outline">#E4C4CC</color>
+    <color name="z_rose_primary">#C25573</color>
+    <color name="z_rose_on_primary">#FFFFFF</color>
+    <color name="z_rose_omnibox_fill">#F6E4E8</color>
+
+    <!-- Forest (dark green) -->
+    <color name="z_forest_background">#141A16</color>
+    <color name="z_forest_surface">#1A211C</color>
+    <color name="z_forest_surface_variant">#26302A</color>
+    <color name="z_forest_on_surface">#DDE7DE</color>
+    <color name="z_forest_on_variant">#93A697</color>
+    <color name="z_forest_outline">#3A4A40</color>
+    <color name="z_forest_primary">#8FD6A0</color>
+    <color name="z_forest_on_primary">#0E1F14</color>
+    <color name="z_forest_omnibox_fill">#26302A</color>
+
+    <!-- Ocean (dark teal) -->
+    <color name="z_ocean_background">#0F1D1E</color>
+    <color name="z_ocean_surface">#152527</color>
+    <color name="z_ocean_surface_variant">#1F3436</color>
+    <color name="z_ocean_on_surface">#D5E9E8</color>
+    <color name="z_ocean_on_variant">#86A5A6</color>
+    <color name="z_ocean_outline">#314E50</color>
+    <color name="z_ocean_primary">#5FD3C4</color>
+    <color name="z_ocean_on_primary">#07201D</color>
+    <color name="z_ocean_omnibox_fill">#1F3436</color>
+
+    <!-- Plum (dark purple) -->
+    <color name="z_plum_background">#191223</color>
+    <color name="z_plum_surface">#201831</color>
+    <color name="z_plum_surface_variant">#2C2143</color>
+    <color name="z_plum_on_surface">#E8E0F2</color>
+    <color name="z_plum_on_variant">#A493BE</color>
+    <color name="z_plum_outline">#41325C</color>
+    <color name="z_plum_primary">#B79BF0</color>
+    <color name="z_plum_on_primary">#1D1136</color>
+    <color name="z_plum_omnibox_fill">#2C2143</color>
+
+    <!-- Sand (v1.7.1: lighter, golden-sunny olive tinge — clearly distinct from Sepia) -->
+    <color name="z_sand_background">#F6F0DA</color>
+    <color name="z_sand_surface">#EFE7C8</color>
+    <color name="z_sand_surface_variant">#E7DDB6</color>
+    <color name="z_sand_on_surface">#4B4322</color>
+    <color name="z_sand_on_variant">#6E6438</color>
+    <color name="z_sand_outline">#CFC29D</color>
+    <color name="z_sand_primary">#94741A</color>
+    <color name="z_sand_on_primary">#FFFBE8</color>
+    <color name="z_sand_omnibox_fill">#E7DDB6</color>
+
+    <!-- Midnight (deep blue-grey night) -->
+    <color name="z_midnight_background">#101318</color>
+    <color name="z_midnight_surface">#161A21</color>
+    <color name="z_midnight_surface_variant">#212734</color>
+    <color name="z_midnight_on_surface">#DFE4EC</color>
+    <color name="z_midnight_on_variant">#8B94A6</color>
+    <color name="z_midnight_outline">#333C4D</color>
+    <color name="z_midnight_primary">#9DB8E8</color>
+    <color name="z_midnight_on_primary">#101A2B</color>
+    <color name="z_midnight_omnibox_fill">#212734</color>
+
+    <!-- Porcelain (pure light) -->
+    <color name="z_porcelain_background">#FAFAFC</color>
+    <color name="z_porcelain_surface">#FFFFFF</color>
+    <color name="z_porcelain_surface_variant">#EEF0F4</color>
+    <color name="z_porcelain_on_surface">#1D1F24</color>
+    <color name="z_porcelain_on_variant">#5B6068</color>
+    <color name="z_porcelain_outline">#D9DDE3</color>
+    <color name="z_porcelain_primary">#3E4A5C</color>
+    <color name="z_porcelain_on_primary">#FFFFFF</color>
+    <color name="z_porcelain_omnibox_fill">#EEF0F4</color>
+
+    <!-- Aurora (dark teal, v1.5.0 theme 12) -->
+    <color name="z_aurora_background">#0B1620</color>
+    <color name="z_aurora_surface">#12212C</color>
+    <color name="z_aurora_surface_variant">#1B2F3D</color>
+    <color name="z_aurora_on_surface">#D9E8EE</color>
+    <color name="z_aurora_on_variant">#8FA9B5</color>
+    <color name="z_aurora_outline">#2F4755</color>
+    <color name="z_aurora_primary">#4FD1C5</color>
+    <color name="z_aurora_on_primary">#062A26</color>
+    <color name="z_aurora_omnibox_fill">#1B2F3D</color>
+
+    <!-- Crimson (dark red, v1.5.0 theme 13) -->
+    <color name="z_crimson_background">#1D1013</color>
+    <color name="z_crimson_surface">#2A151A</color>
+    <color name="z_crimson_surface_variant">#3A1D24</color>
+    <color name="z_crimson_on_surface">#F3DEE0</color>
+    <color name="z_crimson_on_variant">#B08E93</color>
+    <color name="z_crimson_outline">#552B33</color>
+    <color name="z_crimson_primary">#EF6E6E</color>
+    <color name="z_crimson_on_primary">#3B0C11</color>
+    <color name="z_crimson_omnibox_fill">#3A1D24</color>
+
+    <!-- Mono (light grayscale, v1.5.0 theme 14) -->
+    <color name="z_mono_background">#F4F4F5</color>
+    <color name="z_mono_surface">#FFFFFF</color>
+    <color name="z_mono_surface_variant">#E9E9EB</color>
+    <color name="z_mono_on_surface">#232327</color>
+    <color name="z_mono_on_variant">#6E6E78</color>
+    <color name="z_mono_outline">#D4D4D8</color>
+    <color name="z_mono_primary">#5B5B66</color>
+    <color name="z_mono_on_primary">#FFFFFF</color>
+    <color name="z_mono_omnibox_fill">#E9E9EB</color>
+
+    <!-- Mint (light green, v1.5.0 theme 15) -->
+    <color name="z_mint_background">#F0F7F2</color>
+    <color name="z_mint_surface">#FFFFFF</color>
+    <color name="z_mint_surface_variant">#E3EFE7</color>
+    <color name="z_mint_on_surface">#1D2B22</color>
+    <color name="z_mint_on_variant">#5E7567</color>
+    <color name="z_mint_outline">#C7DCCF</color>
+    <color name="z_mint_primary">#2F9E68</color>
+    <color name="z_mint_on_primary">#FFFFFF</color>
+    <color name="z_mint_omnibox_fill">#E3EFE7</color>
+
+    <!-- Sunset (warm light, v1.5.0 theme 16) -->
+    <color name="z_sunset_background">#FBF3EA</color>
+    <color name="z_sunset_surface">#FFFFFF</color>
+    <color name="z_sunset_surface_variant">#F5E6D3</color>
+    <color name="z_sunset_on_surface">#33261B</color>
+    <color name="z_sunset_on_variant">#8A7261</color>
+    <color name="z_sunset_outline">#E4CDB1</color>
+    <color name="z_sunset_primary">#D97742</color>
+    <color name="z_sunset_on_primary">#FFFFFF</color>
+    <color name="z_sunset_omnibox_fill">#F5E6D3</color>
+
+    <!-- Violet Night (deep purple, v1.5.0 theme 17) -->
+    <color name="z_violet_night_background">#171226</color>
+    <color name="z_violet_night_surface">#201A33</color>
+    <color name="z_violet_night_surface_variant">#2C2445</color>
+    <color name="z_violet_night_on_surface">#E9E4F7</color>
+    <color name="z_violet_night_on_variant">#9C93BC</color>
+    <color name="z_violet_night_outline">#403663</color>
+    <color name="z_violet_night_primary">#A78BFA</color>
+    <color name="z_violet_night_on_primary">#231247</color>
+    <color name="z_violet_night_omnibox_fill">#2C2445</color>
+
+    <color name="ic_launcher_background">#060A14</color>
+    <color name="splash_tint">#6366F1</color>
+
+    <!-- v1.7.22: popup menu backgrounds = each theme's surface +3.5% toward
+         white (see zPopupBg attr + z_popup_menu_bg drawable). White surfaces
+         clamp at #FFFFFF (cannot get lighter).
+         v1.7.23: sepia/sand were DARKER than their theme background (regression
+         of 1.7.22) — recomputed LIGHTER: sepia #F1E4D0→#F9ECD8, sand
+         #F6F0DA→#FEF8E2 (same hue, ~+8/channel — the lift dark themes get). -->
+    <color name="z_popup_base">#FFFFFF</color>
+    <color name="z_dark_popup">#292929</color>
+    <color name="z_amoled_popup">#090909</color>
+    <color name="z_sepia_popup">#F9ECD8</color>
+    <color name="z_slate_popup">#2A2E31</color>
+    <color name="z_rose_popup">#FFFFFF</color>
+    <color name="z_forest_popup">#222924</color>
+    <color name="z_ocean_popup">#1D2D2F</color>
+    <color name="z_plum_popup">#282038</color>
+    <color name="z_sand_popup">#FEF8E2</color>
+    <color name="z_midnight_popup">#1E2229</color>
+    <color name="z_porcelain_popup">#FFFFFF</color>
+    <color name="z_aurora_popup">#1A2933</color>
+    <color name="z_crimson_popup">#311D22</color>
+    <color name="z_mono_popup">#FFFFFF</color>
+    <color name="z_mint_popup">#FFFFFF</color>
+    <color name="z_sunset_popup">#FFFFFF</color>
+    <color name="z_violet_night_popup">#28223A</color>
+
+    <!-- Static widget colors -->
+    <color name="wg_root">#E6212121</color>
+    <color name="wg_stroke">#66FFFFFF</color>
+
+    <!-- Tab counter / accent gradients source colors -->
+    <color name="grad_green_a">#0E9F6E</color>
+    <color name="grad_green_b">#34D399</color>
+    <color name="grad_purple_a">#4C1D95</color>
+    <color name="grad_purple_b">#7C3AED</color>
+    <color name="grad_teal_a">#0F766E</color>
+    <color name="grad_teal_b">#14B8A6</color>
+    <color name="grad_sunset_a">#EA580C</color>
+    <color name="grad_sunset_b">#EC4899</color>
+</resources>

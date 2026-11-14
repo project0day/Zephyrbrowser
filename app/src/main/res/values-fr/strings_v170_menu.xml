@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.0 (agent 2-b): unified menu tiles — ANY action can be pinned to the
+         horizontal row (incl. Translate, VPN, DNS, screenshot); >5 tiles scroll.
+         Key set is IDENTICAL in values/, values-en/ and values-fr/.
+         Apostrophes escaped with \' as required by aapt. -->
+    <string name="menu_dns">DNS intégré</string>
+    <string name="menu_customize_sum_v17">N\'importe quelle action peut être épinglée sur la rangée horizontale — y compris Traduire, VPN, DNS et capture d\'écran. La rangée défile au-delà de cinq tuiles.</string>
+    <string name="menu_more_tiles">Tuiles supplémentaires : %1$d</string>
+</resources>

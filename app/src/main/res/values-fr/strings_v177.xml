@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open">Ouvrir</string>
+    <string name="share">Partager</string>
+    <string name="qr_title">Scanner un QR code</string>
+    <string name="qr_hint">Visez un QR code — lien, Wi-Fi ou texte</string>
+    <string name="qr_torch">Lampe</string>
+    <string name="qr_no_camera">Caméra indisponible</string>
+    <string name="qr_result">Résultat du scan</string>
+    <string name="qr_wifi_net">Réseau Wi-Fi du QR code :</string>
+    <string name="qr_wifi_ssid">Réseau</string>
+    <string name="qr_wifi_pass">Mot de passe</string>
+    <string name="qr_scan_again">Scanner encore</string>
+    <string name="qr_open_settings">Ouvrir les réglages Wi-Fi</string>
+
+    <string name="files_title">Fichiers</string>
+    <string name="files_tab_downloads">Téléchargements</string>
+    <string name="files_tab_media">Médias</string>
+    <string name="files_tab_storage">Stockage</string>
+    <string name="files_search_hint">Rechercher…</string>
+    <string name="files_gate_title">Accès à tous les fichiers</string>
+    <string name="files_gate_text">Pour parcourir tous les dossiers du téléphone, autorisez Zephyr à accéder à tous les fichiers dans les réglages système (sûr — le navigateur n’envoie jamais vos fichiers).</string>
+    <string name="files_grant">Autoriser</string>
+    <string name="files_perm_title">Accès média requis</string>
+    <string name="files_perm_text">Autorisez l’accès aux photos et vidéos pour voir les fichiers de cet onglet.</string>
+    <string name="files_empty">Rien ici pour l’instant</string>
+    <string name="files_folder">Dossier</string>
+    <string name="files_root">Stockage</string>
+    <string name="files_edit">Modifier</string>
+    <string name="files_rename">Renommer</string>
+    <string name="files_show_in_folder">Voir dans le dossier</string>
+    <string name="files_delete_confirm">Supprimer ce fichier ? Action irréversible.</string>
+    <string name="files_delete_failed">Suppression impossible</string>
+    <string name="files_create">Créer</string>
+    <string name="files_new_note">Nouvelle note (txt)</string>
+    <string name="files_new_folder">Nouveau dossier</string>
+    <string name="files_new_file">Nouveau fichier</string>
+    <string name="files_create_failed">Création impossible</string>
+    <string name="files_editor">Éditeur</string>
+    <string name="files_save_failed">Enregistrement impossible</string>
+    <string name="files_no_app">Aucune app ne peut ouvrir ce fichier</string>
+
+    <string name="url_bar_title">LIEN ACTUEL</string>
+    <string name="url_edit">Modifier l’adresse</string>
+
+    <string name="menu_styles">Styles du site</string>
+    <string name="styles_title">CSS pour %s</string>
+    <string name="styles_hint">Votre CSS s’applique à toutes les pages de ce site. Exemple : body { font-size: 17px !important; }</string>
+    <string name="styles_share">Partager</string>
+    <string name="save_apply">Enregistrer et appliquer</string>
+    <string name="styles_need_site">Ouvrez un site pour le styliser</string>
+
+    <string name="appearance_scope_site">Seulement %s</string>
+    <string name="appearance_scope_all">Tous les sites</string>
+    <string name="appearance_reset_site">Réinitialiser — comme les réglages</string>
+
+    <string name="sniff_video">Télécharger la vidéo</string>
+    <string name="sniff_video_hls">Télécharger la vidéo (HLS)</string>
+    <string name="sniff_none">Aucune vidéo trouvée sur cette page</string>
+    <string name="sniff_title">Vidéos détectées</string>
+    <string name="dl_hls_progress">Segments : %1$d/%2$d</string>
+
+    <string name="translated_done">Page traduite</string>
+
+    <string name="reader_lib_title">Bibliothèque d’articles</string>
+    <string name="reader_save_lib">Enregistrer dans la bibliothèque</string>
+    <string name="reader_lib_saved">Article enregistré</string>
+    <string name="reader_lib_updated">Article mis à jour</string>
+    <string name="reader_lib_fail">Enregistrement impossible</string>
+    <string name="reader_minutes">min</string>
+    <string name="reader_open_online">Ouvrir en ligne</string>
+
+    <string name="ts_search_tabs">Rechercher les onglets</string>
+    <string name="ts_search_hint">Titre ou adresse…</string>
+    <string name="ts_pinned">Épinglés</string>
+    <string name="ts_all_tabs">Onglets</string>
+    <string name="ts_pin">Épingler l’onglet</string>
+    <string name="ts_unpin">Détacher l’onglet</string>
+    <string name="tg_create">Créer un groupe</string>
+    <string name="tg_exists">Ce groupe existe déjà</string>
+    <string name="tg_rename">Renommer le groupe</string>
+    <string name="tg_empty_group">Vider le groupe</string>
+    <string name="tg_close_confirm">Fermer les %d onglets du groupe ?</string>
+    <string name="tg_menu">Menu du groupe</string>
+    <string name="tg_add_to">AJOUTER AU GROUPE</string>
+    <string name="tg_close_tab">Fermer l’onglet</string>
+    <string name="ts_close_ungrouped">Onglets simples (%d)</string>
+    <string name="ts_close_group_fmt">Groupe « %s » (%d)</string>
+    <string name="ts_close_pinned">Onglets épinglés (%d)</string>
+    <string name="ts_closed_n">Onglets fermés : %d</string>
+
+    <string name="bk_passwords">Mots de passe, cartes et remplissage</string>
+    <string name="bk_file_password">Mot de passe du fichier</string>
+    <string name="bk_file_password_hint">Mot de passe (facultatif)</string>
+    <string name="bk_password_included">La copie contient des mots de passe — définissez un mot de passe pour chiffrer le fichier (AES-256).</string>
+    <string name="bk_wrong_password">Mot de passe incorrect</string>
+
+    <string-array name="translate_langs">
+        <item>Français</item>
+        <item>English</item>
+        <item>Русский</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Polski</item>
+        <item>Українська</item>
+        <item>Türkçe</item>
+        <item>العربية</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="translate_lang_codes">
+        <item>fr</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>de</item>
+        <item>es</item>
+        <item>it</item>
+        <item>pl</item>
+        <item>uk</item>
+        <item>tr</item>
+        <item>ar</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+</resources>

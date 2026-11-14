@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.6 strings -->
+<resources>
+    <!-- per-site appearance: clear labeling of the two picker modes -->
+    <string name="appearance_global_msg">Это выбор по умолчанию — он действует для всех сайтов. Откройте нужный сайт и вызовите «Внешний вид», чтобы настроить только его.</string>
+
+    <!-- passwords: HIBP breach check (k-anonymity) -->
+    <string name="pwd_check_leaks">Проверить на утечки</string>
+    <string name="pwd_check_leaks_all">Проверить все пароли на утечки</string>
+    <string name="pwd_checking">Проверяем…</string>
+    <string name="pwd_leak_safe">Пароль не найден в известных утечках ✓</string>
+    <string name="pwd_leak_found">Пароль найден в утечках!</string>
+    <string name="pwd_leak_found_fmt">Этот пароль встречается в известных утечках %1$s раз. Настоятельно рекомендуем сменить его.</string>
+    <string name="pwd_leak_net">Не удалось связаться с сервисом проверки (HaveIBeenPwned). Проверьте соединение и попробуйте ещё раз.</string>
+    <string name="pwd_leak_scan_title">Проверка паролей</string>
+    <string name="pwd_leak_scan_msg">Проверено: %1$d из %2$d</string>
+    <string name="pwd_leak_scan_done_fmt">Готово: %1$d безопасны, %2$d требуют замены</string>
+    <string name="pwd_leak_change">Сменить</string>
+    <string name="pwd_leak_privacy_note">Проверка по протоколу k-анонимности: отправляются только первые 5 символов хеша пароля, сам пароль никогда не покидает устройство.</string>
+
+    <!-- settings: personal-data rows + backup screen -->
+    <string name="grp_personal_data">Личные данные</string>
+    <string name="set_backup_screen">Резервная копия</string>
+    <string name="set_backup_include">Что включать в копию</string>
+    <string name="bk_bookmarks">Закладки и папки</string>
+    <string name="bk_quick">Быстрые плитки</string>
+    <string name="bk_history">История</string>
+    <string name="bk_settings">Настройки</string>
+    <string name="bk_vpn">VPN-конфигурации</string>
+    <string name="bk_auto">Автобэкап раз в неделю</string>
+    <string name="bk_auto_sum">Копия создаётся автоматически в папку Downloads/Zephyr + уведомление</string>
+    <string name="bk_last">Последняя копия: %s</string>
+    <string name="bk_last_never">Копия ещё не создавалась</string>
+    <string name="bk_now">Создать копию сейчас</string>
+    <string name="bk_now_sum">Создаст файл .json — перенесите его на другое устройство</string>
+    <string name="bk_auto_done">Автоматическая резервная копия создана</string>
+    <string name="bk_auto_failed">Не удалось создать автобэкап — попробуйте вручную</string>
+
+    <!-- gestures: pull-to-refresh + shortcuts -->
+    <string name="set_pull_refresh">Потянуть вниз для обновления</string>
+    <string name="set_omnibox_swipe">Свайп вниз по адресной строке — обновить</string>
+    <string name="set_double_tap">Двойной тап — верх/низ страницы</string>
+
+    <!-- night mode schedule -->
+    <string name="set_night_schedule">Ночной режим по расписанию</string>
+    <string name="set_night_schedule_sum">Тёмная тема приложения и страниц автоматически, в заданное время</string>
+    <string name="set_night_from">Начало</string>
+    <string name="set_night_to">Конец</string>
+
+    <!-- offline pages -->
+    <string name="menu_save_offline">Сохранить для чтения офлайн</string>
+    <string name="offline_saved">Страница сохранена для чтения без сети</string>
+    <string name="offline_failed">Не удалось сохранить страницу</string>
+    <string name="offline_empty">Нет сохранённых страниц. Откройте сайт и выберите «Сохранить для чтения офлайн» в меню</string>
+    <string name="set_offline">Оффлайн-страницы</string>
+    <string name="offline_open_online">Открыть в сети</string>
+
+    <!-- selection translation -->
+    <string name="translate_selection">Перевести</string>
+    <string name="translating">Переводим…</string>
+    <string name="translate_failed">Не удалось перевести. Проверьте соединение</string>
+    <string name="translate_copy">Копировать перевод</string>
+
+    <!-- tab groups -->
+    <string name="tg_add">Добавить в группу</string>
+    <string name="tg_new_group">Новая группа</string>
+    <string name="tg_remove">Убрать из группы</string>
+    <string name="tg_close_group">Закрыть группу</string>
+    <string name="tg_no_group">Без группы</string>
+    <string name="tg_name_hint">Название группы</string>
+    <string name="tg_saved">Вкладка в группе «%s»</string>
+
+    <!-- downloads: system fallback into public Downloads -->
+    <string name="dl_system_public">Файл передан системному загрузчику — он появится в папке Downloads</string>
+</resources>

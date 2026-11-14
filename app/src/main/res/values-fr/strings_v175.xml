@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.5 strings -->
+<resources>
+    <string name="translate_home_blocked">La page d\'accueil ne peut pas être traduite</string>
+
+    <!-- v1.7.5: per-site page appearance -->
+    <string name="appearance_follow_settings">Comme dans les réglages</string>
+    <string name="appearance_per_site_msg">S\'applique uniquement à %s</string>
+
+    <!-- v1.7.5: Clear Data time ranges -->
+    <string name="clear_time_title">Période</string>
+    <string name="clear_range_all">Tout</string>
+    <string name="clear_range_1h">Dernière heure</string>
+    <string name="clear_range_6h">6 dernières heures</string>
+    <string name="clear_range_12h">12 dernières heures</string>
+    <string name="clear_range_24h">24 dernières heures</string>
+    <string name="clear_time_note">La période s\'applique à l\'historique et au journal des téléchargements. Le reste est effacé intégralement.</string>
+    <string name="clear_pick_hint">Éléments à effacer</string>
+    <string name="clear_range_label_fmt">Période : %s</string>
+    <string name="dl_system_queued">Transféré au gestionnaire de téléchargement système</string>
+
+    <!-- v1.7.5: gestures + backup -->
+    <string name="set_gestures">Gestes</string>
+    <string name="set_edge_gestures">Gestes de bord</string>
+    <string name="set_edge_gestures_sum">Balayez depuis le bord gauche pour revenir en arrière, du bord droit pour avancer</string>
+    <string name="set_backup">Sauvegarde</string>
+    <string name="set_backup_export">Exporter les données</string>
+    <string name="set_backup_export_sum">Marque-pages, accès rapide, historique et réglages — en un seul fichier</string>
+    <string name="set_backup_import">Importer les données</string>
+    <string name="set_backup_import_sum">Restaurer depuis un fichier de sauvegarde (sans doublons)</string>
+    <string name="backup_exported">Sauvegarde enregistrée</string>
+    <string name="backup_imported_fmt">Marque-pages importés : %d</string>
+    <string name="backup_failed">Échec de l\'opération</string>
+
+    <!-- v1.7.5: scripts — add by URL (catalog removed) -->
+    <string name="scr_add_new">Nouveau script</string>
+    <string name="scr_add_file">Depuis un fichier (.user.js)</string>
+    <string name="scr_add_url">Par lien</string>
+    <string name="scr_add_url_hint">https://example.com/script.user.js</string>
+    <string name="scr_add_url_load">Charger</string>
+    <string name="scr_add_url_bad">Saisissez un lien (http/https)</string>
+    <string name="scr_add_url_loading">Chargement du script…</string>
+    <string name="scr_add_url_failed">Impossible de télécharger le script</string>
+</resources>

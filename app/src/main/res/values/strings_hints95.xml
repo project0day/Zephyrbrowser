@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  v1.7.95 (F-016): teaching cards for the four screens whose purpose is least
+  obvious from their name. Dismissible, so they cost one read.
+
+  Written for someone who has just opened the screen and does not yet know what
+  it is for — which is exactly the person a title cannot help.
+-->
+<resources>
+    <string name="tpl_hint_title">What a template is</string>
+    <string name="tpl_hint_body">A document you make again and again — a quote, an invoice, a letter. Save it once with blanks where the details go, and the assistant fills them in from what you tell it, in your words. Your own .docx, .pdf or .html files can be imported as templates too.</string>
+
+    <string name="ws_hint_title">Files the assistant made</string>
+    <string name="ws_hint_body">Whatever the assistant creates for you lands here: code, documents, archives. You can open it, share it, or ask for changes and it will edit the same file. Nothing here is sent anywhere — it is a folder on this phone.</string>
+
+    <string name="wf_hint_title">What a workflow is</string>
+    <string name="wf_hint_body">A sequence you repeat, saved under one name. Instead of explaining the same five steps each Monday, you save them once as "weekly report" and ask for it by that name. A workflow can also be scheduled, so it runs on its own.</string>
+
+    <string name="tk_hint_title">Tasks and meetings</string>
+    <string name="tk_hint_body">These reminders belong to the browser, not to the phone\'s clock app — so they travel with your backup. Each one can ring like an alarm or arrive quietly, repeat, and open the page it is about. The assistant can add them for you: say when, and it will.</string>
+</resources>

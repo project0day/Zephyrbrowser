@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.2 (settings-agent) : « Avancé » fusionné DANS « Général » — libellé
+         de section dans l'écran Général (l’écran Avancé séparé a disparu). -->
+    <string name="set_advanced_section">Avancé</string>
+</resources>

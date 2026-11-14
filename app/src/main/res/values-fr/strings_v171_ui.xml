@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.1: settings grouped-card layout — main screen group labels -->
+    <string name="grp_personalization">Personnalisation</string>
+    <string name="grp_network_privacy">Réseau et confidentialité</string>
+    <string name="grp_site_content">Site et contenu</string>
+    <string name="grp_data_panels">Données et panneaux</string>
+    <string name="grp_app">Application</string>
+</resources>

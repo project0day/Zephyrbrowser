@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.9.14: the field the Zephyr bird flies on.
+
+     A linear sweep from the blue of the artwork's top-left corner to the
+     purple of its bottom-right, sampled from the source image (#2190E2 →
+     #7209AB). Linear rather than radial this time because the artwork's own
+     gradient runs corner to corner, not out from the middle, and the
+     adaptive background has to match the mark it was cut from — a launcher
+     that crops the icon differently must still show the same field. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:type="linear"
+        android:angle="315"
+        android:startColor="#2190E2"
+        android:endColor="#7209AB" />
+</shape>

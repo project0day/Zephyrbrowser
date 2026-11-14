@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.5.0 VPN consent flow + foreground-service hardening
+         (fix: «VPN при вводе имени и пароля выбивает приложение») -->
+    <string name="vpn_need_consent">Требуется разрешение Android на VPN</string>
+    <string name="vpn_no_vpn_support">На устройстве не найдено поддержки VPN</string>
+    <string name="vpn_consent_hint">При первом подключении система запросит разрешение на настройку VPN — это стандартный диалог Android</string>
+    <string name="vpn_consent_denied">Разрешение на VPN не выдано</string>
+</resources>

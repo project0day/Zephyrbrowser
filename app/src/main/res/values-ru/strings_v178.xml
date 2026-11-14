@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8: adblock rework (single switch + explanations), files v2 (sort/grid/DM),
+     video sniffer sheet, group badges, hint banners, smart pull-to-refresh. -->
+<resources>
+    <!-- adblock v2: ONE switch, no modes, no YouTube rows -->
+    <string name="adblock_master">Блокировка рекламы</string>
+    <string name="adblock_master_sum">Вкл — выкл. Фильтры EasyList и AdGuard, свои списки и белый список сайтов</string>
+    <string name="adblock_how_title">Как это работает</string>
+    <string name="adblock_how_body">Блокировщик перехватывает сетевые запросы страниц и скрывает рекламные элементы по фильтрам EasyList / AdGuard — как в лёгких браузерах. Скрипты (Tampermonkey-стиль) работают ПАРАЛЛЕЛЬНО и независимо: блокировщик режет рекламу на уровне сети, скрипты добавляют свои функции на страницу. Они не мешают друг другу. Если сайт сломался — добавьте его в белый список или выключите блокировку.</string>
+    <string name="adblock_whitelist_empty">Сайты из белого списка открываются без блокировки</string>
+    <string name="adblock_disabled">выключен</string>
+    <string name="adblock_catalog_hint">Можно включить несколько списков — правила обновляются автоматически раз в 3 дня</string>
+
+    <!-- files v2 -->
+    <string name="files_view_toggle">Сетка / список</string>
+    <string name="files_sort">Сортировка</string>
+    <string name="files_sort_name">По имени</string>
+    <string name="files_sort_new">Сначала новые</string>
+    <string name="files_sort_old">Сначала старые</string>
+    <string name="files_sort_size">По размеру</string>
+    <string name="files_sort_type">По типу</string>
+    <string name="files_folder_missing">Папка не найдена</string>
+    <string name="files_pictures">Фото</string>
+    <string name="files_movies">Видео</string>
+    <string name="files_music">Музыка</string>
+    <string name="files_image">Фото</string>
+    <string name="files_video">Видео</string>
+
+    <!-- download manager -->
+    <string name="files_dm_hint_title">Менеджер загрузок</string>
+    <string name="files_dm_hint_body">Здесь видны все загрузки браузера: пауза и продолжение, отмена, повтор после ошибки и приоритет для очереди. Тап по загрузке открывает файл.</string>
+    <string name="files_dm_folder">Папка загрузок</string>
+    <string name="files_dm_change">Изменить</string>
+    <string name="files_dm_default_folder">По умолчанию — Галерея/Zephyr и Загрузки</string>
+    <string name="files_dm_custom_folder">Выбрано: %s</string>
+    <string name="files_dm_empty">Загрузок пока нет</string>
+    <string name="dm_download">Скачать</string>
+    <string name="dm_progress">%s из %s</string>
+    <string name="dm_running">Загружается…</string>
+    <string name="dm_queued">В очереди</string>
+    <string name="dm_paused">Пауза · %d%%</string>
+    <string name="dm_done">%s · %s</string>
+    <string name="dm_failed">Ошибка — нажмите ⟳ для повтора</string>
+    <string name="dm_cancelled">Отменено</string>
+    <string name="dm_pause">Пауза</string>
+    <string name="dm_cancel">Отменить</string>
+    <string name="dm_resume">Продолжить</string>
+    <string name="dm_retry">Повторить</string>
+    <string name="dm_bump">Выше по очереди</string>
+    <string name="dm_bumped">Загрузка поднята в очереди</string>
+
+    <!-- video sniffer v2 -->
+    <string name="sniff_menu">Видео со страницы</string>
+    <string name="sniff_sheet_sub">Найденные на странице видео и потоки</string>
+    <string name="sniff_sheet_sub_site">Найденное видео со страницы %s</string>
+    <string name="sniff_disabled_note">Сниффер видео выключен — включите тумблер ниже, чтобы находить видео и HLS-потоки на страницах</string>
+    <string name="sniff_none_hint">Пока ничего не найдено. Откройте страницу с видео и подождите пару секунд — здесь появятся прямые ссылки и потоки</string>
+    <string name="sniff_size">Размер ≈ %s</string>
+    <string name="sniff_open_player">Открыть во внешнем плеере</string>
+    <string name="sniff_toggle">Сниффер видео</string>
+
+    <!-- tab groups: emoji + color -->
+    <string name="tg_icon">Иконка группы</string>
+    <string name="tg_color">Цвет группы</string>
+
+    <!-- hint banners / empty states -->
+    <string name="scr_hint_title">Что такое скрипты</string>
+    <string name="scr_hint_body">Юзерскрипты — маленькие расширения в стиле Tampermonkey: меняют сайты, добавляют кнопки, чистят интерфейс. Запускаются параллельно с блокировщиком рекламы и не конфликтуют с ней. Добавляйте свои .user.js файлом или по ссылке.</string>
+    <string name="reader_hint_title">Что такое библиотека статей</string>
+    <string name="reader_hint_body">Здесь хранятся статьи, сохранённые из режима чтения. Откройте статью → Меню → «Режим чтения» → кнопка «Сохранить» — и она появится тут в красивой типографике, доступная без интернета.</string>
+    <string name="reader_empty_title">Библиотека пуста</string>
+    <string name="reader_empty_body">Откройте любую статью, включите режим чтения (Меню → «Режим чтения») и нажмите «Сохранить» — статья останется здесь даже офлайн.</string>
+    <string name="offline_hint_title">Что такое офлайн-страницы</string>
+    <string name="offline_hint_body">Полные слепки страниц для чтения без интернета. На любой странице: Меню → «Сохранить офлайн».</string>
+    <string name="downloads_hint_title">Загрузки браузера</string>
+    <string name="downloads_hint_body">Все скачанные файлы и журнал ссылок. Полный менеджер с паузой, продолжением и приоритетами — в Файлы → Загрузки.</string>
+</resources>

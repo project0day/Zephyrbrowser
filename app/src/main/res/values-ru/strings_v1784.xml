@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.7.84: privacy toggle for the third-party icon service -->
+    <string name="set_favicon_net">Загружать значки сайтов</string>
+    <string name="set_favicon_net_sum">Красивые значки вкладок и закладок. Имя домена при этом узнаёт сторонний сервис значков. В приватных вкладках не используется никогда.</string>
+
+    <!-- v1.7.84: About screen -->
+    <string name="about_legal">Документы</string>
+    <string name="about_privacy">Политика конфиденциальности</string>
+    <string name="about_privacy_sum">Что хранится на устройстве и что покидает его</string>
+    <string name="about_terms">Условия использования</string>
+    <string name="about_terms_sum">Что вы покупаете и за что отвечаете</string>
+    <string name="about_licenses">Лицензии открытого ПО</string>
+    <string name="about_licenses_sum">Библиотеки, на которых построено приложение</string>
+    <string name="about_support">Поддержка</string>
+    <string name="about_engine_unknown">определить не удалось</string>
+    <string name="about_doc_missing">Документ не найден</string>
+    <string name="crash_report_sum">Отправить файл с подробностями последнего сбоя — вручную и через выбранное вами приложение</string>
+</resources>

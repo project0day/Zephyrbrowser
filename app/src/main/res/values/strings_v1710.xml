@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.10: feedback-fix strings (translation progress, files error fallback) -->
+<resources>
+    <string name="translate_progress_fmt">Translating… %1$d%%</string>
+    <string name="files_error_title">Files: failed to open the screen</string>
+    <string name="files_error_body">Something went wrong while opening Files. A crash report was saved to last_crash.txt — share it with the developer and the problem will be fixed.</string>
+    <string name="crash_reported">Crash report saved</string>
+</resources>

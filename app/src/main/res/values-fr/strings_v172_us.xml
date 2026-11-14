@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.2: userscript engine (agent 4-c) — Scripts panel rewrite strings. -->
+<resources>
+    <string name="scr_add">Ajouter un script</string>
+    <string name="scr_import_us">Importer .user.js</string>
+    <string name="scr_more">Plus</string>
+    <string name="scr_import_failed">Impossible de lire le fichier</string>
+    <string name="scr_example_btn">Insérer un exemple</string>
+    <string name="scr_runat_start">départ</string>
+    <string name="scr_runat_end">fin</string>
+    <string name="scr_runat_idle">au repos</string>
+    <string name="scr_hint">Les scripts au format Tampermonkey (.user.js) s\'exécutent automatiquement sur les pages correspondantes. Les règles se trouvent dans l\'en-tête : @match — où exécuter, @exclude — où ne pas exécuter, @run-at — quand (document-start, document-end, document-idle).</string>
+</resources>

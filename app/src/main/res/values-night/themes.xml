@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      v1.6.0 SYSTEM-BAR CONSISTENCY FIX (base DayNight theme):
+      values/themes.xml set windowLightStatusBar=true unconditionally — in SYSTEM
+      DARK mode the base theme's colors switch (values-night/colors.xml) but the
+      icons stayed DARK-ON-DARK. This FULL night-qualified definition flips BOTH
+      system bar icon sets to white (Splash inherits automatically). Fixed themes
+      (Sepia/Slate/…) declare their own values and are NOT affected — a style
+      override replaces the whole style, hence the complete attribute set here.
+    -->
+    <style name="Theme.Zephyr" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/z_primary</item>
+        <item name="colorOnPrimary">@color/z_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/z_on_primary_container</item>
+        <item name="colorSecondary">@color/z_on_surface_variant</item>
+        <item name="colorOnSecondary">@color/z_on_primary</item>
+        <item name="colorSecondaryContainer">@color/z_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/z_on_secondary_container</item>
+        <item name="android:colorBackground">@color/z_background</item>
+        <item name="colorOnBackground">@color/z_on_background</item>
+        <item name="colorSurface">@color/z_surface</item>
+        <item name="colorOnSurface">@color/z_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_on_surface_variant</item>
+        <item name="colorOutline">@color/z_outline</item>
+        <item name="colorError">@color/z_error</item>
+        <item name="colorOnError">@color/z_on_error</item>
+        <item name="colorErrorContainer">@color/z_error_container</item>
+        <item name="colorOnErrorContainer">@color/z_on_error_container</item>
+        <item name="android:statusBarColor">@color/z_background</item>
+        <item name="android:navigationBarColor">@color/z_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_toolbar</item>
+        <item name="zBackground">@color/z_background</item>
+        <item name="zOmniboxFill">@color/z_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_surface_variant</item>
+        <item name="zSheetSurf">@color/z_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_popup_base</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+</resources>

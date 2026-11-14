@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8: panels (Settings/Panels/Files) rise FULLY from the bottom in one calm
+     motion — a real bottom-sheet feel. Was: 10% slide + fade (the "flash"). -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="100%"
+    android:toYDelta="0"
+    android:duration="280"
+    android:interpolator="@android:interpolator/decelerate_quint" />

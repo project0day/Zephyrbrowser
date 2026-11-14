@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.86: swarm status/errors and the file-review diff labels, moved out of
+     Kotlin literals so they follow the app language. -->
+<resources>
+    <string name="swarm_err_empty">No member of the swarm is available.</string>
+    <string name="swarm_err_none">Nobody in the swarm answered.</string>
+    <string name="swarm_st_next">That did not work — trying %1$s…</string>
+    <string name="swarm_st_asking">Asking %1$s (%2$d/%3$d)…</string>
+    <string name="swarm_no_answer">did not answer</string>
+    <string name="swarm_council_via">Swarm council</string>
+
+    <string name="diff_more_lines">%1$d more lines</string>
+    <string name="diff_lines_above">… %1$d lines above</string>
+    <string name="diff_lines_below">… %1$d lines below</string>
+    <string name="diff_more_removed">%1$d more removed lines</string>
+    <string name="diff_more_added">%1$d more added lines</string>
+</resources>

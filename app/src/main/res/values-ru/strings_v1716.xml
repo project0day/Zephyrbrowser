@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.16: premium home-variant picker sheet (preview cards + apply). -->
+<resources>
+    <string name="apply_action">Применить</string>
+</resources>

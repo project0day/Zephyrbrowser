@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.14: reorderable Files tabs, home page variants + custom page,
+     on-demand video sniffer probe, translate confirm button. -->
+<resources>
+    <!-- Files: tab order -->
+    <string name="files_tab_order">Tab order</string>
+    <string name="files_tab_order_hint">Long-press a tab to change the order</string>
+    <string name="files_tab_order_reset">Default</string>
+    <string name="files_tab_move_up">Move up</string>
+    <string name="files_tab_move_down">Move down</string>
+
+    <!-- Home: page variants -->
+    <string name="home_page_variant">Home page</string>
+    <string name="home_variant_standard">Standard</string>
+    <string name="home_variant_minimal">Minimalist</string>
+    <string name="home_variant_clock">Clock</string>
+    <string name="home_variant_sites">Sites grid</string>
+    <string name="home_variant_custom">Custom page</string>
+    <string name="home_variant_standard_desc">Search, quick links, recent and bookmarks</string>
+    <string name="home_variant_minimal_desc">Search only — nothing extra</string>
+    <string name="home_variant_clock_desc">Big clock, date and search</string>
+    <string name="home_variant_sites_desc">Large grid of favourite sites</string>
+    <string name="home_variant_custom_desc">Your HTML file or URL as the home screen</string>
+    <string name="home_custom_url_hint">Path or URL, e.g. /storage/emulated/0/index.html</string>
+    <string name="home_custom_empty">Enter an HTML file path or a URL</string>
+    <string name="home_custom_missing">File not found — check the path</string>
+    <string name="home_custom_open_settings">Allow file access</string>
+
+    <!-- Sniffer: on-demand probe -->
+    <string name="sniff_refresh">Scan page for videos</string>
+    <string name="sniff_scanning">Scanning the page…</string>
+    <string name="sniff_found_n">Videos found: %1$d</string>
+
+    <!-- Translate: confirm button -->
+    <string name="translate_do">Translate</string>
+</resources>

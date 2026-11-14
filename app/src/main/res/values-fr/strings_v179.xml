@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.9 : refonte Fichiers, hero anti-pub, mode édition omnibox, muxing,
+     planificateur de téléchargement, verrou paiements, fil accueil, données sites. -->
+<resources>
+    <string name="files_open_with">Ouvrir avec</string>
+    <string name="files_open_once">Ouvrir une fois</string>
+    <string name="files_open_always">Choisir l\'appli (une fois / toujours)</string>
+    <string name="files_view_in_zephyr">Aperçu dans Zephyr</string>
+    <string name="files_no_apps">Aucune appli ne peut ouvrir ce type de fichier</string>
+
+    <string name="files_zoom">Zoom</string>
+    <string name="files_zoom_0">Grand</string>
+    <string name="files_zoom_1">Moyen</string>
+    <string name="files_zoom_2">Compact</string>
+    <string name="files_zoom_3">Petit</string>
+
+    <string name="files_trash">Corbeille</string>
+    <string name="files_trash_empty">La corbeille est vide</string>
+    <string name="files_trash_kept">Les fichiers supprimés sont conservés 30 jours, puis effacés définitivement</string>
+    <string name="files_restore">Restaurer</string>
+    <string name="files_restore_done">Restauré</string>
+    <string name="files_restore_failed">Restauration impossible</string>
+    <string name="files_to_trash">Déplacé dans la corbeille</string>
+    <string name="files_trash_clear">Vider la corbeille</string>
+    <string name="files_trash_confirm">Supprimer définitivement ? Action irréversible.</string>
+    <string name="files_trash_purged">Corbeille vidée</string>
+    <string name="files_trash_days_left">%d j restants</string>
+    <string name="files_trash_restore_where">Le fichier retournera dans son dossier d\'origine</string>
+
+    <string name="files_search_all">Rechercher tout le stockage</string>
+    <string name="files_searching">Recherche…</string>
+    <string name="files_found_fmt">Trouvés : %d</string>
+
+    <string name="dm_wifi_only">Wi-Fi uniquement</string>
+    <string name="dm_wifi_only_sum">Les téléchargements attendent le Wi-Fi</string>
+    <string name="dm_night_only">La nuit uniquement</string>
+    <string name="dm_night_only_sum">Téléchargements entre 00h00 et 06h00</string>
+    <string name="dm_wait_wifi">Attente du Wi-Fi…</string>
+    <string name="dm_wait_night">Attente de la fenêtre nocturne…</string>
+    <string name="dm_scheduler">Planificateur de téléchargements</string>
+
+    <string name="adblock_hero_on">Protection active</string>
+    <string name="adblock_hero_off">Blocage désactivé</string>
+    <string name="adblock_hero_sub_on">Publicités et traqueurs coupés sur tous les sites</string>
+    <string name="adblock_hero_sub_off">Activez pour bloquer pubs et traqueurs</string>
+    <string name="adblock_stats_blocked">Publicités bloquées</string>
+    <string name="adblock_stats_trackers">Traqueurs arrêtés</string>
+    <string name="adblock_hint_title">Comment ça marche</string>
+    <string name="adblock_hint_body">Les requêtes vers les régies publicitaires sont interceptées avant le chargement — les pages s\'ouvrent plus vite, sans bannières. Les listes se mettent à jour automatiquement ; les exceptions vont dans la liste blanche ci-dessous.</string>
+    <string name="adblock_power_on">Activer le blocage</string>
+
+    <string name="url_search_web">Rechercher sur Google</string>
+    <string name="url_more_actions">Plus d\'actions</string>
+
+    <string name="sniff_mux_badge">avec son</string>
+    <string name="sniff_mux_needed">sans son — sera téléchargé avec la piste audio</string>
+    <string name="sniff_mux_audio_only">audio seul</string>
+    <string name="sniff_mux_progress">Fusion vidéo + audio…</string>
+    <string name="sniff_mux_failed">Impossible de fusionner les pistes</string>
+
+    <string name="pay_gate_title">Protéger les données de paiement</string>
+    <string name="pay_gate_sum">Demander le PIN ou la biométrie à l\'ouverture</string>
+    <string name="pay_gate_locked">Données de paiement protégées</string>
+
+    <string name="home_feed_mode">Fil Récents et Favoris</string>
+    <string name="home_feed_horiz">Défilement horizontal</string>
+    <string name="home_feed_vert">Grille verticale</string>
+    <string name="home_recent_more">Tous les récents</string>
+
+    <string name="cache_title">Données des sites</string>
+    <string name="cache_sub">Place occupée par chaque site — nettoyage sélectif</string>
+    <string name="cache_cookies_fmt">%d cookies</string>
+    <string name="cache_requests_fmt">%,d requêtes</string>
+    <string name="cache_clear_site">Effacer les données du site</string>
+    <string name="cache_clear_confirm">Supprimer stockage, cookies et cache de %s ?</string>
+    <string name="cache_cleared">Données du site supprimées</string>
+    <string name="cache_empty">Aucune donnée de site enregistrée</string>
+    <string name="cache_global">Cache global du navigateur</string>
+    <string name="cache_global_sub">Cache HTTP et fichiers temporaires</string>
+    <string name="cache_global_clear">Vider tout le cache</string>
+    <string name="cache_global_cleared">Cache vidé</string>
+    <string name="cache_storage">Stockage</string>
+</resources>

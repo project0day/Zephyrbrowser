@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base DayNight -->
+    <style name="Theme.Zephyr" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/z_primary</item>
+        <item name="colorOnPrimary">@color/z_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/z_on_primary_container</item>
+        <item name="colorSecondary">@color/z_on_surface_variant</item>
+        <item name="colorOnSecondary">@color/z_on_primary</item>
+        <item name="colorSecondaryContainer">@color/z_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/z_on_secondary_container</item>
+        <item name="android:colorBackground">@color/z_background</item>
+        <item name="colorOnBackground">@color/z_on_background</item>
+        <item name="colorSurface">@color/z_surface</item>
+        <item name="colorOnSurface">@color/z_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_on_surface_variant</item>
+        <item name="colorOutline">@color/z_outline</item>
+        <item name="colorError">@color/z_error</item>
+        <item name="colorOnError">@color/z_on_error</item>
+        <item name="colorErrorContainer">@color/z_error_container</item>
+        <item name="colorOnErrorContainer">@color/z_on_error_container</item>
+        <item name="android:statusBarColor">@color/z_background</item>
+        <item name="android:navigationBarColor">@color/z_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_toolbar</item>
+        <item name="zBackground">@color/z_background</item>
+        <item name="zOmniboxFill">@color/z_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_surface_variant</item>
+        <item name="zSheetSurf">@color/z_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_popup_base</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Splash = base theme + plain background -->
+    <style name="Theme.Zephyr.Splash" parent="Theme.Zephyr">
+        <item name="android:windowBackground">@color/z_background</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_popup_base</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Forced dark #212121 -->
+    <style name="Theme.Zephyr.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_dark_primary</item>
+        <item name="colorOnPrimary">@color/z_dark_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_dark_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/z_dark_on_primary_container</item>
+        <item name="colorSecondary">@color/z_dark_on_variant</item>
+        <item name="colorOnSecondary">@color/z_dark_background</item>
+        <item name="colorSecondaryContainer">@color/z_dark_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/z_dark_on_secondary_container</item>
+        <item name="android:colorBackground">@color/z_dark_background</item>
+        <item name="colorOnBackground">@color/z_dark_on_surface</item>
+        <item name="colorSurface">@color/z_dark_surface</item>
+        <item name="colorOnSurface">@color/z_dark_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_dark_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_dark_on_variant</item>
+        <item name="colorOutline">@color/z_dark_outline</item>
+        <item name="colorError">@color/z_dark_error</item>
+        <item name="colorOnError">@color/z_dark_background</item>
+        <item name="android:statusBarColor">@color/z_dark_background</item>
+        <item name="android:navigationBarColor">@color/z_dark_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_dark_background</item>
+        <item name="zBackground">@color/z_dark_background</item>
+        <item name="zOmniboxFill">@color/z_dark_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_dark_surface_variant</item>
+        <item name="zSheetSurf">@color/z_dark_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_dark_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- AMOLED -->
+    <style name="Theme.Zephyr.Amoled" parent="Theme.Zephyr.Dark">
+        <item name="android:colorBackground">@color/z_amoled_background</item>
+        <item name="colorSurface">@color/z_amoled_surface</item>
+        <item name="colorSurfaceVariant">@color/z_amoled_surface_variant</item>
+        <item name="colorSecondaryContainer">@color/z_amoled_surface_variant</item>
+        <item name="android:statusBarColor">@color/z_amoled_background</item>
+        <item name="android:navigationBarColor">@color/z_amoled_background</item>
+        <item name="colorOutline">@color/z_amoled_outline</item>
+        <item name="zToolbar">@color/z_amoled_background</item>
+        <item name="zBackground">@color/z_amoled_background</item>
+        <item name="zOmniboxFill">@color/z_amoled_omnibox_fill</item>
+        <item name="zHomeCard">@color/z_amoled_surface_variant</item>
+        <item name="zSheetSurf">@color/z_amoled_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_amoled_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Sepia -->
+    <style name="Theme.Zephyr.Sepia" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_sepia_primary</item>
+        <item name="colorOnPrimary">@color/z_sepia_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_sepia_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_sepia_on_surface</item>
+        <item name="colorSecondary">@color/z_sepia_on_variant</item>
+        <item name="colorOnSecondary">@color/z_sepia_background</item>
+        <item name="colorSecondaryContainer">@color/z_sepia_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_sepia_on_surface</item>
+        <item name="android:colorBackground">@color/z_sepia_background</item>
+        <item name="colorOnBackground">@color/z_sepia_on_surface</item>
+        <item name="colorSurface">@color/z_sepia_surface</item>
+        <item name="colorOnSurface">@color/z_sepia_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_sepia_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_sepia_on_variant</item>
+        <item name="colorOutline">@color/z_sepia_outline</item>
+        <item name="android:statusBarColor">@color/z_sepia_background</item>
+        <item name="android:navigationBarColor">@color/z_sepia_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_sepia_background</item>
+        <item name="zBackground">@color/z_sepia_background</item>
+        <item name="zOmniboxFill">@color/z_sepia_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_sepia_surface_variant</item>
+        <item name="zSheetSurf">@color/z_sepia_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_sepia_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Slate -->
+    <style name="Theme.Zephyr.Slate" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_slate_primary</item>
+        <item name="colorOnPrimary">@color/z_slate_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_slate_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_slate_on_surface</item>
+        <item name="colorSecondary">@color/z_slate_on_variant</item>
+        <item name="colorOnSecondary">@color/z_slate_background</item>
+        <item name="colorSecondaryContainer">@color/z_slate_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_slate_on_surface</item>
+        <item name="android:colorBackground">@color/z_slate_background</item>
+        <item name="colorOnBackground">@color/z_slate_on_surface</item>
+        <item name="colorSurface">@color/z_slate_surface</item>
+        <item name="colorOnSurface">@color/z_slate_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_slate_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_slate_on_variant</item>
+        <item name="colorOutline">@color/z_slate_outline</item>
+        <item name="android:statusBarColor">@color/z_slate_background</item>
+        <item name="android:navigationBarColor">@color/z_slate_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_slate_background</item>
+        <item name="zBackground">@color/z_slate_background</item>
+        <item name="zOmniboxFill">@color/z_slate_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_slate_surface_variant</item>
+        <item name="zSheetSurf">@color/z_slate_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_slate_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Rose (light) -->
+    <style name="Theme.Zephyr.Rose" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_rose_primary</item>
+        <item name="colorOnPrimary">@color/z_rose_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_rose_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_rose_on_surface</item>
+        <item name="colorSecondary">@color/z_rose_on_variant</item>
+        <item name="colorOnSecondary">@color/z_rose_background</item>
+        <item name="colorSecondaryContainer">@color/z_rose_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_rose_on_surface</item>
+        <item name="android:colorBackground">@color/z_rose_background</item>
+        <item name="colorOnBackground">@color/z_rose_on_surface</item>
+        <item name="colorSurface">@color/z_rose_surface</item>
+        <item name="colorOnSurface">@color/z_rose_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_rose_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_rose_on_variant</item>
+        <item name="colorOutline">@color/z_rose_outline</item>
+        <item name="android:statusBarColor">@color/z_rose_background</item>
+        <item name="android:navigationBarColor">@color/z_rose_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_rose_background</item>
+        <item name="zBackground">@color/z_rose_background</item>
+        <item name="zOmniboxFill">@color/z_rose_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_rose_surface_variant</item>
+        <item name="zSheetSurf">@color/z_rose_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_rose_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Forest (dark green) -->
+    <style name="Theme.Zephyr.Forest" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_forest_primary</item>
+        <item name="colorOnPrimary">@color/z_forest_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_forest_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_forest_on_surface</item>
+        <item name="colorSecondary">@color/z_forest_on_variant</item>
+        <item name="colorOnSecondary">@color/z_forest_background</item>
+        <item name="colorSecondaryContainer">@color/z_forest_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_forest_on_surface</item>
+        <item name="android:colorBackground">@color/z_forest_background</item>
+        <item name="colorOnBackground">@color/z_forest_on_surface</item>
+        <item name="colorSurface">@color/z_forest_surface</item>
+        <item name="colorOnSurface">@color/z_forest_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_forest_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_forest_on_variant</item>
+        <item name="colorOutline">@color/z_forest_outline</item>
+        <item name="android:statusBarColor">@color/z_forest_background</item>
+        <item name="android:navigationBarColor">@color/z_forest_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_forest_background</item>
+        <item name="zBackground">@color/z_forest_background</item>
+        <item name="zOmniboxFill">@color/z_forest_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_forest_surface_variant</item>
+        <item name="zSheetSurf">@color/z_forest_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_forest_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Ocean (dark teal) -->
+    <style name="Theme.Zephyr.Ocean" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_ocean_primary</item>
+        <item name="colorOnPrimary">@color/z_ocean_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_ocean_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_ocean_on_surface</item>
+        <item name="colorSecondary">@color/z_ocean_on_variant</item>
+        <item name="colorOnSecondary">@color/z_ocean_background</item>
+        <item name="colorSecondaryContainer">@color/z_ocean_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_ocean_on_surface</item>
+        <item name="android:colorBackground">@color/z_ocean_background</item>
+        <item name="colorOnBackground">@color/z_ocean_on_surface</item>
+        <item name="colorSurface">@color/z_ocean_surface</item>
+        <item name="colorOnSurface">@color/z_ocean_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_ocean_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_ocean_on_variant</item>
+        <item name="colorOutline">@color/z_ocean_outline</item>
+        <item name="android:statusBarColor">@color/z_ocean_background</item>
+        <item name="android:navigationBarColor">@color/z_ocean_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_ocean_background</item>
+        <item name="zBackground">@color/z_ocean_background</item>
+        <item name="zOmniboxFill">@color/z_ocean_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_ocean_surface_variant</item>
+        <item name="zSheetSurf">@color/z_ocean_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_ocean_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Plum (dark purple) -->
+    <style name="Theme.Zephyr.Plum" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_plum_primary</item>
+        <item name="colorOnPrimary">@color/z_plum_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_plum_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_plum_on_surface</item>
+        <item name="colorSecondary">@color/z_plum_on_variant</item>
+        <item name="colorOnSecondary">@color/z_plum_background</item>
+        <item name="colorSecondaryContainer">@color/z_plum_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_plum_on_surface</item>
+        <item name="android:colorBackground">@color/z_plum_background</item>
+        <item name="colorOnBackground">@color/z_plum_on_surface</item>
+        <item name="colorSurface">@color/z_plum_surface</item>
+        <item name="colorOnSurface">@color/z_plum_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_plum_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_plum_on_variant</item>
+        <item name="colorOutline">@color/z_plum_outline</item>
+        <item name="android:statusBarColor">@color/z_plum_background</item>
+        <item name="android:navigationBarColor">@color/z_plum_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_plum_background</item>
+        <item name="zBackground">@color/z_plum_background</item>
+        <item name="zOmniboxFill">@color/z_plum_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_plum_surface_variant</item>
+        <item name="zSheetSurf">@color/z_plum_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_plum_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Sand (light warm) -->
+    <style name="Theme.Zephyr.Sand" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_sand_primary</item>
+        <item name="colorOnPrimary">@color/z_sand_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_sand_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_sand_on_surface</item>
+        <item name="colorSecondary">@color/z_sand_on_variant</item>
+        <item name="colorOnSecondary">@color/z_sand_background</item>
+        <item name="colorSecondaryContainer">@color/z_sand_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_sand_on_surface</item>
+        <item name="android:colorBackground">@color/z_sand_background</item>
+        <item name="colorOnBackground">@color/z_sand_on_surface</item>
+        <item name="colorSurface">@color/z_sand_surface</item>
+        <item name="colorOnSurface">@color/z_sand_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_sand_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_sand_on_variant</item>
+        <item name="colorOutline">@color/z_sand_outline</item>
+        <item name="android:statusBarColor">@color/z_sand_background</item>
+        <item name="android:navigationBarColor">@color/z_sand_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_sand_background</item>
+        <item name="zBackground">@color/z_sand_background</item>
+        <item name="zOmniboxFill">@color/z_sand_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_sand_surface_variant</item>
+        <item name="zSheetSurf">@color/z_sand_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_sand_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Midnight (deep blue-grey night) -->
+    <style name="Theme.Zephyr.Midnight" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_midnight_primary</item>
+        <item name="colorOnPrimary">@color/z_midnight_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_midnight_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_midnight_on_surface</item>
+        <item name="colorSecondary">@color/z_midnight_on_variant</item>
+        <item name="colorOnSecondary">@color/z_midnight_background</item>
+        <item name="colorSecondaryContainer">@color/z_midnight_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_midnight_on_surface</item>
+        <item name="android:colorBackground">@color/z_midnight_background</item>
+        <item name="colorOnBackground">@color/z_midnight_on_surface</item>
+        <item name="colorSurface">@color/z_midnight_surface</item>
+        <item name="colorOnSurface">@color/z_midnight_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_midnight_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_midnight_on_variant</item>
+        <item name="colorOutline">@color/z_midnight_outline</item>
+        <item name="android:statusBarColor">@color/z_midnight_background</item>
+        <item name="android:navigationBarColor">@color/z_midnight_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_midnight_background</item>
+        <item name="zBackground">@color/z_midnight_background</item>
+        <item name="zOmniboxFill">@color/z_midnight_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_midnight_surface_variant</item>
+        <item name="zSheetSurf">@color/z_midnight_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_midnight_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Porcelain (pure light) -->
+    <style name="Theme.Zephyr.Porcelain" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_porcelain_primary</item>
+        <item name="colorOnPrimary">@color/z_porcelain_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_porcelain_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_porcelain_on_surface</item>
+        <item name="colorSecondary">@color/z_porcelain_on_variant</item>
+        <item name="colorOnSecondary">@color/z_porcelain_background</item>
+        <item name="colorSecondaryContainer">@color/z_porcelain_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_porcelain_on_surface</item>
+        <item name="android:colorBackground">@color/z_porcelain_background</item>
+        <item name="colorOnBackground">@color/z_porcelain_on_surface</item>
+        <item name="colorSurface">@color/z_porcelain_surface</item>
+        <item name="colorOnSurface">@color/z_porcelain_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_porcelain_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_porcelain_on_variant</item>
+        <item name="colorOutline">@color/z_porcelain_outline</item>
+        <item name="android:statusBarColor">@color/z_porcelain_background</item>
+        <item name="android:navigationBarColor">@color/z_porcelain_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_porcelain_background</item>
+        <item name="zBackground">@color/z_porcelain_background</item>
+        <item name="zOmniboxFill">@color/z_porcelain_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_porcelain_surface_variant</item>
+        <item name="zSheetSurf">@color/z_porcelain_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_porcelain_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Aurora (dark teal, v1.5.0 theme 12) -->
+    <style name="Theme.Zephyr.Aurora" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_aurora_primary</item>
+        <item name="colorOnPrimary">@color/z_aurora_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_aurora_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_aurora_on_surface</item>
+        <item name="colorSecondary">@color/z_aurora_on_variant</item>
+        <item name="colorOnSecondary">@color/z_aurora_background</item>
+        <item name="colorSecondaryContainer">@color/z_aurora_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_aurora_on_surface</item>
+        <item name="android:colorBackground">@color/z_aurora_background</item>
+        <item name="colorOnBackground">@color/z_aurora_on_surface</item>
+        <item name="colorSurface">@color/z_aurora_surface</item>
+        <item name="colorOnSurface">@color/z_aurora_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_aurora_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_aurora_on_variant</item>
+        <item name="colorOutline">@color/z_aurora_outline</item>
+        <item name="colorError">@color/z_dark_error</item>
+        <item name="colorOnError">@color/z_dark_background</item>
+        <item name="android:statusBarColor">@color/z_aurora_background</item>
+        <item name="android:navigationBarColor">@color/z_aurora_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_aurora_background</item>
+        <item name="zBackground">@color/z_aurora_background</item>
+        <item name="zOmniboxFill">@color/z_aurora_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_aurora_surface_variant</item>
+        <item name="zSheetSurf">@color/z_aurora_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_aurora_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Crimson (dark red, v1.5.0 theme 13) -->
+    <style name="Theme.Zephyr.Crimson" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_crimson_primary</item>
+        <item name="colorOnPrimary">@color/z_crimson_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_crimson_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_crimson_on_surface</item>
+        <item name="colorSecondary">@color/z_crimson_on_variant</item>
+        <item name="colorOnSecondary">@color/z_crimson_background</item>
+        <item name="colorSecondaryContainer">@color/z_crimson_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_crimson_on_surface</item>
+        <item name="android:colorBackground">@color/z_crimson_background</item>
+        <item name="colorOnBackground">@color/z_crimson_on_surface</item>
+        <item name="colorSurface">@color/z_crimson_surface</item>
+        <item name="colorOnSurface">@color/z_crimson_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_crimson_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_crimson_on_variant</item>
+        <item name="colorOutline">@color/z_crimson_outline</item>
+        <item name="colorError">@color/z_dark_error</item>
+        <item name="colorOnError">@color/z_dark_background</item>
+        <item name="android:statusBarColor">@color/z_crimson_background</item>
+        <item name="android:navigationBarColor">@color/z_crimson_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_crimson_background</item>
+        <item name="zBackground">@color/z_crimson_background</item>
+        <item name="zOmniboxFill">@color/z_crimson_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_crimson_surface_variant</item>
+        <item name="zSheetSurf">@color/z_crimson_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_crimson_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Mono (light grayscale, v1.5.0 theme 14) -->
+    <style name="Theme.Zephyr.Mono" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_mono_primary</item>
+        <item name="colorOnPrimary">@color/z_mono_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_mono_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_mono_on_surface</item>
+        <item name="colorSecondary">@color/z_mono_on_variant</item>
+        <item name="colorOnSecondary">@color/z_mono_background</item>
+        <item name="colorSecondaryContainer">@color/z_mono_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_mono_on_surface</item>
+        <item name="android:colorBackground">@color/z_mono_background</item>
+        <item name="colorOnBackground">@color/z_mono_on_surface</item>
+        <item name="colorSurface">@color/z_mono_surface</item>
+        <item name="colorOnSurface">@color/z_mono_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_mono_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_mono_on_variant</item>
+        <item name="colorOutline">@color/z_mono_outline</item>
+        <item name="colorError">@color/z_error</item>
+        <item name="colorOnError">@color/z_on_error</item>
+        <item name="android:statusBarColor">@color/z_mono_background</item>
+        <item name="android:navigationBarColor">@color/z_mono_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_mono_background</item>
+        <item name="zBackground">@color/z_mono_background</item>
+        <item name="zOmniboxFill">@color/z_mono_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_mono_surface_variant</item>
+        <item name="zSheetSurf">@color/z_mono_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_mono_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Mint (light green, v1.5.0 theme 15) -->
+    <style name="Theme.Zephyr.Mint" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_mint_primary</item>
+        <item name="colorOnPrimary">@color/z_mint_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_mint_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_mint_on_surface</item>
+        <item name="colorSecondary">@color/z_mint_on_variant</item>
+        <item name="colorOnSecondary">@color/z_mint_background</item>
+        <item name="colorSecondaryContainer">@color/z_mint_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_mint_on_surface</item>
+        <item name="android:colorBackground">@color/z_mint_background</item>
+        <item name="colorOnBackground">@color/z_mint_on_surface</item>
+        <item name="colorSurface">@color/z_mint_surface</item>
+        <item name="colorOnSurface">@color/z_mint_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_mint_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_mint_on_variant</item>
+        <item name="colorOutline">@color/z_mint_outline</item>
+        <item name="colorError">@color/z_error</item>
+        <item name="colorOnError">@color/z_on_error</item>
+        <item name="android:statusBarColor">@color/z_mint_background</item>
+        <item name="android:navigationBarColor">@color/z_mint_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_mint_background</item>
+        <item name="zBackground">@color/z_mint_background</item>
+        <item name="zOmniboxFill">@color/z_mint_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_mint_surface_variant</item>
+        <item name="zSheetSurf">@color/z_mint_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_mint_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Sunset (warm light, v1.5.0 theme 16) -->
+    <style name="Theme.Zephyr.Sunset" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/z_sunset_primary</item>
+        <item name="colorOnPrimary">@color/z_sunset_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_sunset_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_sunset_on_surface</item>
+        <item name="colorSecondary">@color/z_sunset_on_variant</item>
+        <item name="colorOnSecondary">@color/z_sunset_background</item>
+        <item name="colorSecondaryContainer">@color/z_sunset_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_sunset_on_surface</item>
+        <item name="android:colorBackground">@color/z_sunset_background</item>
+        <item name="colorOnBackground">@color/z_sunset_on_surface</item>
+        <item name="colorSurface">@color/z_sunset_surface</item>
+        <item name="colorOnSurface">@color/z_sunset_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_sunset_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_sunset_on_variant</item>
+        <item name="colorOutline">@color/z_sunset_outline</item>
+        <item name="colorError">@color/z_error</item>
+        <item name="colorOnError">@color/z_on_error</item>
+        <item name="android:statusBarColor">@color/z_sunset_background</item>
+        <item name="android:navigationBarColor">@color/z_sunset_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">@color/z_sunset_background</item>
+        <item name="zBackground">@color/z_sunset_background</item>
+        <item name="zOmniboxFill">@color/z_sunset_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_sunset_surface_variant</item>
+        <item name="zSheetSurf">@color/z_sunset_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_sunset_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Violet Night (deep purple, v1.5.0 theme 17) -->
+    <style name="Theme.Zephyr.VioletNight" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/z_violet_night_primary</item>
+        <item name="colorOnPrimary">@color/z_violet_night_on_primary</item>
+        <item name="colorPrimaryContainer">@color/z_violet_night_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/z_violet_night_on_surface</item>
+        <item name="colorSecondary">@color/z_violet_night_on_variant</item>
+        <item name="colorOnSecondary">@color/z_violet_night_background</item>
+        <item name="colorSecondaryContainer">@color/z_violet_night_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/z_violet_night_on_surface</item>
+        <item name="android:colorBackground">@color/z_violet_night_background</item>
+        <item name="colorOnBackground">@color/z_violet_night_on_surface</item>
+        <item name="colorSurface">@color/z_violet_night_surface</item>
+        <item name="colorOnSurface">@color/z_violet_night_on_surface</item>
+        <item name="colorSurfaceVariant">@color/z_violet_night_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/z_violet_night_on_variant</item>
+        <item name="colorOutline">@color/z_violet_night_outline</item>
+        <item name="colorError">@color/z_dark_error</item>
+        <item name="colorOnError">@color/z_dark_background</item>
+        <item name="android:statusBarColor">@color/z_violet_night_background</item>
+        <item name="android:navigationBarColor">@color/z_violet_night_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">@color/z_violet_night_background</item>
+        <item name="zBackground">@color/z_violet_night_background</item>
+        <item name="zOmniboxFill">@color/z_violet_night_omnibox_fill</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">@color/z_violet_night_surface_variant</item>
+        <item name="zSheetSurf">@color/z_violet_night_surface</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_violet_night_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Cyberpunk Neon (v1.7.24 theme 18) -->
+    <style name="Theme.Zephyr.Cyberpunk" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#00E5FF</item>
+        <item name="colorOnPrimary">#0F0B1E</item>
+        <item name="colorPrimaryContainer">#1D1438</item>
+        <item name="colorOnPrimaryContainer">#F0F6FF</item>
+        <item name="colorSecondary">#FF007F</item>
+        <item name="colorOnSecondary">#0F0B1E</item>
+        <item name="android:colorBackground">#0F0B1E</item>
+        <item name="colorOnBackground">#F0F6FF</item>
+        <item name="colorSurface">#191230</item>
+        <item name="colorOnSurface">#F0F6FF</item>
+        <item name="colorSurfaceVariant">#241B42</item>
+        <item name="colorOnSurfaceVariant">#B8A7E8</item>
+        <item name="colorOutline">#3B2C68</item>
+        <item name="android:statusBarColor">#0F0B1E</item>
+        <item name="android:navigationBarColor">#0F0B1E</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">#0F0B1E</item>
+        <item name="zBackground">#0F0B1E</item>
+        <item name="zOmniboxFill">#1D1438</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#241B42</item>
+        <item name="zSheetSurf">#191230</item>
+        <item name="zPopupBg">#1D1438</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Sakura Blossom (v1.7.24 theme 19) -->
+    <style name="Theme.Zephyr.Sakura" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#FF69B4</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FFE4E1</item>
+        <item name="colorOnPrimaryContainer">#4A1525</item>
+        <item name="colorSecondary">#DB7093</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:colorBackground">#FFF0F5</item>
+        <item name="colorOnBackground">#4A1525</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#4A1525</item>
+        <item name="colorSurfaceVariant">#FFE4E1</item>
+        <item name="colorOnSurfaceVariant">#8B4561</item>
+        <item name="colorOutline">#F4C2C2</item>
+        <item name="android:statusBarColor">#FFF0F5</item>
+        <item name="android:navigationBarColor">#FFF0F5</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">#FFF0F5</item>
+        <item name="zBackground">#FFF0F5</item>
+        <item name="zOmniboxFill">#FFE4E1</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#FFFFFF</item>
+        <item name="zSheetSurf">#FFFFFF</item>
+        <item name="zPopupBg">#FFFFFF</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Espresso Mocha (v1.7.24 theme 20) -->
+    <style name="Theme.Zephyr.Espresso" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#D7A15C</item>
+        <item name="colorOnPrimary">#1B1412</item>
+        <item name="colorPrimaryContainer">#2E221F</item>
+        <item name="colorOnPrimaryContainer">#F4E8DC</item>
+        <item name="colorSecondary">#C68B59</item>
+        <item name="colorOnSecondary">#1B1412</item>
+        <item name="android:colorBackground">#1B1412</item>
+        <item name="colorOnBackground">#F4E8DC</item>
+        <item name="colorSurface">#241B18</item>
+        <item name="colorOnSurface">#F4E8DC</item>
+        <item name="colorSurfaceVariant">#332723</item>
+        <item name="colorOnSurfaceVariant">#BC9E93</item>
+        <item name="colorOutline">#4A3933</item>
+        <item name="android:statusBarColor">#1B1412</item>
+        <item name="android:navigationBarColor">#1B1412</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">#1B1412</item>
+        <item name="zBackground">#1B1412</item>
+        <item name="zOmniboxFill">#2E221F</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#332723</item>
+        <item name="zSheetSurf">#241B18</item>
+        <item name="zPopupBg">#2E221F</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Nord Frost (v1.7.24 theme 21) -->
+    <style name="Theme.Zephyr.Nord" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#81A1C1</item>
+        <item name="colorOnPrimary">#1E222A</item>
+        <item name="colorPrimaryContainer">#282C34</item>
+        <item name="colorOnPrimaryContainer">#ECEFF4</item>
+        <item name="colorSecondary">#88C0D0</item>
+        <item name="colorOnSecondary">#1E222A</item>
+        <item name="android:colorBackground">#1E222A</item>
+        <item name="colorOnBackground">#ECEFF4</item>
+        <item name="colorSurface">#242831</item>
+        <item name="colorOnSurface">#ECEFF4</item>
+        <item name="colorSurfaceVariant">#2E3440</item>
+        <item name="colorOnSurfaceVariant">#D8DEE9</item>
+        <item name="colorOutline">#434C5E</item>
+        <item name="android:statusBarColor">#1E222A</item>
+        <item name="android:navigationBarColor">#1E222A</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">#1E222A</item>
+        <item name="zBackground">#1E222A</item>
+        <item name="zOmniboxFill">#282C34</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#2E3440</item>
+        <item name="zSheetSurf">#242831</item>
+        <item name="zPopupBg">#282C34</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Emerald Forest (v1.7.24 theme 22) -->
+    <style name="Theme.Zephyr.Emerald" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#2ECC71</item>
+        <item name="colorOnPrimary">#0A1C16</item>
+        <item name="colorPrimaryContainer">#143026</item>
+        <item name="colorOnPrimaryContainer">#E8F8F5</item>
+        <item name="colorSecondary">#27AE60</item>
+        <item name="colorOnSecondary">#0A1C16</item>
+        <item name="android:colorBackground">#0A1C16</item>
+        <item name="colorOnBackground">#E8F8F5</item>
+        <item name="colorSurface">#10261E</item>
+        <item name="colorOnSurface">#E8F8F5</item>
+        <item name="colorSurfaceVariant">#1A3B2F</item>
+        <item name="colorOnSurfaceVariant">#A2D9CE</item>
+        <item name="colorOutline">#285242</item>
+        <item name="android:statusBarColor">#0A1C16</item>
+        <item name="android:navigationBarColor">#0A1C16</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        <item name="zToolbar">#0A1C16</item>
+        <item name="zBackground">#0A1C16</item>
+        <item name="zOmniboxFill">#143026</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#1A3B2F</item>
+        <item name="zSheetSurf">#10261E</item>
+        <item name="zPopupBg">#143026</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Amber Gold (v1.7.24 theme 23) -->
+    <style name="Theme.Zephyr.Amber" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#F39C12</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#F7F0D8</item>
+        <item name="colorOnPrimaryContainer">#4A3505</item>
+        <item name="colorSecondary">#E67E22</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:colorBackground">#FFFDF5</item>
+        <item name="colorOnBackground">#4A3505</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#4A3505</item>
+        <item name="colorSurfaceVariant">#F7F0D8</item>
+        <item name="colorOnSurfaceVariant">#8A6615</item>
+        <item name="colorOutline">#E5D4A1</item>
+        <item name="android:statusBarColor">#FFFDF5</item>
+        <item name="android:navigationBarColor">#FFFDF5</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+        <item name="zToolbar">#FFFDF5</item>
+        <item name="zBackground">#FFFDF5</item>
+        <item name="zOmniboxFill">#F7F0D8</item>
+        <item name="zOmniboxOutline">@color/z_omnibox_outline</item>
+        <item name="zHomeCard">#FFFFFF</item>
+        <item name="zSheetSurf">#FFFFFF</item>
+        <item name="zPopupBg">#FFFFFF</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <!-- Player -->
+    <style name="Theme.Zephyr.Player" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <!-- v1.7.22: popup menu = this theme's surface +~3.5% light, NO outline -->
+        <item name="zPopupBg">@color/z_dark_popup</item>
+        <item name="android:popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="popupMenuStyle">@style/ZephyrPopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="listPopupWindowStyle">@style/ZephyrListPopup</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <style name="ThemeOverlay.Zephyr.Fullscreen" parent="">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Small caption style for counters -->
+    <style name="Text.Zephyr.Counter" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Text.Zephyr.SheetTitle" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- v1.7.22: dedicated popup menu backgrounds — framework PopupMenu resolves
+         its window background through android:listPopupWindowStyle, AppCompat/Material
+         popups through popupMenuStyle / popupMenuBackground. All point to the same
+         theme-aware drawable (zPopupBg = surface +~3.5% light, no stroke). -->
+    <style name="ZephyrPopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/z_popup_menu_bg</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+
+    <style name="ZephyrListPopup" parent="Widget.Material3.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/z_popup_menu_bg</item>
+        <item name="popupMenuBackground">@drawable/z_popup_menu_bg</item>
+    </style>
+</resources>

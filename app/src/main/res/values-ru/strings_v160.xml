@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.6.0: menu customization + new actions -->
+    <string name="menu_vpn">VPN и прокси</string>
+    <string name="menu_adblock">Блокировка рекламы</string>
+    <string name="menu_privacy">Конфиденциальность</string>
+    <string name="menu_site_settings">Настройки сайта</string>
+    <string name="menu_screenshot">Скриншот страницы</string>
+    <string name="menu_save_pdf">Сохранить в PDF</string>
+    <string name="copy">Копировать</string>
+    <string name="shot_need_page">Сначала откройте страницу</string>
+    <string name="shot_saved">Скриншот сохранён в галерею</string>
+    <string name="shot_failed">Не удалось сделать скриншот</string>
+    <string name="pdf_failed">Не удалось создать PDF</string>
+    <string name="menu_customize_sum_v16">Меняйте порядок и видимость кнопок — всё сохраняется сразу. Доступны VPN, блокировки, скриншот, PDF и другие пункты.</string>
+    <string name="menu_preview">Предпросмотр меню</string>
+    <string name="menu_actions_section">Действия</string>
+    <string name="menu_reset_done">Порядок по умолчанию восстановлен</string>
+    <string name="menu_empty_preview">Все пункты скрыты</string>
+    <string name="menu_more_items">+ ещё %1$d…</string>
+</resources>

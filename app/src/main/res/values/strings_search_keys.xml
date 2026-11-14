@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.88: extra words that should find a settings entry. The titles already
+     came from resources; these keywords did not, so searching Settings by
+     keyword only ever worked in Russian. -->
+<resources>
+    <string name="ss_k01">search engine startup language home</string>
+    <string name="ss_k02">theme colour color dark light font accent</string>
+    <string name="ss_k03">home screen wallpaper feed recent bookmarks</string>
+    <string name="ss_k04">menu buttons order tiles</string>
+    <string name="ss_k05">ai assistant model key api neural</string>
+    <string name="ss_k06">tools access permissions switches toggles</string>
+    <string name="ss_k07">memory facts remembers</string>
+    <string name="ss_k08">voice microphone recognition speech dictation</string>
+    <string name="ss_k09">workspace folder files projects</string>
+    <string name="ss_k10">scripts javascript</string>
+    <string name="ss_k11">agent pairing connection bridge</string>
+    <string name="ss_k12">swarm several models team</string>
+    <string name="ss_k13">privacy incognito cookies javascript</string>
+    <string name="ss_k14">burn wipe everything fire panic</string>
+    <string name="ss_k15">security fingerprint password lock</string>
+    <string name="ss_k16">ads blocking filters banners</string>
+    <string name="ss_k17">sites permissions camera microphone location</string>
+    <string name="ss_k18">vpn proxy tunnel wireguard</string>
+    <string name="ss_k19">dns encryption resolver</string>
+    <string name="ss_k20">cache site data storage space</string>
+    <string name="ss_k21">clear history cookies delete</string>
+    <string name="ss_k22">backup copy export import</string>
+    <string name="ss_k23">bookmarks favourites</string>
+    <string name="ss_k24">history visits</string>
+    <string name="ss_k25">downloads downloaded</string>
+    <string name="ss_k26">passwords logins</string>
+    <string name="ss_k27">cards payment payments</string>
+    <string name="ss_k28">autofill form address name</string>
+    <string name="ss_k29">scripts userscript</string>
+    <string name="ss_k30">tasks reminders alarm calendar meetings</string>
+    <string name="ss_k31">templates documents invoice quote devis facture details</string>
+    <string name="ss_k32">projects assistant files code zip</string>
+    <string name="ss_k33">workflows commands automation</string>
+    <string name="ss_k34">files manager storage</string>
+    <string name="ss_k35">offline saved pages</string>
+    <string name="ss_k36">library articles reading</string>
+    <string name="ss_k37">about version update</string>
+</resources>

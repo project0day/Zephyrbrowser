@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="downloads" path="downloads/" />
+    <files-path name="vpn" path="vpn/" />
+    <files-path name="partial" path="partial/" />
+    <external-files-path name="external_downloads" path="." />
+    <cache-path name="cache" path="." />
+    <!-- v1.7.8 FIX (user: «pdf открыть не могу — нет приложения для открытия данного
+         файла»): file:// URIs can never be shared with other apps on API 24+, and the
+         Files app used exactly that for storage-tree files → EVERY third-party file
+         failed to open. root-path lets FileProvider wrap /storage/emulated/0 files. -->
+    <root-path name="storage_root" path="/storage/emulated/0/" />
+    <root-path name="sdcard_alt" path="/sdcard/" />
+</paths>

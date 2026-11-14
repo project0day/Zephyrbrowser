@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tpl_cat_commerce">Коммерция</string>
+    <string name="tpl_cat_documents">Документы</string>
+    <string name="tpl_cat_letters">Письма</string>
+    <string name="tpl_cat_apps">Программы</string>
+
+    <string name="ai_default_model_name">Модель</string>
+    <string name="ai_agent_profile_name">Мой ИИ-агент</string>
+
+    <string name="unit_b">Б</string>
+    <string name="unit_kb">КБ</string>
+    <string name="unit_mb">МБ</string>
+    <string name="unit_gb">ГБ</string>
+</resources>

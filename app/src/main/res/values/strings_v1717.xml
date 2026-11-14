@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.17: photo viewer, video player upgrades, floating player, home variant toast. -->
+<resources>
+    <string name="home_variant_applied">Home page applied</string>
+
+    <string name="pv_photo">Photo</string>
+    <string name="pv_info">Details</string>
+    <string name="pv_dimens">Dimensions: %1$d × %2$d</string>
+    <string name="pv_filesize">Size: %1$s</string>
+    <string name="pv_path">Path: %1$s</string>
+    <string name="pv_date">Modified: %1$s</string>
+    <string name="pv_delete_q">Delete this photo?</string>
+    <string name="pv_deleted">Deleted</string>
+    <string name="pv_load_error">Could not open the photo</string>
+
+    <string name="pl_speed">Speed</string>
+    <string name="pl_aspect">Aspect ratio</string>
+    <string name="pl_aspect_fit">Fit screen</string>
+    <string name="pl_aspect_fill">Crop to screen</string>
+    <string name="pl_aspect_stretch">Stretch</string>
+    <string name="pl_rotate">Rotate screen</string>
+    <string name="pl_rew_10">-10 sec</string>
+    <string name="pl_fwd_10">+10 sec</string>
+    <string name="pl_brightness">Brightness</string>
+    <string name="pl_volume">Volume</string>
+    <string name="pl_watch_in_zephyr">Watch in Zephyr</string>
+    <string name="pl_listen_in_zephyr">Listen in Zephyr</string>
+
+    <string name="fl_menu">Floating player</string>
+    <string name="fl_float_hint">To floating window</string>
+    <string name="fl_expand">Expand</string>
+    <string name="fl_close">Close</string>
+    <string name="fl_no_media">No video or audio on this tab</string>
+</resources>

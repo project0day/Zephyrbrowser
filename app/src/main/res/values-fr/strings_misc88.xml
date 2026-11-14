@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tpl_cat_commerce">Commerce</string>
+    <string name="tpl_cat_documents">Documents</string>
+    <string name="tpl_cat_letters">Lettres</string>
+    <string name="tpl_cat_apps">Applications</string>
+
+    <string name="ai_default_model_name">Modèle</string>
+    <string name="ai_agent_profile_name">Mon agent IA</string>
+
+    <string name="unit_b">o</string>
+    <string name="unit_kb">Ko</string>
+    <string name="unit_mb">Mo</string>
+    <string name="unit_gb">Go</string>
+</resources>

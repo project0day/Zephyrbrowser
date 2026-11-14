@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v1.7.8: back enter — the revealed screen slides back from an 18% parallax,
+     no fade. -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="-18%"
+    android:toXDelta="0"
+    android:duration="260"
+    android:interpolator="@android:interpolator/fast_out_slow_in" />
