@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Signing material — NEVER commit.
+#
+# The keystore is the app's identity on Google Play. Google will only accept an
+# update signed with the same key, so losing this file means the listing can
+# never be updated again, and leaking it means someone else can sign something
+# that installs over the real app. Keep a backup somewhere outside this
+# repository, and keep it there for the life of the app.
+# ---------------------------------------------------------------------------
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# Local machine configuration (SDK paths, personal Gradle settings)
+local.properties
+.gradle/
+gradle.properties
+
+# Build output
+build/
+*/build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+release/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Source artwork dropped in the project root while iterating on assets
+ChatGPT Image*.png
+grok_image_*.jpg
+
+# Archives of previous releases
+*.zip
